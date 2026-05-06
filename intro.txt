@@ -1,0 +1,30 @@
+par1: snow role in the climate system, global distribution, response to warming and albedo positive (and negative) feedbacks \\
+	par2: details on the influence of albedo on SEB, with numbers. \\
+	par3: Relationship between albedo and snow physical properties. Changing of grain size <-> metamorphism  and impacts on energy absorption/reflection
+	
+	par4: details about Antarctica, typical snow cover, intra and inter annual variability \\
+	par5: specific role of Antarctica snow cover on global climate, interest of monitoring spatio-temporal variability of albedo, role of megadunes (different dynamics on accu/erosion areas)
+	
+	OBJECTIVE: try to follow albedo evolution with both instruments in situ and satellite ---> specific objective is to eploit and compare time series from both 
+	OR
+	more accent on geoscientific goal
+	!!! first part here is really about to 
+	- describr the problematics (to motivate the study)
+	- study the OBJECTIVE = RESOLUTION TO  PROBLEMATICS "This study aims to fill gaps, solve the problem, improve ... Overarching goal is ..."
+	
+	or 
+	
+	giving the theme at the end of the first paragraph
+	
+	par5: specificities of this work: infos about the stations (location, typical local climate, functioning and installations), + instruments: MB, weather stations\\
+	par6: data availability of the stations: strength = relatively high measurement precision and accuracy, but clearly reduced and ponctual spatial coverage --> interst of coupling with satellite measurements\\
+	par7: few words on S3 OLCI - objective: validating satellite with in situ measurements
+	
+	par8: outline of the work
+	
+	AT THE END OF INTRO: (in general at the end of every section):
+	What did I actually do ? Both using I and we - how much did I do ?
+	
+	OR 
+	
+	At the end of intro, one small section to actually explicit what did I do, and what I just improved, upgraded (never say what I did NOT do)
