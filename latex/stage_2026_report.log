@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.5.6)  6 MAY 2026 12:41
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.5.6)  7 MAY 2026 13:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1258,6 +1258,12 @@ Package biblatex Info: ... file 'blx-dm.def' found.
 (/home/perronep/.miktex/texmfs/install/tex/latex/biblatex/blx-dm.def
 File: blx-dm.def 2025/07/10 v3.21 biblatex datamodel (PK/MW)
 )
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'apa.dbx' found.
+
+(/home/perronep/.miktex/texmfs/install/tex/latex/biblatex-apa/apa.dbx
+File: apa.dbx 2025/08/27 v9.20 APA biblatex style data model
+)
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@afterword=\count466
@@ -1296,38 +1302,48 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@savedshortauthor=\count499
 \c@shorteditor=\count500
 \c@savedshorteditor=\count501
-\c@labelname=\count502
-\c@savedlabelname=\count503
-\c@institution=\count504
-\c@savedinstitution=\count505
-\c@lista=\count506
-\c@savedlista=\count507
-\c@listb=\count508
-\c@savedlistb=\count509
-\c@listc=\count510
-\c@savedlistc=\count511
-\c@listd=\count512
-\c@savedlistd=\count513
-\c@liste=\count514
-\c@savedliste=\count515
-\c@listf=\count516
-\c@savedlistf=\count517
-\c@location=\count518
-\c@savedlocation=\count519
-\c@organization=\count520
-\c@savedorganization=\count521
-\c@origlocation=\count522
-\c@savedoriglocation=\count523
-\c@origpublisher=\count524
-\c@savedorigpublisher=\count525
-\c@publisher=\count526
-\c@savedpublisher=\count527
-\c@language=\count528
-\c@savedlanguage=\count529
-\c@origlanguage=\count530
-\c@savedoriglanguage=\count531
-\c@pageref=\count532
-\c@savedpageref=\count533
+\c@narrator=\count502
+\c@savednarrator=\count503
+\c@execproducer=\count504
+\c@savedexecproducer=\count505
+\c@execdirector=\count506
+\c@savedexecdirector=\count507
+\c@with=\count508
+\c@savedwith=\count509
+\c@labelname=\count510
+\c@savedlabelname=\count511
+\c@institution=\count512
+\c@savedinstitution=\count513
+\c@lista=\count514
+\c@savedlista=\count515
+\c@listb=\count516
+\c@savedlistb=\count517
+\c@listc=\count518
+\c@savedlistc=\count519
+\c@listd=\count520
+\c@savedlistd=\count521
+\c@liste=\count522
+\c@savedliste=\count523
+\c@listf=\count524
+\c@savedlistf=\count525
+\c@location=\count526
+\c@savedlocation=\count527
+\c@organization=\count528
+\c@savedorganization=\count529
+\c@origlocation=\count530
+\c@savedoriglocation=\count531
+\c@origpublisher=\count532
+\c@savedorigpublisher=\count533
+\c@publisher=\count534
+\c@savedpublisher=\count535
+\c@language=\count536
+\c@savedlanguage=\count537
+\c@origlanguage=\count538
+\c@savedoriglanguage=\count539
+\c@citation=\count540
+\c@savedcitation=\count541
+\c@pageref=\count542
+\c@savedpageref=\count543
 \shorthandwidth=\skip95
 \shortjournalwidth=\skip96
 \shortserieswidth=\skip97
@@ -1357,49 +1373,66 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 (/home/perronep/.miktex/texmfs/install/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
-\c@textcitecount=\count534
-\c@textcitetotal=\count535
-\c@textcitemaxnames=\count536
-\c@biburlbigbreakpenalty=\count537
-\c@biburlbreakpenalty=\count538
-\c@biburlnumpenalty=\count539
-\c@biburlucpenalty=\count540
-\c@biburllcpenalty=\count541
+\c@textcitecount=\count544
+\c@textcitetotal=\count545
+\c@textcitemaxnames=\count546
+\c@biburlbigbreakpenalty=\count547
+\c@biburlbreakpenalty=\count548
+\c@biburlnumpenalty=\count549
+\c@biburlucpenalty=\count550
+\c@biburllcpenalty=\count551
 \biburlbigskip=\muskip19
 \biburlnumskip=\muskip20
 \biburlucskip=\muskip21
 \biburllcskip=\muskip22
-\c@smartand=\count542
+\c@smartand=\count552
 )
-Package biblatex Info: Trying to load bibliography style 'numeric'...
-Package biblatex Info: ... file 'numeric.bbx' found.
+Package biblatex Info: Trying to load bibliography style 'apa'...
+Package biblatex Info: ... file 'apa.bbx' found.
 
-(/home/perronep/.miktex/texmfs/install/tex/latex/biblatex/bbx/numeric.bbx
-File: numeric.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
+(/home/perronep/.miktex/texmfs/install/tex/latex/biblatex-apa/apa.bbx
+File: apa.bbx 2025/08/27 v9.20 APA biblatex references style
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
 (/home/perronep/.miktex/texmfs/install/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count543
-\c@bbx:relatedtotal=\count544
-))
-Package biblatex Info: Trying to load citation style 'numeric'...
-Package biblatex Info: ... file 'numeric.cbx' found.
+\c@bbx:relatedcount=\count553
+\c@bbx:relatedtotal=\count554
+)
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'bib' already defin
+ed, overwriting.
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'biblist' already d
+efined, overwriting.
+Package biblatex Info: Delimiter 'nonameyeardelim' in context 'bib' already def
+ined, overwriting.
+Package biblatex Info: Delimiter 'nonameyeardelim' in context 'biblist' already
+ defined, overwriting.
+)
+Package biblatex Info: Trying to load citation style 'apa'...
+Package biblatex Info: ... file 'apa.cbx' found.
 
-(/home/perronep/.miktex/texmfs/install/tex/latex/biblatex/cbx/numeric.cbx
-File: numeric.cbx 2025/07/10 v3.21 biblatex citation style (PK/MW)
+(/home/perronep/.miktex/texmfs/install/tex/latex/biblatex-apa/apa.cbx
+File: apa.cbx 2025/08/27 v9.20 APA biblatex citation style
+Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
+ overwriting.
+Package biblatex Info: Delimiter 'andothersdelim' in context '' already defined
+, overwriting.
+Package biblatex Info: Redefining '\fullcite'.
+Package biblatex Info: Redefining '\citeauthor'.
+Package biblatex Info: Redefining '\citeyear'.
 Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\cites'.
 Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\parencites'.
 Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcites'.
 Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\footcitetexts'.
 Package biblatex Info: Redefining '\smartcite'.
-Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\smartcites'.
 Package biblatex Info: Redefining '\textcite'.
 Package biblatex Info: Redefining '\textcites'.
-Package biblatex Info: Redefining '\cites'.
-Package biblatex Info: Redefining '\parencites'.
-Package biblatex Info: Redefining '\smartcites'.
 )
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
@@ -1422,8 +1455,8 @@ Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count545
-\@quotereset=\count546
+\@quotelevel=\count555
+\@quotereset=\count556
 (stage_2026_report.aux)
 \openout1 = `stage_2026_report.aux'.
 
@@ -1606,7 +1639,7 @@ Package caption Info: Option `font=sansmath' requires the `sansmath' package on
 
 (/home/perronep/.miktex/texmfs/install/tex/latex/sansmath/sansmath.sty
 Package: sansmath 2007/02/28  ver 1.1 Donald Arseneau
-\c@mv@sans=\count547
+\c@mv@sans=\count557
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `sans'
 (Font)                  TU/LatinModernSans(0)/m/n --> OT1/lmss/m/n on input lin
 e 103.
@@ -1629,7 +1662,7 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count548
+\c@lstlisting=\count558
 Package hyperref Info: Link coloring ON on input line 100.
 
 (stage_2026_report.out) (stage_2026_report.out)
@@ -1650,12 +1683,33 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
 
 ))
+Package biblatex Info: Trying to load language 'english' -> 'english-apa'...
+Package biblatex Info: ... file 'english-apa.lbx' found.
+
+(/home/perronep/.miktex/texmfs/install/tex/latex/biblatex-apa/english-apa.lbx
+File: english-apa.lbx 2025/08/27 v9.20 APA biblatex localisation
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
 (/home/perronep/.miktex/texmfs/install/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
 )
+Package biblatex Info: Trying to load language 'american' -> 'american-apa'...
+Package biblatex Info: ... file 'american-apa.lbx' found.
+
+(/home/perronep/.miktex/texmfs/install/tex/latex/biblatex-apa/american-apa.lbx
+File: american-apa.lbx 2025/08/27 v9.20 APA biblatex localisation
+Package biblatex Info: Trying to load language 'american'...
+Package biblatex Info: ... file 'american.lbx' found.
+
+(/home/perronep/.miktex/texmfs/install/tex/latex/biblatex/lbx/american.lbx
+File: american.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/home/perronep/.miktex/texmfs/install/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
+))))
 Package biblatex Info: XeTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Automatic encoding selection.
@@ -1668,12 +1722,9 @@ Package biblatex Info: ... file 'stage_2026_report.bbl' found.
 (stage_2026_report.bbl)
 Package biblatex Info: Reference section=0 on input line 100.
 Package biblatex Info: Reference segment=0 on input line 100.
-
-
-LaTeX Warning: Citation 'Vaughan2013' on page 1 undefined on input line 103.
-
 LaTeX Font Info:    Trying to load font information for U+ssmsa on input line 1
 03.
+
 (/home/perronep/.miktex/texmfs/install/tex/latex/sansmathfonts/ussmsa.fd
 File: ussmsa.fd 2024/10/15
 )
@@ -1684,29 +1735,17 @@ LaTeX Font Info:    Trying to load font information for U+ssmsb on input line 1
 File: ussmsb.fd 2024/10/15
 )
 
-LaTeX Warning: Citation 'rutgers_snowlab' on page 1 undefined on input line 103
-.
-
-
-LaTeX Warning: Citation 'warrenSnowDepthArctic1999' on page 1 undefined on inpu
-t line 103.
-
-
-LaTeX Warning: Citation 'fettererSeaIceIndex2025' on page 1 undefined on input 
-line 103.
-
-
 LaTeX Font Warning: Font shape `TU/LatinModernSans(0)/sbc/n' undefined
-(Font)              using `TU/LatinModernSans(0)/m/n' instead on input line 112
+(Font)              using `TU/LatinModernSans(0)/m/n' instead on input line 111
 .
 
 LaTeX Font Info:    Font shape `TU/lmss/sbc/it' in size <14.4> not available
-(Font)              Font shape `TU/lmss/sbc/sl' tried instead on input line 112
+(Font)              Font shape `TU/lmss/sbc/sl' tried instead on input line 111
 .
 
 LaTeX Font Warning: Font shape `TU/LatinModernSans(0)/sbc/sl' undefined
 (Font)              using `TU/LatinModernSans(0)/sbc/n' instead on input line 1
-13.
+12.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1720,7 +1759,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 ]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 127.
+(hyperref)                than one, level fixed on input line 126.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1731,7 +1770,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [2]
 
-LaTeX Warning: Empty bibliography on input line 153.
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 152.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1749,27 +1789,19 @@ L3 programming layer <2026-03-20>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `stage_2026_report.out' has not changed.
-(rerunfilecheck)             Checksum: 9E1C055DE79B6537C457828C057ADFE3;2476.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                stage_2026_report
-(biblatex)                and rerun LaTeX afterwards.
-
+(rerunfilecheck)             Checksum: FEDF9CE69A115047F8BCECE004BE8881;2577.
 Package logreq Info: Writing requests to 'stage_2026_report.run.xml'.
 \openout1 = `stage_2026_report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48947 strings out of 402807
- 1085102 string characters out of 5446580
- 2089107 words of memory out of 5000000
- 77257 multiletter control sequences out of 15000+600000
+ 49775 strings out of 402807
+ 1103130 string characters out of 5446580
+ 2211634 words of memory out of 5000000
+ 78071 multiletter control sequences out of 15000+600000
  632954 words of font info for 85 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 98i,12n,108p,1033b,4271s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 98i,12n,108p,1332b,5152s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on stage_2026_report.pdf (3 pages).

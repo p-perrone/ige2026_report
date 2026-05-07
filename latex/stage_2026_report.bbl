@@ -1,0 +1,897 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{fettererSeaIceIndex2025}{dataset}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=42242acc92e2c32fe792e168254dd548}{%
+           family={Fetterer},
+           familyi={F\bibinitperiod},
+           given={Florence},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e90328a96cf600c8cc757979d53a4c26}{%
+           family={Knowles},
+           familyi={K\bibinitperiod},
+           given={Ken},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=42186e2f419f27540675a1433e3124bf}{%
+           family={Meier},
+           familyi={M\bibinitperiod},
+           given={W.\bibnamedelimi N.},
+           giveni={W\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aaa4a4d5e2f007f5fc8606ac8321431a}{%
+           family={Savoie},
+           familyi={S\bibinitperiod},
+           given={Matt},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cfd6aa8ec3fc48e52b29d94f948a3d66}{%
+           family={Windnagel},
+           familyi={W\bibinitperiod},
+           given={Ann},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a08ff18186db80b01013f4413cf86d89}{%
+           family={Stafford},
+           familyi={S\bibinitperiod},
+           given={Trey},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {National Snow and Ice Data Center}%
+      }
+      \strng{namehash}{50124c4bcbc5fd9f69b62f83831e8e62}
+      \strng{fullhash}{0e0a4c2b2b6558ea47762d160ec044b7}
+      \strng{fullhashraw}{0e0a4c2b2b6558ea47762d160ec044b7}
+      \strng{bibnamehash}{0e0a4c2b2b6558ea47762d160ec044b7}
+      \strng{authorbibnamehash}{0e0a4c2b2b6558ea47762d160ec044b7}
+      \strng{authornamehash}{50124c4bcbc5fd9f69b62f83831e8e62}
+      \strng{authorfullhash}{0e0a4c2b2b6558ea47762d160ec044b7}
+      \strng{authorfullhashraw}{0e0a4c2b2b6558ea47762d160ec044b7}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Sea {{Ice Index}}, {{Version}} 4}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.7265/A98X-0F50
+      \endverb
+      \verb{urlraw}
+      \verb https://nsidc.org/data/G02135/versions/4
+      \endverb
+      \verb{url}
+      \verb https://nsidc.org/data/G02135/versions/4
+      \endverb
+    \endentry
+    \entry{johnstonGlobalSnowSeasonality2024}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=0f8439b336b295f88a73df6d432c72ea}{%
+           family={Johnston},
+           familyi={J\bibinitperiod},
+           given={Jeremy},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cc453e6afa471d9ea38bc9e0f5bf7838}{%
+           family={Jacobs},
+           familyi={J\bibinitperiod},
+           given={Jennifer\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=013603bae5f8f98fa053d179a0d85c1e}{%
+           family={Cho},
+           familyi={C\bibinitperiod},
+           given={Eunsang},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Boston MA, USA}%
+      }
+      \list{publisher}{1}{%
+        {American Meteorological Society}%
+      }
+      \strng{namehash}{91f634fb0942a7649c151fc0c612e5aa}
+      \strng{fullhash}{7afd574886b30d0faf7f185625d1d5e9}
+      \strng{fullhashraw}{7afd574886b30d0faf7f185625d1d5e9}
+      \strng{bibnamehash}{7afd574886b30d0faf7f185625d1d5e9}
+      \strng{authorbibnamehash}{7afd574886b30d0faf7f185625d1d5e9}
+      \strng{authornamehash}{91f634fb0942a7649c151fc0c612e5aa}
+      \strng{authorfullhash}{7afd574886b30d0faf7f185625d1d5e9}
+      \strng{authorfullhashraw}{7afd574886b30d0faf7f185625d1d5e9}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{Journal of Hydrometeorology}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{1}
+      \field{shortjournal}{Journal of Hydrometeorology}
+      \field{title}{Global {{Snow Seasonality Regimes}} from {{Satellite Records}} of {{Snow Cover}}}
+      \field{volume}{25}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{pages}{65\bibrangedash 88}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1175/JHM-D-23-0047.1
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.ametsoc.org/view/journals/hydr/25/1/JHM-D-23-0047.1.xml
+      \endverb
+      \verb{url}
+      \verb https://journals.ametsoc.org/view/journals/hydr/25/1/JHM-D-23-0047.1.xml
+      \endverb
+    \endentry
+    \entry{rutgers_snowlab}{misc}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c5e11c11e21b68e96a1315c6891a29f6}{%
+           family={Robinson},
+           familyi={R\bibinitperiod},
+           given={David\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7dbfe040792c686eb6e403ddad53abc7}{%
+           family={Estilow},
+           familyi={E\bibinitperiod},
+           given={Thomas\bibnamedelima W.},
+           giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {NOAA National Centers for Environmental Information}%
+      }
+      \strng{namehash}{1a93da1789ec109d3c8035b9071a8e0c}
+      \strng{fullhash}{1a93da1789ec109d3c8035b9071a8e0c}
+      \strng{fullhashraw}{1a93da1789ec109d3c8035b9071a8e0c}
+      \strng{bibnamehash}{1a93da1789ec109d3c8035b9071a8e0c}
+      \strng{authorbibnamehash}{1a93da1789ec109d3c8035b9071a8e0c}
+      \strng{authornamehash}{1a93da1789ec109d3c8035b9071a8e0c}
+      \strng{authorfullhash}{1a93da1789ec109d3c8035b9071a8e0c}
+      \strng{authorfullhashraw}{1a93da1789ec109d3c8035b9071a8e0c}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Northern Hemisphere Snow Cover Extent Dataset}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://climate.rutgers.edu/snowcover/
+      \endverb
+      \verb{url}
+      \verb https://climate.rutgers.edu/snowcover/
+      \endverb
+    \endentry
+    \entry{Vaughan2013}{inbook}{}{}
+      \name{author}{14}{}{%
+        {{un=0,uniquepart=base,hash=f0a0102280833de1a09fdfb33b0efa86}{%
+           family={Vaughan},
+           familyi={V\bibinitperiod},
+           given={D.G.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=104e89ebd1fb2aad075387e990214765}{%
+           family={Comiso},
+           familyi={C\bibinitperiod},
+           given={J.C.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2a6e71cf26d493c74fd0cd252266b7c6}{%
+           family={Allison},
+           familyi={A\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d639b2b33b9c2739198111b2e7df7fd7}{%
+           family={Carrasco},
+           familyi={C\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c5714857d61a3517a7be93a3354de011}{%
+           family={Kaser},
+           familyi={K\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=03822ad966ec1d02e0bed1a2861d9a57}{%
+           family={Kwok},
+           familyi={K\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2961103391782d9e211f93b1008092ee}{%
+           family={Mote},
+           familyi={M\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eb2c17cf73cb1d250132ff9d81f69d7c}{%
+           family={Murray},
+           familyi={M\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2e019ffcad796e8f9d198da8ab486c2c}{%
+           family={Paul},
+           familyi={P\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=81909f4b467fcece730febe796f15853}{%
+           family={Ren},
+           familyi={R\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aa4517fc9dc917ea4f00e65d801af715}{%
+           family={Rignot},
+           familyi={R\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1898fbf6c6c6086bfecb92a74648761a}{%
+           family={Solomina},
+           familyi={S\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8a0b073953da5f99ee7a11037a2f8f91}{%
+           family={Steffen},
+           familyi={S\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6987c26bf5f9b6e119893b5d925c7b8c}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{10}{}{%
+        {{hash=be6a65d28142ad7398b9c80f89c14285}{%
+           family={Stocker},
+           familyi={S\bibinitperiod},
+           given={T.F.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=43e85e197e17f69c23aa8efa49ab2b74}{%
+           family={Qin},
+           familyi={Q\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=bc2f27d6bbbecfe3c24a300b2c4a998a}{%
+           family={Plattner},
+           familyi={P\bibinitperiod},
+           given={G.-K.},
+           giveni={G\bibinithyphendelim K\bibinitperiod}}}%
+        {{hash=779b31d9a4ab0b41f86e83d3ffe42112}{%
+           family={Tignor},
+           familyi={T\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=eb6f9f3771e3055d0080f006960a07ee}{%
+           family={Allen},
+           familyi={A\bibinitperiod},
+           given={S.K.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=275dcb033d4f928e085288328cf41122}{%
+           family={Boschung},
+           familyi={B\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a981f497412268343424c7440b9ff69b}{%
+           family={Nauels},
+           familyi={N\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=73a5f2a345569e5faff320ec94bd0e42}{%
+           family={Xia},
+           familyi={X\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=2733e652a3106a49d9b95ea66fde7095}{%
+           family={Bex},
+           familyi={B\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+        {{hash=0d60b26fe85f6fe97884ce9ba4d19c57}{%
+           family={Midgley},
+           familyi={M\bibinitperiod},
+           given={P.M.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{location}{2}{%
+        {Cambridge, United Kingdom}%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{c55621569a74fbe4f63d5f5aee95cb2b}
+      \strng{fullhash}{2cf7f04289d028d4b497d9bd8374ce3d}
+      \strng{fullhashraw}{2cf7f04289d028d4b497d9bd8374ce3d}
+      \strng{bibnamehash}{2cf7f04289d028d4b497d9bd8374ce3d}
+      \strng{authorbibnamehash}{2cf7f04289d028d4b497d9bd8374ce3d}
+      \strng{authornamehash}{c55621569a74fbe4f63d5f5aee95cb2b}
+      \strng{authorfullhash}{2cf7f04289d028d4b497d9bd8374ce3d}
+      \strng{authorfullhashraw}{2cf7f04289d028d4b497d9bd8374ce3d}
+      \strng{editorbibnamehash}{342f19f212fd3f7971afb98d78d28d7f}
+      \strng{editornamehash}{db6c4453ab89592c98f73f75f678babf}
+      \strng{editorfullhash}{342f19f212fd3f7971afb98d78d28d7f}
+      \strng{editorfullhashraw}{342f19f212fd3f7971afb98d78d28d7f}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Climate Change 2013: {{The}} Physical Science Basis. {{Contribution}} of Working Group {{I}} to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change}
+      \field{title}{Observations: {{Cryosphere}}}
+      \field{year}{2013}
+      \field{dateera}{ce}
+    \endentry
+    \entry{warrenSnowDepthArctic1999}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=0479d7af85d73e10446468e75f86efac}{%
+           family={Warren},
+           familyi={W\bibinitperiod},
+           given={Stephen\bibnamedelima G.},
+           giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0a949db113388e1e66a7c1ee3956890d}{%
+           family={Rigor},
+           familyi={R\bibinitperiod},
+           given={Ignatius\bibnamedelima G.},
+           giveni={I\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1953bea3121abc2540dda904f7eaad2e}{%
+           family={Untersteiner},
+           familyi={U\bibinitperiod},
+           given={Norbert},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=47f65cdf57ea611dd882097abae5fd13}{%
+           family={Radionov},
+           familyi={R\bibinitperiod},
+           given={Vladimir\bibnamedelima F.},
+           giveni={V\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=44063432b996b4c19b6a204ac247b6a9}{%
+           family={Bryazgin},
+           familyi={B\bibinitperiod},
+           given={Nikolay\bibnamedelima N.},
+           giveni={N\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=257da7de104ff8bf48eafc58d8c176cf}{%
+           family={Aleksandrov},
+           familyi={A\bibinitperiod},
+           given={Yevgeniy\bibnamedelima I.},
+           giveni={Y\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d10bfaf7b136d9daa077e87b1e23170a}{%
+           family={Colony},
+           familyi={C\bibinitperiod},
+           given={Roger},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Boston MA, USA}%
+      }
+      \list{publisher}{1}{%
+        {American Meteorological Society}%
+      }
+      \strng{namehash}{7d2a3ed134b43bba990db9539f4b5cb7}
+      \strng{fullhash}{2d8e07fe25e31c01656ad90a3ada041d}
+      \strng{fullhashraw}{2d8e07fe25e31c01656ad90a3ada041d}
+      \strng{bibnamehash}{2d8e07fe25e31c01656ad90a3ada041d}
+      \strng{authorbibnamehash}{2d8e07fe25e31c01656ad90a3ada041d}
+      \strng{authornamehash}{7d2a3ed134b43bba990db9539f4b5cb7}
+      \strng{authorfullhash}{2d8e07fe25e31c01656ad90a3ada041d}
+      \strng{authorfullhashraw}{2d8e07fe25e31c01656ad90a3ada041d}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{Journal of Climate}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{number}{6}
+      \field{shortjournal}{Journal of Climate}
+      \field{title}{Snow {{Depth}} on {{Arctic Sea Ice}}}
+      \field{volume}{12}
+      \field{year}{1999}
+      \field{dateera}{ce}
+      \field{pages}{1814\bibrangedash 1829}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1175/1520-0442(1999)012<1814:SDOASI>2.0.CO;2
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.ametsoc.org/view/journals/clim/12/6/1520-0442_1999_012_1814_sdoasi_2.0.co_2.xml
+      \endverb
+      \verb{url}
+      \verb https://journals.ametsoc.org/view/journals/clim/12/6/1520-0442_1999_012_1814_sdoasi_2.0.co_2.xml
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global/global}
+    \entry{fettererSeaIceIndex2025}{dataset}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=42242acc92e2c32fe792e168254dd548}{%
+           family={Fetterer},
+           familyi={F\bibinitperiod},
+           given={Florence},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e90328a96cf600c8cc757979d53a4c26}{%
+           family={Knowles},
+           familyi={K\bibinitperiod},
+           given={Ken},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=42186e2f419f27540675a1433e3124bf}{%
+           family={Meier},
+           familyi={M\bibinitperiod},
+           given={W.\bibnamedelimi N.},
+           giveni={W\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aaa4a4d5e2f007f5fc8606ac8321431a}{%
+           family={Savoie},
+           familyi={S\bibinitperiod},
+           given={Matt},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cfd6aa8ec3fc48e52b29d94f948a3d66}{%
+           family={Windnagel},
+           familyi={W\bibinitperiod},
+           given={Ann},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a08ff18186db80b01013f4413cf86d89}{%
+           family={Stafford},
+           familyi={S\bibinitperiod},
+           given={Trey},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {National Snow and Ice Data Center}%
+      }
+      \strng{namehash}{50124c4bcbc5fd9f69b62f83831e8e62}
+      \strng{fullhash}{0e0a4c2b2b6558ea47762d160ec044b7}
+      \strng{fullhashraw}{0e0a4c2b2b6558ea47762d160ec044b7}
+      \strng{bibnamehash}{0e0a4c2b2b6558ea47762d160ec044b7}
+      \strng{authorbibnamehash}{0e0a4c2b2b6558ea47762d160ec044b7}
+      \strng{authornamehash}{50124c4bcbc5fd9f69b62f83831e8e62}
+      \strng{authorfullhash}{0e0a4c2b2b6558ea47762d160ec044b7}
+      \strng{authorfullhashraw}{0e0a4c2b2b6558ea47762d160ec044b7}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Sea {{Ice Index}}, {{Version}} 4}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.7265/A98X-0F50
+      \endverb
+      \verb{urlraw}
+      \verb https://nsidc.org/data/G02135/versions/4
+      \endverb
+      \verb{url}
+      \verb https://nsidc.org/data/G02135/versions/4
+      \endverb
+    \endentry
+    \entry{johnstonGlobalSnowSeasonality2024}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=0f8439b336b295f88a73df6d432c72ea}{%
+           family={Johnston},
+           familyi={J\bibinitperiod},
+           given={Jeremy},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cc453e6afa471d9ea38bc9e0f5bf7838}{%
+           family={Jacobs},
+           familyi={J\bibinitperiod},
+           given={Jennifer\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=013603bae5f8f98fa053d179a0d85c1e}{%
+           family={Cho},
+           familyi={C\bibinitperiod},
+           given={Eunsang},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Boston MA, USA}%
+      }
+      \list{publisher}{1}{%
+        {American Meteorological Society}%
+      }
+      \strng{namehash}{91f634fb0942a7649c151fc0c612e5aa}
+      \strng{fullhash}{7afd574886b30d0faf7f185625d1d5e9}
+      \strng{fullhashraw}{7afd574886b30d0faf7f185625d1d5e9}
+      \strng{bibnamehash}{7afd574886b30d0faf7f185625d1d5e9}
+      \strng{authorbibnamehash}{7afd574886b30d0faf7f185625d1d5e9}
+      \strng{authornamehash}{91f634fb0942a7649c151fc0c612e5aa}
+      \strng{authorfullhash}{7afd574886b30d0faf7f185625d1d5e9}
+      \strng{authorfullhashraw}{7afd574886b30d0faf7f185625d1d5e9}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{Journal of Hydrometeorology}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{1}
+      \field{shortjournal}{Journal of Hydrometeorology}
+      \field{title}{Global {{Snow Seasonality Regimes}} from {{Satellite Records}} of {{Snow Cover}}}
+      \field{volume}{25}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{pages}{65\bibrangedash 88}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1175/JHM-D-23-0047.1
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.ametsoc.org/view/journals/hydr/25/1/JHM-D-23-0047.1.xml
+      \endverb
+      \verb{url}
+      \verb https://journals.ametsoc.org/view/journals/hydr/25/1/JHM-D-23-0047.1.xml
+      \endverb
+    \endentry
+    \entry{rutgers_snowlab}{misc}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c5e11c11e21b68e96a1315c6891a29f6}{%
+           family={Robinson},
+           familyi={R\bibinitperiod},
+           given={David\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7dbfe040792c686eb6e403ddad53abc7}{%
+           family={Estilow},
+           familyi={E\bibinitperiod},
+           given={Thomas\bibnamedelima W.},
+           giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {NOAA National Centers for Environmental Information}%
+      }
+      \strng{namehash}{1a93da1789ec109d3c8035b9071a8e0c}
+      \strng{fullhash}{1a93da1789ec109d3c8035b9071a8e0c}
+      \strng{fullhashraw}{1a93da1789ec109d3c8035b9071a8e0c}
+      \strng{bibnamehash}{1a93da1789ec109d3c8035b9071a8e0c}
+      \strng{authorbibnamehash}{1a93da1789ec109d3c8035b9071a8e0c}
+      \strng{authornamehash}{1a93da1789ec109d3c8035b9071a8e0c}
+      \strng{authorfullhash}{1a93da1789ec109d3c8035b9071a8e0c}
+      \strng{authorfullhashraw}{1a93da1789ec109d3c8035b9071a8e0c}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Northern Hemisphere Snow Cover Extent Dataset}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://climate.rutgers.edu/snowcover/
+      \endverb
+      \verb{url}
+      \verb https://climate.rutgers.edu/snowcover/
+      \endverb
+    \endentry
+    \entry{Vaughan2013}{inbook}{}{}
+      \name{author}{14}{}{%
+        {{un=0,uniquepart=base,hash=f0a0102280833de1a09fdfb33b0efa86}{%
+           family={Vaughan},
+           familyi={V\bibinitperiod},
+           given={D.G.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=104e89ebd1fb2aad075387e990214765}{%
+           family={Comiso},
+           familyi={C\bibinitperiod},
+           given={J.C.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2a6e71cf26d493c74fd0cd252266b7c6}{%
+           family={Allison},
+           familyi={A\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d639b2b33b9c2739198111b2e7df7fd7}{%
+           family={Carrasco},
+           familyi={C\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c5714857d61a3517a7be93a3354de011}{%
+           family={Kaser},
+           familyi={K\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=03822ad966ec1d02e0bed1a2861d9a57}{%
+           family={Kwok},
+           familyi={K\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2961103391782d9e211f93b1008092ee}{%
+           family={Mote},
+           familyi={M\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eb2c17cf73cb1d250132ff9d81f69d7c}{%
+           family={Murray},
+           familyi={M\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2e019ffcad796e8f9d198da8ab486c2c}{%
+           family={Paul},
+           familyi={P\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=81909f4b467fcece730febe796f15853}{%
+           family={Ren},
+           familyi={R\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aa4517fc9dc917ea4f00e65d801af715}{%
+           family={Rignot},
+           familyi={R\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1898fbf6c6c6086bfecb92a74648761a}{%
+           family={Solomina},
+           familyi={S\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8a0b073953da5f99ee7a11037a2f8f91}{%
+           family={Steffen},
+           familyi={S\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6987c26bf5f9b6e119893b5d925c7b8c}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{10}{}{%
+        {{hash=be6a65d28142ad7398b9c80f89c14285}{%
+           family={Stocker},
+           familyi={S\bibinitperiod},
+           given={T.F.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=43e85e197e17f69c23aa8efa49ab2b74}{%
+           family={Qin},
+           familyi={Q\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=bc2f27d6bbbecfe3c24a300b2c4a998a}{%
+           family={Plattner},
+           familyi={P\bibinitperiod},
+           given={G.-K.},
+           giveni={G\bibinithyphendelim K\bibinitperiod}}}%
+        {{hash=779b31d9a4ab0b41f86e83d3ffe42112}{%
+           family={Tignor},
+           familyi={T\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=eb6f9f3771e3055d0080f006960a07ee}{%
+           family={Allen},
+           familyi={A\bibinitperiod},
+           given={S.K.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=275dcb033d4f928e085288328cf41122}{%
+           family={Boschung},
+           familyi={B\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a981f497412268343424c7440b9ff69b}{%
+           family={Nauels},
+           familyi={N\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=73a5f2a345569e5faff320ec94bd0e42}{%
+           family={Xia},
+           familyi={X\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=2733e652a3106a49d9b95ea66fde7095}{%
+           family={Bex},
+           familyi={B\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+        {{hash=0d60b26fe85f6fe97884ce9ba4d19c57}{%
+           family={Midgley},
+           familyi={M\bibinitperiod},
+           given={P.M.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{location}{2}{%
+        {Cambridge, United Kingdom}%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{c55621569a74fbe4f63d5f5aee95cb2b}
+      \strng{fullhash}{2cf7f04289d028d4b497d9bd8374ce3d}
+      \strng{fullhashraw}{2cf7f04289d028d4b497d9bd8374ce3d}
+      \strng{bibnamehash}{2cf7f04289d028d4b497d9bd8374ce3d}
+      \strng{authorbibnamehash}{2cf7f04289d028d4b497d9bd8374ce3d}
+      \strng{authornamehash}{c55621569a74fbe4f63d5f5aee95cb2b}
+      \strng{authorfullhash}{2cf7f04289d028d4b497d9bd8374ce3d}
+      \strng{authorfullhashraw}{2cf7f04289d028d4b497d9bd8374ce3d}
+      \strng{editorbibnamehash}{342f19f212fd3f7971afb98d78d28d7f}
+      \strng{editornamehash}{db6c4453ab89592c98f73f75f678babf}
+      \strng{editorfullhash}{342f19f212fd3f7971afb98d78d28d7f}
+      \strng{editorfullhashraw}{342f19f212fd3f7971afb98d78d28d7f}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Climate Change 2013: {{The}} Physical Science Basis. {{Contribution}} of Working Group {{I}} to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change}
+      \field{title}{Observations: {{Cryosphere}}}
+      \field{year}{2013}
+      \field{dateera}{ce}
+    \endentry
+    \entry{warrenSnowDepthArctic1999}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=0479d7af85d73e10446468e75f86efac}{%
+           family={Warren},
+           familyi={W\bibinitperiod},
+           given={Stephen\bibnamedelima G.},
+           giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0a949db113388e1e66a7c1ee3956890d}{%
+           family={Rigor},
+           familyi={R\bibinitperiod},
+           given={Ignatius\bibnamedelima G.},
+           giveni={I\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1953bea3121abc2540dda904f7eaad2e}{%
+           family={Untersteiner},
+           familyi={U\bibinitperiod},
+           given={Norbert},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=47f65cdf57ea611dd882097abae5fd13}{%
+           family={Radionov},
+           familyi={R\bibinitperiod},
+           given={Vladimir\bibnamedelima F.},
+           giveni={V\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=44063432b996b4c19b6a204ac247b6a9}{%
+           family={Bryazgin},
+           familyi={B\bibinitperiod},
+           given={Nikolay\bibnamedelima N.},
+           giveni={N\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=257da7de104ff8bf48eafc58d8c176cf}{%
+           family={Aleksandrov},
+           familyi={A\bibinitperiod},
+           given={Yevgeniy\bibnamedelima I.},
+           giveni={Y\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d10bfaf7b136d9daa077e87b1e23170a}{%
+           family={Colony},
+           familyi={C\bibinitperiod},
+           given={Roger},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Boston MA, USA}%
+      }
+      \list{publisher}{1}{%
+        {American Meteorological Society}%
+      }
+      \strng{namehash}{7d2a3ed134b43bba990db9539f4b5cb7}
+      \strng{fullhash}{2d8e07fe25e31c01656ad90a3ada041d}
+      \strng{fullhashraw}{2d8e07fe25e31c01656ad90a3ada041d}
+      \strng{bibnamehash}{2d8e07fe25e31c01656ad90a3ada041d}
+      \strng{authorbibnamehash}{2d8e07fe25e31c01656ad90a3ada041d}
+      \strng{authornamehash}{7d2a3ed134b43bba990db9539f4b5cb7}
+      \strng{authorfullhash}{2d8e07fe25e31c01656ad90a3ada041d}
+      \strng{authorfullhashraw}{2d8e07fe25e31c01656ad90a3ada041d}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{Journal of Climate}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{number}{6}
+      \field{shortjournal}{Journal of Climate}
+      \field{title}{Snow {{Depth}} on {{Arctic Sea Ice}}}
+      \field{volume}{12}
+      \field{year}{1999}
+      \field{dateera}{ce}
+      \field{pages}{1814\bibrangedash 1829}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1175/1520-0442(1999)012<1814:SDOASI>2.0.CO;2
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.ametsoc.org/view/journals/clim/12/6/1520-0442_1999_012_1814_sdoasi_2.0.co_2.xml
+      \endverb
+      \verb{url}
+      \verb https://journals.ametsoc.org/view/journals/clim/12/6/1520-0442_1999_012_1814_sdoasi_2.0.co_2.xml
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

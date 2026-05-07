@@ -90,7 +90,7 @@ urlcolor=BlueViolet]{hyperref}
 {0.5em}
 {}
 
-\usepackage[backend=biber]{biblatex}
+\usepackage[backend=biber, style=apa]{biblatex}
 \addbibresource{Stage_IGE_2026.bib}
 
 % ||||||||||||||||||||||
@@ -100,8 +100,9 @@ urlcolor=BlueViolet]{hyperref}
 \begin{document}
 	\title{Internship report}
 	\part{Introduction}
-Snow is one of the major component of the cryosphere. Its global distribution on both ocean and land areas strongly depends on seasonality, latitude, and elevation. It occurs in three forms, mainly: permanent snow on ice sheets and glaciers, snow on sea ice, and seasonal snow cover. The latter is estimated to account for 1.3\% (summer) to 30.6\% (winter) of the Northern Hemisphere land surface \parencite{Vaughan2013}, with the 1967-2026 mean snow cover extent (SCE hereafter) in winter being around \qty{39.79e6}{\kilo\meter\squared} \parencite{rutgers_snowlab}. Sea ice is almost completely covered by snow during the winter season; its peak concentration, therefore representative of sea ice specific SCE, occurs in March in the Northern Hemisphere (\qty{15.03e6}{\kilo\meter\squared}) and in September in the Southern Hemisphere (\qty{18.61e6}{\kilo\meter\squared}) \parencite{warrenSnowDepthArctic1999, fettererSeaIceIndex2025}.
-	
+Snow is one of the major component of the cryosphere. Its global distribution on both ocean and land areas strongly depends on seasonality, latitude, and elevation. It occurs in three forms, mainly: permanent snow on ice sheets and glaciers, snow on sea ice, and seasonal snow cover. The latter is estimated to account for 1.3\% (summer) to 30.6\% (winter) of the Northern Hemisphere land surface \parencite{Vaughan2013}, with the 1967-2026 mean snow cover extent (SCE hereafter) in winter being around \qty{39.79e6}{\kilo\meter\squared} \parencite{rutgers_snowlab}. Sea ice is almost completely covered by snow during the winter season; its peak concentration, therefore representative of sea ice specific SCE, occurs in March in the Northern Hemisphere (\qty{15.03e6}{\kilo\meter\squared}) and in September in the Southern Hemisphere (\qty{18.61e6}{\kilo\meter\squared}) \parencite{warrenSnowDepthArctic1999, fettererSeaIceIndex2025}. Finally, perennial snow mean extent over the 2000-2022 period is estimated at \qty{16.47e6}{\kilo\meter\squared} from NASA's Moderate Resolution Imaging Spectroradiometer (MODIS), including glaciers, ice caps, Greenland and Antarctica ice sheets \parencite{johnstonGlobalSnowSeasonality2024}.
+
+These several tens of millions of snow-covered squared kilometres every year play a major role in climate regulation, freshwater resources availability and ecosystems equilibrium \parencite{Vaughan2013, }
 	
 	\part{Material and methods}
 	\section{Theoretical backgrounds}
@@ -150,6 +151,6 @@ Snow is one of the major component of the cryosphere. Its global distribution on
 	\part{Conclusion}
 	\lipsum[0-2]
 
-\printbibliography
+\printbibliography[heading=bibintoc]
 	
 \end{document}
