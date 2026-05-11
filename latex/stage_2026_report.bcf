@@ -3076,6 +3076,8 @@
     <bcf:citekey order="3" intorder="1">warrenSnowDepthArctic1999</bcf:citekey>
     <bcf:citekey order="3" intorder="2">fettererSeaIceIndex2025</bcf:citekey>
     <bcf:citekey order="4" intorder="1">johnstonGlobalSnowSeasonality2024</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">NSIDC_cryosphere</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">kokhanovskyScatteringOpticsSnow2004</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

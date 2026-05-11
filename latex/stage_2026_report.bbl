@@ -153,6 +153,93 @@
       \verb https://journals.ametsoc.org/view/journals/hydr/25/1/JHM-D-23-0047.1.xml
       \endverb
     \endentry
+    \entry{kokhanovskyScatteringOpticsSnow2004}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=38d15bf5ab1438ac41467bc750709fac}{%
+           family={Kokhanovsky},
+           familyi={K\bibinitperiod},
+           given={Alexander\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b6b45d07b3ae84903ac1ebfb2b077e43}{%
+           family={Zege},
+           familyi={Z\bibinitperiod},
+           given={Eleonora\bibnamedelima P.},
+           giveni={E\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Optica Publishing Group}%
+      }
+      \strng{namehash}{81643cb038c919c07d2ca56ea33a88f1}
+      \strng{fullhash}{81643cb038c919c07d2ca56ea33a88f1}
+      \strng{fullhashraw}{81643cb038c919c07d2ca56ea33a88f1}
+      \strng{bibnamehash}{81643cb038c919c07d2ca56ea33a88f1}
+      \strng{authorbibnamehash}{81643cb038c919c07d2ca56ea33a88f1}
+      \strng{authornamehash}{81643cb038c919c07d2ca56ea33a88f1}
+      \strng{authorfullhash}{81643cb038c919c07d2ca56ea33a88f1}
+      \strng{authorfullhashraw}{81643cb038c919c07d2ca56ea33a88f1}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Permanent snow and ice cover great portions of the Arctic and the Antarctic. It appears in winter months in northern parts of America, Asia, and Europe. Therefore snow is an important component of the hydrological cycle. Also, it is a main regulator of the seasonal variation of the planetary albedo. This seasonal change in albedo is determined largely by the snow cover. However, the presence of pollutants and the microstructure of snow (e.g., the size and shape of grains, which depend also on temperature and on the age of the snow) are also of importance in the variation of the snow’s spectral albedo. The snow’s spectral albedo and its bidirectional reflectance are studied theoretically. The albedo also determines the spectral absorptance of snow, which is of importance, e.g., in studies of the heating regime in snow. We investigate the influence of the nonspherical shape of grains and of close-packed effects on snow’s reflectance in the visible and the near-infrared regions of the electromagnetic spectrum. The rate of the spectral transition from highly reflective snow in the visible to almost totally absorbing black snow in the infrared is governed largely by the snow’s grain sizes and by the load of pollutants. Therefore both the characteristics of snow and its concentration of impurities can be monitored on a global scale by use of spectrometers and radiometers placed on orbiting satellites.}
+      \field{day}{1}
+      \field{journaltitle}{Applied Optics}
+      \field{month}{3}
+      \field{number}{7}
+      \field{shortjournal}{Appl. Opt.}
+      \field{title}{Scattering Optics of Snow}
+      \field{volume}{43}
+      \field{year}{2004}
+      \field{dateera}{ce}
+      \field{pages}{1589\bibrangedash 1602}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1364/AO.43.001589
+      \endverb
+      \verb{urlraw}
+      \verb https://www.researchgate.net/publication/5390329_Scattering_optics_of_snow
+      \endverb
+      \verb{url}
+      \verb https://www.researchgate.net/publication/5390329_Scattering_optics_of_snow
+      \endverb
+      \keyw{Absorption coefficient,Albedo,Diffusion,Mie scattering,Mie theory,Multiple scattering,Near infrared,Optical properties,Rayleigh scattering,Remote sensing and sensors,Scattering,Turbid media}
+    \endentry
+    \entry{NSIDC_cryosphere}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d15e38671e7e1b3247464d169aaecd90}{%
+           family={{National Snow and Ice Data Center}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{d15e38671e7e1b3247464d169aaecd90}
+      \strng{fullhash}{d15e38671e7e1b3247464d169aaecd90}
+      \strng{fullhashraw}{d15e38671e7e1b3247464d169aaecd90}
+      \strng{bibnamehash}{d15e38671e7e1b3247464d169aaecd90}
+      \strng{authorbibnamehash}{d15e38671e7e1b3247464d169aaecd90}
+      \strng{authornamehash}{d15e38671e7e1b3247464d169aaecd90}
+      \strng{authorfullhash}{d15e38671e7e1b3247464d169aaecd90}
+      \strng{authorfullhashraw}{d15e38671e7e1b3247464d169aaecd90}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What Is the Cryosphere?}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://nsidc.org/learn/what-cryosphere
+      \endverb
+      \verb{url}
+      \verb https://nsidc.org/learn/what-cryosphere
+      \endverb
+    \endentry
     \entry{rutgers_snowlab}{misc}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=c5e11c11e21b68e96a1315c6891a29f6}{%
@@ -588,6 +675,93 @@
       \endverb
       \verb{url}
       \verb https://journals.ametsoc.org/view/journals/hydr/25/1/JHM-D-23-0047.1.xml
+      \endverb
+    \endentry
+    \entry{kokhanovskyScatteringOpticsSnow2004}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=38d15bf5ab1438ac41467bc750709fac}{%
+           family={Kokhanovsky},
+           familyi={K\bibinitperiod},
+           given={Alexander\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b6b45d07b3ae84903ac1ebfb2b077e43}{%
+           family={Zege},
+           familyi={Z\bibinitperiod},
+           given={Eleonora\bibnamedelima P.},
+           giveni={E\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Optica Publishing Group}%
+      }
+      \strng{namehash}{81643cb038c919c07d2ca56ea33a88f1}
+      \strng{fullhash}{81643cb038c919c07d2ca56ea33a88f1}
+      \strng{fullhashraw}{81643cb038c919c07d2ca56ea33a88f1}
+      \strng{bibnamehash}{81643cb038c919c07d2ca56ea33a88f1}
+      \strng{authorbibnamehash}{81643cb038c919c07d2ca56ea33a88f1}
+      \strng{authornamehash}{81643cb038c919c07d2ca56ea33a88f1}
+      \strng{authorfullhash}{81643cb038c919c07d2ca56ea33a88f1}
+      \strng{authorfullhashraw}{81643cb038c919c07d2ca56ea33a88f1}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Permanent snow and ice cover great portions of the Arctic and the Antarctic. It appears in winter months in northern parts of America, Asia, and Europe. Therefore snow is an important component of the hydrological cycle. Also, it is a main regulator of the seasonal variation of the planetary albedo. This seasonal change in albedo is determined largely by the snow cover. However, the presence of pollutants and the microstructure of snow (e.g., the size and shape of grains, which depend also on temperature and on the age of the snow) are also of importance in the variation of the snow’s spectral albedo. The snow’s spectral albedo and its bidirectional reflectance are studied theoretically. The albedo also determines the spectral absorptance of snow, which is of importance, e.g., in studies of the heating regime in snow. We investigate the influence of the nonspherical shape of grains and of close-packed effects on snow’s reflectance in the visible and the near-infrared regions of the electromagnetic spectrum. The rate of the spectral transition from highly reflective snow in the visible to almost totally absorbing black snow in the infrared is governed largely by the snow’s grain sizes and by the load of pollutants. Therefore both the characteristics of snow and its concentration of impurities can be monitored on a global scale by use of spectrometers and radiometers placed on orbiting satellites.}
+      \field{day}{1}
+      \field{journaltitle}{Applied Optics}
+      \field{month}{3}
+      \field{number}{7}
+      \field{shortjournal}{Appl. Opt.}
+      \field{title}{Scattering Optics of Snow}
+      \field{volume}{43}
+      \field{year}{2004}
+      \field{dateera}{ce}
+      \field{pages}{1589\bibrangedash 1602}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1364/AO.43.001589
+      \endverb
+      \verb{urlraw}
+      \verb https://www.researchgate.net/publication/5390329_Scattering_optics_of_snow
+      \endverb
+      \verb{url}
+      \verb https://www.researchgate.net/publication/5390329_Scattering_optics_of_snow
+      \endverb
+      \keyw{Absorption coefficient,Albedo,Diffusion,Mie scattering,Mie theory,Multiple scattering,Near infrared,Optical properties,Rayleigh scattering,Remote sensing and sensors,Scattering,Turbid media}
+    \endentry
+    \entry{NSIDC_cryosphere}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d15e38671e7e1b3247464d169aaecd90}{%
+           family={{National Snow and Ice Data Center}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{d15e38671e7e1b3247464d169aaecd90}
+      \strng{fullhash}{d15e38671e7e1b3247464d169aaecd90}
+      \strng{fullhashraw}{d15e38671e7e1b3247464d169aaecd90}
+      \strng{bibnamehash}{d15e38671e7e1b3247464d169aaecd90}
+      \strng{authorbibnamehash}{d15e38671e7e1b3247464d169aaecd90}
+      \strng{authornamehash}{d15e38671e7e1b3247464d169aaecd90}
+      \strng{authorfullhash}{d15e38671e7e1b3247464d169aaecd90}
+      \strng{authorfullhashraw}{d15e38671e7e1b3247464d169aaecd90}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What Is the Cryosphere?}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://nsidc.org/learn/what-cryosphere
+      \endverb
+      \verb{url}
+      \verb https://nsidc.org/learn/what-cryosphere
       \endverb
     \endentry
     \entry{rutgers_snowlab}{misc}{}{}
