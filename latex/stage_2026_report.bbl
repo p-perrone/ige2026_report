@@ -19,6 +19,86 @@
 
 \refsection{0}
   \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{cubaschProjectionsFutureClimate2001}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5b9acb187ef7836d114ae07cbae695bd}{%
+           family={{Cubasch, U.}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{5b9acb187ef7836d114ae07cbae695bd}
+      \strng{fullhash}{5b9acb187ef7836d114ae07cbae695bd}
+      \strng{fullhashraw}{5b9acb187ef7836d114ae07cbae695bd}
+      \strng{bibnamehash}{5b9acb187ef7836d114ae07cbae695bd}
+      \strng{authorbibnamehash}{5b9acb187ef7836d114ae07cbae695bd}
+      \strng{authornamehash}{5b9acb187ef7836d114ae07cbae695bd}
+      \strng{authorfullhash}{5b9acb187ef7836d114ae07cbae695bd}
+      \strng{authorfullhashraw}{5b9acb187ef7836d114ae07cbae695bd}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Projections of Future Climate Change.}
+      \field{year}{2001}
+      \field{dateera}{ce}
+    \endentry
+    \entry{dyeVariabilityTrendsAnnual2002}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=28d641f98c146fb320c63c92551cffc8}{%
+           family={Dye},
+           familyi={D\bibinitperiod},
+           given={Dennis\bibnamedelima G.},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons, Ltd}%
+      }
+      \strng{namehash}{28d641f98c146fb320c63c92551cffc8}
+      \strng{fullhash}{28d641f98c146fb320c63c92551cffc8}
+      \strng{fullhashraw}{28d641f98c146fb320c63c92551cffc8}
+      \strng{bibnamehash}{28d641f98c146fb320c63c92551cffc8}
+      \strng{authorbibnamehash}{28d641f98c146fb320c63c92551cffc8}
+      \strng{authornamehash}{28d641f98c146fb320c63c92551cffc8}
+      \strng{authorfullhash}{28d641f98c146fb320c63c92551cffc8}
+      \strng{authorfullhashraw}{28d641f98c146fb320c63c92551cffc8}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract This study investigated variability and trends in the annual snow-cover cycle in regions covering high-latitude and high-elevation land areas in the Northern Hemisphere. The annual snow-cover cycle was examined with respect to the week of the last-observed snow cover in spring (WLS), the week of the first-observed snow cover in autumn (WFS), and the duration of the snow-free period (DSF). The analysis used a 29-year time-series (1972?2000) of weekly, visible-band satellite observations of Northern Hemisphere snow cover from NOAA with corrections applied by D. Robinson of Rutgers University Climate Laboratory. Substantial interannual variability was observed in WLS, WFS and DSF (standard deviations of 0·8?1·1, 0·7?0·9 and 1·0?1·4 weeks, respectively), which is related directly to interannual variability in snow-cover area in the regions and time periods of snow-cover transition. Over the nearly three-decade study period, WLS shifted earlier by 3?5 days/decade as determined by linear regression analysis. The observed shifts in the annual snow-cover cycle underlie a significant trend toward a longer annual snow-free period. The DSF increased by 5?6 days/decade over the study period, primarily as a result of earlier snow cover disappearance in spring. The observed trends are consistent with reported trends in the timing and length of the active growing season as determined from satellite observations of vegetation greenness and the atmospheric CO2 record. Copyright ? 2002 John Wiley \& Sons, Ltd.}
+      \field{day}{30}
+      \field{issn}{0885-6087}
+      \field{journaltitle}{Hydrological Processes}
+      \field{month}{10}
+      \field{number}{15}
+      \field{shortjournal}{Hydrological Processes}
+      \field{title}{Variability and Trends in the Annual Snow-Cover Cycle in {{Northern Hemisphere}} Land Areas, 1972–2000}
+      \field{urlday}{12}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{volume}{16}
+      \field{year}{2002}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{3065\bibrangedash 3077}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1002/hyp.1089
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1002/hyp.1089
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1002/hyp.1089
+      \endverb
+      \keyw{climate variability,Northern Hemisphere,remote sensing,snow cover,snow cycle,snow-free period}
+    \endentry
     \entry{fettererSeaIceIndex2025}{dataset}{}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=42242acc92e2c32fe792e168254dd548}{%
@@ -88,6 +168,108 @@
       \verb{url}
       \verb https://nsidc.org/data/G02135/versions/4
       \endverb
+    \endentry
+    \entry{flannerRadiativeForcingAlbedo2011}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=3f5937feeb57fe6caa5d97a56817078a}{%
+           family={Flanner},
+           familyi={F\bibinitperiod},
+           given={M.\bibnamedelimi G.},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=57e9473e7fa36a0fe92b29f19b78cddb}{%
+           family={Shell},
+           familyi={S\bibinitperiod},
+           given={K.\bibnamedelimi M.},
+           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ae5e85bcc50a82e92c069de493b183de}{%
+           family={Barlage},
+           familyi={B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=690d325effbfb63ce3fcce5fb31c8b1c}{%
+           family={Perovich},
+           familyi={P\bibinitperiod},
+           given={D.\bibnamedelimi K.},
+           giveni={D\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f7a9d939ad70ab69a7709dd34e31fe9f}{%
+           family={Tschudi},
+           familyi={T\bibinitperiod},
+           given={M.\bibnamedelimi A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{87bf2082c6c8ede7fa9198e1d5a35418}
+      \strng{fullhash}{6aaf8f3023839a260b7f0c6f4191ea40}
+      \strng{fullhashraw}{6aaf8f3023839a260b7f0c6f4191ea40}
+      \strng{bibnamehash}{6aaf8f3023839a260b7f0c6f4191ea40}
+      \strng{authorbibnamehash}{6aaf8f3023839a260b7f0c6f4191ea40}
+      \strng{authornamehash}{87bf2082c6c8ede7fa9198e1d5a35418}
+      \strng{authorfullhash}{6aaf8f3023839a260b7f0c6f4191ea40}
+      \strng{authorfullhashraw}{6aaf8f3023839a260b7f0c6f4191ea40}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The extent of snow cover and sea ice in the Northern Hemisphere has declined since 1979, suggesting a positive feedback of surface reflectivity on climate. A synthesis of a variety of remote sensing and field measurements suggests that this albedo feedback from the Northern Hemisphere cryosphere falls between 0.3 and 1.1\,W\,m−2\,K−1.}
+      \field{day}{1}
+      \field{issn}{1752-0908}
+      \field{journaltitle}{Nature Geoscience}
+      \field{month}{3}
+      \field{number}{3}
+      \field{shortjournal}{Nature Geoscience}
+      \field{title}{Radiative Forcing and Albedo Feedback from the {{Northern Hemisphere}} Cryosphere between 1979 and 2008}
+      \field{volume}{4}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{pages}{151\bibrangedash 155}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1038/ngeo1062
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1038/ngeo1062
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1038/ngeo1062
+      \endverb
+    \endentry
+    \entry{hollandPolarAmplificationClimate2003}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=df3c4307c2e6fde9a24865f4996b9d8a}{%
+           family={{Holland, M. M.}},
+           familyi={H\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=2c4f98bfdb92b0525bf6a853b2043798}{%
+           family={{Bitz, C. M.}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{4f5701bc5ec1cf7cd02337e5288df006}
+      \strng{fullhash}{4f5701bc5ec1cf7cd02337e5288df006}
+      \strng{fullhashraw}{4f5701bc5ec1cf7cd02337e5288df006}
+      \strng{bibnamehash}{4f5701bc5ec1cf7cd02337e5288df006}
+      \strng{authorbibnamehash}{4f5701bc5ec1cf7cd02337e5288df006}
+      \strng{authornamehash}{4f5701bc5ec1cf7cd02337e5288df006}
+      \strng{authorfullhash}{4f5701bc5ec1cf7cd02337e5288df006}
+      \strng{authorfullhashraw}{4f5701bc5ec1cf7cd02337e5288df006}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Polar Amplification of Climate Change in Coupled Models.}
+      \field{volume}{21}
+      \field{year}{2003}
+      \field{dateera}{ce}
+      \field{pages}{221\bibrangedash 232}
+      \range{pages}{12}
     \endentry
     \entry{johnstonGlobalSnowSeasonality2024}{article}{}{}
       \name{author}{3}{}{%
@@ -282,6 +464,67 @@
       \verb{url}
       \verb https://climate.rutgers.edu/snowcover/
       \endverb
+    \endentry
+    \entry{robinsonSeasonalVariabilityNorthern2000}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c5e11c11e21b68e96a1315c6891a29f6}{%
+           family={Robinson},
+           familyi={R\bibinitperiod},
+           given={David\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cd5a699be412e515e4689636ed076243}{%
+           family={Frei},
+           familyi={F\bibinitperiod},
+           given={Allan},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons, Ltd}%
+      }
+      \strng{namehash}{36a107a868499e52381e5824819a415c}
+      \strng{fullhash}{36a107a868499e52381e5824819a415c}
+      \strng{fullhashraw}{36a107a868499e52381e5824819a415c}
+      \strng{bibnamehash}{36a107a868499e52381e5824819a415c}
+      \strng{authorbibnamehash}{36a107a868499e52381e5824819a415c}
+      \strng{authornamehash}{36a107a868499e52381e5824819a415c}
+      \strng{authorfullhash}{36a107a868499e52381e5824819a415c}
+      \strng{authorfullhashraw}{36a107a868499e52381e5824819a415c}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this paper we use a satellite-derived data set to explore spatial and temporal variations of snow extent across Northern Hemisphere continents during the last three decades. These weekly visible-wavelength satellite maps of Northern Hemisphere snow extent produced by the National Oceanic and Atmospheric Administration constitute the longest consistently-derived satellite record of any environmental variable. We document the considerable intra-annual variability of snow extent, and show that during each month, fluctuations over relatively small areas are responsible for the majority of the year-to-year variability. Regions that cover less than 6\% of Northern Hemisphere lands north of 20°N explain 62\% ???????? 92\% of the interannual variance across the continents. On average, snow was more extensive across both Eurasia and North America from the 1970s to middle 1980s than during the late 1980s to late 1990s. During late winter, spring and summer, snow extent has decreased since the middle 1980s, while during fall to middle winter, snow extent has remained relatively constant. Accurate information on continental snow extent is critical for weather and hydrologic forecasting; for understanding hemispheric-scale atmospheric circulation, thermal variations, and regional snow extent; and for using snow as a credible indicator of climate variability and change.}
+      \field{day}{1}
+      \field{issn}{0033-0124}
+      \field{journaltitle}{The Professional Geographer}
+      \field{month}{5}
+      \field{number}{2}
+      \field{shortjournal}{The Professional Geographer}
+      \field{title}{Seasonal {{Variability}} of {{Northern Hemisphere Snow Extent Using Visible Satellite Data}}}
+      \field{urlday}{12}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{volume}{52}
+      \field{year}{2000}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{307\bibrangedash 315}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1111/0033-0124.00226
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1111/0033-0124.00226
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1111/0033-0124.00226
+      \endverb
+      \keyw{climatology,Northern Hemisphere,snow extent}
     \endentry
     \entry{Vaughan2013}{inbook}{}{}
       \name{author}{14}{}{%
@@ -543,6 +786,86 @@
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global/global}
+    \entry{cubaschProjectionsFutureClimate2001}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5b9acb187ef7836d114ae07cbae695bd}{%
+           family={{Cubasch, U.}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{5b9acb187ef7836d114ae07cbae695bd}
+      \strng{fullhash}{5b9acb187ef7836d114ae07cbae695bd}
+      \strng{fullhashraw}{5b9acb187ef7836d114ae07cbae695bd}
+      \strng{bibnamehash}{5b9acb187ef7836d114ae07cbae695bd}
+      \strng{authorbibnamehash}{5b9acb187ef7836d114ae07cbae695bd}
+      \strng{authornamehash}{5b9acb187ef7836d114ae07cbae695bd}
+      \strng{authorfullhash}{5b9acb187ef7836d114ae07cbae695bd}
+      \strng{authorfullhashraw}{5b9acb187ef7836d114ae07cbae695bd}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Projections of Future Climate Change.}
+      \field{year}{2001}
+      \field{dateera}{ce}
+    \endentry
+    \entry{dyeVariabilityTrendsAnnual2002}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=28d641f98c146fb320c63c92551cffc8}{%
+           family={Dye},
+           familyi={D\bibinitperiod},
+           given={Dennis\bibnamedelima G.},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons, Ltd}%
+      }
+      \strng{namehash}{28d641f98c146fb320c63c92551cffc8}
+      \strng{fullhash}{28d641f98c146fb320c63c92551cffc8}
+      \strng{fullhashraw}{28d641f98c146fb320c63c92551cffc8}
+      \strng{bibnamehash}{28d641f98c146fb320c63c92551cffc8}
+      \strng{authorbibnamehash}{28d641f98c146fb320c63c92551cffc8}
+      \strng{authornamehash}{28d641f98c146fb320c63c92551cffc8}
+      \strng{authorfullhash}{28d641f98c146fb320c63c92551cffc8}
+      \strng{authorfullhashraw}{28d641f98c146fb320c63c92551cffc8}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract This study investigated variability and trends in the annual snow-cover cycle in regions covering high-latitude and high-elevation land areas in the Northern Hemisphere. The annual snow-cover cycle was examined with respect to the week of the last-observed snow cover in spring (WLS), the week of the first-observed snow cover in autumn (WFS), and the duration of the snow-free period (DSF). The analysis used a 29-year time-series (1972?2000) of weekly, visible-band satellite observations of Northern Hemisphere snow cover from NOAA with corrections applied by D. Robinson of Rutgers University Climate Laboratory. Substantial interannual variability was observed in WLS, WFS and DSF (standard deviations of 0·8?1·1, 0·7?0·9 and 1·0?1·4 weeks, respectively), which is related directly to interannual variability in snow-cover area in the regions and time periods of snow-cover transition. Over the nearly three-decade study period, WLS shifted earlier by 3?5 days/decade as determined by linear regression analysis. The observed shifts in the annual snow-cover cycle underlie a significant trend toward a longer annual snow-free period. The DSF increased by 5?6 days/decade over the study period, primarily as a result of earlier snow cover disappearance in spring. The observed trends are consistent with reported trends in the timing and length of the active growing season as determined from satellite observations of vegetation greenness and the atmospheric CO2 record. Copyright ? 2002 John Wiley \& Sons, Ltd.}
+      \field{day}{30}
+      \field{issn}{0885-6087}
+      \field{journaltitle}{Hydrological Processes}
+      \field{month}{10}
+      \field{number}{15}
+      \field{shortjournal}{Hydrological Processes}
+      \field{title}{Variability and Trends in the Annual Snow-Cover Cycle in {{Northern Hemisphere}} Land Areas, 1972–2000}
+      \field{urlday}{12}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{volume}{16}
+      \field{year}{2002}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{3065\bibrangedash 3077}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1002/hyp.1089
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1002/hyp.1089
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1002/hyp.1089
+      \endverb
+      \keyw{climate variability,Northern Hemisphere,remote sensing,snow cover,snow cycle,snow-free period}
+    \endentry
     \entry{fettererSeaIceIndex2025}{dataset}{}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=42242acc92e2c32fe792e168254dd548}{%
@@ -612,6 +935,108 @@
       \verb{url}
       \verb https://nsidc.org/data/G02135/versions/4
       \endverb
+    \endentry
+    \entry{flannerRadiativeForcingAlbedo2011}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=3f5937feeb57fe6caa5d97a56817078a}{%
+           family={Flanner},
+           familyi={F\bibinitperiod},
+           given={M.\bibnamedelimi G.},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=57e9473e7fa36a0fe92b29f19b78cddb}{%
+           family={Shell},
+           familyi={S\bibinitperiod},
+           given={K.\bibnamedelimi M.},
+           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ae5e85bcc50a82e92c069de493b183de}{%
+           family={Barlage},
+           familyi={B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=690d325effbfb63ce3fcce5fb31c8b1c}{%
+           family={Perovich},
+           familyi={P\bibinitperiod},
+           given={D.\bibnamedelimi K.},
+           giveni={D\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f7a9d939ad70ab69a7709dd34e31fe9f}{%
+           family={Tschudi},
+           familyi={T\bibinitperiod},
+           given={M.\bibnamedelimi A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{87bf2082c6c8ede7fa9198e1d5a35418}
+      \strng{fullhash}{6aaf8f3023839a260b7f0c6f4191ea40}
+      \strng{fullhashraw}{6aaf8f3023839a260b7f0c6f4191ea40}
+      \strng{bibnamehash}{6aaf8f3023839a260b7f0c6f4191ea40}
+      \strng{authorbibnamehash}{6aaf8f3023839a260b7f0c6f4191ea40}
+      \strng{authornamehash}{87bf2082c6c8ede7fa9198e1d5a35418}
+      \strng{authorfullhash}{6aaf8f3023839a260b7f0c6f4191ea40}
+      \strng{authorfullhashraw}{6aaf8f3023839a260b7f0c6f4191ea40}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The extent of snow cover and sea ice in the Northern Hemisphere has declined since 1979, suggesting a positive feedback of surface reflectivity on climate. A synthesis of a variety of remote sensing and field measurements suggests that this albedo feedback from the Northern Hemisphere cryosphere falls between 0.3 and 1.1\,W\,m−2\,K−1.}
+      \field{day}{1}
+      \field{issn}{1752-0908}
+      \field{journaltitle}{Nature Geoscience}
+      \field{month}{3}
+      \field{number}{3}
+      \field{shortjournal}{Nature Geoscience}
+      \field{title}{Radiative Forcing and Albedo Feedback from the {{Northern Hemisphere}} Cryosphere between 1979 and 2008}
+      \field{volume}{4}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{pages}{151\bibrangedash 155}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1038/ngeo1062
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1038/ngeo1062
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1038/ngeo1062
+      \endverb
+    \endentry
+    \entry{hollandPolarAmplificationClimate2003}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=df3c4307c2e6fde9a24865f4996b9d8a}{%
+           family={{Holland, M. M.}},
+           familyi={H\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=2c4f98bfdb92b0525bf6a853b2043798}{%
+           family={{Bitz, C. M.}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{4f5701bc5ec1cf7cd02337e5288df006}
+      \strng{fullhash}{4f5701bc5ec1cf7cd02337e5288df006}
+      \strng{fullhashraw}{4f5701bc5ec1cf7cd02337e5288df006}
+      \strng{bibnamehash}{4f5701bc5ec1cf7cd02337e5288df006}
+      \strng{authorbibnamehash}{4f5701bc5ec1cf7cd02337e5288df006}
+      \strng{authornamehash}{4f5701bc5ec1cf7cd02337e5288df006}
+      \strng{authorfullhash}{4f5701bc5ec1cf7cd02337e5288df006}
+      \strng{authorfullhashraw}{4f5701bc5ec1cf7cd02337e5288df006}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Polar Amplification of Climate Change in Coupled Models.}
+      \field{volume}{21}
+      \field{year}{2003}
+      \field{dateera}{ce}
+      \field{pages}{221\bibrangedash 232}
+      \range{pages}{12}
     \endentry
     \entry{johnstonGlobalSnowSeasonality2024}{article}{}{}
       \name{author}{3}{}{%
@@ -806,6 +1231,67 @@
       \verb{url}
       \verb https://climate.rutgers.edu/snowcover/
       \endverb
+    \endentry
+    \entry{robinsonSeasonalVariabilityNorthern2000}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c5e11c11e21b68e96a1315c6891a29f6}{%
+           family={Robinson},
+           familyi={R\bibinitperiod},
+           given={David\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cd5a699be412e515e4689636ed076243}{%
+           family={Frei},
+           familyi={F\bibinitperiod},
+           given={Allan},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons, Ltd}%
+      }
+      \strng{namehash}{36a107a868499e52381e5824819a415c}
+      \strng{fullhash}{36a107a868499e52381e5824819a415c}
+      \strng{fullhashraw}{36a107a868499e52381e5824819a415c}
+      \strng{bibnamehash}{36a107a868499e52381e5824819a415c}
+      \strng{authorbibnamehash}{36a107a868499e52381e5824819a415c}
+      \strng{authornamehash}{36a107a868499e52381e5824819a415c}
+      \strng{authorfullhash}{36a107a868499e52381e5824819a415c}
+      \strng{authorfullhashraw}{36a107a868499e52381e5824819a415c}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this paper we use a satellite-derived data set to explore spatial and temporal variations of snow extent across Northern Hemisphere continents during the last three decades. These weekly visible-wavelength satellite maps of Northern Hemisphere snow extent produced by the National Oceanic and Atmospheric Administration constitute the longest consistently-derived satellite record of any environmental variable. We document the considerable intra-annual variability of snow extent, and show that during each month, fluctuations over relatively small areas are responsible for the majority of the year-to-year variability. Regions that cover less than 6\% of Northern Hemisphere lands north of 20°N explain 62\% ???????? 92\% of the interannual variance across the continents. On average, snow was more extensive across both Eurasia and North America from the 1970s to middle 1980s than during the late 1980s to late 1990s. During late winter, spring and summer, snow extent has decreased since the middle 1980s, while during fall to middle winter, snow extent has remained relatively constant. Accurate information on continental snow extent is critical for weather and hydrologic forecasting; for understanding hemispheric-scale atmospheric circulation, thermal variations, and regional snow extent; and for using snow as a credible indicator of climate variability and change.}
+      \field{day}{1}
+      \field{issn}{0033-0124}
+      \field{journaltitle}{The Professional Geographer}
+      \field{month}{5}
+      \field{number}{2}
+      \field{shortjournal}{The Professional Geographer}
+      \field{title}{Seasonal {{Variability}} of {{Northern Hemisphere Snow Extent Using Visible Satellite Data}}}
+      \field{urlday}{12}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{volume}{52}
+      \field{year}{2000}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{307\bibrangedash 315}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1111/0033-0124.00226
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1111/0033-0124.00226
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1111/0033-0124.00226
+      \endverb
+      \keyw{climatology,Northern Hemisphere,snow extent}
     \endentry
     \entry{Vaughan2013}{inbook}{}{}
       \name{author}{14}{}{%

@@ -4,6 +4,7 @@
 \usepackage[english]{babel}
 \usepackage[margin=2.5cm]{geometry}
 \renewcommand{\baselinestretch}{1.5} 
+\usepackage{indentfirst}
 % ------ font ----------
 \usepackage{sansmathfonts}
 \usepackage{fontspec}
@@ -43,9 +44,6 @@
 }
 \let\oldtexttt\texttt
 \renewcommand{\texttt}[1]{\tcbox[boxsep=1pt, left=2pt, right=2pt]{\oldtexttt{#1}}}
-\tcbuselibrary{theorems}
-\newtcbtheorem[number within=section]{mytheo}{Theorem}%
-{colback=blue!3,colframe=blue!35!white,fonttitle=\bfseries}{th}
 \usepackage[colorlinks=true, 
 linkcolor=Plum, 
 citecolor=RoyalBlue, 
@@ -102,9 +100,13 @@ urlcolor=BlueViolet]{hyperref}
 \begin{document}
 	\title{Internship report}
 	\part{Introduction}
-Snow is one of the major component of the cryosphere. Its global distribution on both ocean and land areas strongly depends on seasonality, latitude, and elevation. It occurs in three forms, mainly: permanent snow on ice sheets and glaciers, snow on sea ice, and seasonal snow cover. The latter is estimated to account for 1.3\% (summer) to 30.6\% (winter) of the Northern Hemisphere land surface \parencite{Vaughan2013}, with the 1967-2026 mean snow cover extent (SCE hereafter) in winter being around \qty{39.79e6}{\kilo\meter\squared} \parencite{rutgers_snowlab}. Sea ice is almost completely covered by snow during the winter season; its peak concentration, therefore representative of sea ice specific SCE, occurs in March in the Northern Hemisphere (\qty{15.03e6}{\kilo\meter\squared}) and in September in the Southern Hemisphere (\qty{18.61e6}{\kilo\meter\squared}) \parencite{warrenSnowDepthArctic1999, fettererSeaIceIndex2025}. Finally, perennial snow mean extent over the 2000-2022 period is estimated at \qty{16.47e6}{\kilo\meter\squared} from NASA's Moderate Resolution Imaging Spectroradiometer (MODIS), including glaciers, ice caps, Greenland and Antarctica ice sheets \parencite{johnstonGlobalSnowSeasonality2024}.
+Snow is one of the major component of the cryosphere. Its global distribution on both ocean and land areas strongly depends on seasonality, latitude, and elevation. It occurs in three forms, mainly: permanent snow on ice sheets and glaciers, snow on sea ice, and seasonal snow cover. The latter is estimated to account for 1.3\% (summer) to 30.6\% (winter) of the Northern Hemisphere land surface \parencite{Vaughan2013}, with the 1967-2026 mean snow cover extent (SCE hereafter) in winter being around \qty{39.79e6}{\kilo\meter\squared} \parencite{rutgers_snowlab}. Sea ice is almost completely covered by snow during the winter season; its peak concentration, therefore representative of sea ice specific SCE, occurs in March in the Northern Hemisphere (\qty{15.03e6}{\kilo\meter\squared}) and in September in the Southern Hemisphere (\qty{18.61e6}{\kilo\meter\squared}) \parencite{warrenSnowDepthArctic1999, fettererSeaIceIndex2025}. Finally, perennial snow mean extent over the 2000-2022 period is estimated at \qty{16.47e6}{\kilo\meter\squared} from NASA's Moderate Resolution Imaging Spectroradiometer (MODIS), including glaciers, ice caps, Greenland and Antarctica ice sheets \parencite{johnstonGlobalSnowSeasonality2024}.\\
+These several tens of millions of snow-covered squared kilometres play a major role in freshwater resources availability, ecosystems equilibrium and, particularly, climate regulation. In fact, among its many physicochemical properties, snow represents one of the strongest reflective materials on Earth's surface. The fraction of solar radiation delivered to a body that is diffusely reflected by it is called \emph{albedo}; for snow, this amount is roughly close to 1, since its highest reflectivity occurs in the range of visible light, \ie where solar radiation intensity peaks \parencite{kokhanovskyScatteringOpticsSnow2004}. Thanks to its high albedo, snow represents of the main contributors to Earth's energy budget regulators \parencite{NSIDC_cryosphere}. Of the \qty{340}{\watt\per\meter\squared} of solar radiation incident at the top of the atmosphere, Northern Hemisphere land snow cover alone reflects approximately \qty{2}{\watt\per\meter\squared} back to space, averaged over the 1979--2008 period; in May, when SCE and soil insulation are highest, this quantity can reach \qty{4.5}{\watt\per\meter\squared} \parencite{flannerRadiativeForcingAlbedo2011}.\\
+As the whole cryosphere in general, snow distribution on Earth is undergoing dramatic changes because of the current anthropogenic perturbation of the climate system and warming of the atmosphere. At the global scale, SCE is experiencing a negative trend since the 1980s, with a statistically significant reduction in the mean area of 5\% after 1988, compared to the 1967-1988 period, and an earlier melt onset in the spring season, in the Northern Hemisphere only \parencite{robinsonSeasonalVariabilityNorthern2000, dyeVariabilityTrendsAnnual2002}. Less snow cover in both space and time, driven by rising temperatures, reduces terrestrial albedo and increases the absorption of incoming solar radiation at the surface, which in turn amplifies warming \parencite{cubaschProjectionsFutureClimate2001, hollandPolarAmplificationClimate2003}. This mechanism is known as the positive snow-albedo feedback: it is estimated to be responsible of a reduction in Northern Hemisphere land snow cover radiative cooling forcing of $\sim\qty{0.22}{\watt\per\meter\squared}$ from 1979 to 2007, which nearly the same contribution of Arctic sea ice \parencite{flannerRadiativeForcingAlbedo2011}.
 
-These several tens of millions of snow-covered squared kilometres play a major role in freshwater resources availability, ecosystems equilibrium and, particularly, climate regulation. In fact, among its many physicochemical properties, snow represents one of the strongest reflective materials on Earth's surface. The fraction of solar radiation delivered to a body that is diffusely reflected by it is called albedo; for snow, this amount is roughly close to 1, since its highest reflectivity occurs in the range of visible light, \ie where solar radiation intensity peaks \parencite{kokhanovskyScatteringOpticsSnow2004}. Thanks to its high albedo, snow acts as one of the main contributors to Earth's energy budget regulators \parencite{NSIDC_cryosphere}. Snow cover-specific radiative forcing is estimated at $\sim \qty{}{\watt\per\meter\squared}$, which corresponds to xxpercent of the total specific solar incoming radiation (340 m2) \parencite{}
+
+
+its intensity is amplified even more when light-absorbing particles, such as dust, black carbon and microbial growth, .
 	
 	\part{Material and methods}
 	\section{Theoretical backgrounds}

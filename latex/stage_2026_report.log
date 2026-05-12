@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.5.6)  11 MAY 2026 17:02
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.5.6)  12 MAY 2026 18:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -107,6 +107,9 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \Gm@dimlist=\toks20
 
 (/home/perronep/.miktex/texmfs/install/tex/latex/geometry/geometry.cfg))
+(/home/perronep/.miktex/texmfs/install/tex/latex/tools/indentfirst.sty
+Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
+)
 (/home/perronep/.miktex/texmfs/install/tex/latex/sansmathfonts/sansmathfonts.st
 y
 Package: sansmathfonts 2026/02/10
@@ -968,9 +971,7 @@ File: pgflibraryfadings.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )))
 (/home/perronep/.miktex/texmfs/install/tex/latex/tcolorbox/tcbposter.code.tex
 Library (tcolorbox): 'tcbposter.code.tex' version '6.9.0'
-))
-\c@tcb@cnt@mytheo=\count391
- (/home/perronep/.miktex/texmfs/install/tex/latex/hyperref/hyperref.sty
+)) (/home/perronep/.miktex/texmfs/install/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2026-04-24 v7.01q Hypertext links for LaTeX
 
 (/home/perronep/.miktex/texmfs/install/tex/latex/kvsetkeys/kvsetkeys.sty
@@ -997,14 +998,14 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
  (/home/perronep/.miktex/texmfs/install/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count392
+\c@section@level=\count391
 ) (/home/perronep/.miktex/texmfs/install/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
 \@linkdim=\dimen307
-\Hy@linkcounter=\count393
-\Hy@pagecounter=\count394
+\Hy@linkcounter=\count392
+\Hy@pagecounter=\count393
 
 (/home/perronep/.miktex/texmfs/install/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2026-04-24 v7.01q Hyperref: PDFDocEncoding definition (HO)
@@ -1012,7 +1013,7 @@ File: pd1enc.def 2026-04-24 v7.01q Hyperref: PDFDocEncoding definition (HO)
 (/home/perronep/.miktex/texmfs/install/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count395
+\Hy@SavedSpaceFactor=\count394
 
 (/home/perronep/.miktex/texmfs/install/tex/latex/hyperref/puenc.def
 File: puenc.def 2026-04-24 v7.01q Hyperref: PDF Unicode definition (HO)
@@ -1025,7 +1026,7 @@ Package hyperref Info: Plain pages OFF on input line 4214.
 Package hyperref Info: Backreferencing OFF on input line 4219.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4466.
-\c@Hy@tempcnt=\count396
+\c@Hy@tempcnt=\count395
 
 (/home/perronep/.miktex/texmfs/install/tex/latex/url/url.sty
 \Urlmuskip=\muskip18
@@ -1041,7 +1042,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count397
+\Fld@menulength=\count396
 \Field@Width=\dimen309
 \Fld@charsize=\dimen310
 Package hyperref Info: Hyper figures OFF on input line 6091.
@@ -1051,18 +1052,18 @@ Package hyperref Info: backreferencing OFF on input line 6106.
 Package hyperref Info: Link coloring ON on input line 6109.
 Package hyperref Info: Link coloring with OCG OFF on input line 6116.
 Package hyperref Info: PDF/A mode OFF on input line 6121.
-\Hy@abspage=\count398
-\c@Item=\count399
-\c@Hfootnote=\count400
+\Hy@abspage=\count397
+\c@Item=\count398
+\c@Hfootnote=\count399
 )
 Package hyperref Info: Driver (autodetected): hxetex.
 (/home/perronep/.miktex/texmfs/install/tex/latex/hyperref/hxetex.def
 File: hxetex.def 2026-04-24 v7.01q Hyperref driver for XeTeX
 \pdfm@box=\box94
-\c@Hy@AnnotLevel=\count401
-\HyField@AnnotCount=\count402
-\Fld@listcount=\count403
-\c@bookmark@seq@number=\count404
+\c@Hy@AnnotLevel=\count400
+\HyField@AnnotCount=\count401
+\Fld@listcount=\count402
+\c@bookmark@seq@number=\count403
 
 (/home/perronep/.miktex/texmfs/install/tex/latex/rerunfilecheck/rerunfilecheck.
 sty
@@ -1088,18 +1089,18 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen318
 \cmidrulekern=\dimen319
 \defaultaddspace=\dimen320
-\@cmidla=\count405
-\@cmidlb=\count406
+\@cmidla=\count404
+\@cmidlb=\count405
 \@aboverulesep=\dimen321
 \@belowrulesep=\dimen322
-\@thisruleclass=\count407
-\@lastruleclass=\count408
+\@thisruleclass=\count406
+\@lastruleclass=\count407
 \@thisrulewidth=\dimen323
 )
 (/home/perronep/.miktex/texmfs/install/tex/latex/multirow/multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
 \multirow@colwidth=\skip66
-\multirow@cntb=\count409
+\multirow@cntb=\count408
 \multirow@dima=\skip67
 \bigstrutjot=\dimen324
 )
@@ -1111,15 +1112,15 @@ Package: pdfpages 2026/03/30 v0.6h Insert pages of external PDF documents (AM)
 
 (/home/perronep/.miktex/texmfs/install/tex/latex/tools/calc.sty
 Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
-\calc@Acount=\count410
-\calc@Bcount=\count411
+\calc@Acount=\count409
+\calc@Bcount=\count410
 \calc@Adimen=\dimen325
 \calc@Bdimen=\dimen326
 \calc@Askip=\skip68
 \calc@Bskip=\skip69
 LaTeX Info: Redefining \setlength on input line 86.
 LaTeX Info: Redefining \addtolength on input line 87.
-\calc@Ccount=\count412
+\calc@Ccount=\count411
 \calc@Cskip=\skip70
 )
 (/home/perronep/.miktex/texmfs/install/tex/latex/eso-pic/eso-pic.sty
@@ -1134,13 +1135,13 @@ Package: eso-pic 2025/12/10 v3.0d eso-pic (RN)
 (/home/perronep/.miktex/texmfs/install/tex/latex/pdfpages/ppxetex.def
 File: ppxetex.def 2026/03/30 v0.6h Pdfpages driver for XeTeX (AM)
 )
-\pdfpages@includegraphics@status=\count413
+\pdfpages@includegraphics@status=\count412
 \AM@pagebox=\box95
 \AM@global@opts=\toks45
-\AM@pagecnt=\count414
+\AM@pagecnt=\count413
 \AM@toc@title=\toks46
 \AM@lof@heading=\toks47
-\c@AM@survey=\count415
+\c@AM@survey=\count414
 \AM@templatesizebox=\box96
 )
 (/home/perronep/.miktex/texmfs/install/tex/latex/pythonhighlight/pythonhighligh
@@ -1168,9 +1169,9 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 )
 (/home/perronep/.miktex/texmfs/install/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count416
-\l__lipsum_a_int=\count417
-\l__lipsum_b_int=\count418
+\g__lipsum_par_int=\count415
+\l__lipsum_a_int=\count416
+\l__lipsum_b_int=\count417
 
 (/home/perronep/.miktex/texmfs/install/tex/latex/lipsum/lipsum.ltd.tex))
 (/home/perronep/.miktex/texmfs/install/tex/latex/titlesec/titlesec.sty
@@ -1190,54 +1191,54 @@ Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
 
 (/home/perronep/.miktex/texmfs/install/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count419
+\lrq@indent=\count418
 
 (/home/perronep/.miktex/texmfs/install/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count420
-\c@listtotal=\count421
-\c@listcount=\count422
-\c@liststart=\count423
-\c@liststop=\count424
-\c@citecount=\count425
-\c@citetotal=\count426
-\c@multicitecount=\count427
-\c@multicitetotal=\count428
-\c@instcount=\count429
-\c@maxnames=\count430
-\c@minnames=\count431
-\c@maxitems=\count432
-\c@minitems=\count433
-\c@citecounter=\count434
-\c@maxcitecounter=\count435
-\c@savedcitecounter=\count436
-\c@uniquelist=\count437
-\c@uniquename=\count438
-\c@refsection=\count439
-\c@refsegment=\count440
-\c@maxextratitle=\count441
-\c@maxextratitleyear=\count442
-\c@maxextraname=\count443
-\c@maxextradate=\count444
-\c@maxextraalpha=\count445
-\c@abbrvpenalty=\count446
-\c@highnamepenalty=\count447
-\c@lownamepenalty=\count448
-\c@maxparens=\count449
-\c@parenlevel=\count450
-\blx@tempcnta=\count451
-\blx@tempcntb=\count452
-\blx@tempcntc=\count453
-\c@blx@maxsection=\count454
-\blx@maxsegment@0=\count455
-\blx@notetype=\count456
-\blx@parenlevel@text=\count457
-\blx@parenlevel@foot=\count458
-\blx@sectionciteorder@0=\count459
-\blx@sectionciteorderinternal@0=\count460
-\blx@entrysetcounter=\count461
-\blx@biblioinstance=\count462
+\c@tabx@nest=\count419
+\c@listtotal=\count420
+\c@listcount=\count421
+\c@liststart=\count422
+\c@liststop=\count423
+\c@citecount=\count424
+\c@citetotal=\count425
+\c@multicitecount=\count426
+\c@multicitetotal=\count427
+\c@instcount=\count428
+\c@maxnames=\count429
+\c@minnames=\count430
+\c@maxitems=\count431
+\c@minitems=\count432
+\c@citecounter=\count433
+\c@maxcitecounter=\count434
+\c@savedcitecounter=\count435
+\c@uniquelist=\count436
+\c@uniquename=\count437
+\c@refsection=\count438
+\c@refsegment=\count439
+\c@maxextratitle=\count440
+\c@maxextratitleyear=\count441
+\c@maxextraname=\count442
+\c@maxextradate=\count443
+\c@maxextraalpha=\count444
+\c@abbrvpenalty=\count445
+\c@highnamepenalty=\count446
+\c@lownamepenalty=\count447
+\c@maxparens=\count448
+\c@parenlevel=\count449
+\blx@tempcnta=\count450
+\blx@tempcntb=\count451
+\blx@tempcntc=\count452
+\c@blx@maxsection=\count453
+\blx@maxsegment@0=\count454
+\blx@notetype=\count455
+\blx@parenlevel@text=\count456
+\blx@parenlevel@foot=\count457
+\blx@sectionciteorder@0=\count458
+\blx@sectionciteorderinternal@0=\count459
+\blx@entrysetcounter=\count460
+\blx@biblioinstance=\count461
 \labelnumberwidth=\skip87
 \labelalphawidth=\skip88
 \biblabelsep=\skip89
@@ -1249,9 +1250,9 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \blx@bcfin=\read5
 \blx@bcfout=\write4
 \blx@langwohyphens=\language80
-\c@mincomprange=\count463
-\c@maxcomprange=\count464
-\c@mincompwidth=\count465
+\c@mincomprange=\count462
+\c@maxcomprange=\count463
+\c@mincompwidth=\count464
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -1266,84 +1267,84 @@ File: apa.dbx 2025/08/27 v9.20 APA biblatex style data model
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count466
-\c@savedafterword=\count467
-\c@annotator=\count468
-\c@savedannotator=\count469
-\c@author=\count470
-\c@savedauthor=\count471
-\c@bookauthor=\count472
-\c@savedbookauthor=\count473
-\c@commentator=\count474
-\c@savedcommentator=\count475
-\c@editor=\count476
-\c@savededitor=\count477
-\c@editora=\count478
-\c@savededitora=\count479
-\c@editorb=\count480
-\c@savededitorb=\count481
-\c@editorc=\count482
-\c@savededitorc=\count483
-\c@foreword=\count484
-\c@savedforeword=\count485
-\c@holder=\count486
-\c@savedholder=\count487
-\c@introduction=\count488
-\c@savedintroduction=\count489
-\c@namea=\count490
-\c@savednamea=\count491
-\c@nameb=\count492
-\c@savednameb=\count493
-\c@namec=\count494
-\c@savednamec=\count495
-\c@translator=\count496
-\c@savedtranslator=\count497
-\c@shortauthor=\count498
-\c@savedshortauthor=\count499
-\c@shorteditor=\count500
-\c@savedshorteditor=\count501
-\c@narrator=\count502
-\c@savednarrator=\count503
-\c@execproducer=\count504
-\c@savedexecproducer=\count505
-\c@execdirector=\count506
-\c@savedexecdirector=\count507
-\c@with=\count508
-\c@savedwith=\count509
-\c@labelname=\count510
-\c@savedlabelname=\count511
-\c@institution=\count512
-\c@savedinstitution=\count513
-\c@lista=\count514
-\c@savedlista=\count515
-\c@listb=\count516
-\c@savedlistb=\count517
-\c@listc=\count518
-\c@savedlistc=\count519
-\c@listd=\count520
-\c@savedlistd=\count521
-\c@liste=\count522
-\c@savedliste=\count523
-\c@listf=\count524
-\c@savedlistf=\count525
-\c@location=\count526
-\c@savedlocation=\count527
-\c@organization=\count528
-\c@savedorganization=\count529
-\c@origlocation=\count530
-\c@savedoriglocation=\count531
-\c@origpublisher=\count532
-\c@savedorigpublisher=\count533
-\c@publisher=\count534
-\c@savedpublisher=\count535
-\c@language=\count536
-\c@savedlanguage=\count537
-\c@origlanguage=\count538
-\c@savedoriglanguage=\count539
-\c@citation=\count540
-\c@savedcitation=\count541
-\c@pageref=\count542
-\c@savedpageref=\count543
+\c@afterword=\count465
+\c@savedafterword=\count466
+\c@annotator=\count467
+\c@savedannotator=\count468
+\c@author=\count469
+\c@savedauthor=\count470
+\c@bookauthor=\count471
+\c@savedbookauthor=\count472
+\c@commentator=\count473
+\c@savedcommentator=\count474
+\c@editor=\count475
+\c@savededitor=\count476
+\c@editora=\count477
+\c@savededitora=\count478
+\c@editorb=\count479
+\c@savededitorb=\count480
+\c@editorc=\count481
+\c@savededitorc=\count482
+\c@foreword=\count483
+\c@savedforeword=\count484
+\c@holder=\count485
+\c@savedholder=\count486
+\c@introduction=\count487
+\c@savedintroduction=\count488
+\c@namea=\count489
+\c@savednamea=\count490
+\c@nameb=\count491
+\c@savednameb=\count492
+\c@namec=\count493
+\c@savednamec=\count494
+\c@translator=\count495
+\c@savedtranslator=\count496
+\c@shortauthor=\count497
+\c@savedshortauthor=\count498
+\c@shorteditor=\count499
+\c@savedshorteditor=\count500
+\c@narrator=\count501
+\c@savednarrator=\count502
+\c@execproducer=\count503
+\c@savedexecproducer=\count504
+\c@execdirector=\count505
+\c@savedexecdirector=\count506
+\c@with=\count507
+\c@savedwith=\count508
+\c@labelname=\count509
+\c@savedlabelname=\count510
+\c@institution=\count511
+\c@savedinstitution=\count512
+\c@lista=\count513
+\c@savedlista=\count514
+\c@listb=\count515
+\c@savedlistb=\count516
+\c@listc=\count517
+\c@savedlistc=\count518
+\c@listd=\count519
+\c@savedlistd=\count520
+\c@liste=\count521
+\c@savedliste=\count522
+\c@listf=\count523
+\c@savedlistf=\count524
+\c@location=\count525
+\c@savedlocation=\count526
+\c@organization=\count527
+\c@savedorganization=\count528
+\c@origlocation=\count529
+\c@savedoriglocation=\count530
+\c@origpublisher=\count531
+\c@savedorigpublisher=\count532
+\c@publisher=\count533
+\c@savedpublisher=\count534
+\c@language=\count535
+\c@savedlanguage=\count536
+\c@origlanguage=\count537
+\c@savedoriglanguage=\count538
+\c@citation=\count539
+\c@savedcitation=\count540
+\c@pageref=\count541
+\c@savedpageref=\count542
 \shorthandwidth=\skip95
 \shortjournalwidth=\skip96
 \shortserieswidth=\skip97
@@ -1373,19 +1374,19 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 (/home/perronep/.miktex/texmfs/install/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
-\c@textcitecount=\count544
-\c@textcitetotal=\count545
-\c@textcitemaxnames=\count546
-\c@biburlbigbreakpenalty=\count547
-\c@biburlbreakpenalty=\count548
-\c@biburlnumpenalty=\count549
-\c@biburlucpenalty=\count550
-\c@biburllcpenalty=\count551
+\c@textcitecount=\count543
+\c@textcitetotal=\count544
+\c@textcitemaxnames=\count545
+\c@biburlbigbreakpenalty=\count546
+\c@biburlbreakpenalty=\count547
+\c@biburlnumpenalty=\count548
+\c@biburlucpenalty=\count549
+\c@biburllcpenalty=\count550
 \biburlbigskip=\muskip19
 \biburlnumskip=\muskip20
 \biburlucskip=\muskip21
 \biburllcskip=\muskip22
-\c@smartand=\count552
+\c@smartand=\count551
 )
 Package biblatex Info: Trying to load bibliography style 'apa'...
 Package biblatex Info: ... file 'apa.bbx' found.
@@ -1397,8 +1398,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (/home/perronep/.miktex/texmfs/install/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count553
-\c@bbx:relatedtotal=\count554
+\c@bbx:relatedcount=\count552
+\c@bbx:relatedtotal=\count553
 )
 Package biblatex Info: Delimiter 'nameyeardelim' in context 'bib' already defin
 ed, overwriting.
@@ -1455,55 +1456,55 @@ Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count555
-\@quotereset=\count556
+\@quotelevel=\count554
+\@quotereset=\count555
 (stage_2026_report.aux)
 \openout1 = `stage_2026_report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmssm/m/it on input line 102.
+LaTeX Font Info:    Checking defaults for OML/cmssm/m/it on input line 100.
 LaTeX Font Info:    Trying to load font information for OML+cmssm on input line
- 102.
+ 100.
 
 (/home/perronep/.miktex/texmfs/install/tex/latex/sansmathfonts/omlcmssm.fd
 File: omlcmssm.fd 2024/10/15
 )
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OMS/cmsssy/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OMS/cmsssy/m/n on input line 100.
 LaTeX Font Info:    Trying to load font information for OMS+cmsssy on input lin
-e 102.
+e 100.
 
 (/home/perronep/.miktex/texmfs/install/tex/latex/sansmathfonts/omscmsssy.fd
 File: omscmsssy.fd 2024/10/15
 )
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OMX/cmssex/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OMX/cmssex/m/n on input line 100.
 LaTeX Font Info:    Trying to load font information for OMX+cmssex on input lin
-e 102.
+e 100.
 
 (/home/perronep/.miktex/texmfs/install/tex/latex/sansmathfonts/omxcmssex.fd
 File: omxcmssex.fd 2024/10/15
 )
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for U/cmss/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for U/cmss/m/n on input line 100.
 LaTeX Font Info:    Trying to load font information for U+cmss on input line 10
-2.
+0.
 
 (/home/perronep/.miktex/texmfs/install/tex/latex/base/ucmss.fd
 File: ucmss.fd 2024/11/19 v2.5n Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1539,16 +1540,16 @@ LaTeX Font Info:    ... okay on input line 102.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 102.
+LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 100.
 LaTeX Font Info:    Overwriting symbol font `AMSa' in version `normal'
-(Font)                  U/msa/m/n --> U/ssmsa/m/n on input line 102.
+(Font)                  U/msa/m/n --> U/ssmsa/m/n on input line 100.
 LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
-(Font)                  U/msa/m/n --> U/ssmsa/m/n on input line 102.
-LaTeX Font Info:    Redeclaring symbol font `AMSb' on input line 102.
+(Font)                  U/msa/m/n --> U/ssmsa/m/n on input line 100.
+LaTeX Font Info:    Redeclaring symbol font `AMSb' on input line 100.
 LaTeX Font Info:    Overwriting symbol font `AMSb' in version `normal'
-(Font)                  U/msb/m/n --> U/ssmsb/m/n on input line 102.
+(Font)                  U/msb/m/n --> U/ssmsb/m/n on input line 100.
 LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
-(Font)                  U/msb/m/n --> U/ssmsb/m/n on input line 102.
+(Font)                  U/msb/m/n --> U/ssmsb/m/n on input line 100.
 
 Package fontspec Info: 
 (fontspec)             Adjusting the maths setup (use [no-math] to avoid
@@ -1556,64 +1557,64 @@ Package fontspec Info:
 
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 102.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 102.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 102.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 102.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 102.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 102.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 102.
-LaTeX Font Info:    Redeclaring math accent \check on input line 102.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 102.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 102.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 102.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 102.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 102.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 102.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 102.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 102.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 102.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 102.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 102.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 102.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 102.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 102.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 102.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 102.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 100.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 100.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 100.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 100.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 100.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 100.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 100.
+LaTeX Font Info:    Redeclaring math accent \check on input line 100.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 100.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 100.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 100.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 100.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 100.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 100.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 100.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 100.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 100.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 100.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 100.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 100.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 100.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 100.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 100.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 100.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 102.
+(Font)              `operators' in the math version `normal' on input line 100.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmsmf/m/n --> TU/LatinModernSans(0)/m/n on input li
-ne 102.
+ne 100.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 102.
+(Font)              `operators' in the math version `bold' on input line 100.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmsmf/bx/n --> TU/LatinModernSans(0)/m/n on input l
-ine 102.
+ine 100.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/LatinModernSans(0)/m/n --> TU/LatinModernSans(0)/m/n
- on input line 102.
+ on input line 100.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmsmf/m/it --> TU/LatinModernSans(0)/m/it on input 
-line 102.
+line 100.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmsmf/bx/n --> TU/LatinModernSans(0)/b/n on input l
-ine 102.
+ine 100.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmsmf/m/n --> TU/lmss/m/n on input line 102.
+(Font)                  OT1/cmsmf/m/n --> TU/lmss/m/n on input line 100.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 102.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 100.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/LatinModernSans(0)/m/n --> TU/LatinModernSans(0)/b/n
- on input line 102.
+ on input line 100.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmsmf/bx/it --> TU/LatinModernSans(0)/b/it on input
- line 102.
+ line 100.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmsmf/m/n --> TU/lmss/b/n on input line 102.
+(Font)                  OT1/cmsmf/m/n --> TU/lmss/b/n on input line 100.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 102.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 100.
 
 Package siunitx Warning: Detected the "physics" package:
 (siunitx)                omitting definition of \qty.
@@ -1632,14 +1633,14 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 102.
+or `english'. on input line 100.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: Option `font=sansmath' requires the `sansmath' package on
- input line 102.
+ input line 100.
 
 (/home/perronep/.miktex/texmfs/install/tex/latex/sansmath/sansmath.sty
 Package: sansmath 2007/02/28  ver 1.1 Donald Arseneau
-\c@mv@sans=\count557
+\c@mv@sans=\count556
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `sans'
 (Font)                  TU/LatinModernSans(0)/m/n --> OT1/lmss/m/n on input lin
 e 103.
@@ -1662,8 +1663,8 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count558
-Package hyperref Info: Link coloring ON on input line 102.
+\c@lstlisting=\count557
+Package hyperref Info: Link coloring ON on input line 100.
 
 (stage_2026_report.out) (stage_2026_report.out)
 \@outlinefile=\write5
@@ -1720,25 +1721,20 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'stage_2026_report.bbl' found.
 
 (stage_2026_report.bbl)
-Package biblatex Info: Reference section=0 on input line 102.
-Package biblatex Info: Reference segment=0 on input line 102.
+Package biblatex Info: Reference section=0 on input line 100.
+Package biblatex Info: Reference segment=0 on input line 100.
 LaTeX Font Info:    Trying to load font information for U+ssmsa on input line 1
-05.
+03.
 
 (/home/perronep/.miktex/texmfs/install/tex/latex/sansmathfonts/ussmsa.fd
 File: ussmsa.fd 2024/10/15
 )
 LaTeX Font Info:    Trying to load font information for U+ssmsb on input line 1
-05.
+03.
 
 (/home/perronep/.miktex/texmfs/install/tex/latex/sansmathfonts/ussmsb.fd
 File: ussmsb.fd 2024/10/15
 )
-
-LaTeX Font Warning: Font shape `TU/LatinModernSans(0)/sbc/n' undefined
-(Font)              using `TU/LatinModernSans(0)/m/n' instead on input line 115
-.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1749,18 +1745,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [1
 
 ]
-LaTeX Font Info:    Font shape `TU/lmss/sbc/it' in size <14.4> not available
-(Font)              Font shape `TU/lmss/sbc/sl' tried instead on input line 115
+
+LaTeX Font Warning: Font shape `TU/LatinModernSans(0)/sbc/n' undefined
+(Font)              using `TU/LatinModernSans(0)/m/n' instead on input line 117
 .
 
+LaTeX Font Info:    Font shape `TU/lmss/sbc/it' in size <14.4> not available
+(Font)              Font shape `TU/lmss/sbc/sl' tried instead on input line 117
+.
 
 LaTeX Font Warning: Font shape `TU/LatinModernSans(0)/sbc/sl' undefined
 (Font)              using `TU/LatinModernSans(0)/sbc/n' instead on input line 1
-16.
-
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 130.
+18.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1771,8 +1767,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [2]
 
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 156.
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 132.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1782,6 +1778,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [3]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 158.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1798,26 +1798,19 @@ L3 programming layer <2026-03-20>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `stage_2026_report.out' has not changed.
 (rerunfilecheck)             Checksum: FEDF9CE69A115047F8BCECE004BE8881;2577.
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
 Package logreq Info: Writing requests to 'stage_2026_report.run.xml'.
 \openout1 = `stage_2026_report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49798 strings out of 402807
- 1103974 string characters out of 5446580
- 2213792 words of memory out of 5000000
- 78094 multiletter control sequences out of 15000+600000
+ 49833 strings out of 402807
+ 1105867 string characters out of 5446580
+ 2218817 words of memory out of 5000000
+ 78126 multiletter control sequences out of 15000+600000
  632954 words of font info for 85 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 98i,12n,108p,1570b,5607s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 98i,12n,108p,1673b,5161s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on stage_2026_report.pdf (4 pages).
