@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.5.6)  12 MAY 2026 18:01
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.5.6)  13 MAY 2026 14:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1747,16 +1747,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 ]
 
 LaTeX Font Warning: Font shape `TU/LatinModernSans(0)/sbc/n' undefined
-(Font)              using `TU/LatinModernSans(0)/m/n' instead on input line 117
+(Font)              using `TU/LatinModernSans(0)/m/n' instead on input line 116
 .
 
 LaTeX Font Info:    Font shape `TU/lmss/sbc/it' in size <14.4> not available
-(Font)              Font shape `TU/lmss/sbc/sl' tried instead on input line 117
+(Font)              Font shape `TU/lmss/sbc/sl' tried instead on input line 116
 .
 
 LaTeX Font Warning: Font shape `TU/LatinModernSans(0)/sbc/sl' undefined
 (Font)              using `TU/LatinModernSans(0)/sbc/n' instead on input line 1
-18.
+17.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1768,7 +1768,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [2]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 132.
+(hyperref)                than one, level fixed on input line 131.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1780,7 +1780,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [3]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 158.
+(hyperref)                be the same. Added a new anchor on input line 157.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1789,7 +1789,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[4] (stage_2026_report.aux)
+[4]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[5] (stage_2026_report.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
@@ -1811,6 +1819,6 @@ Here is how much of TeX's memory you used:
  78126 multiletter control sequences out of 15000+600000
  632954 words of font info for 85 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 98i,12n,108p,1673b,5161s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 98i,12n,108p,1677b,5514s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on stage_2026_report.pdf (4 pages).
+Output written on stage_2026_report.pdf (5 pages).

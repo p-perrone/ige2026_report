@@ -20,19 +20,70 @@
 \refsection{0}
   \datalist[entry]{apa/apasortcite//global/global/global}
     \entry{cubaschProjectionsFutureClimate2001}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=5b9acb187ef7836d114ae07cbae695bd}{%
-           family={{Cubasch, U.}},
-           familyi={C\bibinitperiod}}}%
+      \name{author}{9}{}{%
+        {{un=0,uniquepart=base,hash=93849eb5cff6e07ce313d92903f0b86e}{%
+           family={Cubasch},
+           familyi={C\bibinitperiod},
+           given={Ulrich},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=838f5c71a370cb13a4689b20d27d17cc}{%
+           family={Meehl},
+           familyi={M\bibinitperiod},
+           given={Gerald},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3ade973316e4618a264d2168634f7a30}{%
+           family={Boer},
+           familyi={B\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7f7a67844cad7ed481eabe99a891e027}{%
+           family={Ronald},
+           familyi={R\bibinitperiod},
+           given={Stouffer},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b698d3fb73ec9ae58d4d72d028071b91}{%
+           family={Dix},
+           familyi={D\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2ed28f1805ff65c59a5ab9d6b19eb366}{%
+           family={Noda},
+           familyi={N\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cd3b5e0869175d05f4c268f055a6970d}{%
+           family={Senior},
+           familyi={S\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6a562096c03f2b15a6b925954f72fc4a}{%
+           family={Raper},
+           familyi={R\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ffb58244d76824a03e96250500d8f869}{%
+           family={Yap},
+           familyi={Y\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
       }
-      \strng{namehash}{5b9acb187ef7836d114ae07cbae695bd}
-      \strng{fullhash}{5b9acb187ef7836d114ae07cbae695bd}
-      \strng{fullhashraw}{5b9acb187ef7836d114ae07cbae695bd}
-      \strng{bibnamehash}{5b9acb187ef7836d114ae07cbae695bd}
-      \strng{authorbibnamehash}{5b9acb187ef7836d114ae07cbae695bd}
-      \strng{authornamehash}{5b9acb187ef7836d114ae07cbae695bd}
-      \strng{authorfullhash}{5b9acb187ef7836d114ae07cbae695bd}
-      \strng{authorfullhashraw}{5b9acb187ef7836d114ae07cbae695bd}
+      \strng{namehash}{c7dc87225767f41c0c7322c2684fe4c3}
+      \strng{fullhash}{a1d1cea8fd0f2ef81e4721d81a48bb41}
+      \strng{fullhashraw}{a1d1cea8fd0f2ef81e4721d81a48bb41}
+      \strng{bibnamehash}{a1d1cea8fd0f2ef81e4721d81a48bb41}
+      \strng{authorbibnamehash}{a1d1cea8fd0f2ef81e4721d81a48bb41}
+      \strng{authornamehash}{c7dc87225767f41c0c7322c2684fe4c3}
+      \strng{authorfullhash}{a1d1cea8fd0f2ef81e4721d81a48bb41}
+      \strng{authorfullhashraw}{a1d1cea8fd0f2ef81e4721d81a48bb41}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -40,9 +91,9 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Projections of Future Climate Change.}
+      \field{month}{1}
+      \field{title}{Projections of {{Future Climate Change}}}
       \field{year}{2001}
-      \field{dateera}{ce}
     \endentry
     \entry{dyeVariabilityTrendsAnnual2002}{article}{}{}
       \name{author}{1}{}{%
@@ -242,21 +293,27 @@
     \endentry
     \entry{hollandPolarAmplificationClimate2003}{article}{}{}
       \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=df3c4307c2e6fde9a24865f4996b9d8a}{%
-           family={{Holland, M. M.}},
-           familyi={H\bibinitperiod}}}%
-        {{un=0,uniquepart=base,hash=2c4f98bfdb92b0525bf6a853b2043798}{%
-           family={{Bitz, C. M.}},
-           familyi={B\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=97a062e266380b5676ca1a8d0651637e}{%
+           family={Holland},
+           familyi={H\bibinitperiod},
+           given={M.\bibnamedelimi M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bb1a450d27ebfc2a70aace32c545593f}{%
+           family={Bitz},
+           familyi={B\bibinitperiod},
+           given={C.\bibnamedelimi M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
       }
-      \strng{namehash}{4f5701bc5ec1cf7cd02337e5288df006}
-      \strng{fullhash}{4f5701bc5ec1cf7cd02337e5288df006}
-      \strng{fullhashraw}{4f5701bc5ec1cf7cd02337e5288df006}
-      \strng{bibnamehash}{4f5701bc5ec1cf7cd02337e5288df006}
-      \strng{authorbibnamehash}{4f5701bc5ec1cf7cd02337e5288df006}
-      \strng{authornamehash}{4f5701bc5ec1cf7cd02337e5288df006}
-      \strng{authorfullhash}{4f5701bc5ec1cf7cd02337e5288df006}
-      \strng{authorfullhashraw}{4f5701bc5ec1cf7cd02337e5288df006}
+      \strng{namehash}{e852456b939fef6c99aff151ba2218b4}
+      \strng{fullhash}{e852456b939fef6c99aff151ba2218b4}
+      \strng{fullhashraw}{e852456b939fef6c99aff151ba2218b4}
+      \strng{bibnamehash}{e852456b939fef6c99aff151ba2218b4}
+      \strng{authorbibnamehash}{e852456b939fef6c99aff151ba2218b4}
+      \strng{authornamehash}{e852456b939fef6c99aff151ba2218b4}
+      \strng{authorfullhash}{e852456b939fef6c99aff151ba2218b4}
+      \strng{authorfullhashraw}{e852456b939fef6c99aff151ba2218b4}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
@@ -264,12 +321,25 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Polar Amplification of Climate Change in Coupled Models.}
+      \field{abstract}{The Northern Hemisphere polar amplification of climate change is documented in models taking part in the Coupled Model Intercomparison Project and in the new version of the Community Climate System Model. In particular, the magnitude, spatial distribution, and seasonality of the surface warming in the Arctic is examined and compared among the models. The range of simulated polar warming in the Arctic is from 1.5 to 4.5 times the global mean warming. While ice-albedo feedback is likely to account for much of the polar amplification, the strength of the feedback depends on numerous physical processes and parametrizations which differ considerably among the models. Nonetheless, the mean sea-ice state in the control (or present) climate is found to influence both the magnitude and spatial distribution of the high-latitude warming in the models. In particular, the latitude of the maximum warming is correlated inversely and significantly with sea-ice extent in the control climate. Additionally, models with relatively thin Arctic ice cover in the control climate tend to have higher polar amplification. An intercomparison of model results also shows that increases in poleward ocean heat transport at high latitudes and increases in polar cloud cover are significantly correlated to amplified Arctic warming. This suggests that these changes in the climate state may modify polar amplification. No significant correlation is found between polar amplification and the control climate continental ice and snow cover.}
+      \field{issn}{1432-0894}
+      \field{journaltitle}{Climate Dynamics}
+      \field{month}{9}
+      \field{number}{3}
+      \field{title}{Polar Amplification of Climate Change in Coupled Models}
       \field{volume}{21}
       \field{year}{2003}
-      \field{dateera}{ce}
       \field{pages}{221\bibrangedash 232}
       \range{pages}{12}
+      \verb{doi}
+      \verb 10.1007/s00382-003-0332-6
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s00382-003-0332-6
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s00382-003-0332-6
+      \endverb
     \endentry
     \entry{johnstonGlobalSnowSeasonality2024}{article}{}{}
       \name{author}{3}{}{%
@@ -787,19 +857,70 @@
   \enddatalist
   \datalist[entry]{apa/global//global/global/global}
     \entry{cubaschProjectionsFutureClimate2001}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=5b9acb187ef7836d114ae07cbae695bd}{%
-           family={{Cubasch, U.}},
-           familyi={C\bibinitperiod}}}%
+      \name{author}{9}{}{%
+        {{un=0,uniquepart=base,hash=93849eb5cff6e07ce313d92903f0b86e}{%
+           family={Cubasch},
+           familyi={C\bibinitperiod},
+           given={Ulrich},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=838f5c71a370cb13a4689b20d27d17cc}{%
+           family={Meehl},
+           familyi={M\bibinitperiod},
+           given={Gerald},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3ade973316e4618a264d2168634f7a30}{%
+           family={Boer},
+           familyi={B\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7f7a67844cad7ed481eabe99a891e027}{%
+           family={Ronald},
+           familyi={R\bibinitperiod},
+           given={Stouffer},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b698d3fb73ec9ae58d4d72d028071b91}{%
+           family={Dix},
+           familyi={D\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2ed28f1805ff65c59a5ab9d6b19eb366}{%
+           family={Noda},
+           familyi={N\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cd3b5e0869175d05f4c268f055a6970d}{%
+           family={Senior},
+           familyi={S\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6a562096c03f2b15a6b925954f72fc4a}{%
+           family={Raper},
+           familyi={R\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ffb58244d76824a03e96250500d8f869}{%
+           family={Yap},
+           familyi={Y\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
       }
-      \strng{namehash}{5b9acb187ef7836d114ae07cbae695bd}
-      \strng{fullhash}{5b9acb187ef7836d114ae07cbae695bd}
-      \strng{fullhashraw}{5b9acb187ef7836d114ae07cbae695bd}
-      \strng{bibnamehash}{5b9acb187ef7836d114ae07cbae695bd}
-      \strng{authorbibnamehash}{5b9acb187ef7836d114ae07cbae695bd}
-      \strng{authornamehash}{5b9acb187ef7836d114ae07cbae695bd}
-      \strng{authorfullhash}{5b9acb187ef7836d114ae07cbae695bd}
-      \strng{authorfullhashraw}{5b9acb187ef7836d114ae07cbae695bd}
+      \strng{namehash}{c7dc87225767f41c0c7322c2684fe4c3}
+      \strng{fullhash}{a1d1cea8fd0f2ef81e4721d81a48bb41}
+      \strng{fullhashraw}{a1d1cea8fd0f2ef81e4721d81a48bb41}
+      \strng{bibnamehash}{a1d1cea8fd0f2ef81e4721d81a48bb41}
+      \strng{authorbibnamehash}{a1d1cea8fd0f2ef81e4721d81a48bb41}
+      \strng{authornamehash}{c7dc87225767f41c0c7322c2684fe4c3}
+      \strng{authorfullhash}{a1d1cea8fd0f2ef81e4721d81a48bb41}
+      \strng{authorfullhashraw}{a1d1cea8fd0f2ef81e4721d81a48bb41}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -807,9 +928,9 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Projections of Future Climate Change.}
+      \field{month}{1}
+      \field{title}{Projections of {{Future Climate Change}}}
       \field{year}{2001}
-      \field{dateera}{ce}
     \endentry
     \entry{dyeVariabilityTrendsAnnual2002}{article}{}{}
       \name{author}{1}{}{%
@@ -1009,21 +1130,27 @@
     \endentry
     \entry{hollandPolarAmplificationClimate2003}{article}{}{}
       \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=df3c4307c2e6fde9a24865f4996b9d8a}{%
-           family={{Holland, M. M.}},
-           familyi={H\bibinitperiod}}}%
-        {{un=0,uniquepart=base,hash=2c4f98bfdb92b0525bf6a853b2043798}{%
-           family={{Bitz, C. M.}},
-           familyi={B\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=97a062e266380b5676ca1a8d0651637e}{%
+           family={Holland},
+           familyi={H\bibinitperiod},
+           given={M.\bibnamedelimi M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bb1a450d27ebfc2a70aace32c545593f}{%
+           family={Bitz},
+           familyi={B\bibinitperiod},
+           given={C.\bibnamedelimi M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
       }
-      \strng{namehash}{4f5701bc5ec1cf7cd02337e5288df006}
-      \strng{fullhash}{4f5701bc5ec1cf7cd02337e5288df006}
-      \strng{fullhashraw}{4f5701bc5ec1cf7cd02337e5288df006}
-      \strng{bibnamehash}{4f5701bc5ec1cf7cd02337e5288df006}
-      \strng{authorbibnamehash}{4f5701bc5ec1cf7cd02337e5288df006}
-      \strng{authornamehash}{4f5701bc5ec1cf7cd02337e5288df006}
-      \strng{authorfullhash}{4f5701bc5ec1cf7cd02337e5288df006}
-      \strng{authorfullhashraw}{4f5701bc5ec1cf7cd02337e5288df006}
+      \strng{namehash}{e852456b939fef6c99aff151ba2218b4}
+      \strng{fullhash}{e852456b939fef6c99aff151ba2218b4}
+      \strng{fullhashraw}{e852456b939fef6c99aff151ba2218b4}
+      \strng{bibnamehash}{e852456b939fef6c99aff151ba2218b4}
+      \strng{authorbibnamehash}{e852456b939fef6c99aff151ba2218b4}
+      \strng{authornamehash}{e852456b939fef6c99aff151ba2218b4}
+      \strng{authorfullhash}{e852456b939fef6c99aff151ba2218b4}
+      \strng{authorfullhashraw}{e852456b939fef6c99aff151ba2218b4}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
@@ -1031,12 +1158,25 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Polar Amplification of Climate Change in Coupled Models.}
+      \field{abstract}{The Northern Hemisphere polar amplification of climate change is documented in models taking part in the Coupled Model Intercomparison Project and in the new version of the Community Climate System Model. In particular, the magnitude, spatial distribution, and seasonality of the surface warming in the Arctic is examined and compared among the models. The range of simulated polar warming in the Arctic is from 1.5 to 4.5 times the global mean warming. While ice-albedo feedback is likely to account for much of the polar amplification, the strength of the feedback depends on numerous physical processes and parametrizations which differ considerably among the models. Nonetheless, the mean sea-ice state in the control (or present) climate is found to influence both the magnitude and spatial distribution of the high-latitude warming in the models. In particular, the latitude of the maximum warming is correlated inversely and significantly with sea-ice extent in the control climate. Additionally, models with relatively thin Arctic ice cover in the control climate tend to have higher polar amplification. An intercomparison of model results also shows that increases in poleward ocean heat transport at high latitudes and increases in polar cloud cover are significantly correlated to amplified Arctic warming. This suggests that these changes in the climate state may modify polar amplification. No significant correlation is found between polar amplification and the control climate continental ice and snow cover.}
+      \field{issn}{1432-0894}
+      \field{journaltitle}{Climate Dynamics}
+      \field{month}{9}
+      \field{number}{3}
+      \field{title}{Polar Amplification of Climate Change in Coupled Models}
       \field{volume}{21}
       \field{year}{2003}
-      \field{dateera}{ce}
       \field{pages}{221\bibrangedash 232}
       \range{pages}{12}
+      \verb{doi}
+      \verb 10.1007/s00382-003-0332-6
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s00382-003-0332-6
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s00382-003-0332-6
+      \endverb
     \endentry
     \entry{johnstonGlobalSnowSeasonality2024}{article}{}{}
       \name{author}{3}{}{%
