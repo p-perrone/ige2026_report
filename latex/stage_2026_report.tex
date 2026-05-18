@@ -89,6 +89,12 @@ urlcolor=BlueViolet]{hyperref}
 {}
 % --- shortcuts commands ---
 \newcommand{\ie}{\emph{i.e.} }
+<<<<<<< HEAD
+=======
+\newcommand{\eg}{\emph{e.g.}}
+\newcommand{\ssaunit}{\meter\squared\per\kilo\gram}
+\newcommand{\ssa}{\mathrm{SSA}}
+>>>>>>> 3343925c3621b90a9c1b9d78d9fe9d1b176a04d0
 
 \usepackage[backend=biber, style=apa]{biblatex}
 \addbibresource{Stage_IGE_2026.bib}
@@ -99,14 +105,42 @@ urlcolor=BlueViolet]{hyperref}
 
 \begin{document}
 	\title{Internship report}
+	
+	\tableofcontents 
 	\part{Introduction}
+<<<<<<< HEAD
 Snow is one of the major component of the cryosphere. Its global distribution on both ocean and land areas strongly depends on seasonality, latitude, and elevation. It occurs in three forms, mainly: permanent snow on ice sheets and glaciers, snow on sea ice, and seasonal snow cover. The latter is estimated to account for 1.3\% (summer) to 30.6\% (winter) of the Northern Hemisphere land surface \parencite{Vaughan2013}, with the 1967-2026 mean snow cover extent (SCE hereafter) in winter being around \qty{39.79e6}{\kilo\meter\squared} \parencite{rutgers_snowlab}. Sea ice is almost completely covered by snow during the winter season; its peak concentration, therefore representative of sea ice specific SCE, occurs in March in the Northern Hemisphere (\qty{15.03e6}{\kilo\meter\squared}) and in September in the Southern Hemisphere (\qty{18.61e6}{\kilo\meter\squared}) \parencite{warrenSnowDepthArctic1999, fettererSeaIceIndex2025}. Finally, perennial snow mean extent over the 2000-2022 period is estimated at \qty{16.47e6}{\kilo\meter\squared} from NASA's Moderate Resolution Imaging Spectroradiometer (MODIS), including glaciers, ice caps, Greenland and Antarctica ice sheets \parencite{johnstonGlobalSnowSeasonality2024}.\\
 These several tens of millions of snow-covered squared kilometres play a major role in freshwater resources availability, ecosystems equilibrium and, particularly, climate regulation. In fact, among its many physicochemical properties, snow represents one of the strongest reflective materials on Earth's surface. The fraction of solar radiation delivered to a body that is diffusely reflected by it is called \emph{albedo}; for snow, this amount is roughly close to 1, since its highest reflectivity occurs in the range of visible light, \ie where solar radiation intensity peaks \parencite{kokhanovskyScatteringOpticsSnow2004}. Thanks to its high albedo, snow represents of the main contributors to Earth's energy budget regulators \parencite{NSIDC_cryosphere}. Of the \qty{340}{\watt\per\meter\squared} of solar radiation incident at the top of the atmosphere, Northern Hemisphere land snow cover alone reflects approximately \qty{2}{\watt\per\meter\squared} back to space, averaged over the 1979--2008 period; in May, when SCE and soil insulation are highest, this quantity can reach \qty{4.5}{\watt\per\meter\squared} \parencite{flannerRadiativeForcingAlbedo2011}.\\
 As the whole cryosphere in general, snow distribution on Earth is undergoing dramatic changes because of the current anthropogenic perturbation of the climate system and warming of the atmosphere. At the global scale, SCE is experiencing a negative trend since the 1980s, with a statistically significant reduction in the mean area of 5\% after 1988, compared to the 1967-1988 period, and an earlier melt onset in the spring season, in the Northern Hemisphere only \parencite{robinsonSeasonalVariabilityNorthern2000, dyeVariabilityTrendsAnnual2002}. Less snow cover in both space and time, driven by rising temperatures, reduces terrestrial albedo and increases the absorption of incoming solar radiation at the surface, which in turn amplifies warming \parencite{cubaschProjectionsFutureClimate2001, hollandPolarAmplificationClimate2003}. This mechanism is known as the positive snow-albedo feedback: it is estimated to be responsible of a reduction in Northern Hemisphere land snow cover radiative cooling forcing of $\sim\qty{0.22}{\watt\per\meter\squared}$ from 1979 to 2007, which nearly equals contribution of Arctic sea ice \parencite{flannerRadiativeForcingAlbedo2011}.
 
 
 its intensity is amplified even more when light-absorbing particles, such as dust, black carbon and microbial growth, .
+=======
+	Snow is one of the major component of the cryosphere. Its global distribution on both ocean and land areas strongly depends on seasonality, latitude, and elevation. It occurs in three forms, mainly: permanent snow on ice sheets and glaciers, snow on sea ice, and seasonal snow cover. The latter is estimated to account for 1.3\% (summer) to 30.6\% (winter) of the Northern Hemisphere land surface \parencite{Vaughan2013}, with the 1967-2026 mean snow cover extent (SCE hereafter) in winter being around \qty{39.79e6}{\kilo\meter\squared} \parencite{rutgers_snowlab}. Sea ice is almost completely covered by snow during the winter season; its peak concentration, therefore representative of sea ice specific SCE, occurs in March in the Northern Hemisphere (\qty{15.03e6}{\kilo\meter\squared}) and in September in the Southern Hemisphere (\qty{18.61e6}{\kilo\meter\squared}) \parencite{warrenSnowDepthArctic1999, fettererSeaIceIndex2025}. Finally, perennial snow mean extent over the 2000-2022 period is estimated at \qty{16.47e6}{\kilo\meter\squared} from NASA's Moderate Resolution Imaging Spectroradiometer (MODIS), including glaciers, ice caps, Greenland and Antarctica ice sheets \parencite{johnstonGlobalSnowSeasonality2024}.\\
+	These several tens of millions of snow-covered squared kilometres play a major role in freshwater resources availability, ecosystems equilibrium and, particularly, climate regulation. In fact, among its many physicochemical properties, snow represents one of the strongest reflective materials on Earth's surface. The fraction of solar radiation delivered to a body that is diffusely reflected by it is called \emph{albedo}; for snow, this amount is roughly close to 1, since its highest reflectivity occurs in the range of visible light, \ie where solar radiation intensity peaks \parencite{kokhanovskyScatteringOpticsSnow2004}. Thanks to its high albedo, snow represents of the main contributors to Earth's energy budget regulators \parencite{NSIDC_cryosphere}. Of the \qty{340}{\watt\per\meter\squared} of net solar radiation incident at the top of the atmosphere, Northern Hemisphere land snow cover alone reflects approximately \qty{2}{\watt\per\meter\squared} back to space, averaged over the 1979--2008 period; in May, when SCE and soil insulation are highest, this quantity can reach \qty{4.5}{\watt\per\meter\squared} \parencite{flannerRadiativeForcingAlbedo2011}. Without the year-average radiative forcing from land snow cover alone, Earth's surface temperature would be approximately \qty{0.54}{\kelvin} higher than the current planetary mean. This estimate follows from linearising the Stefan-Boltzmann law with respect to temperature. This assumes Earth radiates as a blackbody with no feedback effects, making it a lower-bound estimate; in fact, real climate feedbacks (water vapour, lapse rate, clouds) reduce the effective restoring force​, amplifying the true temperature response \parencite{cronin}.\\
+	As the whole cryosphere in general, snow distribution on Earth is undergoing dramatic changes because of the current anthropogenic perturbation of the climate system and warming of the atmosphere. At the global scale, SCE is experiencing a negative trend since the 1980s, with a statistically significant reduction in the mean area of 5\% after 1988, compared to the 1967-1988 period, in the Northern Hemisphere only, and an earlier melt onset in the spring season \parencite{robinsonSeasonalVariabilityNorthern2000, dyeVariabilityTrendsAnnual2002}. Less snow cover in both space and time, driven by rising temperatures, reduces terrestrial albedo and increases the absorption of incoming solar radiation at the surface, which in turn amplifies warming \parencite{cubaschProjectionsFutureClimate2001, hollandPolarAmplificationClimate2003}. This mechanism is known as the positive snow-albedo feedback: it is estimated to be responsible of a reduction in Northern Hemisphere land snow cover radiative cooling forcing of $\sim\qty{0.22}{\watt\per\meter\squared}$ from 1979 to 2007, which nearly equals the contribution of Arctic sea ice \parencite{flannerRadiativeForcingAlbedo2011}. The magnitude of such feedback is further amplified when light-absorbing particles, such as dust, black carbon and microbial growth, deposit on the surface of snowpack \parencite{skilesLightAbsorbingParticles2018}. 
 	
+	It is clear, at this point, that developing a proper understanding of how snow interacts with solar radiation is crucial for a better understanding of the evolution of the climate system. Snow optical properties, particularly albedo, are directly related to density and grain type, and are strongly wavelength-dependent \parencite{kokhanovskyScatteringOpticsSnow2004, bohrenTheoryOpticalProperties1974}. Quantifying these properties involves radiative transfer calculations extended to the uppermost part of the snowpack, which must be assumed to be composed of individual grains of a given size and shape. Many studies have adopted equivalent spheres, assuming they can properly represent any other shape at a given optical diameter \parencite{bohrenTheoryOpticalProperties1974, warrenSnowDepthArctic1999}. However, recent studies demonstrated that this approach is not satisfactory when it comes to specific properties such as the single-scattering albedo -- the fraction of intercepted radiation that is scattered rather than absorbed -- and the bidirectional reflectance distribution function (BRDF) -- the reflectance of a surface for a specific combination of illumination and viewing directions \parencite{kokhanovskyScatteringOpticsSnow2004, liboisInfluenceGrainShape2013, dumontHighaccuracyMeasurementsSnow2010}. For this reason, when addressing grain size, a more general, shape-independent quantity is preferable to the optical diameter: the \emph{specific surface area} (SSA), defined as the total surface area of snow grains per unit mass -- expressed in \unit{\meter\squared\per\kilo\gram} \parencite{internationalunionofpureandappliedchemistryiupacSpecificSurfaceArea}. This quantity, used hereafter to address snow grain size, largely influences snow reflectance for wavelengths in the Near-Infrared (NIR) range, between \qty{750}{\nano\meter} and \qty{1400}{\nano\meter} particularly \parencite{warrenModelSpectralAlbedo1980}. For example, a factor-6 decrease in the SSA (\eg, from 60 to \qty{10}{\ssaunit}) can approximately reduce albedo of ~15\% at \qty{1000}{\nm}. In general, albedo decreases monotonically with SSA and can be modelled as an exponential function of $\ssa^{-1/2}$ \parencite{kokhanovskyScatteringOpticsSnow2004}.
+	
+	Snow grain size dynamics are therefore a key indicator of how snowpack optical properties evolve over time and space, making their tracking essential. Changes in grain size are primarily driven by processes such as metamorphism, wind drift, and precipitation.\\
+	When transformations in size and shape occur below the melting point ($T = \qty{0}{\celsius}$), the metamorphism is dry: the grain size grows at a rate defined by the respective increase in temperature and temperature gradient \parencite{colbeckOverviewSeasonalSnow1982}. Instead, if snow is at the melting point, the liquid water content directly drives the size increase, which is faster than in the the dry case -- we talk about wet metamorphism, in this case \parencite{wakahamaMetamorphismWetSnow1968}. Anyway, independently of the type of metamorphism, the change in size is always positive and irreversible \parencite{find a cit}.\\	
+	Transportation by the wind occurs when its velocity breaks snow cohesion and lifts grains. This is more likely for fresh-fallen snow than for old, metamorphosed snow \parencite{lenaertsMeltwaterProducedWind2017}. This process, called wind drift, varies with wind speed: saltation occurs under weak winds, with snow skipping a few centimeters above the surface, while stronger winds create snow plumes, lifting grains up to hundreds of meters -- the so-called blowing snow \parencite{adokSnowDrift1977, WMO2024BlowingSnow}.
+	Wind drift has two opposing effects on grain size. Erosion of the snowpack’s upper layers exposes older, coarser, and less reflective layers \parencite{lenaertsMeltwaterProducedWind2017}. Conversely, wind fractures grains through collisions, so newly formed deposits typically consist of finer grains \parencite{domineThreeExamplesWhere2009}.\\
+	Snow fall is generally responsible of depositing fresh and more fine-grained snow at surface, potentially covering already metamorphosed and coarser layers, thus increasing SSA an albedo \parencite{domineThreeExamplesWhere2009}.
+	
+	This study is focused on the temporal evolution of snow and its albedo over the whole Antarctica, where all the processes act and interplay in a complex manner, over a wide range of climatic and geographical contexts. The Antarctic Ice Sheet (AIS), expanding for \qty{14e6}{\kilo\meter\squared} over 98\% of the continent, is almost completely snow-covered year-round. As a polar region, it plays a massive role in positive climate feedback. At the same time, compared to the Arctic, Antarctica presents unique challenges for the exploration of surface radiative properties.\\
+	Being such a harsh and inaccessible place, it has only allowed \emph{in situ} investigations limited to regional scales and relatively short time coverage. This has led the scientific community to rely on satellite data, which inherits higher uncertainties and reduced spatio-temporal resolution, from missions such as AVHRR, MODIS, and CLARA-A2.1-SAL \parencite{callejaSnowAlbedoSeasonality2019, yuqi}.\\
+
+	
+	With this work, we aim to provide a better understanding of the evolution of surface albedo in Antarctica by combining an \emph{in situ} approach with satellite observations. By exploiting data from automated albedometers installed in several location on the AIS, we intend to produce time series of snow locally measured SSA, and compare them with the satellite-retrieved grain size. Such measurement stations were mounted in two locations, mainly: on the coast, near the French station Dumont d'Urville, and in a megadune field, with an albedometer installed on the erosion area an other on the accumulation area of a dune. By performing this analysis, the overarching goals are:
+	\begin{itemize}
+		\item validating a satellite product, ESA's Sentinel-3 Ocean and Land Color Instrument), which would allow the observation of long-term and continent-wide study of snow albedo at a relatively fine resolution ($\sim\qty{300}{\meter}$), compared to the one of other missions (\eg, MODIS);
+		\item deepen the understanding of processes driving the temporal change in albedo at the local scale, particularly on megadunes, thanks to an unprecedented 6-years continuous record of albedo.  
+	\end{itemize} 
+>>>>>>> 3343925c3621b90a9c1b9d78d9fe9d1b176a04d0
+	
+	OUTLINE
+		
 	\part{Material and methods}
 	\section{Theoretical backgrounds}
 	!!! This risks to become "textbook"-like - then, must be SUPER ADAPTED TO MY SPECIFIC GOAL AND BE VERY PERSONAL AND NOT GENERAL AT ALL - PASSIONATING !
@@ -140,12 +174,12 @@ its intensity is amplified even more when light-absorbing particles, such as dus
 	
 	Do not simply list the results, it can be boring
 	If the comclusion from a result is very fast, just put it in the results
-%	\begin{figure}
-%		\centering
-%		\includegraphics{images/appemitt_scatter_def.pdf}
-%		\caption{\textbf{Apparent emissivity} | Test figure}
-%		\label{fig:placeholder}
-%	\end{figure}
+	%	\begin{figure}
+		%		\centering
+		%		\includegraphics{images/appemitt_scatter_def.pdf}
+		%		\caption{\textbf{Apparent emissivity} | Test figure}
+		%		\label{fig:placeholder}
+		%	\end{figure}
 	
 	\part{Discussion}
 	CONTEXTING MY RESULTS IN SCIENTIFIC LITERATURE
@@ -155,5 +189,7 @@ its intensity is amplified even more when light-absorbing particles, such as dus
 	\lipsum[0-2]
 
 \printbibliography[heading=bibintoc]
+	
+	\printbibliography[heading=bibintoc]
 	
 \end{document}
