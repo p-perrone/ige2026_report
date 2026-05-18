@@ -1,19 +1,24 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'stage_2026_report.blg'
-[126] biber:342> INFO - === mer. mai 13, 2026, 14:35:47
-[154] Biber.pm:421> INFO - Reading 'stage_2026_report.bcf'
-[289] Biber.pm:1002> INFO - Found 12 citekeys in bib section 0
-[319] Biber.pm:4487> INFO - Processing section 0
-[333] Biber.pm:4678> INFO - Looking for bibtex file 'Stage_IGE_2026.bib' for section 0
-[337] bibtex.pm:1713> INFO - LaTeX decoding ...
-[399] bibtex.pm:1519> INFO - Found BibTeX data source 'Stage_IGE_2026.bib'
-[689] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[689] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[689] Biber.pm:4307> INFO - Sorting list 'apa/apasortcite//global/global/global' of type 'entry' with template 'apa' and locale 'en-US'
-[690] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
-[771] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[772] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[772] Biber.pm:4307> INFO - Sorting list 'apa/global//global/global/global' of type 'entry' with template 'apa' and locale 'en-US'
-[772] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
-[822] bbl.pm:676> INFO - Writing 'stage_2026_report.bbl' with encoding 'UTF-8'
-[861] bbl.pm:779> INFO - Output to stage_2026_report.bbl
+[135] biber:342> INFO - === lun. mai 18, 2026, 17:59:26
+[165] Biber.pm:421> INFO - Reading 'stage_2026_report.bcf'
+[318] Biber.pm:1002> INFO - Found 30 citekeys in bib section 0
+[353] Biber.pm:4487> INFO - Processing section 0
+[371] Biber.pm:4678> INFO - Looking for bibtex file 'Stage_IGE_2026.bib' for section 0
+[376] bibtex.pm:1713> INFO - LaTeX decoding ...
+[498] bibtex.pm:1519> INFO - Found BibTeX data source 'Stage_IGE_2026.bib'
+[1179] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1179] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1179] Biber.pm:4307> INFO - Sorting list 'apa/apasortcite//global/global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[1180] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[1349] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1350] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1350] Biber.pm:4307> INFO - Sorting list 'apa/global//global/global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[1350] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[1456] bbl.pm:676> INFO - Writing 'stage_2026_report.bbl' with encoding 'UTF-8'
+[1561] bbl.pm:779> INFO - Output to stage_2026_report.bbl
+[1562] Biber.pm:132> WARN - legacy year field '2024-04-22, 2024' in entry 'WMO2024BlowingSnow' is not an integer - this will probably not sort properly.
+[1562] Biber.pm:132> WARN - I didn't find a database entry for 'cronin' (section 0)
+[1562] Biber.pm:132> WARN - I didn't find a database entry for 'find a cit' (section 0)
+[1562] Biber.pm:132> WARN - I didn't find a database entry for 'sunChangesAntarcticsSummer2023' (section 0)
+[1562] Biber.pm:134> INFO - WARNINGS: 4

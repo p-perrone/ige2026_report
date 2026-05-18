@@ -3079,11 +3079,36 @@
     <bcf:citekey order="5" intorder="1">kokhanovskyScatteringOpticsSnow2004</bcf:citekey>
     <bcf:citekey order="6" intorder="1">NSIDC_cryosphere</bcf:citekey>
     <bcf:citekey order="7" intorder="1">flannerRadiativeForcingAlbedo2011</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">robinsonSeasonalVariabilityNorthern2000</bcf:citekey>
-    <bcf:citekey order="8" intorder="2">dyeVariabilityTrendsAnnual2002</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">cubaschProjectionsFutureClimate2001</bcf:citekey>
-    <bcf:citekey order="9" intorder="2">hollandPolarAmplificationClimate2003</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">flannerRadiativeForcingAlbedo2011</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">cronin</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">robinsonSeasonalVariabilityNorthern2000</bcf:citekey>
+    <bcf:citekey order="9" intorder="2">dyeVariabilityTrendsAnnual2002</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">cubaschProjectionsFutureClimate2001</bcf:citekey>
+    <bcf:citekey order="10" intorder="2">hollandPolarAmplificationClimate2003</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">flannerRadiativeForcingAlbedo2011</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">skilesLightAbsorbingParticles2018</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">kokhanovskyScatteringOpticsSnow2004</bcf:citekey>
+    <bcf:citekey order="13" intorder="2">bohrenTheoryOpticalProperties1974</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">bohrenTheoryOpticalProperties1974</bcf:citekey>
+    <bcf:citekey order="14" intorder="2">warrenSnowDepthArctic1999</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">kokhanovskyScatteringOpticsSnow2004</bcf:citekey>
+    <bcf:citekey order="15" intorder="2">liboisInfluenceGrainShape2013</bcf:citekey>
+    <bcf:citekey order="15" intorder="3">dumontHighaccuracyMeasurementsSnow2010</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">internationalunionofpureandappliedchemistryiupacSpecificSurfaceArea</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">warrenModelSpectralAlbedo1980</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">kokhanovskyScatteringOpticsSnow2004</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">colbeckOverviewSeasonalSnow1982</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">wakahamaMetamorphismWetSnow1968</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">find a cit</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">lenaertsMeltwaterProducedWind2017</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">adokSnowDrift1977</bcf:citekey>
+    <bcf:citekey order="23" intorder="2">WMO2024BlowingSnow</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">lenaertsMeltwaterProducedWind2017</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">domineThreeExamplesWhere2009</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">domineThreeExamplesWhere2009</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">callejaSnowAlbedoSeasonality2019</bcf:citekey>
+    <bcf:citekey order="27" intorder="2">sunChangesAntarcticsSummer2023</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">arioliDynamicsSnowGrain2023</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">kokhanovskyRetrievalSnowProperties2019</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
