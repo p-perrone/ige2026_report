@@ -3109,6 +3109,9 @@
     <bcf:citekey order="27" intorder="2">sunChangesAntarcticsSummer2023</bcf:citekey>
     <bcf:citekey order="28" intorder="1">arioliDynamicsSnowGrain2023</bcf:citekey>
     <bcf:citekey order="29" intorder="1">kokhanovskyRetrievalSnowProperties2019</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">arioliDynamicsSnowGrain2023</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">picardDevelopmentCalibrationAutomatic2016a</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">picardDevelopmentCalibrationAutomatic2016a</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

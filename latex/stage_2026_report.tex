@@ -27,7 +27,7 @@
 \DeclareSIUnit{\year}{yr}
 % ---- graphics ----
 \usepackage{graphicx}
-\graphicspath{{images/}}
+\graphicspath{{../figures/}}
 \usepackage{subfig}
 \usepackage{float}
 \usepackage{caption}
@@ -88,17 +88,18 @@ urlcolor=BlueViolet]{hyperref}
 {0.5em}
 {}
 % --- shortcuts commands ---
-\newcommand{\ie}{\emph{i.e.} }
+\newcommand{\ie}{\emph{i.e.}}
 \newcommand{\eg}{\emph{e.g.}}
 \newcommand{\ssaunit}{\meter\squared\per\kilo\gram}
 \newcommand{\ssa}{\mathrm{SSA}}
+\newcommand{\mycaption}[2]{\caption{\textbf{#1} | #2}}
 
 \usepackage[backend=biber, style=apa]{biblatex}
 \addbibresource{Stage_IGE_2026.bib}
 
-% ||||||||||||||||||||||
-% ------ document ------ 
-% ||||||||||||||||||||||
+% ////////////////////////////////////
+% ///////////// DOCUMENT ///////////// 
+% ////////////////////////////////////
 
 \begin{document}
 	\title{Internship report}
@@ -131,34 +132,39 @@ The overarching goals of this analysis are:
 The analysis is structured as follows:
 \begin{enumerate}
 	\item \textbf{Processing of \emph{in situ} data}: upgrading and optimizing the existing workflow developed by \cite{arioliDynamicsSnowGrain2023};
-	\item \textbf{Processing of Sentinel-3 data}: downloading and executing the SICE 1.6 algorithm, as described by \cite{kokhanovskyRetrievalSnowProperties2019};
-	\item \textbf{Comparison of the time series}: analyzing corrections to address gaps between the two datasets and interpreting the retrieved albedo dynamics geoscientifically.
+	\item \textbf{Processing of Sentinel-3 data}: downloading the frames and executing the SICE 1.6 algorithm, as described by \cite{kokhanovskyRetrievalSnowProperties2019};
+	\item \textbf{Comparison of the time series}: performing corrections to address possible gaps between the two datasets and interpreting the retrieved albedo dynamics geoscientifically.
 \end{enumerate}
 		
-	\part{Material and methods}
+\part{Material and methods}
 	\section{Theoretical backgrounds}
 	!!! This risks to become "textbook"-like - then, must be SUPER ADAPTED TO MY SPECIFIC GOAL AND BE VERY PERSONAL AND NOT GENERAL AT ALL - PASSIONATING !
 	write it after matmethods and results
 	
+	\section{Study area: an overview of the station}
+	
 	\section{Material and instruments}
-	\subsection{\emph{In situ}: the Multiband albedometer}
-	\subsubsection{The stations}
-	\paragraph{Cap Prud'Homme}
-	\paragraph{EAIIST}
 	
-	\subsection{\emph{In situ}: the Solalb albedometer}
-	\subsubsection{Campaigns}
+		\subsection{\emph{In situ}: the Multiband albedometer}
+\begin{figure}
+	\centering
+	\includegraphics[width=16cm]{mbscheme.pdf}
+	\mycaption{Structure of Multiband}{Long caption}
+	\label{fig:mbscheme}
+\end{figure}
+The main instrument employed for the present study is the Multiband albedometer, developed at Grenoble's Institute for Geosciences of Environment (IGE) and fully described in \cite{arioliDynamicsSnowGrain2023}. It consists of a robust automated optical radiometer, able of acquiring solar radiation at a discrete set of bands ranging from the visible to the short-wave infrared, necessary for the retrieval of snow surface albedo. As some of previously developed albedometers (\eg, Autosolexs, Solalb, see \cite{picardDevelopmentCalibrationAutomatic2016a}), Multiband is made of a set of metal poles, one of which projects horizontally the head of the instrument at $\sim\qty{3}{\meter}$ from the installation point and at a $\sim\qty{2}{\meter}$ height from the snow surface, typically pointing Southward, in order to minimize shadowing. On the head, two home-made cosine-shaped light collectors are pointed upwards and downwards, to measure the incident and reflected radiation respectively. This collectors have been meticulously designed by \cite{picardDevelopmentCalibrationAutomatic2016a} and consist of a bumped teflon surface, a choice made to maximize the performance at any solar azimuth angle (SZA), including grazing angles, which are critical for radiation measurement. The signal is transmitted to the recording part of the instrument through two Ocean Optics QP800-VIS NIR \qty{6}{\meter} long optical fibers, with \qty{800}{\micro\meter} core diameter. Previous albedometers were built such that the optical fibers directly sended the signal to a spectrometer, to record a full radiation spectrum at a fine resolution of \qty{3}{\nano\meter}. With Multiband, a less energy consuming choice was made: the broadband radiation transmitted by the two fibers crosses a set of polarizing filters mounted on a $\sim \qty{20}{\centi\meter}$ wheel with 12 slots. These are TECHSPEC® hard-coated optical density (OD) 4.0 \qty{25}{\nano\meter} bandpass filters, specific for 500, 600, 800, 925, 1050, 1300 and \qty{1550}{\nano\meter}. The wheel, over a full measurement cycle (\qty{30}{\second}), rotates in order to allow acquiring a spectral measurement at all the different wavelengths from the two incident and reflected signals, that are transmitted to two stacks of Silicium (Si) and Indium-Aresenium-Gallium (InGaAs) photodiodes (DSD2, Thorlabs). The measurement on the two channels are simultaneous, and the wheel includes duplicates of filters to ensure synchronous records at the most relevant wavelengths, plus one capped slot to allow measurement of the dark current (\ie, the background thermal noise) -- see Figure \ref{fig:mbwheel} for details. The signal registered by the two dual photodiodes is amplified by a high-gain, electronic board. Finally, a Campbell Scientific CR1000x data logger registers the spectral radiation. SARA :::: Since the incident and reflected measurements for three wavelengths are not simultaneous, we record the changes in the incoming radiation during the 30 s of the measurement cycle in addition. To this end, another upward-facing optical fiber located near the albedometer head transmits the environmental incoming radiation to a Si photodiode (FDS100, Thorlabs) without any spectral filter. This photodiode acquires one wideband measurement (350–1100 nm) for each step of the wheel, which	 is converted, amplified and recorded as the narrow-band measurements. A Campbell Scientific CR1000x data logger registers the measurements. Since the incident and reflected measurements for three wavelengths are not simultaneous, we record the changes in the incoming radiation during the 30 s of the measurement cycle in addition. To this end, another upward-facing optical fiber located near the albedometer head transmits the environmental incoming radiation to a Si photodiode (FDS100, Thorlabs) without any spectral filter. This photodiode acquires one wideband measurement (350–1100 nm) for each step of the wheel, which is converted, amplified and recorded as the narrow-band measurements ::::
 	
-	\subsection{Satellite imagery: Sentinel-3 Ocean Land and Colour Instrument}
-	\subsubsection{Generalities}
+		\subsection{\emph{In situ}: the Solalb albedometer}
+			\subsubsection{Campaigns}
+	
+		\subsection{Satellite imagery: Sentinel-3 Ocean Land and Colour Instrument}
+		\subsubsection{Generalities}
 	Orbit, resolution, swath, revisit time etc.
-	\subsubsection{Data availability}
+		\subsubsection{Data availability}
 	
 	\section{The workflow}
-	Nice flowchart
-	\subsubsection{}
-	
-	
+	Nice flowchar																																																																									t
+		\subsubsection{}
 	
 	\part{Results} 
 	PRESENTING MY RESULTS

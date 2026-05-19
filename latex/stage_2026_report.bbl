@@ -1348,6 +1348,77 @@
       \verb https://nsidc.org/learn/what-cryosphere
       \endverb
     \endentry
+    \entry{picardDevelopmentCalibrationAutomatic2016a}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=136c80467513442a81e353849106c031}{%
+           family={Picard},
+           familyi={P\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=78de5bc71a718c1f6587c54e166a6edd}{%
+           family={Libois},
+           familyi={L\bibinitperiod},
+           given={Q.},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e18c9376f6af48ec62627909979a7f28}{%
+           family={Arnaud},
+           familyi={A\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=accdb274fea14bf5503114bb4c4de275}{%
+           family={Verin},
+           familyi={V\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=17dce304790c6ff2cb635a6757d3f802}{%
+           family={Dumont},
+           familyi={D\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Copernicus Publications}%
+      }
+      \strng{namehash}{ec515778b5706e0d3bf7d6f240b47430}
+      \strng{fullhash}{2de91935822aebd15667e99426ca2230}
+      \strng{fullhashraw}{2de91935822aebd15667e99426ca2230}
+      \strng{bibnamehash}{2de91935822aebd15667e99426ca2230}
+      \strng{authorbibnamehash}{2de91935822aebd15667e99426ca2230}
+      \strng{authornamehash}{ec515778b5706e0d3bf7d6f240b47430}
+      \strng{authorfullhash}{2de91935822aebd15667e99426ca2230}
+      \strng{authorfullhashraw}{2de91935822aebd15667e99426ca2230}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Autosolexs and Solalb}
+      \field{issn}{1994-0424}
+      \field{journaltitle}{The Cryosphere}
+      \field{month}{6}
+      \field{number}{3}
+      \field{title}{Development and Calibration of an Automatic Spectral Albedometer to Estimate Near-Surface Snow {{SSA}} Time Series}
+      \field{volume}{10}
+      \field{year}{2016}
+      \field{pages}{1297\bibrangedash 1316}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.5194/tc-10-1297-2016
+      \endverb
+      \verb{urlraw}
+      \verb https://tc.copernicus.org/articles/10/1297/2016/
+      \endverb
+      \verb{url}
+      \verb https://tc.copernicus.org/articles/10/1297/2016/
+      \endverb
+    \endentry
     \entry{rutgers_snowlab}{misc}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=c5e11c11e21b68e96a1315c6891a29f6}{%
@@ -3219,6 +3290,77 @@
       \endverb
       \verb{url}
       \verb https://nsidc.org/learn/what-cryosphere
+      \endverb
+    \endentry
+    \entry{picardDevelopmentCalibrationAutomatic2016a}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=136c80467513442a81e353849106c031}{%
+           family={Picard},
+           familyi={P\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=78de5bc71a718c1f6587c54e166a6edd}{%
+           family={Libois},
+           familyi={L\bibinitperiod},
+           given={Q.},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e18c9376f6af48ec62627909979a7f28}{%
+           family={Arnaud},
+           familyi={A\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=accdb274fea14bf5503114bb4c4de275}{%
+           family={Verin},
+           familyi={V\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=17dce304790c6ff2cb635a6757d3f802}{%
+           family={Dumont},
+           familyi={D\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Copernicus Publications}%
+      }
+      \strng{namehash}{ec515778b5706e0d3bf7d6f240b47430}
+      \strng{fullhash}{2de91935822aebd15667e99426ca2230}
+      \strng{fullhashraw}{2de91935822aebd15667e99426ca2230}
+      \strng{bibnamehash}{2de91935822aebd15667e99426ca2230}
+      \strng{authorbibnamehash}{2de91935822aebd15667e99426ca2230}
+      \strng{authornamehash}{ec515778b5706e0d3bf7d6f240b47430}
+      \strng{authorfullhash}{2de91935822aebd15667e99426ca2230}
+      \strng{authorfullhashraw}{2de91935822aebd15667e99426ca2230}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Autosolexs and Solalb}
+      \field{issn}{1994-0424}
+      \field{journaltitle}{The Cryosphere}
+      \field{month}{6}
+      \field{number}{3}
+      \field{title}{Development and Calibration of an Automatic Spectral Albedometer to Estimate Near-Surface Snow {{SSA}} Time Series}
+      \field{volume}{10}
+      \field{year}{2016}
+      \field{pages}{1297\bibrangedash 1316}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.5194/tc-10-1297-2016
+      \endverb
+      \verb{urlraw}
+      \verb https://tc.copernicus.org/articles/10/1297/2016/
+      \endverb
+      \verb{url}
+      \verb https://tc.copernicus.org/articles/10/1297/2016/
       \endverb
     \endentry
     \entry{rutgers_snowlab}{misc}{}{}
