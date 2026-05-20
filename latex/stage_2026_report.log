@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.5.18)  19 MAY 2026 17:50
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.5.18)  20 MAY 2026 18:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1415,50 +1415,50 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (stage_2026_report.aux)
 \openout1 = `stage_2026_report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmssm/m/it on input line 104.
+LaTeX Font Info:    Checking defaults for OML/cmssm/m/it on input line 118.
 LaTeX Font Info:    Trying to load font information for OML+cmssm on input line
- 104.
+ 118.
 
 (/home/perronep/.miktex/texmfs/install/tex/latex/sansmathfonts/omlcmssm.fd
 File: omlcmssm.fd 2024/10/15
 )
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OMS/cmsssy/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for OMS/cmsssy/m/n on input line 118.
 LaTeX Font Info:    Trying to load font information for OMS+cmsssy on input lin
-e 104.
+e 118.
 
 (/home/perronep/.miktex/texmfs/install/tex/latex/sansmathfonts/omscmsssy.fd
 File: omscmsssy.fd 2024/10/15
 )
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OMX/cmssex/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for OMX/cmssex/m/n on input line 118.
 LaTeX Font Info:    Trying to load font information for OMX+cmssex on input lin
-e 104.
+e 118.
 
 (/home/perronep/.miktex/texmfs/install/tex/latex/sansmathfonts/omxcmssex.fd
 File: omxcmssex.fd 2024/10/15
 )
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for U/cmss/m/n on input line 104.
-LaTeX Font Info:    Trying to load font information for U+cmss on input line 10
-4.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for U/cmss/m/n on input line 118.
+LaTeX Font Info:    Trying to load font information for U+cmss on input line 11
+8.
 
 (/usr/local/share/miktex-texmf/tex/latex/base/ucmss.fd
 File: ucmss.fd 2024/11/19 v2.5n Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1468,15 +1468,15 @@ LaTeX Font Info:    ... okay on input line 104.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
-* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=455.24411pt
-* \textheight=702.78308pt
-* \oddsidemargin=-1.1381pt
-* \evensidemargin=-1.1381pt
-* \topmargin=-38.1381pt
+* \textwidth=483.69687pt
+* \textheight=731.23584pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-52.36449pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=11.0pt
@@ -1494,16 +1494,16 @@ LaTeX Font Info:    ... okay on input line 104.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 104.
+LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 118.
 LaTeX Font Info:    Overwriting symbol font `AMSa' in version `normal'
-(Font)                  U/msa/m/n --> U/ssmsa/m/n on input line 104.
+(Font)                  U/msa/m/n --> U/ssmsa/m/n on input line 118.
 LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
-(Font)                  U/msa/m/n --> U/ssmsa/m/n on input line 104.
-LaTeX Font Info:    Redeclaring symbol font `AMSb' on input line 104.
+(Font)                  U/msa/m/n --> U/ssmsa/m/n on input line 118.
+LaTeX Font Info:    Redeclaring symbol font `AMSb' on input line 118.
 LaTeX Font Info:    Overwriting symbol font `AMSb' in version `normal'
-(Font)                  U/msb/m/n --> U/ssmsb/m/n on input line 104.
+(Font)                  U/msb/m/n --> U/ssmsb/m/n on input line 118.
 LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
-(Font)                  U/msb/m/n --> U/ssmsb/m/n on input line 104.
+(Font)                  U/msb/m/n --> U/ssmsb/m/n on input line 118.
 
 Package fontspec Info: 
 (fontspec)             Adjusting the maths setup (use [no-math] to avoid
@@ -1511,64 +1511,64 @@ Package fontspec Info:
 
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 104.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 104.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 104.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 104.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 104.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 104.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 104.
-LaTeX Font Info:    Redeclaring math accent \check on input line 104.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 104.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 104.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 104.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 104.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 104.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 104.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 104.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 104.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 104.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 104.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 104.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 104.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 104.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 104.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 104.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 104.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 118.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 118.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 118.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 118.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 118.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 118.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 118.
+LaTeX Font Info:    Redeclaring math accent \check on input line 118.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 118.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 118.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 118.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 118.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 118.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 118.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 118.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 118.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 118.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 118.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 118.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 118.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 118.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 118.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 118.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 118.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 104.
+(Font)              `operators' in the math version `normal' on input line 118.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmsmf/m/n --> TU/LatinModernSans(0)/m/n on input li
-ne 104.
+ne 118.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 104.
+(Font)              `operators' in the math version `bold' on input line 118.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmsmf/bx/n --> TU/LatinModernSans(0)/m/n on input l
-ine 104.
+ine 118.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/LatinModernSans(0)/m/n --> TU/LatinModernSans(0)/m/n
- on input line 104.
+ on input line 118.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmsmf/m/it --> TU/LatinModernSans(0)/m/it on input 
-line 104.
+line 118.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmsmf/bx/n --> TU/LatinModernSans(0)/b/n on input l
-ine 104.
+ine 118.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmsmf/m/n --> TU/lmss/m/n on input line 104.
+(Font)                  OT1/cmsmf/m/n --> TU/lmss/m/n on input line 118.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 104.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 118.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/LatinModernSans(0)/m/n --> TU/LatinModernSans(0)/b/n
- on input line 104.
+ on input line 118.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmsmf/bx/it --> TU/LatinModernSans(0)/b/it on input
- line 104.
+ line 118.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmsmf/m/n --> TU/lmss/b/n on input line 104.
+(Font)                  OT1/cmsmf/m/n --> TU/lmss/b/n on input line 118.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 104.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 118.
 
 Package siunitx Warning: Detected the "physics" package:
 (siunitx)                omitting definition of \qty.
@@ -1587,10 +1587,10 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 104.
+or `english'. on input line 118.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: Option `font=sansmath' requires the `sansmath' package on
- input line 104.
+ input line 118.
 
 (/home/perronep/.miktex/texmfs/install/tex/latex/sansmath/sansmath.sty
 Package: sansmath 2007/02/28  ver 1.1 Donald Arseneau
@@ -1618,7 +1618,7 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count557
-Package hyperref Info: Link coloring ON on input line 104.
+Package hyperref Info: Link coloring ON on input line 118.
 
 (stage_2026_report.out) (stage_2026_report.out)
 \@outlinefile=\write5
@@ -1697,8 +1697,8 @@ Package biblatex Warning: The following entry could not be found
 (biblatex)                LaTeX afterwards.
 
 )
-Package biblatex Info: Reference section=0 on input line 104.
-Package biblatex Info: Reference segment=0 on input line 104.
+Package biblatex Info: Reference section=0 on input line 118.
+Package biblatex Info: Reference segment=0 on input line 118.
  (stage_2026_report.toc
 LaTeX Font Info:    Trying to load font information for U+ssmsa on input line 7
 .
@@ -1711,16 +1711,7 @@ LaTeX Font Info:    Trying to load font information for U+ssmsb on input line 7
 
 (/home/perronep/.miktex/texmfs/install/tex/latex/sansmathfonts/ussmsb.fd
 File: ussmsb.fd 2024/10/15
-))
-\tf@toc=\write6
-\openout6 = `stage_2026_report.toc'.
-
-
-Missing character: There is no ​ in font Latin Modern Sans 10 Regular/OT:script
-=latn;language=dflt;mapping=tex-text;!
-
-LaTeX Warning: Citation 'cronin' on page 1 undefined on input line 111.
-
+)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1730,7 +1721,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [1
 
-]
+])
+\tf@toc=\write6
+\openout6 = `stage_2026_report.toc'.
+
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1739,8 +1734,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [2]
+Missing character: There is no ​ in font Latin Modern Sans 10 Regular/OT:script
+=latn;language=dflt;mapping=tex-text;!
 
-LaTeX Warning: Citation 'find a cit' on page 3 undefined on input line 117.
+LaTeX Warning: Citation 'cronin' on page 3 undefined on input line 127.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1751,8 +1748,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [3]
 
-LaTeX Warning: Citation 'sunChangesAntarcticsSummer2023' on page 4 undefined on
- input line 123.
+LaTeX Warning: Citation 'find a cit' on page 4 undefined on input line 133.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1762,33 +1758,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [4]
-Overfull \hbox (0.51006pt too wide) in paragraph at lines 135--136
-[]\TU/LatinModernSans(0)/b/n/10.95 Processing of Sentinel-3 data\TU/LatinModern
-Sans(0)/m/n/10.95 : downloading the frames and executing the SICE 1.6 algorithm
-,
+
+LaTeX Warning: Citation 'sunChangesAntarcticsSummer2023' on page 5 undefined on
+ input line 139.
+
+
+Overfull \hbox (5.74841pt too wide) in paragraph at lines 145--146
+[]\TU/LatinModernSans(0)/m/n/10.95 to deepen the understanding of processes dri
+ving temporal albedo changes at the local scale, particularly
  []
 
-
-LaTeX Font Warning: Font shape `TU/LatinModernSans(0)/sbc/n' undefined
-(Font)              using `TU/LatinModernSans(0)/m/n' instead on input line 148
-.
-
-LaTeX Font Info:    Font shape `TU/lmss/sbc/it' in size <14.4> not available
-(Font)              Font shape `TU/lmss/sbc/sl' tried instead on input line 148
-.
-File: ../figures/mbscheme.pdf Graphic file (type pdf)
-<use ../figures/mbscheme.pdf>
-
-LaTeX Warning: Reference `fig:mbwheel' on page 5 undefined on input line 155.
-
-Missing character: There is no   in font Latin Modern Sans 10 Regular/OT:script
-=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no   in font Latin Modern Sans 10 Regular/OT:script
-=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no   in font Latin Modern Sans 10 Regular/OT:script
-=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no   in font Latin Modern Sans 10 Regular/OT:script
-=latn;language=dflt;mapping=tex-text;!
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1797,6 +1776,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [5]
+LaTeX Font Info:    Font shape `TU/lmss/sbc/it' in size <12> not available
+(Font)              Font shape `TU/lmss/sbc/sl' tried instead on input line 167
+.
+File: ../figures/mbscheme.pdf Graphic file (type pdf)
+<use ../figures/mbscheme.pdf>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1807,13 +1792,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [6]
 
 LaTeX Font Warning: Font shape `TU/LatinModernSans(0)/sbc/sl' undefined
-(Font)              using `TU/LatinModernSans(0)/sbc/n' instead on input line 1
-58.
+(Font)              using `TU/LatinModernSans(0)/m/n' instead on input line 188
+.
 
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 167.
-
+File: ../figures/mbwf.pdf Graphic file (type pdf)
+<use ../figures/mbwf.pdf>
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1822,9 +1805,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [7]
+Underfull \hbox (badness 10000) in paragraph at lines 232--233
 
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 190.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 234--235
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 236--237
+
+ []
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1834,6 +1827,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [8]
+File: ../figures/appemitt_scatter_def.pdf Graphic file (type pdf)
+<use ../figures/appemitt_scatter_def.pdf>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1843,13 +1839,45 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [9]
 
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 289.
+
+
+Overfull \hbox (4.48695pt too wide) in paragraph at lines 289--289
+\TU/LatinModernSans(0)/sbc/sl/10.95 measurements of snow Bidirectional Reflecta
+nce Distribution Function at visible and NIR wavelengths
+ []
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.59999pt}.
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[10] (stage_2026_report.aux)
+[10]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[11]
+Overfull \hbox (2.3151pt too wide) in paragraph at lines 289--289
+[][]\TU/LatinModernSans(0)/sbc/sl/10.95 World Meteorological Organization. (202
+4). Blowing snow. Retrieved May 15, 2026, from [][]$[][][][][] [] [] [] [][][][
+][][][][][][] []
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[12] (stage_2026_report.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
@@ -1859,21 +1887,24 @@ L3 programming layer <2026-03-20>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were undefined references.
+Package rerunfilecheck Warning: File `stage_2026_report.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
 
-Package rerunfilecheck Info: File `stage_2026_report.out' has not changed.
-(rerunfilecheck)             Checksum: 9357054798706E903F024AB8BB57C423;2704.
+Package rerunfilecheck Info: Checksums for `stage_2026_report.out':
+(rerunfilecheck)             Before: FAAFDD81878393485573F2D4CBAD1F53;6188
+(rerunfilecheck)             After:  77672521F7DC07CA09202EB48A2CED13;6193.
 Package logreq Info: Writing requests to 'stage_2026_report.run.xml'.
 \openout1 = `stage_2026_report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50022 strings out of 404774
- 1111593 string characters out of 5478248
- 2215932 words of memory out of 5000000
- 78173 multiletter control sequences out of 15000+600000
+ 50057 strings out of 404774
+ 1112438 string characters out of 5478248
+ 2222264 words of memory out of 5000000
+ 78206 multiletter control sequences out of 15000+600000
  636788 words of font info for 107 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 98i,11n,108p,4143b,5612s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 98i,12n,108p,2388b,6388s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on stage_2026_report.pdf (10 pages).
+Output written on stage_2026_report.pdf (12 pages).

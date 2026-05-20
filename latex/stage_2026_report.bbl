@@ -1070,30 +1070,30 @@
     \endentry
     \entry{kokhanovskyScatteringOpticsSnow2004}{article}{}{}
       \name{author}{2}{}{%
-        {{un=1,uniquepart=given,hash=38d15bf5ab1438ac41467bc750709fac}{%
+        {{un=1,uniquepart=given,hash=b8c4e33507461c460e6bcd711a65f234}{%
            family={Kokhanovsky},
            familyi={K\bibinitperiod},
-           given={Alexander\bibnamedelima A.},
+           given={A.\bibnamedelimi A.},
            giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
            givenun=1}}%
-        {{un=0,uniquepart=base,hash=b6b45d07b3ae84903ac1ebfb2b077e43}{%
+        {{un=0,uniquepart=base,hash=92fe91e1d713b82402d737d4e4bade0f}{%
            family={Zege},
            familyi={Z\bibinitperiod},
-           given={Eleonora\bibnamedelima P.},
+           given={E.\bibnamedelimi P.},
            giveni={E\bibinitperiod\bibinitdelim P\bibinitperiod},
            givenun=0}}%
       }
       \list{publisher}{1}{%
         {Optica Publishing Group}%
       }
-      \strng{namehash}{81643cb038c919c07d2ca56ea33a88f1}
-      \strng{fullhash}{81643cb038c919c07d2ca56ea33a88f1}
-      \strng{fullhashraw}{81643cb038c919c07d2ca56ea33a88f1}
-      \strng{bibnamehash}{81643cb038c919c07d2ca56ea33a88f1}
-      \strng{authorbibnamehash}{81643cb038c919c07d2ca56ea33a88f1}
-      \strng{authornamehash}{81643cb038c919c07d2ca56ea33a88f1}
-      \strng{authorfullhash}{81643cb038c919c07d2ca56ea33a88f1}
-      \strng{authorfullhashraw}{81643cb038c919c07d2ca56ea33a88f1}
+      \strng{namehash}{83ea86a4d85c295abd99ec3290a735ad}
+      \strng{fullhash}{83ea86a4d85c295abd99ec3290a735ad}
+      \strng{fullhashraw}{83ea86a4d85c295abd99ec3290a735ad}
+      \strng{bibnamehash}{83ea86a4d85c295abd99ec3290a735ad}
+      \strng{authorbibnamehash}{83ea86a4d85c295abd99ec3290a735ad}
+      \strng{authornamehash}{83ea86a4d85c295abd99ec3290a735ad}
+      \strng{authorfullhash}{83ea86a4d85c295abd99ec3290a735ad}
+      \strng{authorfullhashraw}{83ea86a4d85c295abd99ec3290a735ad}
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{extradatescope}{labelyear}
@@ -1952,7 +1952,7 @@
       \field{urlday}{15}
       \field{urlmonth}{5}
       \field{urlyear}{2026}
-      \field{year}{2024-04-22, 2024}
+      \field{year}{2024}
       \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://cloudatlas.wmo.int/en/blowing-snow.html
@@ -3014,30 +3014,30 @@
     \endentry
     \entry{kokhanovskyScatteringOpticsSnow2004}{article}{}{}
       \name{author}{2}{}{%
-        {{un=1,uniquepart=given,hash=38d15bf5ab1438ac41467bc750709fac}{%
+        {{un=1,uniquepart=given,hash=b8c4e33507461c460e6bcd711a65f234}{%
            family={Kokhanovsky},
            familyi={K\bibinitperiod},
-           given={Alexander\bibnamedelima A.},
+           given={A.\bibnamedelimi A.},
            giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
            givenun=1}}%
-        {{un=0,uniquepart=base,hash=b6b45d07b3ae84903ac1ebfb2b077e43}{%
+        {{un=0,uniquepart=base,hash=92fe91e1d713b82402d737d4e4bade0f}{%
            family={Zege},
            familyi={Z\bibinitperiod},
-           given={Eleonora\bibnamedelima P.},
+           given={E.\bibnamedelimi P.},
            giveni={E\bibinitperiod\bibinitdelim P\bibinitperiod},
            givenun=0}}%
       }
       \list{publisher}{1}{%
         {Optica Publishing Group}%
       }
-      \strng{namehash}{81643cb038c919c07d2ca56ea33a88f1}
-      \strng{fullhash}{81643cb038c919c07d2ca56ea33a88f1}
-      \strng{fullhashraw}{81643cb038c919c07d2ca56ea33a88f1}
-      \strng{bibnamehash}{81643cb038c919c07d2ca56ea33a88f1}
-      \strng{authorbibnamehash}{81643cb038c919c07d2ca56ea33a88f1}
-      \strng{authornamehash}{81643cb038c919c07d2ca56ea33a88f1}
-      \strng{authorfullhash}{81643cb038c919c07d2ca56ea33a88f1}
-      \strng{authorfullhashraw}{81643cb038c919c07d2ca56ea33a88f1}
+      \strng{namehash}{83ea86a4d85c295abd99ec3290a735ad}
+      \strng{fullhash}{83ea86a4d85c295abd99ec3290a735ad}
+      \strng{fullhashraw}{83ea86a4d85c295abd99ec3290a735ad}
+      \strng{bibnamehash}{83ea86a4d85c295abd99ec3290a735ad}
+      \strng{authorbibnamehash}{83ea86a4d85c295abd99ec3290a735ad}
+      \strng{authornamehash}{83ea86a4d85c295abd99ec3290a735ad}
+      \strng{authorfullhash}{83ea86a4d85c295abd99ec3290a735ad}
+      \strng{authorfullhashraw}{83ea86a4d85c295abd99ec3290a735ad}
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{extradatescope}{labelyear}
@@ -3896,7 +3896,7 @@
       \field{urlday}{15}
       \field{urlmonth}{5}
       \field{urlyear}{2026}
-      \field{year}{2024-04-22, 2024}
+      \field{year}{2024}
       \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://cloudatlas.wmo.int/en/blowing-snow.html

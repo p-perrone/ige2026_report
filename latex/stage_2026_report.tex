@@ -2,7 +2,7 @@
 \documentclass[11pt,a4paper]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
-\usepackage[margin=2.5cm]{geometry}
+\usepackage[margin=2cm]{geometry}
 \renewcommand{\baselinestretch}{1.5} 
 \usepackage{indentfirst}
 % ------ font ----------
@@ -60,35 +60,49 @@ urlcolor=BlueViolet]{hyperref}
 \pagestyle{fancy}
 \fancyhf{} 
 \fancyhead[L]{\leftmark}
-\fancyfoot[C]{\thepage} 
+\fancyfoot[C]{\thepage}
+% --- formatting titles according to parts ---
 \usepackage{titlesec}
-\titleformat{\part}
-{\color{RoyalBlue}\titlerule[1pt]\huge\fontseries{sbc}\sffamily\selectfont\color{RoyalBlue}}
-{\thepart}
-{1em}
-{}
-\titleformat{\section}
-{\LARGE\fontseries{sbc}\sffamily\selectfont\color{Gray2}}
-{\thesection}
-{1em}
-{}
-\titleformat{\subsection}
-{\Large\fontseries{sbc}\selectfont\sffamily\color{Gray2}}
-{\thesubsection}
-{1em}
-{}
-\titleformat{\subsubsection}
-{\large\fontseries{sbc}\slshape\sffamily\color{Gray2}}
-{\thesubsection.\alph{subsubsection}}
-{1em}
-{}
-\titleformat{\paragraph}
-{\normalfont\fontseries{sbc}\slshape\sffamily\color{Gray2}}
-{\theparagraph}
-{0.5em}
-{}
+\usepackage{etoolbox}
+\definecolor{part1color}{RGB}{31, 78, 121}    % Dark Blue (Intro)
+\definecolor{part2color}{RGB}{200, 110, 10}   % Dark Orange (Material)
+\definecolor{part3color}{RGB}{46, 125, 50}    % Dark Green (Methods)
+\definecolor{part4color}{RGB}{197, 27, 125}   % Dark Red (Results)
+\definecolor{part5color}{RGB}{125, 73, 198}   % Dark Purple (Discussion)
+\newcommand{\setpartcolor}[1]{%
+	\titleformat{\part}
+	{\color{#1}\titlerule[1pt]\LARGE\fontseries{sbc}\sffamily\selectfont\color{#1}}
+	{\thepart}
+	{0.5em}
+	{}
+	[\vspace{-0.8em}]
+	\titleformat{\section}
+	{\Large\fontseries{sbc}\sffamily\selectfont\color{#1}}
+	{\thesection}
+	{0.6em}
+	{}
+	[\vspace{-0.5em}]
+	\titleformat{\subsection}
+	{\large\fontseries{sbc}\sffamily\selectfont\color{#1}}
+	{\thesubsection}
+	{0.4em}
+	{}
+	[\vspace{-0.5em}]
+	\titleformat{\subsubsection}
+	{\normalfont\fontseries{sbc}\slshape\sffamily\color{#1}}
+	{\thesubsection.\alph{subsubsection}}
+	{0.4em}
+	{}
+	[\vspace{-0.5em}]
+	\titleformat{\paragraph}
+	{\normalfont\fontseries{sbc}\slshape\sffamily\color{#1}}
+	{\theparagraph}
+	{0.4em}
+	{}
+	[\vspace{-0.5em}]
+}
 % --- shortcuts commands ---
-\newcommand{\ie}{\emph{i.e.}}
+\newcommand{\ie}{\emph{i.e.} }
 \newcommand{\eg}{\emph{e.g.}}
 \newcommand{\ssaunit}{\meter\squared\per\kilo\gram}
 \newcommand{\ssa}{\mathrm{SSA}}
@@ -104,11 +118,13 @@ urlcolor=BlueViolet]{hyperref}
 \begin{document}
 	\title{Internship report}
 	
-	\tableofcontents 
-	\part{Introduction}
+	\tableofcontents
+	\newpage
 
+\setpartcolor{part1color}
+\part{Introduction}
 Snow is one of the major component of the cryosphere. Its global distribution on both ocean and land areas strongly depends on seasonality, latitude, and elevation. It occurs in three forms, mainly: permanent snow on ice sheets and glaciers, snow on sea ice, and seasonal snow cover. The latter is estimated to account for 1.3\% (summer) to 30.6\% (winter) of the Northern Hemisphere land surface \parencite{Vaughan2013}, with the 1967-2026 mean snow cover extent (SCE hereafter) in winter being around \qty{39.79e6}{\kilo\meter\squared} \parencite{rutgers_snowlab}. Sea ice is almost completely covered by snow during the winter season; its peak concentration, therefore representative of sea ice specific SCE, occurs in March in the Northern Hemisphere (\qty{15.03e6}{\kilo\meter\squared}) and in September in the Southern Hemisphere (\qty{18.61e6}{\kilo\meter\squared}) \parencite{warrenSnowDepthArctic1999, fettererSeaIceIndex2025}. Finally, perennial snow mean extent over the 2000-2022 period is estimated at \qty{16.47e6}{\kilo\meter\squared} from NASA's Moderate Resolution Imaging Spectroradiometer (MODIS), including glaciers, ice caps, Greenland and Antarctica ice sheets \parencite{johnstonGlobalSnowSeasonality2024}.\\
-These several tens of millions of snow-covered squared kilometres play a major role in freshwater resources availability, ecosystems equilibrium and, particularly, climate regulation. In fact, among its many physicochemical properties, snow represents one of the strongest reflective materials on Earth's surface. The fraction of solar radiation delivered to a body that is diffusely reflected by it is called \emph{albedo}; for snow, this amount is roughly close to 1, since its highest reflectivity occurs in the range of visible light, \ie where solar radiation intensity peaks \parencite{kokhanovskyScatteringOpticsSnow2004}. Thanks to its high albedo, snow represents of the main contributors to Earth's energy budget regulators \parencite{NSIDC_cryosphere}. Of the \qty{340}{\watt\per\meter\squared} of net solar radiation incident at the top of the atmosphere, Northern Hemisphere land snow cover alone reflects approximately \qty{2}{\watt\per\meter\squared} back to space, averaged over the 1979--2008 period; in May, when SCE and soil insulation are highest, this quantity can reach \qty{4.5}{\watt\per\meter\squared} \parencite{flannerRadiativeForcingAlbedo2011}. Without the year-average radiative forcing from land snow cover alone, Earth's surface temperature would be approximately \qty{0.54}{\kelvin} higher than the current planetary mean. This estimate follows from linearising the Stefan-Boltzmann law with respect to temperature. This assumes Earth radiates as a blackbody with no feedback effects, making it a lower-bound estimate; in fact, real climate feedbacks (water vapour, lapse rate, clouds) reduce the effective restoring force​, amplifying the true temperature response \parencite{cronin}.\\
+These several tens of millions of snow-covered squared kilometres play a major role in freshwater resources availability, ecosystems equilibrium and, particularly, climate regulation. In fact, among its many physico-chemical properties, snow represents one of the strongest reflective materials on Earth's surface. The fraction of solar radiation delivered to a body that is diffusely reflected by it is called \emph{albedo}; for snow, this amount is roughly close to 1, since its highest reflectivity occurs in the range of visible light, \ie where solar radiation intensity peaks \parencite{kokhanovskyScatteringOpticsSnow2004}. Thanks to its high albedo, snow represents of the main contributors to Earth's energy budget regulators \parencite{NSIDC_cryosphere}. Of the \qty{340}{\watt\per\meter\squared} of net solar radiation incident at the top of the atmosphere, Northern Hemisphere land snow cover alone reflects approximately \qty{2}{\watt\per\meter\squared} back to space, averaged over the 1979--2008 period; in May, when SCE and soil insulation are highest, this quantity can reach \qty{4.5}{\watt\per\meter\squared} \parencite{flannerRadiativeForcingAlbedo2011}. Without the year-average radiative forcing from land snow cover alone, Earth's surface temperature would be approximately \qty{0.54}{\kelvin} higher than the current planetary mean. This estimate follows from linearising the Stefan-Boltzmann law with respect to temperature. This assumes Earth radiates as a blackbody with no feedback effects, making it a lower-bound estimate; in fact, real climate feedbacks (water vapour, lapse rate, clouds) reduce the effective restoring force​, amplifying the true temperature response \parencite{cronin}.\\
 As the whole cryosphere in general, snow distribution on Earth is undergoing dramatic changes because of the current anthropogenic perturbation of the climate system and warming of the atmosphere. At the global scale, SCE is experiencing a negative trend since the 1980s, with a statistically significant reduction in the mean area of 5\% after 1988, compared to the 1967-1988 period, in the Northern Hemisphere only, and an earlier melt onset in the spring season \parencite{robinsonSeasonalVariabilityNorthern2000, dyeVariabilityTrendsAnnual2002}. Less snow cover in both space and time, driven by rising temperatures, reduces terrestrial albedo and increases the absorption of incoming solar radiation at the surface, which in turn amplifies warming \parencite{cubaschProjectionsFutureClimate2001, hollandPolarAmplificationClimate2003}. This mechanism is known as the positive snow-albedo feedback: it is estimated to be responsible of a reduction in Northern Hemisphere land snow cover radiative cooling forcing of $\sim\qty{0.22}{\watt\per\meter\squared}$ from 1979 to 2007, which nearly equals the contribution of Arctic sea ice \parencite{flannerRadiativeForcingAlbedo2011}. The magnitude of such feedback is further amplified when light-absorbing particles, such as dust, black carbon and microbial growth, deposit on the surface of snowpack \parencite{skilesLightAbsorbingParticles2018}. 
 	
 It is clear, at this point, that developing a proper understanding of how snow interacts with solar radiation is crucial for a better understanding of the evolution of the climate system. Snow optical properties, particularly albedo, are directly related to density and grain type, and are strongly wavelength-dependent \parencite{kokhanovskyScatteringOpticsSnow2004, bohrenTheoryOpticalProperties1974}. Quantifying these properties involves radiative transfer calculations extended to the uppermost part of the snowpack, which must be assumed to be composed of individual grains of a given size and shape. Many studies have adopted equivalent spheres, assuming they can properly represent any other shape at a given optical diameter \parencite{bohrenTheoryOpticalProperties1974, warrenSnowDepthArctic1999}. However, recent studies demonstrated that this approach is not satisfactory when it comes to specific properties such as the single-scattering albedo -- the fraction of intercepted radiation that is scattered rather than absorbed -- and the bidirectional reflectance distribution function (BRDF) -- the reflectance of a surface for a specific combination of illumination and viewing directions \parencite{kokhanovskyScatteringOpticsSnow2004, liboisInfluenceGrainShape2013, dumontHighaccuracyMeasurementsSnow2010}. For this reason, when addressing grain size, a more general, shape-independent quantity is preferable to the optical diameter: the \emph{specific surface area} (SSA), defined as the total surface area of snow grains per unit mass -- expressed in \unit{\meter\squared\per\kilo\gram} \parencite{internationalunionofpureandappliedchemistryiupacSpecificSurfaceArea}. This quantity, used hereafter to address snow grain size, largely influences snow reflectance for wavelengths in the Near-Infrared (NIR) range, between \qty{750}{\nano\meter} and \qty{1400}{\nano\meter} particularly \parencite{warrenModelSpectralAlbedo1980}. For example, a factor-6 decrease in the SSA (\eg, from 60 to \qty{10}{\ssaunit}) can approximately reduce albedo of ~15\% at \qty{1000}{\nm}. In general, albedo decreases monotonically with SSA and can be modelled as an exponential function of $\ssa^{-1/2}$ \parencite{kokhanovskyScatteringOpticsSnow2004}.
@@ -124,20 +140,23 @@ Being such a harsh and inaccessible place, it has only allowed \emph{in situ} in
 With this work, we aim to improve the understanding of surface albedo evolution in Antarctica by combining \emph{in situ} measurements with satellite observations. Using data from automated albedometers installed at several locations on the AIS, we will produce time series of locally measured specific surface area (SSA) and compare them with satellite-retrieved grain size. Measurement stations were deployed in two primary locations: on the coast near the French station Dumont d'Urville, and in a megadune field, with one albedometer on the erosion area and another on the accumulation area of a dune.
 
 The overarching goals of this analysis are:
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item to validate a satellite product, ESA's Sentinel-3 Ocean and Land Color Instrument, enabling long-term and continent-wide studies of snow albedo at a relatively fine resolution ($\sim\qty{300}{\meter}$), compared to other missions (e.g., MODIS);
 	\item to deepen the understanding of processes driving temporal albedo changes at the local scale, particularly on megadunes, using an unprecedented 6-year continuous \emph{in situ} record of snow albedo.
 \end{itemize}
 
 The analysis is structured as follows:
-\begin{enumerate}
-	\item \textbf{Processing of \emph{in situ} data}: upgrading and optimizing the existing workflow developed by \cite{arioliDynamicsSnowGrain2023};
+\begin{enumerate}[noitemsep]
+	\item \textbf{Processing of \emph{in situ} data}: upgrading and optimizing the existing workflow developed by \cite{arioliDynamicsSnowGrain2023}; this includes both processing data from the main instrument (Multiband and relative weather stations) and from Solalb, a second albedometer used as as external reference to asses the quality of Multiband and Sentinel-3 performaces;
 	\item \textbf{Processing of Sentinel-3 data}: downloading the frames and executing the SICE 1.6 algorithm, as described by \cite{kokhanovskyRetrievalSnowProperties2019};
 	\item \textbf{Comparison of the time series}: performing corrections to address possible gaps between the two datasets and interpreting the retrieved albedo dynamics geoscientifically.
 \end{enumerate}
-		
+
+\setpartcolor{part2color}
 \part{Material and methods}
+
 	\section{Theoretical backgrounds}
+	
 	!!! This risks to become "textbook"-like - then, must be SUPER ADAPTED TO MY SPECIFIC GOAL AND BE VERY PERSONAL AND NOT GENERAL AT ALL - PASSIONATING !
 	write it after matmethods and results
 	
@@ -152,40 +171,120 @@ The analysis is structured as follows:
 	\mycaption{Structure of Multiband}{Long caption}
 	\label{fig:mbscheme}
 \end{figure}
-The main instrument employed for the present study is the Multiband albedometer, developed at Grenoble's Institute for Geosciences of Environment (IGE) and fully described in \cite{arioliDynamicsSnowGrain2023}. It consists of a robust automated optical radiometer, able of acquiring solar radiation at a discrete set of bands ranging from the visible to the short-wave infrared, necessary for the retrieval of snow surface albedo. As some of previously developed albedometers (\eg, Autosolexs, Solalb, see \cite{picardDevelopmentCalibrationAutomatic2016a}), Multiband is made of a set of metal poles, one of which projects horizontally the head of the instrument at $\sim\qty{3}{\meter}$ from the installation point and at a $\sim\qty{2}{\meter}$ height from the snow surface, typically pointing Southward, in order to minimize shadowing. On the head, two home-made cosine-shaped light collectors are pointed upwards and downwards, to measure the incident and reflected radiation respectively. This collectors have been meticulously designed by \cite{picardDevelopmentCalibrationAutomatic2016a} and consist of a bumped teflon surface, a choice made to maximize the performance at any solar azimuth angle (SZA), including grazing angles, which are critical for radiation measurement. The signal is transmitted to the recording part of the instrument through two Ocean Optics QP800-VIS NIR \qty{6}{\meter} long optical fibers, with \qty{800}{\micro\meter} core diameter. Previous albedometers were built such that the optical fibers directly sended the signal to a spectrometer, to record a full radiation spectrum at a fine resolution of \qty{3}{\nano\meter}. With Multiband, a less energy consuming choice was made: the broadband radiation transmitted by the two fibers crosses a set of polarizing filters mounted on a $\sim \qty{20}{\centi\meter}$ wheel with 12 slots. These are TECHSPEC® hard-coated optical density (OD) 4.0 \qty{25}{\nano\meter} bandpass filters, specific for 500, 600, 800, 925, 1050, 1300 and \qty{1550}{\nano\meter}. The wheel, over a full measurement cycle (\qty{30}{\second}), rotates in order to allow acquiring a spectral measurement at all the different wavelengths from the two incident and reflected signals, that are transmitted to two stacks of Silicium (Si) and Indium-Aresenium-Gallium (InGaAs) photodiodes (DSD2, Thorlabs). The measurement on the two channels are simultaneous, and the wheel includes duplicates of filters to ensure synchronous records at the most relevant wavelengths, plus one capped slot to allow measurement of the dark current (\ie, the background thermal noise) -- see Figure \ref{fig:mbwheel} for details. The signal registered by the two dual photodiodes is amplified by a high-gain, electronic board. Finally, a Campbell Scientific CR1000x data logger registers the spectral radiation. SARA :::: Since the incident and reflected measurements for three wavelengths are not simultaneous, we record the changes in the incoming radiation during the 30 s of the measurement cycle in addition. To this end, another upward-facing optical fiber located near the albedometer head transmits the environmental incoming radiation to a Si photodiode (FDS100, Thorlabs) without any spectral filter. This photodiode acquires one wideband measurement (350–1100 nm) for each step of the wheel, which	 is converted, amplified and recorded as the narrow-band measurements. A Campbell Scientific CR1000x data logger registers the measurements. Since the incident and reflected measurements for three wavelengths are not simultaneous, we record the changes in the incoming radiation during the 30 s of the measurement cycle in addition. To this end, another upward-facing optical fiber located near the albedometer head transmits the environmental incoming radiation to a Si photodiode (FDS100, Thorlabs) without any spectral filter. This photodiode acquires one wideband measurement (350–1100 nm) for each step of the wheel, which is converted, amplified and recorded as the narrow-band measurements ::::
-	
+The main instrument used in this study is the Multiband albedometer, developed at Grenoble’s Institute for Geosciences of the Environment (IGE) and fully described in \cite{arioliDynamicsSnowGrain2023}. It is a robust automated optical radiometer capable of acquiring solar radiation across a discrete set of bands, from the visible to the short-wave infrared, which are essential for retrieving snow surface albedo.
+Similar to previously developed albedometers (e.g., Autosolexs, Solalb; see \cite{picardDevelopmentCalibrationAutomatic2016a}), the Multiband consists of a set of metal gantries. One perfectly leveled pole projects the instrument head horizontally at $\sim\qty{3}{\meter}$ from the installation point and at a height of $\sim\qty{2}{\meter}$ above the snow surface, typically oriented southward to minimize shadowing from other components. The head features two custom cosine-shaped light collectors, one pointing upward and the other downward, to measure incident and reflected irradiance, respectively. These collectors, meticulously designed by \cite{picardDevelopmentCalibrationAutomatic2016a}, incorporate a bumped Teflon surface to maximize performance at any solar zenith angle (SZA), including grazing angles, which are critical for accurate radiation measurements.
+
+The signal is transmitted to the instrument’s recording unit via two Ocean Optics QP800-VIS-NIR optical fibers, each $\qty{6}{\meter}$ long with a $\qty{800}{\micro\meter}$ core diameter. Unlike earlier albedometers, where optical fibers directly sent the signal to a spectrometer for high-resolution ($\qty{3}{\nano\meter}$) spectral recording, the Multiband employs a more energy-efficient approach. The broadband radiation transmitted by the fibers passes through a set of polarizing filters mounted on a $\sim\qty{20}{\centi\meter}$ wheel with 12 slots. These filters are Edmund Optics’ TECHSPEC® hard-coated optical density (OD) 4.0, $\qty{25}{\nano\meter}$ bandpass filters, specific for wavelengths of 500, 600, 800, 925, 1050, 1300, and \qty{1550}{\nano\meter}. During a full measurement cycle ($\qty{30}{\second}$), the wheel rotates to acquire spectral measurements for each selected wavelength from both the incident and reflected signals. These signals are transmitted to dual-band Silicon (Si) / Indium-Arsenide-Gallium (InGaAs) photodiodes (DSD2, Thorlabs). Measurements on the two channels are simultaneous, and the wheel includes duplicate filters to ensure synchronous recordings at the most relevant wavelengths, as well as one capped slot to measure the dark current (\ie background thermal noise) -- see Figure \ref{fig:mbscheme} for details.
+The signals registered by the dual photodiodes are amplified by a high-gain electronic board. Finally, a Campbell Scientific CR1000x data logger records the spectral radiation. Since the duration of a full measurement cycle is long enough for atmospheric conditions to potentially change, a measure of ambient light is also recorded at every step: a third upward-facing optical fiber transmits incoming radiation to a Si photodiode (FDS100, Thorlabs). This photodiode acquires a wideband measurement in the 350--\qty{1100}{\nano\meter} range, referred to as the reference. Its signal undergoes the same voltage amplification and recording steps as the spectral measurements.
+
+The entire system’s electronics are powered by a solar panel. The Multiband has demonstrated its durability by acquiring continuous measurements without interruption at each of the stations where it was installed.
+
 		\subsection{\emph{In situ}: the Solalb albedometer}
-			\subsubsection{Campaigns}
+		
+		\subsection{\emph{In situ}: automatic weather stations (AWS)}
 	
 		\subsection{Satellite imagery: Sentinel-3 Ocean Land and Colour Instrument}
-		\subsubsection{Generalities}
-	Orbit, resolution, swath, revisit time etc.
-		\subsubsection{Data availability}
+		
+			\subsubsection{Generalities}
+			
+Orbit, resolution, swath, revisit time etc.
+
+			\subsubsection{Data availability}
+			
 	
-	\section{The workflow}
-	Nice flowchar																																																																									t
-		\subsubsection{}
+	\section{Methods}
 	
-	\part{Results} 
-	PRESENTING MY RESULTS
-	CSI 
-	Problem horizontality/titlting ?
-	Calibrations analysis/response symmetry
+		\subsection{Processing of Multiband data}
+		
+\begin{figure}
+	\centering
+	\includegraphics[width=16cm]{mbwf.pdf}
+	\mycaption{Workflow of Multiband processing}{Modified after \cite{arioliDynamicsSnowGrain2023}}
+	\label{fig:mbwf}
+\end{figure}
+
+			\subsubsection{Overview of the existing algorithm}
+			
+\begin{enumerate}
+	\item \textbf{Raw data filtering}\\ 
+\hspace*{-2.5em} a
+	\item \textbf{Dark current}\\
+b	
+	\item \textbf{Cross-calibration}\\
+c	
+	\item \textbf{Cosine response correction}\\
+d	
+	\item \textbf{Slope correction}\\
+e	
+\end{enumerate}
+
+			\subsubsection{New implementations}
+			
+Extended the processing to newly installed stations in megadune field...
+			
+				\paragraph{Direct-to-diffuse light ratio}
+				
+				\paragraph{Clear Sky Index (CSI)}
+				
+				\paragraph{Diagnostic techniques}
+				
+\begin{itemize}
+	\item \textbf{Calibration files}\\
 	
+	\item \textbf{Inclinometer time series}\\
+	
+	\item \textbf{Sub-daily variability in the signal}\\
+
+\end{itemize}
+
+		\subsection{Processing of Solalb data}
+				
+		\subsection{Processing of S-3 OLCI data}
+		
+			\subsubsection{Implementation of SICE 1.6 utilities}
+			
+			\subsubsection{Diagnostic techniques}
+			
+\setpartcolor{part3color}
+\part{Results}
+
+	\section{Atmospheric conditions: emissivity analyisis}
+CSI results ? Dir diff ?
+
+\begin{figure}
+	\centering
+	\includegraphics[width=16cm]{appemitt_scatter_def.pdf}
+	\caption{\textbf{Apparent emissivity} | Test figure}
+	\label{fig:appemit}
+\end{figure}
+
+	\section{Time series from Multiband and S-3 OLCI}
+
+DDU very cool, EAIIST not so very cool, then...
+	
+	\section{Diagnostic of the results for EAIIST stations}
+	
+... then here we go
+
+		\subsection{Multiband issues}
+	
+		\subsection{OLCI issues}
+		
+		\subsubsection{OLCI and Solalb: a comparison}
+		
 	Do not simply list the results, it can be boring
 	If the comclusion from a result is very fast, just put it in the results
-	%	\begin{figure}
-		%		\centering
-		%		\includegraphics{images/appemitt_scatter_def.pdf}
-		%		\caption{\textbf{Apparent emissivity} | Test figure}
-		%		\label{fig:placeholder}
-		%	\end{figure}
+
+\setpartcolor{part4color}
+\part{Discussion}
 	
-	\part{Discussion}
-	CONTEXTING MY RESULTS IN SCIENTIFIC LITERATURE
-	Typically no plots
+	\section{Considerations on the performance of the instruments}
 	
-	\part{Conclusion}
+	\section{Geoscientific interpretation of the time series}
+Despite the imperfection of the results and the technical issues, some interesting interpretations about the signal recorded from both the \emph{in situ} equipment and the satellite can be drawn.
+
+\setpartcolor{part5color}
+\part{Conclusion}
 
 \printbibliography[heading=bibintoc]
 	
