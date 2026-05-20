@@ -95,7 +95,7 @@ urlcolor=BlueViolet]{hyperref}
 	{}
 	[\vspace{-0.5em}]
 	\titleformat{\paragraph}
-	{\normalfont\fontseries{sbc}\slshape\sffamily\color{#1}}
+	{\normalfont\fontseries{sc}\fontshape{sl}\sffamily\color{#1}}
 	{\theparagraph}
 	{0.4em}
 	{}
@@ -198,12 +198,13 @@ Orbit, resolution, swath, revisit time etc.
 		
 \begin{figure}
 	\centering
-	\includegraphics[width=16cm]{mbwf.pdf}
+	\includegraphics[width=16.5cm]{mbwf.pdf}
 	\mycaption{Workflow of Multiband processing}{Modified after \cite{arioliDynamicsSnowGrain2023}}
 	\label{fig:mbwf}
 \end{figure}
 
 			\subsubsection{Overview of the existing algorithm}
+The pipeline for processing Multiband data is summarized in Figure \ref{fig:mbwf} and results from the work of \cite{arioliDynamicsSnowGrain2023}. It executes functions from a custom Python library specifically developed for this purpose, plus utilities from the open source module \texttt{snowptics} (\href{https://github.com/ghislainp/snowoptics}{GitHub}), a library of function for the retrieval of snow optical properties based on the Asymptotic Radiative Transfer theory (ART, \cite{kokhanovskyScatteringOpticsSnow2004})
 			
 \begin{enumerate}
 	\item \textbf{Raw data filtering}\\ 
