@@ -54,7 +54,6 @@
       \field{title}{Snow {{Drift}}}
       \field{volume}{19}
       \field{year}{1977}
-      \field{dateera}{ce}
       \field{pages}{123\bibrangedash 139}
       \range{pages}{17}
       \verb{doi}
@@ -112,16 +111,13 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{8}
       \field{issn}{1994-0424}
       \field{journaltitle}{The Cryosphere}
       \field{month}{6}
       \field{number}{6}
-      \field{shortjournal}{The Cryosphere}
       \field{title}{Dynamics of the Snow Grain Size in a Windy Coastal Area of {{Antarctica}} from Continuous in Situ Spectral-Albedo Measurements}
       \field{volume}{17}
       \field{year}{2023}
-      \field{dateera}{ce}
       \field{pages}{2323\bibrangedash 2342}
       \range{pages}{20}
       \verb{doi}
@@ -168,19 +164,16 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The optical properties of a snowpack are calculated, giving relations between the asymptotic flux extinction coefficient and albedo under diffuse illumination on the one hand and the density, grain size, and wavelength, on the other. A geometrical optics calculation of the properties of a single grain is used with approximate solutions of the radiative transfer problem. Most of the scattering is the result of change in direction of the light beam upon transmission through the grain, rather than reflection. The asymptotic flux extinction coefficient is directly proportional to the snowpack density and inversely proportional to the square root of the grain size. The albedo under diffuse illumination is independent of density and proportional to the square root of the grain size. The derived relations agree with experimental data to within 20\% for the flux extinction coefficient and to better than 2\% for the albedo without using adjustable parameters. Higher values of the flux extinction coefficient will be measured if the snow is confined within a finite cylinder with absorbing sides. An analysis of this effect is given.}
-      \field{day}{20}
       \field{issn}{0148-0227}
       \field{journaltitle}{Journal of Geophysical Research (1896-1977)}
       \field{month}{10}
       \field{number}{30}
-      \field{shortjournal}{Journal of Geophysical Research (1896-1977)}
       \field{title}{Theory of the Optical Properties of Snow}
       \field{urlday}{6}
       \field{urlmonth}{1}
       \field{urlyear}{2026}
       \field{volume}{79}
       \field{year}{1974}
-      \field{dateera}{ce}
       \field{urldateera}{ce}
       \field{pages}{4527\bibrangedash 4535}
       \range{pages}{9}
@@ -203,8 +196,8 @@
            giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
            givenun=0}}%
         {{un=0,uniquepart=base,hash=796671136a185cfb63026ae33c7bf0fe}{%
-           family={Corbea-Pérez},
-           familyi={C\bibinithyphendelim P\bibinitperiod},
+           family={{Corbea-Pérez}},
+           familyi={C\bibinitperiod},
            given={Alejandro},
            giveni={A\bibinitperiod},
            givenun=0}}%
@@ -226,23 +219,21 @@
            given={Juanjo},
            giveni={J\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,useprefix=true,hash=09f8ee5dd150e0567dcec5138227c8e0}{%
-           family={Pablo},
-           familyi={P\bibinitperiod},
+        {{un=0,uniquepart=base,hash=8ea19d776f0f4fd8941e380cd81d7a8c}{%
+           family={{de Pablo}},
+           familyi={d\bibinitperiod},
            given={Miguel\bibnamedelima Á.},
            giveni={M\bibinitperiod\bibinitdelim Á\bibinitperiod},
-           givenun=0,
-           prefix={de},
-           prefixi={d\bibinitperiod}}}%
+           givenun=0}}%
       }
       \strng{namehash}{e9a8c66304d4a57a26f195630b9a63ba}
-      \strng{fullhash}{4b9286d74415e37ca3ae3f08e158f982}
-      \strng{fullhashraw}{4b9286d74415e37ca3ae3f08e158f982}
-      \strng{bibnamehash}{4b9286d74415e37ca3ae3f08e158f982}
-      \strng{authorbibnamehash}{4b9286d74415e37ca3ae3f08e158f982}
+      \strng{fullhash}{82ad4a604717c165c75c0269a1677e05}
+      \strng{fullhashraw}{82ad4a604717c165c75c0269a1677e05}
+      \strng{bibnamehash}{82ad4a604717c165c75c0269a1677e05}
+      \strng{authorbibnamehash}{82ad4a604717c165c75c0269a1677e05}
       \strng{authornamehash}{e9a8c66304d4a57a26f195630b9a63ba}
-      \strng{authorfullhash}{4b9286d74415e37ca3ae3f08e158f982}
-      \strng{authorfullhashraw}{4b9286d74415e37ca3ae3f08e158f982}
+      \strng{authorfullhash}{82ad4a604717c165c75c0269a1677e05}
+      \strng{authorfullhashraw}{82ad4a604717c165c75c0269a1677e05}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -250,14 +241,13 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{The aim of this work is to investigate whether snow albedo seasonality and trend under all sky conditions at Johnsons Glacier (Livingston Island, Antarctica) can be tracked using the Moderate Resolution Imaging Spectroradiometer (MODIS) snow albedo daily product MOD10A1. The time span is from December 2006 to February 2015. As the MOD10A1 snow albedo product has never been used in Antarctica before, we also assess the performance for the MOD10A1 cloud mask. The motivation for this work is the need for a description of snow albedo under all sky conditions (including overcast days) using satellite data with mid-spatial resolution. In-situ albedo was filtered with a 5-day windowed moving average, while the MOD10A1 data were filtered using a maximum filter. Both in-situ and MOD10A1 data follow an exponential decay during the melting season, with a maximum decay of 0.049/0.094 day−1 (in-situ/MOD10A1) for the 2006–2007 season and a minimum of 0.016/0.016 day−1 for the 2009–2010 season. The duration of the decay varies from 85 days (2007–2008) to 167 days (2013–2014). Regarding the albedo trend, both data sets exhibit a slight increase of albedo, which may be explained by an increase of snowfall along with a decrease of snowmelt in the study area. Annual albedo increases of 0.2\% and 0.7\% are obtained for in-situ and MOD10A1 data, respectively, which amount to respective increases of 2\% and 6\% in the period 2006–2015. We conclude that MOD10A1 can be used to characterize snow albedo seasonality and trend on Livingston Island when filtered with a maximum filter.}
+      \field{abstract}{The aim of this work is to investigate whether snow albedo seasonality and trend under all sky conditions at Johnsons Glacier (Livingston Island, Antarctica) can be tracked using the Moderate Resolution Imaging Spectroradiometer (MODIS) snow albedo daily product MOD10A1. The time span is from December 2006 to February 2015. As the MOD10A1 snow albedo product has never been used in Antarctica before, we also assess the performance for the MOD10A1 cloud mask. The motivation for this work is the need for a description of snow albedo under all sky conditions (including overcast days) using satellite data with mid-spatial resolution. In-situ albedo was filtered with a 5-day windowed moving average, while the MOD10A1 data were filtered using a maximum filter. Both in-situ and MOD10A1 data follow an exponential decay during the melting season, with a maximum decay of 0.049/0.094 day-1 (in-situ/MOD10A1) for the 2006--2007 season and a minimum of 0.016/0.016 day-1 for the 2009--2010 season. The duration of the decay varies from 85 days (2007--2008) to 167 days (2013--2014). Regarding the albedo trend, both data sets exhibit a slight increase of albedo, which may be explained by an increase of snowfall along with a decrease of snowmelt in the study area. Annual albedo increases of 0.2\% and 0.7\% are obtained for in-situ and MOD10A1 data, respectively, which amount to respective increases of 2\% and 6\% in the period 2006--2015. We conclude that MOD10A1 can be used to characterize snow albedo seasonality and trend on Livingston Island when filtered with a maximum filter.}
       \field{issn}{1424-8220}
       \field{journaltitle}{Sensors}
       \field{number}{16}
       \field{title}{Snow {{Albedo Seasonality}} and {{Trend}} from {{MODIS Sensor}} and {{Ground Data}} at {{Johnsons Glacier}}, {{Livingston Island}}, {{Maritime Antarctica}}}
       \field{volume}{19}
       \field{year}{2019}
-      \field{dateera}{ce}
       \field{pages}{3569}
       \range{pages}{1}
       \verb{doi}
@@ -293,19 +283,16 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The grains in seasonal snow undergo rapid and radical transformations in size, shape, and cohesion. These grain characteristics affect all of the basic properties of snow. Snow is characterized as either wet or dry depending on the presence of liquid water. Wet snow is markedly different at low and high liquid contents. Dry snow is characterized as either an equilibrium form or a kinetic growth form; that is, it is either well rounded or faceted. Of course, many snow grains display either transitional features between two of these categories or features which arise from other processes. Snow is classified depending on the dominant processes of its metamorphism.}
-      \field{day}{1}
       \field{issn}{8755-1209}
       \field{journaltitle}{Reviews of Geophysics}
       \field{month}{2}
       \field{number}{1}
-      \field{shortjournal}{Reviews of Geophysics}
       \field{title}{An Overview of Seasonal Snow Metamorphism}
       \field{urlday}{15}
       \field{urlmonth}{5}
       \field{urlyear}{2026}
       \field{volume}{20}
       \field{year}{1982}
-      \field{dateera}{ce}
       \field{urldateera}{ce}
       \field{pages}{45\bibrangedash 61}
       \range{pages}{17}
@@ -318,6 +305,63 @@
       \verb{url}
       \verb https://doi.org/10.1029/RG020i001p00045
       \endverb
+    \endentry
+    \entry{croninHowWellWe2023}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=5388d51c255dda0d1203b6be2e3ef1dc}{%
+           family={Cronin},
+           familyi={C\bibinitperiod},
+           given={Timothy\bibnamedelima W.},
+           giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=69436cd7d6139982c97cd87c72ca6e3b}{%
+           family={Dutta},
+           familyi={D\bibinitperiod},
+           given={Ishir},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons, Ltd}%
+      }
+      \strng{namehash}{3dfb7bbf3be8478dd52653c0ab6040b1}
+      \strng{fullhash}{3dfb7bbf3be8478dd52653c0ab6040b1}
+      \strng{fullhashraw}{3dfb7bbf3be8478dd52653c0ab6040b1}
+      \strng{bibnamehash}{3dfb7bbf3be8478dd52653c0ab6040b1}
+      \strng{authorbibnamehash}{3dfb7bbf3be8478dd52653c0ab6040b1}
+      \strng{authornamehash}{3dfb7bbf3be8478dd52653c0ab6040b1}
+      \strng{authorfullhash}{3dfb7bbf3be8478dd52653c0ab6040b1}
+      \strng{authorfullhashraw}{3dfb7bbf3be8478dd52653c0ab6040b1}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract A reference or ?no-feedback? radiative response to warming is fundamental to understanding how much global warming will occur for a given change in greenhouse gases or solar radiation incident on the Earth. The simplest estimate of this radiative response is given by the Stefan-Boltzmann law as ~W~m?2~K?1 for Earth's present climate, where is a global effective emission temperature. The comparable radiative response in climate models, widely called the ?Planck feedback,? averages ?3.3~W~m?2~K?1. This difference of 0.5~W~m?2~K?1 is large compared to the uncertainty in the net climate feedback, yet it has not been studied carefully. We use radiative transfer models to analyze these two radiative feedbacks to warming, and find that the difference arises primarily from the lack of stratospheric warming assumed in calculations of the Planck feedback (traditionally justified by differing constraints on and time scales of stratospheric adjustment relative to surface and tropospheric warming). The Planck feedback is thus masked for wavelengths with non-negligible stratospheric opacity, and this effect implicitly acts to amplify warming in current feedback analysis of climate change. Other differences between Planck and Stefan-Boltzmann feedbacks arise from temperature-dependent gas opacities, and several artifacts of nonlinear averaging across wavelengths, heights, and different locations; these effects partly cancel but as a whole slightly destabilize the Planck feedback. Our results point to an important role played by stratospheric opacity in Earth's climate sensitivity, and clarify a long-overlooked but notable gap in our understanding of Earth's reference radiative response to warming.}
+      \field{journaltitle}{Journal of Advances in Modeling Earth Systems}
+      \field{month}{7}
+      \field{number}{7}
+      \field{title}{How {{Well}} Do {{We Understand}} the {{Planck Feedback}}?}
+      \field{urlday}{14}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{volume}{15}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{e2023MS003729}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1029/2023MS003729
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1029/2023MS003729
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1029/2023MS003729
+      \endverb
+      \keyw{atmospheric radiation,climate change,climate feedbacks,planetary atmospheres}
     \endentry
     \entry{cubaschProjectionsFutureClimate2001}{article}{}{}
       \name{author}{9}{}{%
@@ -391,11 +435,9 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{1}
       \field{month}{1}
       \field{title}{Projections of {{Future Climate Change}}}
       \field{year}{2001}
-      \field{dateera}{ce}
     \endentry
     \entry{domineThreeExamplesWhere2009}{article}{}{}
       \name{author}{5}{}{%
@@ -448,16 +490,13 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{16}
       \field{issn}{1994-0424}
       \field{journaltitle}{The Cryosphere}
       \field{month}{3}
       \field{number}{1}
-      \field{shortjournal}{The Cryosphere}
       \field{title}{Three Examples Where the Specific Surface Area of Snow Increased over Time}
       \field{volume}{3}
       \field{year}{2009}
-      \field{dateera}{ce}
       \field{pages}{31\bibrangedash 39}
       \range{pages}{9}
       \verb{doi}
@@ -527,16 +566,13 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{11}
       \field{issn}{1680-7324}
       \field{journaltitle}{Atmos. Chem. Phys.}
       \field{month}{3}
       \field{number}{5}
-      \field{shortjournal}{Atmos. Chem. Phys.}
-      \field{title}{High-Accuracy Measurements of Snow {{Bidirectional Reflectance Distribution Function}} at Visible and {{NIR}} Wavelengths – Comparison with Modelling Results}
+      \field{title}{High-Accuracy Measurements of Snow {{Bidirectional Reflectance Distribution Function}} at Visible and {{NIR}} Wavelengths -- Comparison with Modelling Results}
       \field{volume}{10}
       \field{year}{2010}
-      \field{dateera}{ce}
       \field{pages}{2507\bibrangedash 2520}
       \range{pages}{14}
       \verb{doi}
@@ -576,20 +612,17 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Abstract This study investigated variability and trends in the annual snow-cover cycle in regions covering high-latitude and high-elevation land areas in the Northern Hemisphere. The annual snow-cover cycle was examined with respect to the week of the last-observed snow cover in spring (WLS), the week of the first-observed snow cover in autumn (WFS), and the duration of the snow-free period (DSF). The analysis used a 29-year time-series (1972?2000) of weekly, visible-band satellite observations of Northern Hemisphere snow cover from NOAA with corrections applied by D. Robinson of Rutgers University Climate Laboratory. Substantial interannual variability was observed in WLS, WFS and DSF (standard deviations of 0·8?1·1, 0·7?0·9 and 1·0?1·4 weeks, respectively), which is related directly to interannual variability in snow-cover area in the regions and time periods of snow-cover transition. Over the nearly three-decade study period, WLS shifted earlier by 3?5 days/decade as determined by linear regression analysis. The observed shifts in the annual snow-cover cycle underlie a significant trend toward a longer annual snow-free period. The DSF increased by 5?6 days/decade over the study period, primarily as a result of earlier snow cover disappearance in spring. The observed trends are consistent with reported trends in the timing and length of the active growing season as determined from satellite observations of vegetation greenness and the atmospheric CO2 record. Copyright ? 2002 John Wiley \& Sons, Ltd.}
-      \field{day}{30}
+      \field{abstract}{Abstract This study investigated variability and trends in the annual snow-cover cycle in regions covering high-latitude and high-elevation land areas in the Northern Hemisphere. The annual snow-cover cycle was examined with respect to the week of the last-observed snow cover in spring (WLS), the week of the first-observed snow cover in autumn (WFS), and the duration of the snow-free period (DSF). The analysis used a 29-year time-series (1972?2000) of weekly, visible-band satellite observations of Northern Hemisphere snow cover from NOAA with corrections applied by D. Robinson of Rutgers University Climate Laboratory. Substantial interannual variability was observed in WLS, WFS and DSF (standard deviations of 0{$\cdot$}8?1{$\cdot$}1, 0{$\cdot$}7?0{$\cdot$}9 and 1{$\cdot$}0?1{$\cdot$}4 weeks, respectively), which is related directly to interannual variability in snow-cover area in the regions and time periods of snow-cover transition. Over the nearly three-decade study period, WLS shifted earlier by 3?5 days/decade as determined by linear regression analysis. The observed shifts in the annual snow-cover cycle underlie a significant trend toward a longer annual snow-free period. The DSF increased by 5?6 days/decade over the study period, primarily as a result of earlier snow cover disappearance in spring. The observed trends are consistent with reported trends in the timing and length of the active growing season as determined from satellite observations of vegetation greenness and the atmospheric CO2 record. Copyright ? 2002 John Wiley \& Sons, Ltd.}
       \field{issn}{0885-6087}
       \field{journaltitle}{Hydrological Processes}
       \field{month}{10}
       \field{number}{15}
-      \field{shortjournal}{Hydrological Processes}
-      \field{title}{Variability and Trends in the Annual Snow-Cover Cycle in {{Northern Hemisphere}} Land Areas, 1972–2000}
+      \field{title}{Variability and Trends in the Annual Snow-Cover Cycle in {{Northern Hemisphere}} Land Areas, 1972--2000}
       \field{urlday}{12}
       \field{urlmonth}{5}
       \field{urlyear}{2026}
       \field{volume}{16}
       \field{year}{2002}
-      \field{dateera}{ce}
       \field{urldateera}{ce}
       \field{pages}{3065\bibrangedash 3077}
       \range{pages}{13}
@@ -604,7 +637,88 @@
       \endverb
       \keyw{climate variability,Northern Hemisphere,remote sensing,snow cover,snow cycle,snow-free period}
     \endentry
-    \entry{fettererSeaIceIndex2025}{dataset}{}{}
+    \entry{fahnestockSnowMegaduneFields2000}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=f97a12620aea0fb43c20a77ee7869b24}{%
+           family={Fahnestock},
+           familyi={F\bibinitperiod},
+           given={Mark\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0b32e6ba5fafca9b50d1c9960e524b95}{%
+           family={Scambos},
+           familyi={S\bibinitperiod},
+           given={Ted\bibnamedelima A.},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=052904e83c2defc8eb51a353a9b69067}{%
+           family={Shuman},
+           familyi={S\bibinitperiod},
+           given={Christopher\bibnamedelima A.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d37214510ce3d87f4bd1d9aeee394aaf}{%
+           family={Arthern},
+           familyi={A\bibinitperiod},
+           given={Robert\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4f5934ab2c0f4285c51514c8f717257e}{%
+           family={Winebrenner},
+           familyi={W\bibinitperiod},
+           given={Dale\bibnamedelima P.},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=820a841eae0d1e589f93c1989d622f1d}{%
+           family={Kwok},
+           familyi={K\bibinitperiod},
+           given={Ron},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons, Ltd}%
+      }
+      \strng{namehash}{510355ab528a3a802ad3864442607874}
+      \strng{fullhash}{f5482f855548bb728bc0ef487b7531cf}
+      \strng{fullhashraw}{f5482f855548bb728bc0ef487b7531cf}
+      \strng{bibnamehash}{f5482f855548bb728bc0ef487b7531cf}
+      \strng{authorbibnamehash}{f5482f855548bb728bc0ef487b7531cf}
+      \strng{authornamehash}{510355ab528a3a802ad3864442607874}
+      \strng{authorfullhash}{f5482f855548bb728bc0ef487b7531cf}
+      \strng{authorfullhashraw}{f5482f855548bb728bc0ef487b7531cf}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Large dune fields occupy more than 500,000 km{$^2$} of the East Antarctic Plateau. The ?megadunes?, or long-wavelength surface ripples, have amplitudes of only a few meters, wavelengths of a few kilometers, and parallel crests which can extend one hundred kilometers. They occur in areas characterized by low accumulation, extensively recrystallized snow, and strong scattering of the microwave part of the spectrum. Dune crests are oriented perpendicular to the regional katabatic wind direction. Snow megadunes are unlikely to be formed by simple wind transport of snow particles.}
+      \field{issn}{0094-8276}
+      \field{journaltitle}{Geophysical Research Letters}
+      \field{month}{11}
+      \field{number}{22}
+      \field{title}{Snow Megadune Fields on the {{East Antarctic Plateau}}: {{Extreme}} Atmosphere-Ice Interaction}
+      \field{urlday}{15}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{volume}{27}
+      \field{year}{2000}
+      \field{urldateera}{ce}
+      \field{pages}{3719\bibrangedash 3722}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1029/1999GL011248
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1029/1999GL011248
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1029/1999GL011248
+      \endverb
+    \endentry
+    \entry{fettererSeaIceIndex2025}{misc}{}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=42242acc92e2c32fe792e168254dd548}{%
            family={Fetterer},
@@ -663,7 +777,6 @@
       \field{labeltitlesource}{title}
       \field{title}{Sea {{Ice Index}}, {{Version}} 4}
       \field{year}{2025}
-      \field{dateera}{ce}
       \verb{doi}
       \verb 10.7265/A98X-0F50
       \endverb
@@ -722,17 +835,14 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{The extent of snow cover and sea ice in the Northern Hemisphere has declined since 1979, suggesting a positive feedback of surface reflectivity on climate. A synthesis of a variety of remote sensing and field measurements suggests that this albedo feedback from the Northern Hemisphere cryosphere falls between 0.3 and 1.1\,W\,m−2\,K−1.}
-      \field{day}{1}
+      \field{abstract}{The extent of snow cover and sea ice in the Northern Hemisphere has declined since 1979, suggesting a positive feedback of surface reflectivity on climate. A synthesis of a variety of remote sensing and field measurements suggests that this albedo feedback from the Northern Hemisphere cryosphere falls between 0.3 and 1.1\,W\,m-2\,K-1.}
       \field{issn}{1752-0908}
       \field{journaltitle}{Nature Geoscience}
       \field{month}{3}
       \field{number}{3}
-      \field{shortjournal}{Nature Geoscience}
       \field{title}{Radiative Forcing and Albedo Feedback from the {{Northern Hemisphere}} Cryosphere between 1979 and 2008}
       \field{volume}{4}
       \field{year}{2011}
-      \field{dateera}{ce}
       \field{pages}{151\bibrangedash 155}
       \range{pages}{5}
       \verb{doi}
@@ -744,6 +854,70 @@
       \verb{url}
       \verb https://doi.org/10.1038/ngeo1062
       \endverb
+    \endentry
+    \entry{frezzottiSnowMegadunesAntarctica2002}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ca05a24a0969e491682459e8f11c4817}{%
+           family={Frezzotti},
+           familyi={F\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=df9aa4543d2527f1359d05aec0f00e91}{%
+           family={Gandolfi},
+           familyi={G\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=81fccfe1ac8adca0cbb59a1eb059f772}{%
+           family={Urbini},
+           familyi={U\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons, Ltd}%
+      }
+      \strng{namehash}{a2a77157694a4b4f9abedd990369836a}
+      \strng{fullhash}{838f2901fa799d5426c3efb4f086c4e9}
+      \strng{fullhashraw}{838f2901fa799d5426c3efb4f086c4e9}
+      \strng{bibnamehash}{838f2901fa799d5426c3efb4f086c4e9}
+      \strng{authorbibnamehash}{838f2901fa799d5426c3efb4f086c4e9}
+      \strng{authornamehash}{a2a77157694a4b4f9abedd990369836a}
+      \strng{authorfullhash}{838f2901fa799d5426c3efb4f086c4e9}
+      \strng{authorfullhashraw}{838f2901fa799d5426c3efb4f086c4e9}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Megadune fields occupy large areas in the interior of the East Antarctic ice sheet and are the result of unusual snow accumulation and redistribution processes. They therefore are important to surface mass balance and ice core interpretation. Field observations (GPS, GPR, and surface measurements) have provided a detailed description of megadune sedimentation and morphology over a 70 km2 area, located 200 km east of Dome C. A combination of remote sensing analysis (using Landsat and satellite radar altimetry) and field measurements indicate that slope in the prevailing wind direction (SPWD) and climatic conditions play a crucial role in megadune genesis. The megadune areas tend to be characterized by slightly steeper regional slope and the presence of highly persistent katabatic winds. The megadunes represent 2 to 4 m amplitude waves of 2 to 5 km wavelength formed by variable net accumulation, ranging between 25\% (leeward faces) to 120\% (windward faces) of the accumulation in adjacent nonmegadune areas. Leeward faces are characterized by glazed, sastrugi-free surfaces and extensive depth hoar formation. Windward faces are covered by large rough sastrugi up to 1.5 m in height.}
+      \field{issn}{0148-0227}
+      \field{journaltitle}{Journal of Geophysical Research: Atmospheres}
+      \field{month}{9}
+      \field{number}{D18}
+      \field{title}{Snow Megadunes in {{Antarctica}}: {{Sedimentary}} Structure and Genesis}
+      \field{urlday}{9}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{volume}{107}
+      \field{year}{2002}
+      \field{urldateera}{ce}
+      \field{pages}{ACL 1\bibrangedash 1}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1029/2001JD000673
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1029/2001JD000673
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1029/2001JD000673
+      \endverb
+      \keyw{aeolian morphology,Antarctica,ice core,katabatic wind,mass balance,snow dune}
     \endentry
     \entry{hollandPolarAmplificationClimate2003}{article}{}{}
       \name{author}{2}{}{%
@@ -776,16 +950,13 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The Northern Hemisphere polar amplification of climate change is documented in models taking part in the Coupled Model Intercomparison Project and in the new version of the Community Climate System Model. In particular, the magnitude, spatial distribution, and seasonality of the surface warming in the Arctic is examined and compared among the models. The range of simulated polar warming in the Arctic is from 1.5 to 4.5 times the global mean warming. While ice-albedo feedback is likely to account for much of the polar amplification, the strength of the feedback depends on numerous physical processes and parametrizations which differ considerably among the models. Nonetheless, the mean sea-ice state in the control (or present) climate is found to influence both the magnitude and spatial distribution of the high-latitude warming in the models. In particular, the latitude of the maximum warming is correlated inversely and significantly with sea-ice extent in the control climate. Additionally, models with relatively thin Arctic ice cover in the control climate tend to have higher polar amplification. An intercomparison of model results also shows that increases in poleward ocean heat transport at high latitudes and increases in polar cloud cover are significantly correlated to amplified Arctic warming. This suggests that these changes in the climate state may modify polar amplification. No significant correlation is found between polar amplification and the control climate continental ice and snow cover.}
-      \field{day}{1}
       \field{issn}{1432-0894}
       \field{journaltitle}{Climate Dynamics}
       \field{month}{9}
       \field{number}{3}
-      \field{shortjournal}{Climate Dynamics}
       \field{title}{Polar Amplification of Climate Change in Coupled Models}
       \field{volume}{21}
       \field{year}{2003}
-      \field{dateera}{ce}
       \field{pages}{221\bibrangedash 232}
       \range{pages}{12}
       \verb{doi}
@@ -798,7 +969,7 @@
       \verb https://doi.org/10.1007/s00382-003-0332-6
       \endverb
     \endentry
-    \entry{internationalunionofpureandappliedchemistryiupacSpecificSurfaceArea}{inbook}{}{}
+    \entry{internationalunionofpureandappliedchemistryiupacSpecificSurfaceArea}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=17fa023172095df2a317856dddb0ada8}{%
            family={{International Union of Pure and Applied Chemistry (IUPAC)}},
@@ -821,7 +992,6 @@
       \field{labeltitlesource}{title}
       \field{title}{Specific Surface Area}
       \field{year}{2025}
-      \field{dateera}{ce}
       \verb{doi}
       \verb 10.1351/goldbook.S05806
       \endverb
@@ -874,16 +1044,13 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{1}
       \field{journaltitle}{Journal of Hydrometeorology}
       \field{langid}{english}
       \field{month}{1}
       \field{number}{1}
-      \field{shortjournal}{Journal of Hydrometeorology}
       \field{title}{Global {{Snow Seasonality Regimes}} from {{Satellite Records}} of {{Snow Cover}}}
       \field{volume}{25}
       \field{year}{2024}
-      \field{dateera}{ce}
       \field{pages}{65\bibrangedash 88}
       \range{pages}{24}
       \verb{doi}
@@ -929,16 +1096,13 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Permanent snow and ice cover great portions of the Arctic and the Antarctic. It appears in winter months in northern parts of America, Asia, and Europe. Therefore snow is an important component of the hydrological cycle. Also, it is a main regulator of the seasonal variation of the planetary albedo. This seasonal change in albedo is determined largely by the snow cover. However, the presence of pollutants and the microstructure of snow (e.g., the size and shape of grains, which depend also on temperature and on the age of the snow) are also of importance in the variation of the snow’s spectral albedo. The snow’s spectral albedo and its bidirectional reflectance are studied theoretically. The albedo also determines the spectral absorptance of snow, which is of importance, e.g., in studies of the heating regime in snow. We investigate the influence of the nonspherical shape of grains and of close-packed effects on snow’s reflectance in the visible and the near-infrared regions of the electromagnetic spectrum. The rate of the spectral transition from highly reflective snow in the visible to almost totally absorbing black snow in the infrared is governed largely by the snow’s grain sizes and by the load of pollutants. Therefore both the characteristics of snow and its concentration of impurities can be monitored on a global scale by use of spectrometers and radiometers placed on orbiting satellites.}
-      \field{day}{1}
+      \field{abstract}{Permanent snow and ice cover great portions of the Arctic and the Antarctic. It appears in winter months in northern parts of America, Asia, and Europe. Therefore snow is an important component of the hydrological cycle. Also, it is a main regulator of the seasonal variation of the planetary albedo. This seasonal change in albedo is determined largely by the snow cover. However, the presence of pollutants and the microstructure of snow (e.g., the size and shape of grains, which depend also on temperature and on the age of the snow) are also of importance in the variation of the snow's spectral albedo. The snow's spectral albedo and its bidirectional reflectance are studied theoretically. The albedo also determines the spectral absorptance of snow, which is of importance, e.g., in studies of the heating regime in snow. We investigate the influence of the nonspherical shape of grains and of close-packed effects on snow's reflectance in the visible and the near-infrared regions of the electromagnetic spectrum. The rate of the spectral transition from highly reflective snow in the visible to almost totally absorbing black snow in the infrared is governed largely by the snow's grain sizes and by the load of pollutants. Therefore both the characteristics of snow and its concentration of impurities can be monitored on a global scale by use of spectrometers and radiometers placed on orbiting satellites.}
       \field{journaltitle}{Applied Optics}
       \field{month}{3}
       \field{number}{7}
-      \field{shortjournal}{Appl. Opt.}
       \field{title}{Scattering Optics of Snow}
       \field{volume}{43}
       \field{year}{2004}
-      \field{dateera}{ce}
       \field{pages}{1589\bibrangedash 1602}
       \range{pages}{14}
       \verb{doi}
@@ -1081,8 +1245,8 @@
            giveni={A\bibinithyphendelim K\bibinitperiod},
            givenun=0}}%
         {{un=0,uniquepart=base,hash=56d0f302ae7d8514adb5179a354940d1}{%
-           family={Steen-Larsen},
-           familyi={S\bibinithyphendelim L\bibinitperiod},
+           family={{Steen-Larsen}},
+           familyi={S\bibinitperiod},
            given={H.\bibnamedelimi C.},
            giveni={H\bibinitperiod\bibinitdelim C\bibinitperiod},
            givenun=0}}%
@@ -1104,14 +1268,12 @@
            given={B.},
            giveni={B\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,useprefix=true,hash=a1777766c25ad9781f4e512119aa038d}{%
-           family={As},
-           familyi={A\bibinitperiod},
+        {{un=0,uniquepart=base,hash=261b1229aa47fd408bbe8fbb4602bbba}{%
+           family={{van As}},
+           familyi={v\bibinitperiod},
            given={D.},
            giveni={D\bibinitperiod},
-           givenun=0,
-           prefix={van},
-           prefixi={v\bibinitperiod}}}%
+           givenun=0}}%
         {{un=0,uniquepart=base,hash=ce8da1023c51d5cc61e27003dc3b90b0}{%
            family={Mankoff},
            familyi={M\bibinitperiod},
@@ -1138,13 +1300,13 @@
            givenun=0}}%
       }
       \strng{namehash}{762c7471f2b908a7e57ac6a9d79acb87}
-      \strng{fullhash}{d819a1e5fabfd299c98d9f4a7d85e33d}
-      \strng{fullhashraw}{d819a1e5fabfd299c98d9f4a7d85e33d}
+      \strng{fullhash}{979a4fbd762947fbcf55b9ed2bb67e82}
+      \strng{fullhashraw}{979a4fbd762947fbcf55b9ed2bb67e82}
       \strng{bibnamehash}{39e54afda8c13703545140f900ca3b64}
       \strng{authorbibnamehash}{39e54afda8c13703545140f900ca3b64}
       \strng{authornamehash}{762c7471f2b908a7e57ac6a9d79acb87}
-      \strng{authorfullhash}{d819a1e5fabfd299c98d9f4a7d85e33d}
-      \strng{authorfullhashraw}{d819a1e5fabfd299c98d9f4a7d85e33d}
+      \strng{authorfullhash}{979a4fbd762947fbcf55b9ed2bb67e82}
+      \strng{authorfullhashraw}{979a4fbd762947fbcf55b9ed2bb67e82}
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{extradatescope}{labelyear}
@@ -1153,11 +1315,9 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{MDPI Remote Sens.}
-      \field{shortjournal}{MDPI Remote Sens.}
       \field{title}{Retrieval of Snow Properties from the {{Sentinel-3 Ocean}} and {{Land Colour Instrument}}}
       \field{volume}{11}
       \field{year}{2019}
-      \field{dateera}{ce}
       \field{pages}{2280}
       \range{pages}{1}
       \verb{doi}
@@ -1261,16 +1421,13 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Surface melt has been tied to the collapse of Antarctic Peninsula ice shelves. This study illustrates that warmer temperatures associated with katabatic winds drive similar processes in an East Antarctic ice shelf, highlighting vulnerability to disintegration.}
-      \field{day}{1}
       \field{issn}{1758-6798}
       \field{journaltitle}{Nature Climate Change}
       \field{month}{1}
       \field{number}{1}
-      \field{shortjournal}{Nature Climate Change}
-      \field{title}{Meltwater Produced by Wind–Albedo Interaction Stored in an {{East Antarctic}} Ice Shelf}
+      \field{title}{Meltwater Produced by Wind--Albedo Interaction Stored in an {{East Antarctic}} Ice Shelf}
       \field{volume}{7}
       \field{year}{2017}
-      \field{dateera}{ce}
       \field{pages}{58\bibrangedash 62}
       \range{pages}{5}
       \verb{doi}
@@ -1346,16 +1503,13 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{26}
       \field{issn}{1994-0424}
       \field{journaltitle}{The Cryosphere}
       \field{month}{11}
       \field{number}{6}
-      \field{shortjournal}{The Cryosphere}
       \field{title}{Influence of Grain Shape on Light Penetration in Snow}
       \field{volume}{7}
       \field{year}{2013}
-      \field{dateera}{ce}
       \field{pages}{1803\bibrangedash 1818}
       \range{pages}{16}
       \verb{doi}
@@ -1366,6 +1520,63 @@
       \endverb
       \verb{url}
       \verb https://tc.copernicus.org/articles/7/1803/2013/
+      \endverb
+    \endentry
+    \entry{martyClearskyIndexSeparate2000}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=cdd624d18f92a2bdf49b93485bcaba98}{%
+           family={Marty},
+           familyi={M\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b72e91e46c1aefca45989e7f787d2305}{%
+           family={Philipona},
+           familyi={P\bibinitperiod},
+           given={Rolf},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons, Ltd}%
+      }
+      \strng{namehash}{038d1631a01a532d2404e3e5d2aa75cd}
+      \strng{fullhash}{038d1631a01a532d2404e3e5d2aa75cd}
+      \strng{fullhashraw}{038d1631a01a532d2404e3e5d2aa75cd}
+      \strng{bibnamehash}{038d1631a01a532d2404e3e5d2aa75cd}
+      \strng{authorbibnamehash}{038d1631a01a532d2404e3e5d2aa75cd}
+      \strng{authornamehash}{038d1631a01a532d2404e3e5d2aa75cd}
+      \strng{authorfullhash}{038d1631a01a532d2404e3e5d2aa75cd}
+      \strng{authorfullhashraw}{038d1631a01a532d2404e3e5d2aa75cd}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Accurate surface radiation fluxes are required to quantify atmosphere-surface energy exchanges. In climate research, detailed investigations of the influence of diverse atmospheric conditions on radiative fluxes ask for a well-defined distinction between clear-sky and cloudy-sky situations. Effects of clouds, the so called ?cloud forcing?, can only be determined by explicitly separating clear-sky from all-sky radiation measurements. A Clear-Sky Index (CSI) to separate clear-sky from cloudy-sky situations has therefore been introduced, using accurate atmospheric longwave radiation in conjunction with air temperature and humidity measurements at the station. This clear-sky index, which has the important advantage to be applicable 24 hours a day, was tested and first used on measurements of the Alpine Surface Radiation Budget (ASRB) network, and was of prime importance for the determination of the altitude dependence of cloud forcing and greenhouse effect over the Alps.}
+      \field{issn}{0094-8276}
+      \field{journaltitle}{Geophysical Research Letters}
+      \field{month}{9}
+      \field{number}{17}
+      \field{title}{The Clear-Sky Index to Separate Clear-Sky from Cloudy-Sky Situations in Climate Research}
+      \field{urlday}{19}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{volume}{27}
+      \field{year}{2000}
+      \field{urldateera}{ce}
+      \field{pages}{2649\bibrangedash 2652}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1029/2000GL011743
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1029/2000GL011743
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1029/2000GL011743
       \endverb
     \endentry
     \entry{NSIDC_cryosphere}{misc}{}{}
@@ -1391,7 +1602,6 @@
       \field{labeltitlesource}{title}
       \field{title}{What Is the Cryosphere?}
       \field{year}{2024}
-      \field{dateera}{ce}
       \verb{urlraw}
       \verb https://nsidc.org/learn/what-cryosphere
       \endverb
@@ -1443,6 +1653,7 @@
       \strng{authornamehash}{ec515778b5706e0d3bf7d6f240b47430}
       \strng{authorfullhash}{2de91935822aebd15667e99426ca2230}
       \strng{authorfullhashraw}{2de91935822aebd15667e99426ca2230}
+      \field{extraname}{1}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
@@ -1451,16 +1662,13 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Autosolexs and Solalb}
-      \field{day}{21}
       \field{issn}{1994-0424}
       \field{journaltitle}{The Cryosphere}
       \field{month}{6}
       \field{number}{3}
-      \field{shortjournal}{The Cryosphere}
       \field{title}{Development and Calibration of an Automatic Spectral Albedometer to Estimate Near-Surface Snow {{SSA}} Time Series}
       \field{volume}{10}
       \field{year}{2016}
-      \field{dateera}{ce}
       \field{pages}{1297\bibrangedash 1316}
       \range{pages}{20}
       \verb{doi}
@@ -1471,6 +1679,156 @@
       \endverb
       \verb{url}
       \verb https://tc.copernicus.org/articles/10/1297/2016/
+      \endverb
+    \endentry
+    \entry{picardSpectralAlbedoMeasurements2020}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=136c80467513442a81e353849106c031}{%
+           family={Picard},
+           familyi={P\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=17dce304790c6ff2cb635a6757d3f802}{%
+           family={Dumont},
+           familyi={D\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a633d7899c918b8cfef928ce0e970d23}{%
+           family={Lamare},
+           familyi={L\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6df294f37a4bb5668d5e5e8744ef22d4}{%
+           family={Tuzet},
+           familyi={T\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0380032f960808a13a7f0d6bf045b215}{%
+           family={Larue},
+           familyi={L\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bba0539270438a17425f1273450bbb7f}{%
+           family={Pirazzini},
+           familyi={P\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e18c9376f6af48ec62627909979a7f28}{%
+           family={Arnaud},
+           familyi={A\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Copernicus Publications}%
+      }
+      \strng{namehash}{ec515778b5706e0d3bf7d6f240b47430}
+      \strng{fullhash}{6fda721ac3a3af4217da6ef3c43d3115}
+      \strng{fullhashraw}{6fda721ac3a3af4217da6ef3c43d3115}
+      \strng{bibnamehash}{6fda721ac3a3af4217da6ef3c43d3115}
+      \strng{authorbibnamehash}{6fda721ac3a3af4217da6ef3c43d3115}
+      \strng{authornamehash}{ec515778b5706e0d3bf7d6f240b47430}
+      \strng{authorfullhash}{6fda721ac3a3af4217da6ef3c43d3115}
+      \strng{authorfullhashraw}{6fda721ac3a3af4217da6ef3c43d3115}
+      \field{extraname}{2}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1994-0424}
+      \field{journaltitle}{The Cryosphere}
+      \field{month}{5}
+      \field{number}{5}
+      \field{title}{Spectral Albedo Measurements over Snow-Covered Slopes: Theory and Slope Effect Corrections}
+      \field{volume}{14}
+      \field{year}{2020}
+      \field{pages}{1497\bibrangedash 1517}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.5194/tc-14-1497-2020
+      \endverb
+      \verb{urlraw}
+      \verb https://tc.copernicus.org/articles/14/1497/2020/
+      \endverb
+      \verb{url}
+      \verb https://tc.copernicus.org/articles/14/1497/2020/
+      \endverb
+    \endentry
+    \entry{ricchiazziSBDARTResearchTeaching1998}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=642504be7560d78e7b821bc2606357a3}{%
+           family={Ricchiazzi},
+           familyi={R\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=48dd4b5c6e2639fe739eb5c08e2ad0fd}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Shiren},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ba558d86770ba3b5f3d0ee7087a4067e}{%
+           family={Gautier},
+           familyi={G\bibinitperiod},
+           given={Catherine},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e124f2757616f1597ddedc86f0efd9e5}{%
+           family={Sowle},
+           familyi={S\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Boston MA, USA}%
+      }
+      \list{publisher}{1}{%
+        {American Meteorological Society}%
+      }
+      \strng{namehash}{188d5331a790430b78e3a88f79f6bffb}
+      \strng{fullhash}{a080536733ae18c6d33df7bdb1656bb7}
+      \strng{fullhashraw}{a080536733ae18c6d33df7bdb1656bb7}
+      \strng{bibnamehash}{a080536733ae18c6d33df7bdb1656bb7}
+      \strng{authorbibnamehash}{a080536733ae18c6d33df7bdb1656bb7}
+      \strng{authornamehash}{188d5331a790430b78e3a88f79f6bffb}
+      \strng{authorfullhash}{a080536733ae18c6d33df7bdb1656bb7}
+      \strng{authorfullhashraw}{a080536733ae18c6d33df7bdb1656bb7}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bulletin of the American Meteorological Society}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{10}
+      \field{title}{{{SBDART}}: {{A Research}} and {{Teaching Software Tool}} for {{Plane-Parallel Radiative Transfer}} in the {{Earth}}'s {{Atmosphere}}}
+      \field{volume}{79}
+      \field{year}{1998}
+      \field{pages}{2101\bibrangedash 2114}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1175/1520-0477(1998)079<2101:SARATS>2.0.CO;2
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.ametsoc.org/view/journals/bams/79/10/1520-0477_1998_079_2101_sarats_2_0_co_2.xml
+      \endverb
+      \verb{url}
+      \verb https://journals.ametsoc.org/view/journals/bams/79/10/1520-0477_1998_079_2101_sarats_2_0_co_2.xml
       \endverb
     \endentry
     \entry{rutgers_snowlab}{misc}{}{}
@@ -1488,7 +1846,7 @@
            giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod},
            givenun=0}}%
       }
-      \list{organization}{1}{%
+      \list{publisher}{1}{%
         {NOAA National Centers for Environmental Information}%
       }
       \strng{namehash}{1a93da1789ec109d3c8035b9071a8e0c}
@@ -1508,7 +1866,6 @@
       \field{labeltitlesource}{title}
       \field{title}{Northern Hemisphere Snow Cover Extent Dataset}
       \field{year}{2012}
-      \field{dateera}{ce}
       \verb{urlraw}
       \verb https://climate.rutgers.edu/snowcover/
       \endverb
@@ -1549,20 +1906,17 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{In this paper we use a satellite-derived data set to explore spatial and temporal variations of snow extent across Northern Hemisphere continents during the last three decades. These weekly visible-wavelength satellite maps of Northern Hemisphere snow extent produced by the National Oceanic and Atmospheric Administration constitute the longest consistently-derived satellite record of any environmental variable. We document the considerable intra-annual variability of snow extent, and show that during each month, fluctuations over relatively small areas are responsible for the majority of the year-to-year variability. Regions that cover less than 6\% of Northern Hemisphere lands north of 20°N explain 62\% ???????? 92\% of the interannual variance across the continents. On average, snow was more extensive across both Eurasia and North America from the 1970s to middle 1980s than during the late 1980s to late 1990s. During late winter, spring and summer, snow extent has decreased since the middle 1980s, while during fall to middle winter, snow extent has remained relatively constant. Accurate information on continental snow extent is critical for weather and hydrologic forecasting; for understanding hemispheric-scale atmospheric circulation, thermal variations, and regional snow extent; and for using snow as a credible indicator of climate variability and change.}
-      \field{day}{1}
+      \field{abstract}{In this paper we use a satellite-derived data set to explore spatial and temporal variations of snow extent across Northern Hemisphere continents during the last three decades. These weekly visible-wavelength satellite maps of Northern Hemisphere snow extent produced by the National Oceanic and Atmospheric Administration constitute the longest consistently-derived satellite record of any environmental variable. We document the considerable intra-annual variability of snow extent, and show that during each month, fluctuations over relatively small areas are responsible for the majority of the year-to-year variability. Regions that cover less than 6\% of Northern Hemisphere lands north of 20{$^\circ$}N explain 62\% ???????? 92\% of the interannual variance across the continents. On average, snow was more extensive across both Eurasia and North America from the 1970s to middle 1980s than during the late 1980s to late 1990s. During late winter, spring and summer, snow extent has decreased since the middle 1980s, while during fall to middle winter, snow extent has remained relatively constant. Accurate information on continental snow extent is critical for weather and hydrologic forecasting; for understanding hemispheric-scale atmospheric circulation, thermal variations, and regional snow extent; and for using snow as a credible indicator of climate variability and change.}
       \field{issn}{0033-0124}
       \field{journaltitle}{The Professional Geographer}
       \field{month}{5}
       \field{number}{2}
-      \field{shortjournal}{The Professional Geographer}
       \field{title}{Seasonal {{Variability}} of {{Northern Hemisphere Snow Extent Using Visible Satellite Data}}}
       \field{urlday}{12}
       \field{urlmonth}{5}
       \field{urlyear}{2026}
       \field{volume}{52}
       \field{year}{2000}
-      \field{dateera}{ce}
       \field{urldateera}{ce}
       \field{pages}{307\bibrangedash 315}
       \range{pages}{9}
@@ -1625,17 +1979,14 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{As one of the brightest natural surfaces on Earth, the darkening of snow by light-absorbing particles (LAPs) — dust, black carbon or microbial growth — can trigger albedo feedbacks and accelerate snowmelt. Indeed, an increase in black carbon deposition following the industrial revolution has led to the recognition that LAP radiative forcing has contributed to a reduction in the global cryosphere, with corresponding climatic impacts. This Review synthesizes our current understanding of the distribution of radiative forcing by LAPs in snow, and discusses the challenges that need to be overcome to constrain global impacts, including the limited scope of local-scale observations, limitations of remote sensing technology and the representation of LAP-related processes in Earth system models.}
-      \field{day}{1}
+      \field{abstract}{As one of the brightest natural surfaces on Earth, the darkening of snow by light-absorbing particles (LAPs) --- dust, black carbon or microbial growth --- can trigger albedo feedbacks and accelerate snowmelt. Indeed, an increase in black carbon deposition following the industrial revolution has led to the recognition that LAP radiative forcing has contributed to a reduction in the global cryosphere, with corresponding climatic impacts. This Review synthesizes our current understanding of the distribution of radiative forcing by LAPs in snow, and discusses the challenges that need to be overcome to constrain global impacts, including the limited scope of local-scale observations, limitations of remote sensing technology and the representation of LAP-related processes in Earth system models.}
       \field{issn}{1758-6798}
       \field{journaltitle}{Nature Climate Change}
       \field{month}{11}
       \field{number}{11}
-      \field{shortjournal}{Nature Climate Change}
       \field{title}{Radiative Forcing by Light-Absorbing Particles in Snow}
       \field{volume}{8}
       \field{year}{2018}
-      \field{dateera}{ce}
       \field{pages}{964\bibrangedash 971}
       \range{pages}{8}
       \verb{doi}
@@ -1816,7 +2167,6 @@
       \field{booktitle}{Climate Change 2013: {{The}} Physical Science Basis. {{Contribution}} of Working Group {{I}} to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change}
       \field{title}{Observations: {{Cryosphere}}}
       \field{year}{2013}
-      \field{dateera}{ce}
     \endentry
     \entry{wakahamaMetamorphismWetSnow1968}{article}{}{}
       \name{author}{1}{}{%
@@ -1843,11 +2193,9 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IASH Publ.}
-      \field{shortjournal}{IASH Publ.}
       \field{title}{The Metamorphism of Wet Snow}
       \field{volume}{79}
       \field{year}{1968}
-      \field{dateera}{ce}
       \field{pages}{370\bibrangedash 379}
       \range{pages}{10}
     \endentry
@@ -1887,16 +2235,13 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{1}
       \field{journaltitle}{Journal of Atmospheric Sciences}
       \field{langid}{english}
       \field{month}{12}
       \field{number}{12}
-      \field{shortjournal}{Journal of Atmospheric Sciences}
       \field{title}{A {{Model}} for the {{Spectral Albedo}} of {{Snow}}. {{II}}: {{Snow Containing Atmospheric Aerosols}}}
       \field{volume}{37}
       \field{year}{1980}
-      \field{dateera}{ce}
       \field{pages}{2734\bibrangedash 2745}
       \range{pages}{12}
       \verb{doi}
@@ -1975,16 +2320,13 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{1}
       \field{journaltitle}{Journal of Climate}
       \field{langid}{english}
       \field{month}{6}
       \field{number}{6}
-      \field{shortjournal}{Journal of Climate}
       \field{title}{Snow {{Depth}} on {{Arctic Sea Ice}}}
       \field{volume}{12}
       \field{year}{1999}
-      \field{dateera}{ce}
       \field{pages}{1814\bibrangedash 1829}
       \range{pages}{16}
       \verb{doi}
@@ -1997,7 +2339,7 @@
       \verb https://journals.ametsoc.org/view/journals/clim/12/6/1520-0442_1999_012_1814_sdoasi_2.0.co_2.xml
       \endverb
     \endentry
-    \entry{WMO2024BlowingSnow}{online}{}{}
+    \entry{WMO2024BlowingSnow}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=a0976dd5c26a3096c852635be8d95c80}{%
            family={{World Meteorological Organization}},
@@ -2023,7 +2365,6 @@
       \field{urlmonth}{5}
       \field{urlyear}{2026}
       \field{year}{2024}
-      \field{dateera}{ce}
       \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://cloudatlas.wmo.int/en/blowing-snow.html
@@ -2069,7 +2410,6 @@
       \field{title}{Snow {{Drift}}}
       \field{volume}{19}
       \field{year}{1977}
-      \field{dateera}{ce}
       \field{pages}{123\bibrangedash 139}
       \range{pages}{17}
       \verb{doi}
@@ -2127,16 +2467,13 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{8}
       \field{issn}{1994-0424}
       \field{journaltitle}{The Cryosphere}
       \field{month}{6}
       \field{number}{6}
-      \field{shortjournal}{The Cryosphere}
       \field{title}{Dynamics of the Snow Grain Size in a Windy Coastal Area of {{Antarctica}} from Continuous in Situ Spectral-Albedo Measurements}
       \field{volume}{17}
       \field{year}{2023}
-      \field{dateera}{ce}
       \field{pages}{2323\bibrangedash 2342}
       \range{pages}{20}
       \verb{doi}
@@ -2183,19 +2520,16 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The optical properties of a snowpack are calculated, giving relations between the asymptotic flux extinction coefficient and albedo under diffuse illumination on the one hand and the density, grain size, and wavelength, on the other. A geometrical optics calculation of the properties of a single grain is used with approximate solutions of the radiative transfer problem. Most of the scattering is the result of change in direction of the light beam upon transmission through the grain, rather than reflection. The asymptotic flux extinction coefficient is directly proportional to the snowpack density and inversely proportional to the square root of the grain size. The albedo under diffuse illumination is independent of density and proportional to the square root of the grain size. The derived relations agree with experimental data to within 20\% for the flux extinction coefficient and to better than 2\% for the albedo without using adjustable parameters. Higher values of the flux extinction coefficient will be measured if the snow is confined within a finite cylinder with absorbing sides. An analysis of this effect is given.}
-      \field{day}{20}
       \field{issn}{0148-0227}
       \field{journaltitle}{Journal of Geophysical Research (1896-1977)}
       \field{month}{10}
       \field{number}{30}
-      \field{shortjournal}{Journal of Geophysical Research (1896-1977)}
       \field{title}{Theory of the Optical Properties of Snow}
       \field{urlday}{6}
       \field{urlmonth}{1}
       \field{urlyear}{2026}
       \field{volume}{79}
       \field{year}{1974}
-      \field{dateera}{ce}
       \field{urldateera}{ce}
       \field{pages}{4527\bibrangedash 4535}
       \range{pages}{9}
@@ -2218,8 +2552,8 @@
            giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
            givenun=0}}%
         {{un=0,uniquepart=base,hash=796671136a185cfb63026ae33c7bf0fe}{%
-           family={Corbea-Pérez},
-           familyi={C\bibinithyphendelim P\bibinitperiod},
+           family={{Corbea-Pérez}},
+           familyi={C\bibinitperiod},
            given={Alejandro},
            giveni={A\bibinitperiod},
            givenun=0}}%
@@ -2241,23 +2575,21 @@
            given={Juanjo},
            giveni={J\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,useprefix=true,hash=09f8ee5dd150e0567dcec5138227c8e0}{%
-           family={Pablo},
-           familyi={P\bibinitperiod},
+        {{un=0,uniquepart=base,hash=8ea19d776f0f4fd8941e380cd81d7a8c}{%
+           family={{de Pablo}},
+           familyi={d\bibinitperiod},
            given={Miguel\bibnamedelima Á.},
            giveni={M\bibinitperiod\bibinitdelim Á\bibinitperiod},
-           givenun=0,
-           prefix={de},
-           prefixi={d\bibinitperiod}}}%
+           givenun=0}}%
       }
       \strng{namehash}{e9a8c66304d4a57a26f195630b9a63ba}
-      \strng{fullhash}{4b9286d74415e37ca3ae3f08e158f982}
-      \strng{fullhashraw}{4b9286d74415e37ca3ae3f08e158f982}
-      \strng{bibnamehash}{4b9286d74415e37ca3ae3f08e158f982}
-      \strng{authorbibnamehash}{4b9286d74415e37ca3ae3f08e158f982}
+      \strng{fullhash}{82ad4a604717c165c75c0269a1677e05}
+      \strng{fullhashraw}{82ad4a604717c165c75c0269a1677e05}
+      \strng{bibnamehash}{82ad4a604717c165c75c0269a1677e05}
+      \strng{authorbibnamehash}{82ad4a604717c165c75c0269a1677e05}
       \strng{authornamehash}{e9a8c66304d4a57a26f195630b9a63ba}
-      \strng{authorfullhash}{4b9286d74415e37ca3ae3f08e158f982}
-      \strng{authorfullhashraw}{4b9286d74415e37ca3ae3f08e158f982}
+      \strng{authorfullhash}{82ad4a604717c165c75c0269a1677e05}
+      \strng{authorfullhashraw}{82ad4a604717c165c75c0269a1677e05}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -2265,14 +2597,13 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{The aim of this work is to investigate whether snow albedo seasonality and trend under all sky conditions at Johnsons Glacier (Livingston Island, Antarctica) can be tracked using the Moderate Resolution Imaging Spectroradiometer (MODIS) snow albedo daily product MOD10A1. The time span is from December 2006 to February 2015. As the MOD10A1 snow albedo product has never been used in Antarctica before, we also assess the performance for the MOD10A1 cloud mask. The motivation for this work is the need for a description of snow albedo under all sky conditions (including overcast days) using satellite data with mid-spatial resolution. In-situ albedo was filtered with a 5-day windowed moving average, while the MOD10A1 data were filtered using a maximum filter. Both in-situ and MOD10A1 data follow an exponential decay during the melting season, with a maximum decay of 0.049/0.094 day−1 (in-situ/MOD10A1) for the 2006–2007 season and a minimum of 0.016/0.016 day−1 for the 2009–2010 season. The duration of the decay varies from 85 days (2007–2008) to 167 days (2013–2014). Regarding the albedo trend, both data sets exhibit a slight increase of albedo, which may be explained by an increase of snowfall along with a decrease of snowmelt in the study area. Annual albedo increases of 0.2\% and 0.7\% are obtained for in-situ and MOD10A1 data, respectively, which amount to respective increases of 2\% and 6\% in the period 2006–2015. We conclude that MOD10A1 can be used to characterize snow albedo seasonality and trend on Livingston Island when filtered with a maximum filter.}
+      \field{abstract}{The aim of this work is to investigate whether snow albedo seasonality and trend under all sky conditions at Johnsons Glacier (Livingston Island, Antarctica) can be tracked using the Moderate Resolution Imaging Spectroradiometer (MODIS) snow albedo daily product MOD10A1. The time span is from December 2006 to February 2015. As the MOD10A1 snow albedo product has never been used in Antarctica before, we also assess the performance for the MOD10A1 cloud mask. The motivation for this work is the need for a description of snow albedo under all sky conditions (including overcast days) using satellite data with mid-spatial resolution. In-situ albedo was filtered with a 5-day windowed moving average, while the MOD10A1 data were filtered using a maximum filter. Both in-situ and MOD10A1 data follow an exponential decay during the melting season, with a maximum decay of 0.049/0.094 day-1 (in-situ/MOD10A1) for the 2006--2007 season and a minimum of 0.016/0.016 day-1 for the 2009--2010 season. The duration of the decay varies from 85 days (2007--2008) to 167 days (2013--2014). Regarding the albedo trend, both data sets exhibit a slight increase of albedo, which may be explained by an increase of snowfall along with a decrease of snowmelt in the study area. Annual albedo increases of 0.2\% and 0.7\% are obtained for in-situ and MOD10A1 data, respectively, which amount to respective increases of 2\% and 6\% in the period 2006--2015. We conclude that MOD10A1 can be used to characterize snow albedo seasonality and trend on Livingston Island when filtered with a maximum filter.}
       \field{issn}{1424-8220}
       \field{journaltitle}{Sensors}
       \field{number}{16}
       \field{title}{Snow {{Albedo Seasonality}} and {{Trend}} from {{MODIS Sensor}} and {{Ground Data}} at {{Johnsons Glacier}}, {{Livingston Island}}, {{Maritime Antarctica}}}
       \field{volume}{19}
       \field{year}{2019}
-      \field{dateera}{ce}
       \field{pages}{3569}
       \range{pages}{1}
       \verb{doi}
@@ -2308,19 +2639,16 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The grains in seasonal snow undergo rapid and radical transformations in size, shape, and cohesion. These grain characteristics affect all of the basic properties of snow. Snow is characterized as either wet or dry depending on the presence of liquid water. Wet snow is markedly different at low and high liquid contents. Dry snow is characterized as either an equilibrium form or a kinetic growth form; that is, it is either well rounded or faceted. Of course, many snow grains display either transitional features between two of these categories or features which arise from other processes. Snow is classified depending on the dominant processes of its metamorphism.}
-      \field{day}{1}
       \field{issn}{8755-1209}
       \field{journaltitle}{Reviews of Geophysics}
       \field{month}{2}
       \field{number}{1}
-      \field{shortjournal}{Reviews of Geophysics}
       \field{title}{An Overview of Seasonal Snow Metamorphism}
       \field{urlday}{15}
       \field{urlmonth}{5}
       \field{urlyear}{2026}
       \field{volume}{20}
       \field{year}{1982}
-      \field{dateera}{ce}
       \field{urldateera}{ce}
       \field{pages}{45\bibrangedash 61}
       \range{pages}{17}
@@ -2333,6 +2661,63 @@
       \verb{url}
       \verb https://doi.org/10.1029/RG020i001p00045
       \endverb
+    \endentry
+    \entry{croninHowWellWe2023}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=5388d51c255dda0d1203b6be2e3ef1dc}{%
+           family={Cronin},
+           familyi={C\bibinitperiod},
+           given={Timothy\bibnamedelima W.},
+           giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=69436cd7d6139982c97cd87c72ca6e3b}{%
+           family={Dutta},
+           familyi={D\bibinitperiod},
+           given={Ishir},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons, Ltd}%
+      }
+      \strng{namehash}{3dfb7bbf3be8478dd52653c0ab6040b1}
+      \strng{fullhash}{3dfb7bbf3be8478dd52653c0ab6040b1}
+      \strng{fullhashraw}{3dfb7bbf3be8478dd52653c0ab6040b1}
+      \strng{bibnamehash}{3dfb7bbf3be8478dd52653c0ab6040b1}
+      \strng{authorbibnamehash}{3dfb7bbf3be8478dd52653c0ab6040b1}
+      \strng{authornamehash}{3dfb7bbf3be8478dd52653c0ab6040b1}
+      \strng{authorfullhash}{3dfb7bbf3be8478dd52653c0ab6040b1}
+      \strng{authorfullhashraw}{3dfb7bbf3be8478dd52653c0ab6040b1}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract A reference or ?no-feedback? radiative response to warming is fundamental to understanding how much global warming will occur for a given change in greenhouse gases or solar radiation incident on the Earth. The simplest estimate of this radiative response is given by the Stefan-Boltzmann law as ~W~m?2~K?1 for Earth's present climate, where is a global effective emission temperature. The comparable radiative response in climate models, widely called the ?Planck feedback,? averages ?3.3~W~m?2~K?1. This difference of 0.5~W~m?2~K?1 is large compared to the uncertainty in the net climate feedback, yet it has not been studied carefully. We use radiative transfer models to analyze these two radiative feedbacks to warming, and find that the difference arises primarily from the lack of stratospheric warming assumed in calculations of the Planck feedback (traditionally justified by differing constraints on and time scales of stratospheric adjustment relative to surface and tropospheric warming). The Planck feedback is thus masked for wavelengths with non-negligible stratospheric opacity, and this effect implicitly acts to amplify warming in current feedback analysis of climate change. Other differences between Planck and Stefan-Boltzmann feedbacks arise from temperature-dependent gas opacities, and several artifacts of nonlinear averaging across wavelengths, heights, and different locations; these effects partly cancel but as a whole slightly destabilize the Planck feedback. Our results point to an important role played by stratospheric opacity in Earth's climate sensitivity, and clarify a long-overlooked but notable gap in our understanding of Earth's reference radiative response to warming.}
+      \field{journaltitle}{Journal of Advances in Modeling Earth Systems}
+      \field{month}{7}
+      \field{number}{7}
+      \field{title}{How {{Well}} Do {{We Understand}} the {{Planck Feedback}}?}
+      \field{urlday}{14}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{volume}{15}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{e2023MS003729}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1029/2023MS003729
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1029/2023MS003729
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1029/2023MS003729
+      \endverb
+      \keyw{atmospheric radiation,climate change,climate feedbacks,planetary atmospheres}
     \endentry
     \entry{cubaschProjectionsFutureClimate2001}{article}{}{}
       \name{author}{9}{}{%
@@ -2406,11 +2791,9 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{1}
       \field{month}{1}
       \field{title}{Projections of {{Future Climate Change}}}
       \field{year}{2001}
-      \field{dateera}{ce}
     \endentry
     \entry{domineThreeExamplesWhere2009}{article}{}{}
       \name{author}{5}{}{%
@@ -2463,16 +2846,13 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{16}
       \field{issn}{1994-0424}
       \field{journaltitle}{The Cryosphere}
       \field{month}{3}
       \field{number}{1}
-      \field{shortjournal}{The Cryosphere}
       \field{title}{Three Examples Where the Specific Surface Area of Snow Increased over Time}
       \field{volume}{3}
       \field{year}{2009}
-      \field{dateera}{ce}
       \field{pages}{31\bibrangedash 39}
       \range{pages}{9}
       \verb{doi}
@@ -2542,16 +2922,13 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{11}
       \field{issn}{1680-7324}
       \field{journaltitle}{Atmos. Chem. Phys.}
       \field{month}{3}
       \field{number}{5}
-      \field{shortjournal}{Atmos. Chem. Phys.}
-      \field{title}{High-Accuracy Measurements of Snow {{Bidirectional Reflectance Distribution Function}} at Visible and {{NIR}} Wavelengths – Comparison with Modelling Results}
+      \field{title}{High-Accuracy Measurements of Snow {{Bidirectional Reflectance Distribution Function}} at Visible and {{NIR}} Wavelengths -- Comparison with Modelling Results}
       \field{volume}{10}
       \field{year}{2010}
-      \field{dateera}{ce}
       \field{pages}{2507\bibrangedash 2520}
       \range{pages}{14}
       \verb{doi}
@@ -2591,20 +2968,17 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Abstract This study investigated variability and trends in the annual snow-cover cycle in regions covering high-latitude and high-elevation land areas in the Northern Hemisphere. The annual snow-cover cycle was examined with respect to the week of the last-observed snow cover in spring (WLS), the week of the first-observed snow cover in autumn (WFS), and the duration of the snow-free period (DSF). The analysis used a 29-year time-series (1972?2000) of weekly, visible-band satellite observations of Northern Hemisphere snow cover from NOAA with corrections applied by D. Robinson of Rutgers University Climate Laboratory. Substantial interannual variability was observed in WLS, WFS and DSF (standard deviations of 0·8?1·1, 0·7?0·9 and 1·0?1·4 weeks, respectively), which is related directly to interannual variability in snow-cover area in the regions and time periods of snow-cover transition. Over the nearly three-decade study period, WLS shifted earlier by 3?5 days/decade as determined by linear regression analysis. The observed shifts in the annual snow-cover cycle underlie a significant trend toward a longer annual snow-free period. The DSF increased by 5?6 days/decade over the study period, primarily as a result of earlier snow cover disappearance in spring. The observed trends are consistent with reported trends in the timing and length of the active growing season as determined from satellite observations of vegetation greenness and the atmospheric CO2 record. Copyright ? 2002 John Wiley \& Sons, Ltd.}
-      \field{day}{30}
+      \field{abstract}{Abstract This study investigated variability and trends in the annual snow-cover cycle in regions covering high-latitude and high-elevation land areas in the Northern Hemisphere. The annual snow-cover cycle was examined with respect to the week of the last-observed snow cover in spring (WLS), the week of the first-observed snow cover in autumn (WFS), and the duration of the snow-free period (DSF). The analysis used a 29-year time-series (1972?2000) of weekly, visible-band satellite observations of Northern Hemisphere snow cover from NOAA with corrections applied by D. Robinson of Rutgers University Climate Laboratory. Substantial interannual variability was observed in WLS, WFS and DSF (standard deviations of 0{$\cdot$}8?1{$\cdot$}1, 0{$\cdot$}7?0{$\cdot$}9 and 1{$\cdot$}0?1{$\cdot$}4 weeks, respectively), which is related directly to interannual variability in snow-cover area in the regions and time periods of snow-cover transition. Over the nearly three-decade study period, WLS shifted earlier by 3?5 days/decade as determined by linear regression analysis. The observed shifts in the annual snow-cover cycle underlie a significant trend toward a longer annual snow-free period. The DSF increased by 5?6 days/decade over the study period, primarily as a result of earlier snow cover disappearance in spring. The observed trends are consistent with reported trends in the timing and length of the active growing season as determined from satellite observations of vegetation greenness and the atmospheric CO2 record. Copyright ? 2002 John Wiley \& Sons, Ltd.}
       \field{issn}{0885-6087}
       \field{journaltitle}{Hydrological Processes}
       \field{month}{10}
       \field{number}{15}
-      \field{shortjournal}{Hydrological Processes}
-      \field{title}{Variability and Trends in the Annual Snow-Cover Cycle in {{Northern Hemisphere}} Land Areas, 1972–2000}
+      \field{title}{Variability and Trends in the Annual Snow-Cover Cycle in {{Northern Hemisphere}} Land Areas, 1972--2000}
       \field{urlday}{12}
       \field{urlmonth}{5}
       \field{urlyear}{2026}
       \field{volume}{16}
       \field{year}{2002}
-      \field{dateera}{ce}
       \field{urldateera}{ce}
       \field{pages}{3065\bibrangedash 3077}
       \range{pages}{13}
@@ -2619,7 +2993,88 @@
       \endverb
       \keyw{climate variability,Northern Hemisphere,remote sensing,snow cover,snow cycle,snow-free period}
     \endentry
-    \entry{fettererSeaIceIndex2025}{dataset}{}{}
+    \entry{fahnestockSnowMegaduneFields2000}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=f97a12620aea0fb43c20a77ee7869b24}{%
+           family={Fahnestock},
+           familyi={F\bibinitperiod},
+           given={Mark\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0b32e6ba5fafca9b50d1c9960e524b95}{%
+           family={Scambos},
+           familyi={S\bibinitperiod},
+           given={Ted\bibnamedelima A.},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=052904e83c2defc8eb51a353a9b69067}{%
+           family={Shuman},
+           familyi={S\bibinitperiod},
+           given={Christopher\bibnamedelima A.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d37214510ce3d87f4bd1d9aeee394aaf}{%
+           family={Arthern},
+           familyi={A\bibinitperiod},
+           given={Robert\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4f5934ab2c0f4285c51514c8f717257e}{%
+           family={Winebrenner},
+           familyi={W\bibinitperiod},
+           given={Dale\bibnamedelima P.},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=820a841eae0d1e589f93c1989d622f1d}{%
+           family={Kwok},
+           familyi={K\bibinitperiod},
+           given={Ron},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons, Ltd}%
+      }
+      \strng{namehash}{510355ab528a3a802ad3864442607874}
+      \strng{fullhash}{f5482f855548bb728bc0ef487b7531cf}
+      \strng{fullhashraw}{f5482f855548bb728bc0ef487b7531cf}
+      \strng{bibnamehash}{f5482f855548bb728bc0ef487b7531cf}
+      \strng{authorbibnamehash}{f5482f855548bb728bc0ef487b7531cf}
+      \strng{authornamehash}{510355ab528a3a802ad3864442607874}
+      \strng{authorfullhash}{f5482f855548bb728bc0ef487b7531cf}
+      \strng{authorfullhashraw}{f5482f855548bb728bc0ef487b7531cf}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Large dune fields occupy more than 500,000 km{$^2$} of the East Antarctic Plateau. The ?megadunes?, or long-wavelength surface ripples, have amplitudes of only a few meters, wavelengths of a few kilometers, and parallel crests which can extend one hundred kilometers. They occur in areas characterized by low accumulation, extensively recrystallized snow, and strong scattering of the microwave part of the spectrum. Dune crests are oriented perpendicular to the regional katabatic wind direction. Snow megadunes are unlikely to be formed by simple wind transport of snow particles.}
+      \field{issn}{0094-8276}
+      \field{journaltitle}{Geophysical Research Letters}
+      \field{month}{11}
+      \field{number}{22}
+      \field{title}{Snow Megadune Fields on the {{East Antarctic Plateau}}: {{Extreme}} Atmosphere-Ice Interaction}
+      \field{urlday}{15}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{volume}{27}
+      \field{year}{2000}
+      \field{urldateera}{ce}
+      \field{pages}{3719\bibrangedash 3722}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1029/1999GL011248
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1029/1999GL011248
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1029/1999GL011248
+      \endverb
+    \endentry
+    \entry{fettererSeaIceIndex2025}{misc}{}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=42242acc92e2c32fe792e168254dd548}{%
            family={Fetterer},
@@ -2678,7 +3133,6 @@
       \field{labeltitlesource}{title}
       \field{title}{Sea {{Ice Index}}, {{Version}} 4}
       \field{year}{2025}
-      \field{dateera}{ce}
       \verb{doi}
       \verb 10.7265/A98X-0F50
       \endverb
@@ -2737,17 +3191,14 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{The extent of snow cover and sea ice in the Northern Hemisphere has declined since 1979, suggesting a positive feedback of surface reflectivity on climate. A synthesis of a variety of remote sensing and field measurements suggests that this albedo feedback from the Northern Hemisphere cryosphere falls between 0.3 and 1.1\,W\,m−2\,K−1.}
-      \field{day}{1}
+      \field{abstract}{The extent of snow cover and sea ice in the Northern Hemisphere has declined since 1979, suggesting a positive feedback of surface reflectivity on climate. A synthesis of a variety of remote sensing and field measurements suggests that this albedo feedback from the Northern Hemisphere cryosphere falls between 0.3 and 1.1\,W\,m-2\,K-1.}
       \field{issn}{1752-0908}
       \field{journaltitle}{Nature Geoscience}
       \field{month}{3}
       \field{number}{3}
-      \field{shortjournal}{Nature Geoscience}
       \field{title}{Radiative Forcing and Albedo Feedback from the {{Northern Hemisphere}} Cryosphere between 1979 and 2008}
       \field{volume}{4}
       \field{year}{2011}
-      \field{dateera}{ce}
       \field{pages}{151\bibrangedash 155}
       \range{pages}{5}
       \verb{doi}
@@ -2759,6 +3210,70 @@
       \verb{url}
       \verb https://doi.org/10.1038/ngeo1062
       \endverb
+    \endentry
+    \entry{frezzottiSnowMegadunesAntarctica2002}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ca05a24a0969e491682459e8f11c4817}{%
+           family={Frezzotti},
+           familyi={F\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=df9aa4543d2527f1359d05aec0f00e91}{%
+           family={Gandolfi},
+           familyi={G\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=81fccfe1ac8adca0cbb59a1eb059f772}{%
+           family={Urbini},
+           familyi={U\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons, Ltd}%
+      }
+      \strng{namehash}{a2a77157694a4b4f9abedd990369836a}
+      \strng{fullhash}{838f2901fa799d5426c3efb4f086c4e9}
+      \strng{fullhashraw}{838f2901fa799d5426c3efb4f086c4e9}
+      \strng{bibnamehash}{838f2901fa799d5426c3efb4f086c4e9}
+      \strng{authorbibnamehash}{838f2901fa799d5426c3efb4f086c4e9}
+      \strng{authornamehash}{a2a77157694a4b4f9abedd990369836a}
+      \strng{authorfullhash}{838f2901fa799d5426c3efb4f086c4e9}
+      \strng{authorfullhashraw}{838f2901fa799d5426c3efb4f086c4e9}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Megadune fields occupy large areas in the interior of the East Antarctic ice sheet and are the result of unusual snow accumulation and redistribution processes. They therefore are important to surface mass balance and ice core interpretation. Field observations (GPS, GPR, and surface measurements) have provided a detailed description of megadune sedimentation and morphology over a 70 km2 area, located 200 km east of Dome C. A combination of remote sensing analysis (using Landsat and satellite radar altimetry) and field measurements indicate that slope in the prevailing wind direction (SPWD) and climatic conditions play a crucial role in megadune genesis. The megadune areas tend to be characterized by slightly steeper regional slope and the presence of highly persistent katabatic winds. The megadunes represent 2 to 4 m amplitude waves of 2 to 5 km wavelength formed by variable net accumulation, ranging between 25\% (leeward faces) to 120\% (windward faces) of the accumulation in adjacent nonmegadune areas. Leeward faces are characterized by glazed, sastrugi-free surfaces and extensive depth hoar formation. Windward faces are covered by large rough sastrugi up to 1.5 m in height.}
+      \field{issn}{0148-0227}
+      \field{journaltitle}{Journal of Geophysical Research: Atmospheres}
+      \field{month}{9}
+      \field{number}{D18}
+      \field{title}{Snow Megadunes in {{Antarctica}}: {{Sedimentary}} Structure and Genesis}
+      \field{urlday}{9}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{volume}{107}
+      \field{year}{2002}
+      \field{urldateera}{ce}
+      \field{pages}{ACL 1\bibrangedash 1}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1029/2001JD000673
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1029/2001JD000673
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1029/2001JD000673
+      \endverb
+      \keyw{aeolian morphology,Antarctica,ice core,katabatic wind,mass balance,snow dune}
     \endentry
     \entry{hollandPolarAmplificationClimate2003}{article}{}{}
       \name{author}{2}{}{%
@@ -2791,16 +3306,13 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The Northern Hemisphere polar amplification of climate change is documented in models taking part in the Coupled Model Intercomparison Project and in the new version of the Community Climate System Model. In particular, the magnitude, spatial distribution, and seasonality of the surface warming in the Arctic is examined and compared among the models. The range of simulated polar warming in the Arctic is from 1.5 to 4.5 times the global mean warming. While ice-albedo feedback is likely to account for much of the polar amplification, the strength of the feedback depends on numerous physical processes and parametrizations which differ considerably among the models. Nonetheless, the mean sea-ice state in the control (or present) climate is found to influence both the magnitude and spatial distribution of the high-latitude warming in the models. In particular, the latitude of the maximum warming is correlated inversely and significantly with sea-ice extent in the control climate. Additionally, models with relatively thin Arctic ice cover in the control climate tend to have higher polar amplification. An intercomparison of model results also shows that increases in poleward ocean heat transport at high latitudes and increases in polar cloud cover are significantly correlated to amplified Arctic warming. This suggests that these changes in the climate state may modify polar amplification. No significant correlation is found between polar amplification and the control climate continental ice and snow cover.}
-      \field{day}{1}
       \field{issn}{1432-0894}
       \field{journaltitle}{Climate Dynamics}
       \field{month}{9}
       \field{number}{3}
-      \field{shortjournal}{Climate Dynamics}
       \field{title}{Polar Amplification of Climate Change in Coupled Models}
       \field{volume}{21}
       \field{year}{2003}
-      \field{dateera}{ce}
       \field{pages}{221\bibrangedash 232}
       \range{pages}{12}
       \verb{doi}
@@ -2813,7 +3325,7 @@
       \verb https://doi.org/10.1007/s00382-003-0332-6
       \endverb
     \endentry
-    \entry{internationalunionofpureandappliedchemistryiupacSpecificSurfaceArea}{inbook}{}{}
+    \entry{internationalunionofpureandappliedchemistryiupacSpecificSurfaceArea}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=17fa023172095df2a317856dddb0ada8}{%
            family={{International Union of Pure and Applied Chemistry (IUPAC)}},
@@ -2836,7 +3348,6 @@
       \field{labeltitlesource}{title}
       \field{title}{Specific Surface Area}
       \field{year}{2025}
-      \field{dateera}{ce}
       \verb{doi}
       \verb 10.1351/goldbook.S05806
       \endverb
@@ -2889,16 +3400,13 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{1}
       \field{journaltitle}{Journal of Hydrometeorology}
       \field{langid}{english}
       \field{month}{1}
       \field{number}{1}
-      \field{shortjournal}{Journal of Hydrometeorology}
       \field{title}{Global {{Snow Seasonality Regimes}} from {{Satellite Records}} of {{Snow Cover}}}
       \field{volume}{25}
       \field{year}{2024}
-      \field{dateera}{ce}
       \field{pages}{65\bibrangedash 88}
       \range{pages}{24}
       \verb{doi}
@@ -3040,8 +3548,8 @@
            giveni={A\bibinithyphendelim K\bibinitperiod},
            givenun=0}}%
         {{un=0,uniquepart=base,hash=56d0f302ae7d8514adb5179a354940d1}{%
-           family={Steen-Larsen},
-           familyi={S\bibinithyphendelim L\bibinitperiod},
+           family={{Steen-Larsen}},
+           familyi={S\bibinitperiod},
            given={H.\bibnamedelimi C.},
            giveni={H\bibinitperiod\bibinitdelim C\bibinitperiod},
            givenun=0}}%
@@ -3063,14 +3571,12 @@
            given={B.},
            giveni={B\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,useprefix=true,hash=a1777766c25ad9781f4e512119aa038d}{%
-           family={As},
-           familyi={A\bibinitperiod},
+        {{un=0,uniquepart=base,hash=261b1229aa47fd408bbe8fbb4602bbba}{%
+           family={{van As}},
+           familyi={v\bibinitperiod},
            given={D.},
            giveni={D\bibinitperiod},
-           givenun=0,
-           prefix={van},
-           prefixi={v\bibinitperiod}}}%
+           givenun=0}}%
         {{un=0,uniquepart=base,hash=ce8da1023c51d5cc61e27003dc3b90b0}{%
            family={Mankoff},
            familyi={M\bibinitperiod},
@@ -3097,13 +3603,13 @@
            givenun=0}}%
       }
       \strng{namehash}{762c7471f2b908a7e57ac6a9d79acb87}
-      \strng{fullhash}{d819a1e5fabfd299c98d9f4a7d85e33d}
-      \strng{fullhashraw}{d819a1e5fabfd299c98d9f4a7d85e33d}
+      \strng{fullhash}{979a4fbd762947fbcf55b9ed2bb67e82}
+      \strng{fullhashraw}{979a4fbd762947fbcf55b9ed2bb67e82}
       \strng{bibnamehash}{39e54afda8c13703545140f900ca3b64}
       \strng{authorbibnamehash}{39e54afda8c13703545140f900ca3b64}
       \strng{authornamehash}{762c7471f2b908a7e57ac6a9d79acb87}
-      \strng{authorfullhash}{d819a1e5fabfd299c98d9f4a7d85e33d}
-      \strng{authorfullhashraw}{d819a1e5fabfd299c98d9f4a7d85e33d}
+      \strng{authorfullhash}{979a4fbd762947fbcf55b9ed2bb67e82}
+      \strng{authorfullhashraw}{979a4fbd762947fbcf55b9ed2bb67e82}
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{extradatescope}{labelyear}
@@ -3112,11 +3618,9 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{MDPI Remote Sens.}
-      \field{shortjournal}{MDPI Remote Sens.}
       \field{title}{Retrieval of Snow Properties from the {{Sentinel-3 Ocean}} and {{Land Colour Instrument}}}
       \field{volume}{11}
       \field{year}{2019}
-      \field{dateera}{ce}
       \field{pages}{2280}
       \range{pages}{1}
       \verb{doi}
@@ -3156,16 +3660,13 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Permanent snow and ice cover great portions of the Arctic and the Antarctic. It appears in winter months in northern parts of America, Asia, and Europe. Therefore snow is an important component of the hydrological cycle. Also, it is a main regulator of the seasonal variation of the planetary albedo. This seasonal change in albedo is determined largely by the snow cover. However, the presence of pollutants and the microstructure of snow (e.g., the size and shape of grains, which depend also on temperature and on the age of the snow) are also of importance in the variation of the snow’s spectral albedo. The snow’s spectral albedo and its bidirectional reflectance are studied theoretically. The albedo also determines the spectral absorptance of snow, which is of importance, e.g., in studies of the heating regime in snow. We investigate the influence of the nonspherical shape of grains and of close-packed effects on snow’s reflectance in the visible and the near-infrared regions of the electromagnetic spectrum. The rate of the spectral transition from highly reflective snow in the visible to almost totally absorbing black snow in the infrared is governed largely by the snow’s grain sizes and by the load of pollutants. Therefore both the characteristics of snow and its concentration of impurities can be monitored on a global scale by use of spectrometers and radiometers placed on orbiting satellites.}
-      \field{day}{1}
+      \field{abstract}{Permanent snow and ice cover great portions of the Arctic and the Antarctic. It appears in winter months in northern parts of America, Asia, and Europe. Therefore snow is an important component of the hydrological cycle. Also, it is a main regulator of the seasonal variation of the planetary albedo. This seasonal change in albedo is determined largely by the snow cover. However, the presence of pollutants and the microstructure of snow (e.g., the size and shape of grains, which depend also on temperature and on the age of the snow) are also of importance in the variation of the snow's spectral albedo. The snow's spectral albedo and its bidirectional reflectance are studied theoretically. The albedo also determines the spectral absorptance of snow, which is of importance, e.g., in studies of the heating regime in snow. We investigate the influence of the nonspherical shape of grains and of close-packed effects on snow's reflectance in the visible and the near-infrared regions of the electromagnetic spectrum. The rate of the spectral transition from highly reflective snow in the visible to almost totally absorbing black snow in the infrared is governed largely by the snow's grain sizes and by the load of pollutants. Therefore both the characteristics of snow and its concentration of impurities can be monitored on a global scale by use of spectrometers and radiometers placed on orbiting satellites.}
       \field{journaltitle}{Applied Optics}
       \field{month}{3}
       \field{number}{7}
-      \field{shortjournal}{Appl. Opt.}
       \field{title}{Scattering Optics of Snow}
       \field{volume}{43}
       \field{year}{2004}
-      \field{dateera}{ce}
       \field{pages}{1589\bibrangedash 1602}
       \range{pages}{14}
       \verb{doi}
@@ -3276,16 +3777,13 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Surface melt has been tied to the collapse of Antarctic Peninsula ice shelves. This study illustrates that warmer temperatures associated with katabatic winds drive similar processes in an East Antarctic ice shelf, highlighting vulnerability to disintegration.}
-      \field{day}{1}
       \field{issn}{1758-6798}
       \field{journaltitle}{Nature Climate Change}
       \field{month}{1}
       \field{number}{1}
-      \field{shortjournal}{Nature Climate Change}
-      \field{title}{Meltwater Produced by Wind–Albedo Interaction Stored in an {{East Antarctic}} Ice Shelf}
+      \field{title}{Meltwater Produced by Wind--Albedo Interaction Stored in an {{East Antarctic}} Ice Shelf}
       \field{volume}{7}
       \field{year}{2017}
-      \field{dateera}{ce}
       \field{pages}{58\bibrangedash 62}
       \range{pages}{5}
       \verb{doi}
@@ -3361,16 +3859,13 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{26}
       \field{issn}{1994-0424}
       \field{journaltitle}{The Cryosphere}
       \field{month}{11}
       \field{number}{6}
-      \field{shortjournal}{The Cryosphere}
       \field{title}{Influence of Grain Shape on Light Penetration in Snow}
       \field{volume}{7}
       \field{year}{2013}
-      \field{dateera}{ce}
       \field{pages}{1803\bibrangedash 1818}
       \range{pages}{16}
       \verb{doi}
@@ -3381,6 +3876,63 @@
       \endverb
       \verb{url}
       \verb https://tc.copernicus.org/articles/7/1803/2013/
+      \endverb
+    \endentry
+    \entry{martyClearskyIndexSeparate2000}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=cdd624d18f92a2bdf49b93485bcaba98}{%
+           family={Marty},
+           familyi={M\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b72e91e46c1aefca45989e7f787d2305}{%
+           family={Philipona},
+           familyi={P\bibinitperiod},
+           given={Rolf},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons, Ltd}%
+      }
+      \strng{namehash}{038d1631a01a532d2404e3e5d2aa75cd}
+      \strng{fullhash}{038d1631a01a532d2404e3e5d2aa75cd}
+      \strng{fullhashraw}{038d1631a01a532d2404e3e5d2aa75cd}
+      \strng{bibnamehash}{038d1631a01a532d2404e3e5d2aa75cd}
+      \strng{authorbibnamehash}{038d1631a01a532d2404e3e5d2aa75cd}
+      \strng{authornamehash}{038d1631a01a532d2404e3e5d2aa75cd}
+      \strng{authorfullhash}{038d1631a01a532d2404e3e5d2aa75cd}
+      \strng{authorfullhashraw}{038d1631a01a532d2404e3e5d2aa75cd}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Accurate surface radiation fluxes are required to quantify atmosphere-surface energy exchanges. In climate research, detailed investigations of the influence of diverse atmospheric conditions on radiative fluxes ask for a well-defined distinction between clear-sky and cloudy-sky situations. Effects of clouds, the so called ?cloud forcing?, can only be determined by explicitly separating clear-sky from all-sky radiation measurements. A Clear-Sky Index (CSI) to separate clear-sky from cloudy-sky situations has therefore been introduced, using accurate atmospheric longwave radiation in conjunction with air temperature and humidity measurements at the station. This clear-sky index, which has the important advantage to be applicable 24 hours a day, was tested and first used on measurements of the Alpine Surface Radiation Budget (ASRB) network, and was of prime importance for the determination of the altitude dependence of cloud forcing and greenhouse effect over the Alps.}
+      \field{issn}{0094-8276}
+      \field{journaltitle}{Geophysical Research Letters}
+      \field{month}{9}
+      \field{number}{17}
+      \field{title}{The Clear-Sky Index to Separate Clear-Sky from Cloudy-Sky Situations in Climate Research}
+      \field{urlday}{19}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{volume}{27}
+      \field{year}{2000}
+      \field{urldateera}{ce}
+      \field{pages}{2649\bibrangedash 2652}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1029/2000GL011743
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1029/2000GL011743
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1029/2000GL011743
       \endverb
     \endentry
     \entry{NSIDC_cryosphere}{misc}{}{}
@@ -3406,12 +3958,94 @@
       \field{labeltitlesource}{title}
       \field{title}{What Is the Cryosphere?}
       \field{year}{2024}
-      \field{dateera}{ce}
       \verb{urlraw}
       \verb https://nsidc.org/learn/what-cryosphere
       \endverb
       \verb{url}
       \verb https://nsidc.org/learn/what-cryosphere
+      \endverb
+    \endentry
+    \entry{picardSpectralAlbedoMeasurements2020}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=136c80467513442a81e353849106c031}{%
+           family={Picard},
+           familyi={P\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=17dce304790c6ff2cb635a6757d3f802}{%
+           family={Dumont},
+           familyi={D\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a633d7899c918b8cfef928ce0e970d23}{%
+           family={Lamare},
+           familyi={L\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6df294f37a4bb5668d5e5e8744ef22d4}{%
+           family={Tuzet},
+           familyi={T\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0380032f960808a13a7f0d6bf045b215}{%
+           family={Larue},
+           familyi={L\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bba0539270438a17425f1273450bbb7f}{%
+           family={Pirazzini},
+           familyi={P\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e18c9376f6af48ec62627909979a7f28}{%
+           family={Arnaud},
+           familyi={A\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Copernicus Publications}%
+      }
+      \strng{namehash}{ec515778b5706e0d3bf7d6f240b47430}
+      \strng{fullhash}{6fda721ac3a3af4217da6ef3c43d3115}
+      \strng{fullhashraw}{6fda721ac3a3af4217da6ef3c43d3115}
+      \strng{bibnamehash}{6fda721ac3a3af4217da6ef3c43d3115}
+      \strng{authorbibnamehash}{6fda721ac3a3af4217da6ef3c43d3115}
+      \strng{authornamehash}{ec515778b5706e0d3bf7d6f240b47430}
+      \strng{authorfullhash}{6fda721ac3a3af4217da6ef3c43d3115}
+      \strng{authorfullhashraw}{6fda721ac3a3af4217da6ef3c43d3115}
+      \field{extraname}{1}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1994-0424}
+      \field{journaltitle}{The Cryosphere}
+      \field{month}{5}
+      \field{number}{5}
+      \field{title}{Spectral Albedo Measurements over Snow-Covered Slopes: Theory and Slope Effect Corrections}
+      \field{volume}{14}
+      \field{year}{2020}
+      \field{pages}{1497\bibrangedash 1517}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.5194/tc-14-1497-2020
+      \endverb
+      \verb{urlraw}
+      \verb https://tc.copernicus.org/articles/14/1497/2020/
+      \endverb
+      \verb{url}
+      \verb https://tc.copernicus.org/articles/14/1497/2020/
       \endverb
     \endentry
     \entry{picardDevelopmentCalibrationAutomatic2016a}{article}{}{}
@@ -3458,6 +4092,7 @@
       \strng{authornamehash}{ec515778b5706e0d3bf7d6f240b47430}
       \strng{authorfullhash}{2de91935822aebd15667e99426ca2230}
       \strng{authorfullhashraw}{2de91935822aebd15667e99426ca2230}
+      \field{extraname}{2}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
@@ -3466,16 +4101,13 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Autosolexs and Solalb}
-      \field{day}{21}
       \field{issn}{1994-0424}
       \field{journaltitle}{The Cryosphere}
       \field{month}{6}
       \field{number}{3}
-      \field{shortjournal}{The Cryosphere}
       \field{title}{Development and Calibration of an Automatic Spectral Albedometer to Estimate Near-Surface Snow {{SSA}} Time Series}
       \field{volume}{10}
       \field{year}{2016}
-      \field{dateera}{ce}
       \field{pages}{1297\bibrangedash 1316}
       \range{pages}{20}
       \verb{doi}
@@ -3486,6 +4118,73 @@
       \endverb
       \verb{url}
       \verb https://tc.copernicus.org/articles/10/1297/2016/
+      \endverb
+    \endentry
+    \entry{ricchiazziSBDARTResearchTeaching1998}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=642504be7560d78e7b821bc2606357a3}{%
+           family={Ricchiazzi},
+           familyi={R\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=48dd4b5c6e2639fe739eb5c08e2ad0fd}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Shiren},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ba558d86770ba3b5f3d0ee7087a4067e}{%
+           family={Gautier},
+           familyi={G\bibinitperiod},
+           given={Catherine},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e124f2757616f1597ddedc86f0efd9e5}{%
+           family={Sowle},
+           familyi={S\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Boston MA, USA}%
+      }
+      \list{publisher}{1}{%
+        {American Meteorological Society}%
+      }
+      \strng{namehash}{188d5331a790430b78e3a88f79f6bffb}
+      \strng{fullhash}{a080536733ae18c6d33df7bdb1656bb7}
+      \strng{fullhashraw}{a080536733ae18c6d33df7bdb1656bb7}
+      \strng{bibnamehash}{a080536733ae18c6d33df7bdb1656bb7}
+      \strng{authorbibnamehash}{a080536733ae18c6d33df7bdb1656bb7}
+      \strng{authornamehash}{188d5331a790430b78e3a88f79f6bffb}
+      \strng{authorfullhash}{a080536733ae18c6d33df7bdb1656bb7}
+      \strng{authorfullhashraw}{a080536733ae18c6d33df7bdb1656bb7}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bulletin of the American Meteorological Society}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{10}
+      \field{title}{{{SBDART}}: {{A Research}} and {{Teaching Software Tool}} for {{Plane-Parallel Radiative Transfer}} in the {{Earth}}'s {{Atmosphere}}}
+      \field{volume}{79}
+      \field{year}{1998}
+      \field{pages}{2101\bibrangedash 2114}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1175/1520-0477(1998)079<2101:SARATS>2.0.CO;2
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.ametsoc.org/view/journals/bams/79/10/1520-0477_1998_079_2101_sarats_2_0_co_2.xml
+      \endverb
+      \verb{url}
+      \verb https://journals.ametsoc.org/view/journals/bams/79/10/1520-0477_1998_079_2101_sarats_2_0_co_2.xml
       \endverb
     \endentry
     \entry{rutgers_snowlab}{misc}{}{}
@@ -3503,7 +4202,7 @@
            giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod},
            givenun=0}}%
       }
-      \list{organization}{1}{%
+      \list{publisher}{1}{%
         {NOAA National Centers for Environmental Information}%
       }
       \strng{namehash}{1a93da1789ec109d3c8035b9071a8e0c}
@@ -3523,7 +4222,6 @@
       \field{labeltitlesource}{title}
       \field{title}{Northern Hemisphere Snow Cover Extent Dataset}
       \field{year}{2012}
-      \field{dateera}{ce}
       \verb{urlraw}
       \verb https://climate.rutgers.edu/snowcover/
       \endverb
@@ -3564,20 +4262,17 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{In this paper we use a satellite-derived data set to explore spatial and temporal variations of snow extent across Northern Hemisphere continents during the last three decades. These weekly visible-wavelength satellite maps of Northern Hemisphere snow extent produced by the National Oceanic and Atmospheric Administration constitute the longest consistently-derived satellite record of any environmental variable. We document the considerable intra-annual variability of snow extent, and show that during each month, fluctuations over relatively small areas are responsible for the majority of the year-to-year variability. Regions that cover less than 6\% of Northern Hemisphere lands north of 20°N explain 62\% ???????? 92\% of the interannual variance across the continents. On average, snow was more extensive across both Eurasia and North America from the 1970s to middle 1980s than during the late 1980s to late 1990s. During late winter, spring and summer, snow extent has decreased since the middle 1980s, while during fall to middle winter, snow extent has remained relatively constant. Accurate information on continental snow extent is critical for weather and hydrologic forecasting; for understanding hemispheric-scale atmospheric circulation, thermal variations, and regional snow extent; and for using snow as a credible indicator of climate variability and change.}
-      \field{day}{1}
+      \field{abstract}{In this paper we use a satellite-derived data set to explore spatial and temporal variations of snow extent across Northern Hemisphere continents during the last three decades. These weekly visible-wavelength satellite maps of Northern Hemisphere snow extent produced by the National Oceanic and Atmospheric Administration constitute the longest consistently-derived satellite record of any environmental variable. We document the considerable intra-annual variability of snow extent, and show that during each month, fluctuations over relatively small areas are responsible for the majority of the year-to-year variability. Regions that cover less than 6\% of Northern Hemisphere lands north of 20{$^\circ$}N explain 62\% ???????? 92\% of the interannual variance across the continents. On average, snow was more extensive across both Eurasia and North America from the 1970s to middle 1980s than during the late 1980s to late 1990s. During late winter, spring and summer, snow extent has decreased since the middle 1980s, while during fall to middle winter, snow extent has remained relatively constant. Accurate information on continental snow extent is critical for weather and hydrologic forecasting; for understanding hemispheric-scale atmospheric circulation, thermal variations, and regional snow extent; and for using snow as a credible indicator of climate variability and change.}
       \field{issn}{0033-0124}
       \field{journaltitle}{The Professional Geographer}
       \field{month}{5}
       \field{number}{2}
-      \field{shortjournal}{The Professional Geographer}
       \field{title}{Seasonal {{Variability}} of {{Northern Hemisphere Snow Extent Using Visible Satellite Data}}}
       \field{urlday}{12}
       \field{urlmonth}{5}
       \field{urlyear}{2026}
       \field{volume}{52}
       \field{year}{2000}
-      \field{dateera}{ce}
       \field{urldateera}{ce}
       \field{pages}{307\bibrangedash 315}
       \range{pages}{9}
@@ -3640,17 +4335,14 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{As one of the brightest natural surfaces on Earth, the darkening of snow by light-absorbing particles (LAPs) — dust, black carbon or microbial growth — can trigger albedo feedbacks and accelerate snowmelt. Indeed, an increase in black carbon deposition following the industrial revolution has led to the recognition that LAP radiative forcing has contributed to a reduction in the global cryosphere, with corresponding climatic impacts. This Review synthesizes our current understanding of the distribution of radiative forcing by LAPs in snow, and discusses the challenges that need to be overcome to constrain global impacts, including the limited scope of local-scale observations, limitations of remote sensing technology and the representation of LAP-related processes in Earth system models.}
-      \field{day}{1}
+      \field{abstract}{As one of the brightest natural surfaces on Earth, the darkening of snow by light-absorbing particles (LAPs) --- dust, black carbon or microbial growth --- can trigger albedo feedbacks and accelerate snowmelt. Indeed, an increase in black carbon deposition following the industrial revolution has led to the recognition that LAP radiative forcing has contributed to a reduction in the global cryosphere, with corresponding climatic impacts. This Review synthesizes our current understanding of the distribution of radiative forcing by LAPs in snow, and discusses the challenges that need to be overcome to constrain global impacts, including the limited scope of local-scale observations, limitations of remote sensing technology and the representation of LAP-related processes in Earth system models.}
       \field{issn}{1758-6798}
       \field{journaltitle}{Nature Climate Change}
       \field{month}{11}
       \field{number}{11}
-      \field{shortjournal}{Nature Climate Change}
       \field{title}{Radiative Forcing by Light-Absorbing Particles in Snow}
       \field{volume}{8}
       \field{year}{2018}
-      \field{dateera}{ce}
       \field{pages}{964\bibrangedash 971}
       \range{pages}{8}
       \verb{doi}
@@ -3831,7 +4523,6 @@
       \field{booktitle}{Climate Change 2013: {{The}} Physical Science Basis. {{Contribution}} of Working Group {{I}} to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change}
       \field{title}{Observations: {{Cryosphere}}}
       \field{year}{2013}
-      \field{dateera}{ce}
     \endentry
     \entry{wakahamaMetamorphismWetSnow1968}{article}{}{}
       \name{author}{1}{}{%
@@ -3858,11 +4549,9 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IASH Publ.}
-      \field{shortjournal}{IASH Publ.}
       \field{title}{The Metamorphism of Wet Snow}
       \field{volume}{79}
       \field{year}{1968}
-      \field{dateera}{ce}
       \field{pages}{370\bibrangedash 379}
       \range{pages}{10}
     \endentry
@@ -3932,16 +4621,13 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{1}
       \field{journaltitle}{Journal of Climate}
       \field{langid}{english}
       \field{month}{6}
       \field{number}{6}
-      \field{shortjournal}{Journal of Climate}
       \field{title}{Snow {{Depth}} on {{Arctic Sea Ice}}}
       \field{volume}{12}
       \field{year}{1999}
-      \field{dateera}{ce}
       \field{pages}{1814\bibrangedash 1829}
       \range{pages}{16}
       \verb{doi}
@@ -3990,16 +4676,13 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{1}
       \field{journaltitle}{Journal of Atmospheric Sciences}
       \field{langid}{english}
       \field{month}{12}
       \field{number}{12}
-      \field{shortjournal}{Journal of Atmospheric Sciences}
       \field{title}{A {{Model}} for the {{Spectral Albedo}} of {{Snow}}. {{II}}: {{Snow Containing Atmospheric Aerosols}}}
       \field{volume}{37}
       \field{year}{1980}
-      \field{dateera}{ce}
       \field{pages}{2734\bibrangedash 2745}
       \range{pages}{12}
       \verb{doi}
@@ -4012,7 +4695,7 @@
       \verb https://journals.ametsoc.org/view/journals/atsc/37/12/1520-0469_1980_037_2734_amftsa_2_0_co_2.xml
       \endverb
     \endentry
-    \entry{WMO2024BlowingSnow}{online}{}{}
+    \entry{WMO2024BlowingSnow}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=a0976dd5c26a3096c852635be8d95c80}{%
            family={{World Meteorological Organization}},
@@ -4038,7 +4721,6 @@
       \field{urlmonth}{5}
       \field{urlyear}{2026}
       \field{year}{2024}
-      \field{dateera}{ce}
       \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://cloudatlas.wmo.int/en/blowing-snow.html
@@ -4048,7 +4730,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{cronin}
   \missing{find a cit}
   \missing{sunChangesAntarcticsSummer2023}
 \endrefsection
