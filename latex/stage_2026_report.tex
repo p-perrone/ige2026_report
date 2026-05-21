@@ -100,8 +100,8 @@ urlcolor=BlueViolet]{hyperref}
 	{\normalfont\fontseries{sc}\fontshape{sl}\sffamily\color{#1}}
 	{\theparagraph}
 	{0.4em}
-	{}
-	[\vspace{-0.5em}]
+	{\vspace{-0.8em}}
+	[\vspace{-0.8em}]
 }
 % --- shortcuts commands ---
 \newcommand{\ie}{\emph{i.e.} }
@@ -109,6 +109,7 @@ urlcolor=BlueViolet]{hyperref}
 \newcommand{\ssaunit}{\meter\squared\per\kilo\gram}
 \newcommand{\ssa}{\mathrm{SSA}}
 \newcommand{\sza}{\mathrm{SZA}}
+\newcommand{\lwdn}{\mathrm{LW}^{\downarrow}}
 \newcommand{\mycaption}[2]{\caption{\textbf{#1} | #2}}
 
 \usepackage[backend=biber, style=apa]{biblatex}
@@ -228,13 +229,39 @@ Albedo is then corrected for potential slope and surface irregularities (\eg sas
 \cite{kokhanovskyScatteringOpticsSnow2004}'s ART theory is finally used to compute the snow grain size (SSA) from the daily albedo, as previously described in the theoretical background section.
 \end{enumerate}
 
-\subsubsection{New implementations}
-We extend the pipeline to the latest 2026 records and to the two stations installed on a megadune during the 2019 EAIIST campaign.
+			\subsubsection{New implementations}
+We extend the pipeline to the latest 2026 records and to the two stations installed on a megadune during the 2019 EAIIST campaign. Along with this, we put a particular focus on the characterization of the atmosphere at the two main locations, and we carried out some diagnostics to investigate potential instrumental issues.
 			
 				\paragraph{Direct-to-diffuse light ratio}
-				
+Simulations of direct/diffuse partitioning with SBDART consist of computing SZA-specific spectral irradiance curves, both of global and diffuse fraction, and taking their ratio. We performed these calculations for the megadunes area, using the following model parameters: \texttt{pristine} atmosphere (likely no pollution in the centre of the AIS), \texttt{sub-arctic winter} atmosphere type (the closest option available), \qty{3000}{\meter} a.s.l. elevation, temperature $T = \qty{-35.8}{\celsius}$, relative humidity $\mathrm{RH} = 0.70$, with the last two parameters being the daily average in the megadunes area over the 2019 -- 2026 summers only, retrieved from the CNR4 records. The ratio is computed for a wavelengths between \qty{0.3}{\micro\meter} and \qty{4}{\micro\meter} at a \qty{0.2}{\micro\meter} resolution.
+
 				\paragraph{Clear Sky Index (CSI)}
-				
+\cite{martyClearskyIndexSeparate2000} proposed a technique to simply discriminate between overcast and clear-sky conditions using the \emph{Clear Sky Index} (CSI), which consists in comparing the emissivity of the observed atmosphere with the one of an ideal atmosphere with the same properties, but cloud free. In fact, clouds generally increase the emittance of the atmosphere, since they act as near-blackbodies in the thermal infrared. The emissivity of the atmosphere can be directly derived knowing air temperature $T_A$ and the incoming long-wave radiation $\lwdn$ from Stefan-Boltzmann law:
+\begin{equation}
+	\epsilon_{A} = \frac{\lwdn}{\sigma T_A} \qquad (-)
+\end{equation}
+with $\sigma = \sim\qty{5.67e-8}{\watt\meter^{-2}\kelvin^{-4}}$ being the Stefan-Boltzmann constant. To determine the apparent emissivity of a clear sky atmosphere $\epsilon_{AC}$, vertical temperature and water vapour profile can be used, but they were not available for our Antarctica sites. The formula presented by \cite{brutsaertDerivableFormulaLongWave1975}, instead, allows a calculation of the cloud-free emittance by fitting a model over a number of observed clear sky cases, each with known air temperature and dew point temperature $T_d$:
+\begin{equation}\label{eac}
+	\epsilon_{AC} = k \beta, \qquad \beta = \left( \frac{e_a}{T_A}\right)^{1/8}
+\end{equation}
+with $k$ a coefficient depending on the considered location, and $e_a$ the water vapour pressure (\unit{\pascal}). This last parameter can be obtained multiplying relative humidity $\mathrm{RH} = \frac{e_s(T_A)}{e_s(T_d)}$ by saturation water pressure $e_s$, which in turn is given by Clausius-Clapeyron relation via Tetens formula (for example):
+\begin{equation}
+	e_s = 6.11 \times \frac{10^{(7.5 T_A)}}{T_A + 273.3} \qquad (T_A \text{ in } \unit{\celsius})
+\end{equation} 
+One issue with this formulation is that it does not account for the effect of greenhouse gases other than water vapour. For this reason, an other parameter $\epsilon_{AD}$ can be added to Equation \eqref{eac}, representing the altitude-dependent emittance of a perfectly dry atmosphere:
+\begin{equation}
+	\epsilon_{AC} = \epsilon_{AD} +  k \beta
+\end{equation}
+This model can be fitted in order to obtain the two unknowns ($\epsilon_{AD},\quad k$) and finally obtain a reliable expression for $\epsilon_{AC}$ which is function of the geography of the location and of the observed meteorological conditions (\ie $T$, RH).
+
+Eventually, the CSI is given by the ratio between the observed emittance and the respective modeled clear sky emittance:
+\begin{equation}
+	\mathrm{CSI} = \frac{\epsilon_{A}}{\epsilon_{AC}}\qquad (-)
+\end{equation}
+When the $\mathrm{CSI}$ exceeds 1, the sky is likely overcast, since emittance is higher than the the clear sky one -- one can the discriminate between clear sky ($\mathrm{CSI}$ < 1) and cloud-covered sky ($\mathrm{CSI}$ $\geq$ 1). For Antarctica, specifically, due to the frequent presence of thin-clouds layers (\eg cirrus, haze) that hold a more clear sky like behaviour, the threshold is set to 1.25 rather than 1 \parencite{arioliDynamicsSnowGrain2023}.
+
+That said, it is suffcinet
+
 				\paragraph{Diagnostic techniques}
 				
 \begin{itemize}

@@ -187,6 +187,52 @@
       \verb https://doi.org/10.1029/JC079i030p04527
       \endverb
     \endentry
+    \entry{brutsaertDerivableFormulaLongWave1975}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a9e680e893cafc4ec6ccc4c962c2e57e}{%
+           family={Brutsaert},
+           familyi={B\bibinitperiod},
+           given={Wilfried},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{a9e680e893cafc4ec6ccc4c962c2e57e}
+      \strng{fullhash}{a9e680e893cafc4ec6ccc4c962c2e57e}
+      \strng{fullhashraw}{a9e680e893cafc4ec6ccc4c962c2e57e}
+      \strng{bibnamehash}{a9e680e893cafc4ec6ccc4c962c2e57e}
+      \strng{authorbibnamehash}{a9e680e893cafc4ec6ccc4c962c2e57e}
+      \strng{authornamehash}{a9e680e893cafc4ec6ccc4c962c2e57e}
+      \strng{authorfullhash}{a9e680e893cafc4ec6ccc4c962c2e57e}
+      \strng{authorfullhashraw}{a9e680e893cafc4ec6ccc4c962c2e57e}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A derivation is presented for the effective atmospheric emissivity to predict downcoming long-wave radiation at ground level under a clear sky and for a nearly standard atmosphere. The results are in good agreement with those obtainable with empirical formulae based on water vapor pressure and temperature. However, the proposed formulation has the advantage that its simple functional form is based on physical grounds without the need for empirical parameters from radiation measurements. Also, in contrast to the empirical equations, it may be adjusted in a simple way to reflect changes in climatic and atmospheric conditions.}
+      \field{issn}{0043-1397}
+      \field{journaltitle}{Water Resources Research}
+      \field{month}{10}
+      \field{title}{On a {{Derivable Formula}} for {{Long-Wave Radiation From Clear Skies}}}
+      \field{volume}{11}
+      \field{year}{1975}
+      \field{pages}{742\bibrangedash 744}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1029/WR011i005p00742
+      \endverb
+      \verb{urlraw}
+      \verb https://ui.adsabs.harvard.edu/abs/1975WRR....11..742B
+      \endverb
+      \verb{url}
+      \verb https://ui.adsabs.harvard.edu/abs/1975WRR....11..742B
+      \endverb
+    \endentry
     \entry{callejaSnowAlbedoSeasonality2019}{article}{}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=be8bcbb9b626ad17151b24c37edd55eb}{%
@@ -2541,6 +2587,52 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1029/JC079i030p04527
+      \endverb
+    \endentry
+    \entry{brutsaertDerivableFormulaLongWave1975}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a9e680e893cafc4ec6ccc4c962c2e57e}{%
+           family={Brutsaert},
+           familyi={B\bibinitperiod},
+           given={Wilfried},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{a9e680e893cafc4ec6ccc4c962c2e57e}
+      \strng{fullhash}{a9e680e893cafc4ec6ccc4c962c2e57e}
+      \strng{fullhashraw}{a9e680e893cafc4ec6ccc4c962c2e57e}
+      \strng{bibnamehash}{a9e680e893cafc4ec6ccc4c962c2e57e}
+      \strng{authorbibnamehash}{a9e680e893cafc4ec6ccc4c962c2e57e}
+      \strng{authornamehash}{a9e680e893cafc4ec6ccc4c962c2e57e}
+      \strng{authorfullhash}{a9e680e893cafc4ec6ccc4c962c2e57e}
+      \strng{authorfullhashraw}{a9e680e893cafc4ec6ccc4c962c2e57e}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A derivation is presented for the effective atmospheric emissivity to predict downcoming long-wave radiation at ground level under a clear sky and for a nearly standard atmosphere. The results are in good agreement with those obtainable with empirical formulae based on water vapor pressure and temperature. However, the proposed formulation has the advantage that its simple functional form is based on physical grounds without the need for empirical parameters from radiation measurements. Also, in contrast to the empirical equations, it may be adjusted in a simple way to reflect changes in climatic and atmospheric conditions.}
+      \field{issn}{0043-1397}
+      \field{journaltitle}{Water Resources Research}
+      \field{month}{10}
+      \field{title}{On a {{Derivable Formula}} for {{Long-Wave Radiation From Clear Skies}}}
+      \field{volume}{11}
+      \field{year}{1975}
+      \field{pages}{742\bibrangedash 744}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1029/WR011i005p00742
+      \endverb
+      \verb{urlraw}
+      \verb https://ui.adsabs.harvard.edu/abs/1975WRR....11..742B
+      \endverb
+      \verb{url}
+      \verb https://ui.adsabs.harvard.edu/abs/1975WRR....11..742B
       \endverb
     \endentry
     \entry{callejaSnowAlbedoSeasonality2019}{article}{}{}

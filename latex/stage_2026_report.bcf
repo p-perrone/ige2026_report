@@ -3124,6 +3124,8 @@
     <bcf:citekey order="42" intorder="1">martyClearskyIndexSeparate2000</bcf:citekey>
     <bcf:citekey order="43" intorder="1">picardSpectralAlbedoMeasurements2020</bcf:citekey>
     <bcf:citekey order="44" intorder="1">kokhanovskyScatteringOpticsSnow2004</bcf:citekey>
+    <bcf:citekey order="45" intorder="1">martyClearskyIndexSeparate2000</bcf:citekey>
+    <bcf:citekey order="46" intorder="1">brutsaertDerivableFormulaLongWave1975</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
