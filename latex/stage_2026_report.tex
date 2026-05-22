@@ -15,7 +15,7 @@
 \usepackage{algpseudocode}
 \AtBeginDocument{\RenewCommandCopy\qty\SI}
 \usepackage{amsmath,amsfonts,amssymb}
-\newcommand\inlineeqno{\stepcounter{equation}\ (\theequation)}
+\newcommand\inlineeqno{\stepcounter{equation}\ 
 \usepackage{derivative}
 \DeclareDifferential{\dd}{\mathrm{d}}
 \usepackage[shortlabels]{enumitem}
@@ -63,6 +63,13 @@ urlcolor=BlueViolet]{hyperref}
 \fancyhf{} 
 \fancyhead[L]{\leftmark}
 \fancyfoot[C]{\thepage}
+\usepackage{setspace}\onehalfspacing
+\AtBeginDocument{%
+	\addtolength\abovedisplayskip{-0.5\baselineskip}%
+	\addtolength\belowdisplayskip{-0.5\baselineskip}%
+	%  \addtolength\abovedisplayshortskip{-0.5\baselineskip}%
+	%  \addtolength\belowdisplayshortskip{-0.5\baselineskip}%
+}
 % --- formatting titles according to parts ---
 \usepackage{titlesec}
 \usepackage{etoolbox}
@@ -104,8 +111,8 @@ urlcolor=BlueViolet]{hyperref}
 	[\vspace{-0.8em}]
 }
 % --- shortcuts commands ---
-\newcommand{\ie}{\emph{i.e.} }
-\newcommand{\eg}{\emph{e.g.} }
+\newcommand{\ie}{\emph{i.e.}, }
+\newcommand{\eg}{\emph{e.g.}, }
 \newcommand{\ssaunit}{\meter\squared\per\kilo\gram}
 \newcommand{\ssa}{\mathrm{SSA}}
 \newcommand{\sza}{\mathrm{SZA}}
@@ -216,9 +223,12 @@ The pipeline for processing Multiband data is summarized in Figure~\ref{fig:mbwf
 	\item \textbf{Raw data filtering}\\
 A preprocessing step excludes low-quality data, including: (i) measurements acquired at $\sza > \ang{70}$ due to the limited performance of cosine collectors at low solar angles; \parencite{picardDevelopmentCalibrationAutomatic2016a}; (ii) measurements acquired under varying or low ambient light conditions, if the standard deviation of the 12 references recorded during a cycle exceeds 1\% of their mean radiance; and (iii) all records at \qty{1550}{\nano\meter} due to the poor signal-to-noise ratio.
 	\item \textbf{Dark current}\\
-The measurements are corrected for the background thermal noise of the photodiodes. Four dark currents are registered at every cycle (Si and InGaAs, for both the incident and reflected channels) and subsequently subtracted from the respective channel's spectral irradiance.
+The measurements are corrected for the background thermal noise of the photodiodes. Four dark currents are registered at every cycle (Si and InGaAs, for both the incident and reflected channels) and subsequently subtracted from the respective channel's spectral irradiance. For example, for the reflected channel, the dark corrected spectral signal $i_{\mathrm{dc}}^{\mathrm{ref}}(\lambda)$ results from:
+\begin{equation}
+	i_{\mathrm{dc}}^{\mathrm{ref}}(\lambda) = i^{\mathrm{ref}}(\lambda) - i_{\mathrm{dark}}^{\mathrm{ref}}(\lambda)
+\end{equation}
 	\item \textbf{Cross-calibration}\\
-The incident and reflected signals passing through the cosine collectors and the optical fibers naturally differ due to varying transmissivity and sensitivity of the components in the two channels. To account for this, a parallel cross-calibration is performed during the installation of the albedometers. This involves orienting both light collectors upward and side-by-side to record the same irradiance over two days at an hourly resolution (every 10 minutes at solar noon). The two signals are then corrected following steps 1 and 2 of the current processing chain, averaged, and their ratio is multiplied by every incident spectrum measured during the operational stage of the albedometer to compensate for differences in the electronic response of the two channels.
+The incident and reflected signals passing through the cosine collectors and the optical fibers naturally differ due to varying transmissivity and sensitivity of the components in the two channels. To account for this, a parallel cross-calibration is performed during the installation of the albedometers. This involves orienting both light collectors upward and side-by-side to record the same irradiance over two days at an hourly resolution (every 10 minutes at solar noon). The two signals are then corrected following steps 1 and 2 of the current processing chain, averaged, and their ratio is multiplied by every incident spectrum measured during the operational stage of the albedometer to compensate for differences in the electronic response of the two channels. 
 	\item \textbf{Cosine response correction}\\
 Each light collector behaves uniquely at different solar angles under perfectly direct light conditions, with its response always diverging by a given amount from an ideal cosine curve. For this reason, before deployment in the field, every collector's response is calibrated in the lab by illuminating it with a direct light beam at different angles. This experimental response is used to normalize every measurement. Since this correction step only involves the direct component of the incident radiation -- not its diffuse part or the fully diffused reflected light -- the direct-to-diffuse light ratio must be quantified for every measurement. This ratio depends on: (i) atmospheric characteristics at the specific geographical location (longitude, latitude, altitude); (ii) solar elevation, \ie the SZA; and (iii) meteorology at the time of the measurement, particularly cloud cover. To account for the first two factors, a time-independent, direct-to-diffuse partitioning is simulated using the Santa Barbara DISORT Atmospheric Radiative Transfer (SBDART) model \parencite{ricchiazziSBDARTResearchTeaching1998}. Cloud cover is quantified using the 30-minute resolution recordings of the AWS located near the albedometers, with the methodology proposed by \cite{martyClearskyIndexSeparate2000}. These two steps will be detailed later.
 	\item \textbf{Albedo calculation}\\
@@ -230,42 +240,43 @@ Albedo is then corrected for potential slope and surface irregularities (\eg sas
 \end{enumerate}
 
 			\subsubsection{New implementations}
-We extend the pipeline to the latest 2026 records and to the two stations installed on a megadune during the 2019 EAIIST campaign. Along with this, we put a particular focus on the characterization of the atmosphere at the two main locations, and we carried out some diagnostics to investigate potential instrumental issues.
+We extend the pipeline to the latest 2026 records and to the two stations installed on a megadune during the 2019 EAIIST campaign. Additionally, we focus on characterizing the atmosphere at the two main locations and perform diagnostics to investigate potential instrumental issues.
 			
 				\paragraph{Direct-to-diffuse light ratio}
-Simulations of direct/diffuse partitioning with SBDART consist of computing SZA-specific spectral irradiance curves, both of global and diffuse fraction, and taking their ratio. We performed these calculations for the megadunes area, using the following model parameters: \texttt{pristine} atmosphere (likely no pollution in the centre of the AIS), \texttt{sub-arctic winter} atmosphere type (the closest option available), \qty{3000}{\meter} a.s.l. elevation, temperature $T = \qty{-35.8}{\celsius}$, relative humidity $\mathrm{RH} = 0.70$, with the last two parameters being the daily average in the megadunes area over the 2019 -- 2026 summers only, retrieved from the CNR4 records. The ratio is computed for a wavelengths between \qty{0.3}{\micro\meter} and \qty{4}{\micro\meter} at a \qty{0.2}{\micro\meter} resolution.
+Simulations of direct/diffuse partitioning with SBDART consist of computing SZA-specific spectral irradiance curves, both of global and diffuse fraction, and taking their ratio. We performed these calculations for the megadunes area using the following model parameters: \texttt{pristine} atmosphere (likely no pollution in the centre of the AIS), \texttt{sub-arctic winter} atmosphere type (the closest option available), \qty{3000}{\meter} a.s.l. elevation, temperature $T = \qty{-35.8}{\celsius}$, relative humidity $\mathrm{RH} = 0.70$, with the last two parameters being the daily average in the megadunes area over the 2019--2026 summers, retrieved from the CNR4 records. The ratio is computed for wavelengths between \qty{0.3}{\micro\meter} and \qty{4}{\micro\meter} at a \qty{0.2}{\micro\meter} resolution.
 
 				\paragraph{Clear Sky Index (CSI)}
-\cite{martyClearskyIndexSeparate2000} proposed a technique to simply discriminate between overcast and clear-sky conditions using the \emph{Clear Sky Index} (CSI), which consists in comparing the emissivity of the observed atmosphere with the one of an ideal atmosphere with the same properties, but cloud free. In fact, clouds generally increase the emittance of the atmosphere, since they act as near-blackbodies in the thermal infrared. The emissivity of the atmosphere can be directly derived knowing air temperature $T_A$ and the incoming long-wave radiation $\lwdn$ from Stefan-Boltzmann law:
+\cite{martyClearskyIndexSeparate2000} proposed a technique to discriminate between overcast and clear-sky conditions using the \emph{Clear Sky Index} (CSI), which involves comparing the emissivity of the observed atmosphere with that of an ideal cloud-free atmosphere with the same properties. Clouds generally increase the emittance of the atmosphere, as they act as near-blackbodies in the thermal infrared. The emissivity of the atmosphere can be directly derived from air temperature $T_A$​ and the incoming long-wave radiation $\lwdn$ using the Stefan-Boltzmann law:
 \begin{equation}
 	\epsilon_{A} = \frac{\lwdn}{\sigma T_A} \qquad (-)
 \end{equation}
-with $\sigma = \sim\qty{5.67e-8}{\watt\meter^{-2}\kelvin^{-4}}$ being the Stefan-Boltzmann constant. To determine the apparent emissivity of a clear sky atmosphere $\epsilon_{AC}$, vertical temperature and water vapour profile can be used, but they were not available for our Antarctica sites. The formula presented by \cite{brutsaertDerivableFormulaLongWave1975}, instead, allows a calculation of the cloud-free emittance by fitting a model over a number of observed clear sky cases, each with known air temperature and dew point temperature $T_d$:
+with $\sigma = \sim\qty{5.67e-8}{\watt\meter^{-2}\kelvin^{-4}}$ being the Stefan-Boltzmann constant. To determine the apparent emissivity of a clear sky atmosphere $\epsilon_{AC}$, vertical temperature and water vapour profiles can be used, but these were not available for our Antarctic sites. Instead, the formula presented by \cite{brutsaertDerivableFormulaLongWave1975} allows the calculation of cloud-free emittance by fitting a model over observed clear-sky cases, each with known air temperature and dew point temperature $T_d$:
 \begin{equation}\label{eac}
 	\epsilon_{AC} = k \beta, \qquad \beta = \left( \frac{e_a}{T_A}\right)^{1/8}
 \end{equation}
-with $k$ a coefficient depending on the considered location, and $e_a$ the water vapour pressure (\unit{\pascal}). This last parameter can be obtained multiplying relative humidity $\mathrm{RH} = \frac{e_s(T_A)}{e_s(T_d)}$ by saturation water pressure $e_s$, which in turn is given by Clausius-Clapeyron relation via Tetens formula (for example):
+with $k$ a location-dependent coefficient, and $e_a$ the water vapour pressure (\unit{\pascal}). The latter can be obtained by multiplying the saturation water vapour pressure $e_s$ by the relative humidity $\mathrm{RH} = \frac{e_s(T_A)}{e_s(T_d)}$, with $e_s$ given by Clausius-Clapeyron relation via Tetens formula:
 \begin{equation}
 	e_s = 6.11 \times \frac{10^{(7.5 T_A)}}{T_A + 273.3} \qquad (T_A \text{ in } \unit{\celsius})
 \end{equation} 
-One issue with this formulation is that it does not account for the effect of greenhouse gases other than water vapour. For this reason, an other parameter $\epsilon_{AD}$ can be added to Equation \eqref{eac}, representing the altitude-dependent emittance of a perfectly dry atmosphere:
+One issue with this formulation is that it does not account for the effect of greenhouse gases other than water vapour. For this reason, an additional parameter $\epsilon_{AD}$ can be added to Equation~\eqref{eac}, representing the altitude-dependent emittance of a perfectly dry atmosphere:
 \begin{equation}
-	\epsilon_{AC} = \epsilon_{AD} +  k \beta
+	\epsilon_{AC} = \epsilon_{AD} + k \beta
 \end{equation}
-This model can be fitted in order to obtain the two unknowns ($\epsilon_{AD},\quad k$) and finally obtain a reliable expression for $\epsilon_{AC}$ which is function of the geography of the location and of the observed meteorological conditions (\ie $T$, RH).
+This model can be fitted to obtain the two unknowns ($\epsilon_{AD},\, k$) and derive a reliable expression for $\epsilon_{AC}$ as a function of the location's geography and observed meteorological conditions (\ie $T$, RH).
 
-Eventually, the CSI is given by the ratio between the observed emittance and the respective modeled clear sky emittance:
+Eventually, the CSI is given by the ratio between the observed emittance and the respective modeled clear-sky emittance:
 \begin{equation}
-	\mathrm{CSI} = \frac{\epsilon_{A}}{\epsilon_{AC}}\qquad (-)
+	\mathrm{CSI} = \frac{\epsilon_{A}}{\epsilon_{AC}} \qquad (-)
 \end{equation}
-When the $\mathrm{CSI}$ exceeds 1, the sky is likely overcast, since emittance is higher than the the clear sky one -- one can the discriminate between clear sky ($\mathrm{CSI}$ < 1) and cloud-covered sky ($\mathrm{CSI}$ $\geq$ 1). For Antarctica, specifically, due to the frequent presence of thin-clouds layers (\eg cirrus, haze) that hold a more clear sky like behaviour, the threshold is set to 1.25 rather than 1 \parencite{arioliDynamicsSnowGrain2023}.
+When the $\mathrm{CSI}$ exceeds 1, the sky is likely overcast, as the emittance is higher than the clear-sky value. Thus, one can discriminate between clear-sky ($\mathrm{CSI} < 1$) and cloud-covered sky ($\mathrm{CSI} \geq 1$). For Antarctica, due to the frequent presence of thin cloud layers (\eg cirrus, haze) that exhibit clear-sky-like behaviour, the threshold is set to 1.25 rather than 1 \parencite{arioliDynamicsSnowGrain2023}.
 
-That said, it is suffcinet
+To compute the CSI, records of air temperature, incoming long-wave radiation, and relative humidity (or dew point temperature) are sufficient. The calculation had already been performed using measurements from the CNR4 located near the Cap Prud'homme stations by \cite{arioliDynamicsSnowGrain2023}. Moreover, D10 station is equipped with a camera framing the surrounding environment, allowing to manually select clear sky days with a high reliability. Due to the unavailability of such data for the megadunes, the CSI for the two EAIIST stations was computed using \href{https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview}{ERA5} reanalysis single levels, with $\lwdn$, \qty{2}{\meter} air temperature, and dew point temperature at an hourly step. A validation of ERA5 performance was carried out using the CNR4 installed at the D17 station.
 
 				\paragraph{Diagnostic techniques}
-				
-\begin{itemize}
-	\item \textbf{Calibration files}\\
+
+\begin{itemize}[align=right,itemindent=2em,labelsep=4pt,labelwidth=1em,leftmargin=0pt,nosep]
+	\item \textbf{Calibration curves}\\
+Cross calibration is the first step of the processing that must be analysed when instrumental issues arise. The related files allow a precise examination of the signal recorded by the two cosine collectors, and of their ratio
 	
 	\item \textbf{Inclinometer time series}\\
 	
