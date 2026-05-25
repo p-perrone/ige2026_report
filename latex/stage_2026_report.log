@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.5.6)  25 MAY 2026 17:57
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.5.6)  25 MAY 2026 18:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2148,8 +2148,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 LaTeX Font Warning: Font shape `TU/lmss/sc/sl' undefined
 (Font)              using `TU/lmss/m/n' instead on input line 249.
 
-Missing character: There is no ​ in font Latin Modern Sans 10 Regular/OT:script
-=latn;language=dflt;mapping=tex-text;!
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2158,6 +2156,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [10]
+Missing character: There is no ​ in font Latin Modern Sans 10 Regular/OT:script
+=latn;language=dflt;mapping=tex-text;!
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2175,7 +2175,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [12]
 
-LaTeX Warning: Reference `eq:dirdifftot' on page 13 undefined on input line 295
+LaTeX Warning: Reference `eq:dirdifftot' on page 13 undefined on input line 300
 .
 
 File: ../figures/appemitt_scatter_def.pdf Graphic file (type pdf)
@@ -2190,7 +2190,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [13]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 344.
+(hyperref)                be the same. Added a new anchor on input line 349.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2200,7 +2200,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [14]
-Overfull \hbox (4.48695pt too wide) in paragraph at lines 344--344
+Overfull \hbox (4.48695pt too wide) in paragraph at lines 349--349
 \TU/LatinModernSans(0)/sbc/sl/10.95 measurements of snow Bidirectional Reflecta
 nce Distribution Function at visible and NIR wavelengths
  []
@@ -2213,7 +2213,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [15]
-Overfull \hbox (3.55856pt too wide) in paragraph at lines 344--344
+Overfull \hbox (3.55856pt too wide) in paragraph at lines 349--349
 \TU/LatinModernSans(0)/sbc/sl/10.95 albedo measurements over snow-covered slope
 s: Theory and slope effect corrections. \TU/LatinModernSans(0)/m/it/10.95 The C
 ryosphere\TU/LatinModernSans(0)/sbc/sl/10.95 ,
@@ -2227,7 +2227,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [16]
-Overfull \hbox (2.3151pt too wide) in paragraph at lines 344--344
+Overfull \hbox (2.3151pt too wide) in paragraph at lines 349--349
 [][]\TU/LatinModernSans(0)/sbc/sl/10.95 World Meteorological Organization. (202
 4). \TU/LatinModernSans(0)/m/it/10.95 Blowing snow\TU/LatinModernSans(0)/sbc/sl
 /10.95 . Retrieved May 15, 2026, from [][]$[][][][][] [] [] [] [][][][][][][][]
