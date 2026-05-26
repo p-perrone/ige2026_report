@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.5.26)  26 MAY 2026 12:45
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.5.26)  26 MAY 2026 18:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2012,13 +2012,6 @@ Package biblatex Warning: The following entry could not be found
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                sunChangesAntarcticsSummer2023
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
 )
 Package biblatex Info: Reference section=0 on input line 125.
 Package biblatex Info: Reference segment=0 on input line 125.
@@ -2078,13 +2071,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [4]
-
-LaTeX Warning: Citation 'sunChangesAntarcticsSummer2023' on page 5 undefined on
- input line 146.
-
-
-LaTeX Warning: Citation '' on page 5 undefined on input line 147.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2157,13 +2143,12 @@ Missing character: There is no ​ in font Latin Modern Sans 10 Regular/OT:scrip
 File: ../figures/appemitt_scatter_def.pdf Graphic file (type pdf)
 <use ../figures/appemitt_scatter_def.pdf>
 LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
-290.
+276.
 (/usr/local/share/miktex-texmf/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-
-LaTeX Warning: Reference `fig:era5cnr4' on page 11 undefined on input line 293.
-
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 276.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -2187,6 +2172,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [12]
+File: ../figures/era5_vs_cnr4.pdf Graphic file (type pdf)
+<use ../figures/era5_vs_cnr4.pdf>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2205,7 +2193,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [14]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 359.
+(hyperref)                be the same. Added a new anchor on input line 373.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2231,7 +2219,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [17]
-Overfull \hbox (2.3151pt too wide) in paragraph at lines 359--359
+Overfull \hbox (2.3151pt too wide) in paragraph at lines 373--373
 [][]\TU/LatinModernSans(0)/sbc/sl/10.95 World Meteorological Organization. (202
 4). \TU/LatinModernSans(0)/m/it/10.95 Blowing snow\TU/LatinModernSans(0)/sbc/sl
 /10.95 . Retrieved May 15, 2026, from [][]$[][][][][] [] [] [] [][][][][][][][]
@@ -2259,22 +2247,19 @@ L3 programming layer <2026-03-20>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `stage_2026_report.out' has not changed.
-(rerunfilecheck)             Checksum: B98F64232677E80C82F1A440CA22CF10;6188.
+(rerunfilecheck)             Checksum: 63EE62B9A915DFAD5D36B9638AE5D325;5904.
 Package logreq Info: Writing requests to 'stage_2026_report.run.xml'.
 \openout1 = `stage_2026_report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 55081 strings out of 402807
- 1230125 string characters out of 5448229
- 2337800 words of memory out of 5000000
- 83258 multiletter control sequences out of 15000+600000
- 661883 words of font info for 128 fonts, out of 8000000 for 9000
+ 55110 strings out of 402807
+ 1231260 string characters out of 5448229
+ 2338776 words of memory out of 5000000
+ 83284 multiletter control sequences out of 15000+600000
+ 661891 words of font info for 129 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 98i,15n,133p,2657b,6382s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 98i,15n,133p,2383b,6382s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on stage_2026_report.pdf (18 pages).

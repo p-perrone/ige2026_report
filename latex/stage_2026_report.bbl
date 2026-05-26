@@ -2126,6 +2126,124 @@
       \verb https://doi.org/10.1038/s41558-018-0296-5
       \endverb
     \endentry
+    \entry{sunChangesAntarcticsSummer2023a}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=2b5201e3593e16b46f6f73b3ffedbd28}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Yuqi},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e5a4ff2da3a56f1270dd578c3c643a0b}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yetang},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cd3f1c9acb242d4f72fe6e4d64949b1b}{%
+           family={Zhai},
+           familyi={Z\bibinitperiod},
+           given={Zhaosheng},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f18ed0379542e330dab8ec3d169b83ee}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Min},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{19349b43a83c414162d76ef01231ec07}
+      \strng{fullhash}{8e9a7a300f594c49d8c20dec8f92ed79}
+      \strng{fullhashraw}{8e9a7a300f594c49d8c20dec8f92ed79}
+      \strng{bibnamehash}{8e9a7a300f594c49d8c20dec8f92ed79}
+      \strng{authorbibnamehash}{8e9a7a300f594c49d8c20dec8f92ed79}
+      \strng{authornamehash}{19349b43a83c414162d76ef01231ec07}
+      \strng{authorfullhash}{8e9a7a300f594c49d8c20dec8f92ed79}
+      \strng{authorfullhashraw}{8e9a7a300f594c49d8c20dec8f92ed79}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In polar regions, positive feedback of snow and ice albedo can intensify global warming. While recent significant decreases in Arctic surface ice albedo have drawn considerable attention, Antarctic surface albedo variability remains underexplored. Here, satellite albedo product CLARA-A2.1-SAL is first validated and then used to investigate spatial and temporal trends in the summer albedo over the Antarctic from 1982 to 2018, along with their association with Antarctic sea ice changes. The SAL product matches well surface albedo observations from eight stations, suggesting its robust performance in Antarctica. Summer surface albedo averaged over the entire ice sheet shows a downward trend since 1982, albeit not statistically significant. In contrast, a significant upward trend is observed in the sea ice region. Spatially, for ice sheet surface albedo, positive trends occur in the eastern Antarctica Peninsula and the margins of East Antarctica, whereas other regions exhibit negative trends, most prominently in the Ross and Ronne ice shelves. For sea ice albedo, positive trends are observed in the Ross Sea and the Weddell Sea, but negative trends are observed in the Bellingshausen and the Amundsen Seas. Between 2016 and 2018, an unusual decrease in the sea ice extent significantly affected both sea ice and Antarctic ice sheet (AIS) surface albedo changes. However, for the 1982–2015 period, while the effect of sea ice on its own albedo is significant, its impact on ice sheet albedo is less apparent. Air temperature and snow depth also contribute much to sea ice albedo changes. However, on ice sheet surface albedo, the influence of temperature and snow accumulation appears limited.}
+      \field{issn}{2072-4292}
+      \field{journaltitle}{Remote Sensing}
+      \field{number}{20}
+      \field{title}{Changes in the {{Antarctic}}’s {{Summer Surface Albedo}}, {{Observed}} by {{Satellite}} since 1982 and {{Associated}} with {{Sea Ice Anomalies}}}
+      \field{volume}{15}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{pages}{4940}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/rs15204940
+      \endverb
+      \keyw{albedo feedback,Antarctica,sea ice index,surface albedo}
+    \endentry
+    \entry{traversaMegadunesAntarcticaMigration2023}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=1b8582e7ea92b0c432a3d1411e8204b8}{%
+           family={Traversa},
+           familyi={T\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=63dee20afdc8b3dfb0e9cbcdd3a2f350}{%
+           family={Fugazza},
+           familyi={F\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ca05a24a0969e491682459e8f11c4817}{%
+           family={Frezzotti},
+           familyi={F\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Copernicus Publications}%
+      }
+      \strng{namehash}{d4686a7e82b8457271afe6586eb0edaf}
+      \strng{fullhash}{7cec376aa20c56ec1d64a6ebc12f8a45}
+      \strng{fullhashraw}{7cec376aa20c56ec1d64a6ebc12f8a45}
+      \strng{bibnamehash}{7cec376aa20c56ec1d64a6ebc12f8a45}
+      \strng{authorbibnamehash}{7cec376aa20c56ec1d64a6ebc12f8a45}
+      \strng{authornamehash}{d4686a7e82b8457271afe6586eb0edaf}
+      \strng{authorfullhash}{7cec376aa20c56ec1d64a6ebc12f8a45}
+      \strng{authorfullhashraw}{7cec376aa20c56ec1d64a6ebc12f8a45}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{issn}{1994-0424}
+      \field{journaltitle}{The Cryosphere}
+      \field{month}{2}
+      \field{number}{1}
+      \field{shortjournal}{The Cryosphere}
+      \field{title}{Megadunes in {{Antarctica}}: Migration and Characterization from Remote and in Situ Observations}
+      \field{volume}{17}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{pages}{427\bibrangedash 444}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.5194/tc-17-427-2023
+      \endverb
+      \verb{urlraw}
+      \verb https://tc.copernicus.org/articles/17/427/2023/
+      \endverb
+      \verb{url}
+      \verb https://tc.copernicus.org/articles/17/427/2023/
+      \endverb
+    \endentry
     \entry{Vaughan2013}{inbook}{}{}
       \name{author}{14}{}{%
         {{un=0,uniquepart=base,hash=f0a0102280833de1a09fdfb33b0efa86}{%
@@ -4619,6 +4737,124 @@
       \verb https://doi.org/10.1038/s41558-018-0296-5
       \endverb
     \endentry
+    \entry{sunChangesAntarcticsSummer2023a}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=2b5201e3593e16b46f6f73b3ffedbd28}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Yuqi},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e5a4ff2da3a56f1270dd578c3c643a0b}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yetang},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cd3f1c9acb242d4f72fe6e4d64949b1b}{%
+           family={Zhai},
+           familyi={Z\bibinitperiod},
+           given={Zhaosheng},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f18ed0379542e330dab8ec3d169b83ee}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Min},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{19349b43a83c414162d76ef01231ec07}
+      \strng{fullhash}{8e9a7a300f594c49d8c20dec8f92ed79}
+      \strng{fullhashraw}{8e9a7a300f594c49d8c20dec8f92ed79}
+      \strng{bibnamehash}{8e9a7a300f594c49d8c20dec8f92ed79}
+      \strng{authorbibnamehash}{8e9a7a300f594c49d8c20dec8f92ed79}
+      \strng{authornamehash}{19349b43a83c414162d76ef01231ec07}
+      \strng{authorfullhash}{8e9a7a300f594c49d8c20dec8f92ed79}
+      \strng{authorfullhashraw}{8e9a7a300f594c49d8c20dec8f92ed79}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In polar regions, positive feedback of snow and ice albedo can intensify global warming. While recent significant decreases in Arctic surface ice albedo have drawn considerable attention, Antarctic surface albedo variability remains underexplored. Here, satellite albedo product CLARA-A2.1-SAL is first validated and then used to investigate spatial and temporal trends in the summer albedo over the Antarctic from 1982 to 2018, along with their association with Antarctic sea ice changes. The SAL product matches well surface albedo observations from eight stations, suggesting its robust performance in Antarctica. Summer surface albedo averaged over the entire ice sheet shows a downward trend since 1982, albeit not statistically significant. In contrast, a significant upward trend is observed in the sea ice region. Spatially, for ice sheet surface albedo, positive trends occur in the eastern Antarctica Peninsula and the margins of East Antarctica, whereas other regions exhibit negative trends, most prominently in the Ross and Ronne ice shelves. For sea ice albedo, positive trends are observed in the Ross Sea and the Weddell Sea, but negative trends are observed in the Bellingshausen and the Amundsen Seas. Between 2016 and 2018, an unusual decrease in the sea ice extent significantly affected both sea ice and Antarctic ice sheet (AIS) surface albedo changes. However, for the 1982–2015 period, while the effect of sea ice on its own albedo is significant, its impact on ice sheet albedo is less apparent. Air temperature and snow depth also contribute much to sea ice albedo changes. However, on ice sheet surface albedo, the influence of temperature and snow accumulation appears limited.}
+      \field{issn}{2072-4292}
+      \field{journaltitle}{Remote Sensing}
+      \field{number}{20}
+      \field{title}{Changes in the {{Antarctic}}’s {{Summer Surface Albedo}}, {{Observed}} by {{Satellite}} since 1982 and {{Associated}} with {{Sea Ice Anomalies}}}
+      \field{volume}{15}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{pages}{4940}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/rs15204940
+      \endverb
+      \keyw{albedo feedback,Antarctica,sea ice index,surface albedo}
+    \endentry
+    \entry{traversaMegadunesAntarcticaMigration2023}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=1b8582e7ea92b0c432a3d1411e8204b8}{%
+           family={Traversa},
+           familyi={T\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=63dee20afdc8b3dfb0e9cbcdd3a2f350}{%
+           family={Fugazza},
+           familyi={F\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ca05a24a0969e491682459e8f11c4817}{%
+           family={Frezzotti},
+           familyi={F\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Copernicus Publications}%
+      }
+      \strng{namehash}{d4686a7e82b8457271afe6586eb0edaf}
+      \strng{fullhash}{7cec376aa20c56ec1d64a6ebc12f8a45}
+      \strng{fullhashraw}{7cec376aa20c56ec1d64a6ebc12f8a45}
+      \strng{bibnamehash}{7cec376aa20c56ec1d64a6ebc12f8a45}
+      \strng{authorbibnamehash}{7cec376aa20c56ec1d64a6ebc12f8a45}
+      \strng{authornamehash}{d4686a7e82b8457271afe6586eb0edaf}
+      \strng{authorfullhash}{7cec376aa20c56ec1d64a6ebc12f8a45}
+      \strng{authorfullhashraw}{7cec376aa20c56ec1d64a6ebc12f8a45}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{issn}{1994-0424}
+      \field{journaltitle}{The Cryosphere}
+      \field{month}{2}
+      \field{number}{1}
+      \field{shortjournal}{The Cryosphere}
+      \field{title}{Megadunes in {{Antarctica}}: Migration and Characterization from Remote and in Situ Observations}
+      \field{volume}{17}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{pages}{427\bibrangedash 444}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.5194/tc-17-427-2023
+      \endverb
+      \verb{urlraw}
+      \verb https://tc.copernicus.org/articles/17/427/2023/
+      \endverb
+      \verb{url}
+      \verb https://tc.copernicus.org/articles/17/427/2023/
+      \endverb
+    \endentry
     \entry{Vaughan2013}{inbook}{}{}
       \name{author}{14}{}{%
         {{un=0,uniquepart=base,hash=f0a0102280833de1a09fdfb33b0efa86}{%
@@ -5005,7 +5241,6 @@
     \endentry
   \enddatalist
   \missing{find a cit}
-  \missing{sunChangesAntarcticsSummer2023}
 \endrefsection
 \endinput
 

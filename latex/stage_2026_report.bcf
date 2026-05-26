@@ -3106,27 +3106,28 @@
     <bcf:citekey order="25" intorder="1">domineThreeExamplesWhere2009</bcf:citekey>
     <bcf:citekey order="26" intorder="1">domineThreeExamplesWhere2009</bcf:citekey>
     <bcf:citekey order="27" intorder="1">callejaSnowAlbedoSeasonality2019</bcf:citekey>
-    <bcf:citekey order="27" intorder="2">sunChangesAntarcticsSummer2023</bcf:citekey>
+    <bcf:citekey order="27" intorder="2">sunChangesAntarcticsSummer2023a</bcf:citekey>
     <bcf:citekey order="28" intorder="1">frezzottiSnowMegadunesAntarctica2002</bcf:citekey>
     <bcf:citekey order="29" intorder="1">fahnestockSnowMegaduneFields2000</bcf:citekey>
-    <bcf:citekey order="30" intorder="1">arioliDynamicsSnowGrain2023</bcf:citekey>
-    <bcf:citekey order="31" intorder="1">kokhanovskyRetrievalSnowProperties2019</bcf:citekey>
-    <bcf:citekey order="32" intorder="1">arioliDynamicsSnowGrain2023</bcf:citekey>
-    <bcf:citekey order="33" intorder="1">picardDevelopmentCalibrationAutomatic2016a</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">traversaMegadunesAntarcticaMigration2023</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">arioliDynamicsSnowGrain2023</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">kokhanovskyRetrievalSnowProperties2019</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">arioliDynamicsSnowGrain2023</bcf:citekey>
     <bcf:citekey order="34" intorder="1">picardDevelopmentCalibrationAutomatic2016a</bcf:citekey>
-    <bcf:citekey order="35" intorder="1">arioliDynamicsSnowGrain2023</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">picardDevelopmentCalibrationAutomatic2016a</bcf:citekey>
     <bcf:citekey order="36" intorder="1">arioliDynamicsSnowGrain2023</bcf:citekey>
     <bcf:citekey order="37" intorder="1">arioliDynamicsSnowGrain2023</bcf:citekey>
-    <bcf:citekey order="38" intorder="1">kokhanovskyScatteringOpticsSnow2004</bcf:citekey>
-    <bcf:citekey order="39" intorder="1">arioliDynamicsSnowGrain2023</bcf:citekey>
-    <bcf:citekey order="40" intorder="1">picardDevelopmentCalibrationAutomatic2016a</bcf:citekey>
-    <bcf:citekey order="41" intorder="1">ricchiazziSBDARTResearchTeaching1998</bcf:citekey>
-    <bcf:citekey order="42" intorder="1">martyClearskyIndexSeparate2000</bcf:citekey>
-    <bcf:citekey order="43" intorder="1">picardSpectralAlbedoMeasurements2020</bcf:citekey>
-    <bcf:citekey order="44" intorder="1">kokhanovskyScatteringOpticsSnow2004</bcf:citekey>
-    <bcf:citekey order="45" intorder="1">martyClearskyIndexSeparate2000</bcf:citekey>
-    <bcf:citekey order="46" intorder="1">brutsaertDerivableFormulaLongWave1975</bcf:citekey>
-    <bcf:citekey order="47" intorder="1">arioliDynamicsSnowGrain2023</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">arioliDynamicsSnowGrain2023</bcf:citekey>
+    <bcf:citekey order="39" intorder="1">kokhanovskyScatteringOpticsSnow2004</bcf:citekey>
+    <bcf:citekey order="40" intorder="1">arioliDynamicsSnowGrain2023</bcf:citekey>
+    <bcf:citekey order="41" intorder="1">picardDevelopmentCalibrationAutomatic2016a</bcf:citekey>
+    <bcf:citekey order="42" intorder="1">ricchiazziSBDARTResearchTeaching1998</bcf:citekey>
+    <bcf:citekey order="43" intorder="1">martyClearskyIndexSeparate2000</bcf:citekey>
+    <bcf:citekey order="44" intorder="1">picardSpectralAlbedoMeasurements2020</bcf:citekey>
+    <bcf:citekey order="45" intorder="1">kokhanovskyScatteringOpticsSnow2004</bcf:citekey>
+    <bcf:citekey order="46" intorder="1">martyClearskyIndexSeparate2000</bcf:citekey>
+    <bcf:citekey order="47" intorder="1">brutsaertDerivableFormulaLongWave1975</bcf:citekey>
+    <bcf:citekey order="48" intorder="1">arioliDynamicsSnowGrain2023</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
