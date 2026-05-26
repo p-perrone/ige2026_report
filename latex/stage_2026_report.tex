@@ -247,15 +247,14 @@ Albedo is then corrected for potential slope and surface irregularities (\eg sas
 We extend the pipeline to the latest 2026 records and to the two stations installed on a megadune during the 2019 EAIIST campaign. Additionally, we focus on characterizing the atmosphere at the two main locations and perform diagnostics to investigate potential instrumental issues.
 			
 				\paragraph{Direct-to-diffuse light ratio}
-Simulations of direct/diffuse partitioning with SBDART consist of computing SZA-specific spectral irradiance curves, both of global and diffuse fraction, and taking their ratio. We performed these calculations for the megadunes area using the following model parameters: \texttt{pristine} atmosphere (likely no pollution in the centre of the AIS), \texttt{sub-arctic winter} atmosphere type (the closest option available), \qty{3000}{\meter} a.s.l. elevation, temperature $T = \qty{-35.8}{\celsius}$, relative humidity $\mathrm{RH} = 0.70$, with the last two parameters being the daily average in the megadunes area over the 2019--2026 summers, retrieved from the CNR4 records. SBDART simulations return total and direct ($I_\mathrm{tot}$ and $I_\mathrm{dir}$) irradiance spectra for wavelengths between \qty{0.3}{\micro\meter} and \qty{4}{\micro\meter} at a \qty{0.2}{\micro\meter} resolution. The direct-to-diffuse can hence be calculated as follows:
-\begin{equation}
-	\frac{I_\mathrm{dir}}{I_\mathrm{diff}} = 
+Simulations of direct/diffuse partitioning with SBDART consist of computing SZA-specific spectral irradiance curves, both of global and diffuse fraction, and taking their ratio. We performed these calculations for the megadunes area using the following model parameters: \texttt{pristine} atmosphere (likely no pollution in the centre of the AIS), \texttt{sub-arctic winter} atmosphere type (the closest option available), \qty{3000}{\meter} a.s.l. elevation, temperature $T = \qty{-35.8}{\celsius}$, relative humidity $\mathrm{RH} = 0.70$, with the last two parameters being the daily average in the megadunes area over the 2019--2026 summers, retrieved from the CNR4 records. SBDART simulations return total and direct ($I_\mathrm{tot}(\lambda)$ and $I_\mathrm{dir}(\lambda)$) irradiance spectra for wavelengths between \qty{0.3}{\micro\meter} and \qty{4}{\micro\meter} at a \qty{0.2}{\micro\meter} resolution. From this, a diffuse-to-total ratio can be easily retrieved; the direct-to-diffuse is then calculated as follows:
+\begin{equation}\label{eq:dirdifftot}
+	\frac{I_\mathrm{dir}(\lambda)}{I_\mathrm{dif}(\lambda)} = \left(\frac{I_\mathrm{dif}(\lambda)}{I_\mathrm{tot}(\lambda)}\right)^{-1} -1
 \end{equation} 
-
-
+These ratios enter the processing chain also during slope correction and SSA estimation. Depending on the specific function, either the direct-to-diffuse or the diffuse-to-total ratio can be given as inputs.
 
 				\paragraph{Clear Sky Index (CSI) for cloud masking}
-\cite{martyClearskyIndexSeparate2000} proposed a technique to discriminate between overcast and clear-sky conditions using the \emph{Clear Sky Index} (CSI), which involves comparing the emissivity of the observed atmosphere with that of an ideal cloud-free atmosphere with the same properties. Clouds generally increase the emittance of the atmosphere, as they act as near-blackbodies in the thermal infrared. The emissivity of the atmosphere can be directly derived from air temperature $T_A$​ and the incoming long-wave radiation $\lwdn$ using the Stefan-Boltzmann law:
+\cite{martyClearskyIndexSeparate2000} proposed a technique to discriminate between overcast and clear-sky conditions using the \emph{Clear Sky Index} (CSI), which involves comparing the emissivity of the observed atmosphere with that of an ideal cloud-free one with the same properties. Clouds generally increase the emittance of the atmosphere, as they act as near-blackbodies in the thermal infrared. The emissivity of the atmosphere can be directly derived from air temperature $T_A$​ and the incoming long-wave radiation $\lwdn$ using the Stefan-Boltzmann law:
 \begin{equation}
 	\epsilon_{A} = \frac{\lwdn}{\sigma T_A} \qquad (-)
 \end{equation}
@@ -268,18 +267,36 @@ with $k$ a location-dependent coefficient, and $e_a$ the water vapour pressure (
 	e_s = 6.11 \times \frac{10^{(7.5 T_A)}}{T_A + 273.3} \qquad (T_A \text{ in } \unit{\celsius})
 \end{equation} 
 One issue with this formulation is that it does not account for the effect of greenhouse gases other than water vapour. For this reason, an additional parameter $\epsilon_{AD}$ can be added to Equation~\eqref{eac}, representing the altitude-dependent emittance of a perfectly dry atmosphere:
-\begin{equation}
+\begin{equation}\label{eq:eacfull}
 	\epsilon_{AC} = \epsilon_{AD} + k \beta
 \end{equation}
-This model can be fitted to obtain the two unknowns ($\epsilon_{AD},\, k$) and derive a reliable expression for $\epsilon_{AC}$ as a function of the location's geography and observed meteorological conditions (\ie $T$, RH).
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=16cm]{appemitt_scatter_def.pdf}
+	\caption{\textbf{Apparent emissivity} | BETTEER in methods}
+	\label{fig:appemit}
+\end{figure}
+\begin{table}[h]
+	\centering
+	\begin{tabular}{lSSSS}
+		\toprule
+		Station/set                     & {$\epsilon_{AD}$} & {$\sigma_{\epsilon_{AD}}$} & {$k$} & {$\sigma_{k}$} \\
+		\midrule
+		D17 Observed clear sky set fit  & 0.15              & 9.51e-3                    & 1.03  & 1.79e-2 \\
+		D17 Empirical clear sky set fit & 0.30              & 6.58e-4                    & 0.70  & 1.27e-3 \\
+		EAIIST full summer set fit      & 0.59              & {-}                        & 0     & {-} \\
+		\bottomrule
+	\end{tabular}
+	\mycaption{Coefficients for clear sky emittance model $\epsilon_{AC}$}{}
+	\label{tab:kad}
+\end{table}
+This model can be fitted to obtain the two unknowns ($\epsilon_{AD},\, k$) and derive a reliable expression for $\epsilon_{AC}$ as a function of the location's geography and observed meteorological condition, using a cluster of clear-sky cases. This is done by performing an iteratively reweighted least squares regression over 5 iterations: at each iteration, the model is fitted on the cluster, the residuals are calculated and 25\% of points with the highest residuals are discarded---outliers are therefore efficiently removed and a new, cleaner cluster is being used for the next iteration. Records of air temperature, incoming long-wave radiation, and relative humidity (or dew point temperature) are therefore sufficient inputs. The derivation of such expression has first been performed for Cap Prud'homme using the CNR4 installed at D17. This station is also equipped with a camera framing the surrounding environment, allowing to manually select clear sky days with a high reliability. In Figure \ref{fig:appemit}, the apparent emittance of these observed cloud-free days is plotted as function of the water vapour pressure-to-temperature ratio---fitting on these the model following Equation \eqref{eq:eacfull} yields the coefficients summarized in Table \ref{tab:kad}. By plotting also the apparent emittance of all the days from the summers between 2014 to 2025 at D17, we obtain a bi-modal distribution. The uppermost concentrated part of the scatter represents overcast days, with the measured emittances tapering 1; the lowest part is likely largely represented by clear-sky days, with lower emittances measured at slightly drier conditions (\ie lower $\beta$). By manually separating the two clusters with a hard threshold set at $\epsilon_A = 0.8$, we obtain a second set of clear-sky cases, more empirical this time---fitting the same model on it returns coefficients $\epsilon_{AD} = 0.30$ and $k = 0.70$, comparable to the ones obtained from the observed clear-sky cases. This second set of parameters has then been chosen for the expression of $\epsilon_{AC}$'s linear model at Cap Prud'homme.  The  Due to the unavailability of such data for the megadunes, the CSI for the two EAIIST stations was computed using \href{https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview}{ERA5} reanalysis single levels, with $\lwdn$, \qty{2}{\meter} air temperature, and dew point temperature at an hourly step. A validation of ERA5 performance was carried out using the CNR4 installed at the D17 station (Figure \ref{fig:era5cnr4}). 
 
 Eventually, the CSI is given by the ratio between the observed emittance and the respective modeled clear-sky emittance:
 \begin{equation}
 	\mathrm{CSI} = \frac{\epsilon_{A}}{\epsilon_{AC}} \qquad (-)
 \end{equation}
 When the $\mathrm{CSI}$ exceeds 1, the sky is likely overcast, as the emittance is higher than the clear-sky value. Thus, one can discriminate between clear-sky ($\mathrm{CSI} < 1$) and cloud-covered sky ($\mathrm{CSI} \geq 1$), and define a boolean cloud mask: 1 for overcast skies, 0 for clear skies. For Antarctica, due to the frequent presence of thin cloud layers (\eg cirrus, haze) that exhibit clear-sky-like behaviour, the threshold is set to 1.25 rather than 1 \parencite{arioliDynamicsSnowGrain2023}.
-
-To compute the CSI, records of air temperature, incoming long-wave radiation, and relative humidity (or dew point temperature) are sufficient. The calculation had already been performed using measurements from the CNR4 located near the Cap Prud'homme stations by \cite{arioliDynamicsSnowGrain2023}. Moreover, D10 station is equipped with a camera framing the surrounding environment, allowing to manually select clear sky days with a high reliability. Due to the unavailability of such data for the megadunes, the CSI for the two EAIIST stations was computed using \href{https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview}{ERA5} reanalysis single levels, with $\lwdn$, \qty{2}{\meter} air temperature, and dew point temperature at an hourly step. A validation of ERA5 performance was carried out using the CNR4 installed at the D17 station. 
 
 Eventually, a day is classified as clear sky when the mean of all its cloud masks is lower than 0.25, \ie with at least 75\% of measurements cloud-free, and overcast otherwise. Clear-sky days are then assigned the direct-to–diffuse partition previously modeled with SBDART, while overcast days are considered to be fully diffuse for each wavelength.
 
@@ -310,13 +327,6 @@ Solalb records can be processed analogously to Multiband ones. Cross calibration
 
 	\section{Atmospheric conditions: emissivity analysis}
 CSI results ? Dir diff ?
-
-\begin{figure}
-	\centering
-	\includegraphics[width=16cm]{appemitt_scatter_def.pdf}
-	\caption{\textbf{Apparent emissivity} | BETTEER in methods}
-	\label{fig:appemit}
-\end{figure}
 
 	\section{Time series from Multiband and S-3 OLCI}
 
