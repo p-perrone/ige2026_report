@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.5.26)  26 MAY 2026 18:13
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.5.26)  27 MAY 2026 17:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2061,7 +2061,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [3]
 
-LaTeX Warning: Citation 'find a cit' on page 4 undefined on input line 140.
+LaTeX Warning: Citation 'find a cit' on page 4 undefined on input line 143.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2080,7 +2080,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [5]
 LaTeX Font Info:    Font shape `TU/lmss/sbc/it' in size <12> not available
-(Font)              Font shape `TU/lmss/sbc/sl' tried instead on input line 175
+(Font)              Font shape `TU/lmss/sbc/sl' tried instead on input line 178
 .
 File: ../figures/mbscheme.pdf Graphic file (type pdf)
 <use ../figures/mbscheme.pdf>
@@ -2103,13 +2103,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [7]
 
 LaTeX Font Warning: Font shape `TU/LatinModernSans(0)/sbc/sl' undefined
-(Font)              using `TU/LatinModernSans(0)/m/n' instead on input line 196
+(Font)              using `TU/LatinModernSans(0)/m/n' instead on input line 199
 .
 
 File: ../figures/mbwf.pdf Graphic file (type pdf)
 <use ../figures/mbwf.pdf>
 LaTeX Font Info:    Font shape `TU/FiraMono(0)/m/n' will be
-(Font)              scaled to size 9.30756pt on input line 215.
+(Font)              scaled to size 9.30756pt on input line 218.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2128,8 +2128,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [9]
 
 LaTeX Font Warning: Font shape `TU/lmss/sc/sl' undefined
-(Font)              using `TU/lmss/m/n' instead on input line 249.
+(Font)              using `TU/lmss/m/n' instead on input line 252.
 
+Missing character: There is no ​ in font Latin Modern Sans 10 Regular/OT:script
+=latn;language=dflt;mapping=tex-text;!
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2138,20 +2140,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [10]
-Missing character: There is no ​ in font Latin Modern Sans 10 Regular/OT:script
-=latn;language=dflt;mapping=tex-text;!
 File: ../figures/appemitt_scatter_def.pdf Graphic file (type pdf)
 <use ../figures/appemitt_scatter_def.pdf>
 LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
-276.
-(/usr/local/share/miktex-texmf/tex/latex/lm/ot1lmss.fd
+279.
+ (/usr/local/share/miktex-texmf/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 276.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 279.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -2183,6 +2180,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [13]
+File: ../figures/sicewf.pdf Graphic file (type pdf)
+<use ../figures/sicewf.pdf>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2191,9 +2191,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [14]
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 373.
+Overfull \hbox (26.0339pt too wide) in paragraph at lines 361--363
+[]\TU/LatinModernSans(0)/b/n/10.95 Retrieval of snow SSA \TU/LatinModernSans(0)
+/sbc/sl/10.95 | This is the main processing step executed via the []
+ []
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2212,6 +2213,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [16]
 
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 425.
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.59999pt}.
@@ -2219,11 +2224,26 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [17]
-Overfull \hbox (2.3151pt too wide) in paragraph at lines 373--373
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[18]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[19]
+Overfull \hbox (2.3151pt too wide) in paragraph at lines 425--425
 [][]\TU/LatinModernSans(0)/sbc/sl/10.95 World Meteorological Organization. (202
-4). \TU/LatinModernSans(0)/m/it/10.95 Blowing snow\TU/LatinModernSans(0)/sbc/sl
-/10.95 . Retrieved May 15, 2026, from [][]$[][][][][] [] [] [] [][][][][][][][]
-[][] []
+4). Blowing snow. Retrieved May 15, 2026, from [][]$[][][][][] [] [] [] [][][][
+][][][][][][] []
  []
 
 
@@ -2233,7 +2253,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[18] (stage_2026_report.aux
+[20] (stage_2026_report.aux
 * soulpos - computing points - it may take a few seconds *
 \openout4 = `stage_2026_report.upb'.
 
@@ -2248,18 +2268,22 @@ L3 programming layer <2026-03-20>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `stage_2026_report.out' has not changed.
-(rerunfilecheck)             Checksum: 63EE62B9A915DFAD5D36B9638AE5D325;5904.
+(rerunfilecheck)             Checksum: 216BBA42E89FFC6C818DB9B7EA6F7599;5846.
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to 'stage_2026_report.run.xml'.
 \openout1 = `stage_2026_report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 55110 strings out of 402807
- 1231260 string characters out of 5448229
- 2338776 words of memory out of 5000000
- 83284 multiletter control sequences out of 15000+600000
+ 55140 strings out of 402807
+ 1232075 string characters out of 5448229
+ 2338014 words of memory out of 5000000
+ 83313 multiletter control sequences out of 15000+600000
  661891 words of font info for 129 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  98i,15n,133p,2383b,6382s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on stage_2026_report.pdf (18 pages).
+Output written on stage_2026_report.pdf (20 pages).

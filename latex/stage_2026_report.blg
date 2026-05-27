@@ -1,23 +1,21 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'stage_2026_report.blg'
-[37] biber:342> INFO - === mar. mai 26, 2026, 17:46:16
-[46] Biber.pm:421> INFO - Reading 'stage_2026_report.bcf'
-[100] Biber.pm:1002> INFO - Found 38 citekeys in bib section 0
-[112] Biber.pm:4487> INFO - Processing section 0
-[118] Biber.pm:4678> INFO - Looking for bibtex file 'Stage_IGE_2026.bib' for section 0
-[126] bibtex.pm:1713> INFO - LaTeX decoding ...
-[342] bibtex.pm:1519> INFO - Found BibTeX data source 'Stage_IGE_2026.bib'
-[622] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[622] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[622] Biber.pm:4307> INFO - Sorting list 'apa/apasortcite//global/global/global' of type 'entry' with template 'apa' and locale 'en-US'
-[622] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
-[692] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[692] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[692] Biber.pm:4307> INFO - Sorting list 'apa/global//global/global/global' of type 'entry' with template 'apa' and locale 'en-US'
-[692] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
-[734] bbl.pm:676> INFO - Writing 'stage_2026_report.bbl' with encoding 'UTF-8'
-[774] bbl.pm:779> INFO - Output to stage_2026_report.bbl
-[774] Biber.pm:132> WARN - Duplicate entry key: 'glorot2010_trainingdiff' in file 'Stage_IGE_2026.bib', skipping ...
-[774] Biber.pm:132> WARN - Duplicate entry key: 'mira1995_sigmoid' in file 'Stage_IGE_2026.bib', skipping ...
-[774] Biber.pm:132> WARN - I didn't find a database entry for 'find a cit' (section 0)
-[774] Biber.pm:134> INFO - WARNINGS: 3
+[49] biber:342> INFO - === mer. mai 27, 2026, 14:26:54
+[66] Biber.pm:421> INFO - Reading 'stage_2026_report.bcf'
+[184] Biber.pm:1002> INFO - Found 39 citekeys in bib section 0
+[230] Biber.pm:4487> INFO - Processing section 0
+[254] Biber.pm:4678> INFO - Looking for bibtex file 'Stage_IGE_2026.bib' for section 0
+[259] bibtex.pm:1713> INFO - LaTeX decoding ...
+[360] bibtex.pm:1519> INFO - Found BibTeX data source 'Stage_IGE_2026.bib'
+[1001] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1001] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1001] Biber.pm:4307> INFO - Sorting list 'apa/apasortcite//global/global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[1001] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[1091] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1091] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1091] Biber.pm:4307> INFO - Sorting list 'apa/global//global/global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[1091] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[1145] bbl.pm:676> INFO - Writing 'stage_2026_report.bbl' with encoding 'UTF-8'
+[1203] bbl.pm:779> INFO - Output to stage_2026_report.bbl
+[1204] Biber.pm:132> WARN - I didn't find a database entry for 'find a cit' (section 0)
+[1204] Biber.pm:134> INFO - WARNINGS: 1

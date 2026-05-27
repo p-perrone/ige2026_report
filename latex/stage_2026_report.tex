@@ -33,7 +33,7 @@
 \usepackage{subfig}
 \usepackage{float}
 \usepackage{caption}
-\captionsetup{font={small, color={Gray2}}, labelfont={sf, bf}, textfont={sf,sansmath}, labelsep=colon}
+	\captionsetup{font={small, color={Gray2}, stretch=1.2}, labelfont={sf, bf}, textfont={sf,sansmath}, labelsep=colon}
 \usepackage[dvipsnames]{xcolor}
 \definecolor{Gray1}{RGB}{101, 101, 101}
 \definecolor{Gray2}{RGB}{60, 60, 60}
@@ -123,6 +123,9 @@ urlcolor=BlueViolet]{hyperref}
 % ////////////////////////////////////
 
 \begin{document}
+\setlength{\abovedisplayskip}{5pt}
+\setlength{\belowdisplayskip}{5pt}
+
 	\title{Internship report}
 	
 	\tableofcontents
@@ -215,31 +218,31 @@ Orbit, resolution, swath, revisit time etc.
 The pipeline for processing Multiband data is summarized in Figure~\ref{fig:mbwf} and builds on the work of \cite{arioliDynamicsSnowGrain2023}. It executes functions from a custom Python library specifically developed for this purpose (the \texttt{generic\_algorithm}), along with utilities from the open-source module \texttt{snowoptics} (\href{https://github.com/ghislainp/snowoptics}{GitHub}), a library for retrieving snow optical properties based on the Asymptotic Radiative Transfer theory (ART, \cite{kokhanovskyScatteringOpticsSnow2004}). This processing had already been applied to measurements acquired by all three Cap Prud'Homme stations (D5, D10, D17) until 2022 in \cite{arioliDynamicsSnowGrain2023}'s work.
 
 \begin{enumerate}[align=right,itemindent=2em,labelsep=4pt,labelwidth=1em,leftmargin=0pt,nosep]
-	\item \textbf{Raw data filtering}\\
+	\item \textbf{Raw data filtering} |
 A preprocessing step excludes low-quality data, including: (i) measurements acquired at $\sza > \ang{70}$ due to the limited performance of cosine collectors at low solar angles \parencite{picardDevelopmentCalibrationAutomatic2016a}; (ii) measurements acquired under varying or low ambient light conditions, if the standard deviation of the 12 references recorded during a cycle exceeds 1\% of their mean radiance; and (iii) all records at \qty{1550}{\nano\meter} due to the poor signal-to-noise ratio. A first set of spectral reflected and incident measures is now exploitable; we refer to this raw voltage records as $i_{\mathrm{raw}}^{\mathrm{ref}}(\lambda, t)$ and $i_{\mathrm{raw}}^{\mathrm{inc}}(\lambda, t)$, with $t$ the date and time of the measurement.
-	\item \textbf{Dark current}\\
+	\item \textbf{Dark current} |
 The measurements are corrected for the background thermal noise of the photodiodes. Four dark currents are registered at every cycle (Si and InGaAs, for both the incident and reflected channels) and subsequently subtracted from the respective channel's spectral irradiance. For the reflected channel (and analogously for the incident), the dark corrected spectral signal $i^{\mathrm{ref}}(\lambda, t)$ results from:
 \begin{equation}
 	i^{\mathrm{ref}}(\lambda, t) = i_{\mathrm{raw}}^{\mathrm{ref}}(\lambda, t) - i_{\mathrm{dark}}^{\mathrm{ref}}(\lambda, t)
 \end{equation}
-	\item \textbf{Cross-calibration}\\
+	\item \textbf{Cross-calibration} |
 The incident and reflected signals passing through the cosine collectors and the optical fibers naturally differ due to varying transmissivity and sensitivity of the components in the two channels. To account for this, a parallel cross-calibration (CC) is performed during the installation of the albedometers. This involves orienting both light collectors upward and side-by-side to record the same irradiance over two days at an hourly resolution (every 10 minutes at solar noon). The two signals are then corrected following steps 1 and 2 of the current processing chain, averaged, and their ratio is multiplied by every incident spectrum measured during the operational stage of the albedometer to compensate for differences in the electronic response of the two channels. Formally, given the reflected and incident spectral signals averaged from the whole calibration experiment
  $i_{\mathrm{cal}}^{\mathrm{ref}}(\lambda)$ and $i_{\mathrm{cal}}^{\mathrm{inc}}(\lambda)$, their ratio $R_\mathrm{CC}(\lambda)$ is used to scale the incident spectral signal:
 :
 \begin{equation}\label{eq:inc_cc}
 	i^{\mathrm{inc}}(\lambda, t) \leftarrow i^{\mathrm{inc}}(\lambda, t) R_\mathrm{CC}(\lambda), \qquad R_\mathrm{CC}(\lambda) = \frac{i_{\mathrm{cal}}^{\mathrm{ref}}(\lambda)}{i_{\mathrm{cal}}^{\mathrm{inc}}(\lambda)}
 \end{equation}
-	\item \textbf{Cosine response correction}\\
+	\item \textbf{Cosine response correction} |
 Each light collector behaves uniquely at different solar angles under perfectly direct light conditions, with its response always diverging by a given amount from an ideal cosine curve. For this reason, before deployment in the field, every collector's response is calibrated in the lab by illuminating it with a direct light beam at different angles. This experimental response is used to normalize every measurement. Since this correction step only involves the direct component of the incident radiation---not its diffuse part or the fully diffused reflected light---the direct-to-diffuse light ratio must be quantified for every measurement. This ratio depends on: (i) atmospheric characteristics at the specific geographical location (longitude, latitude, altitude); (ii) solar elevation, \ie the SZA; and (iii) meteorology at the time of the measurement, particularly cloud cover. To account for the first two factors, a time-independent, direct-to-diffuse partitioning is simulated using the Santa Barbara DISORT Atmospheric Radiative Transfer (SBDART) model \parencite{ricchiazziSBDARTResearchTeaching1998}. Cloud cover is quantified using the 30-minute resolution recordings of the AWS located near the albedometers, with the methodology proposed by \cite{martyClearskyIndexSeparate2000}. These two steps will be detailed later.
-	\item \textbf{Albedo calculation}\\
+	\item \textbf{Albedo calculation} |
 The ratio between the dark- and cosine-corrected incident and reflected records yields a first estimation of spectral albedo at time $t$, $\alpha(\lambda, t)$:
 \begin{equation}\label{eq:alb1}
 	\alpha(\lambda, t) = \frac{i^{\mathrm{ref}}(\lambda, t)}{i^{\mathrm{inc}}(\lambda, t)}
 \end{equation}
 with $i^{\mathrm{inc}}(\lambda, t)$ resulting from cross calibration of Equation \eqref{eq:inc_cc}. At this stage, no hypotheses are made about the geometry of snow surface. Moreover, values of $\alpha < 0$ and $\alpha > 1.5$ are discarded. 
-	\item \textbf{Slope correction}\\
+	\item \textbf{Slope correction} |
 Albedo is then corrected for potential slope and surface irregularities (\eg sastrugi) characterizing the snow surface on the day of the measurement, following \cite{picardSpectralAlbedoMeasurements2020}. The custom function \texttt{generic\_algorithm.albedo\_timeseries\_correction()} is used to iteratively compute the unknown slope parameters that best fit the within-day evolution of the previously retrieved albedo spectra. At the end of this step, a daily averaged, slope-corrected albedo spectrum is produced.
-	\item \textbf{SSA estimate}\\	
+	\item \textbf{SSA estimate} |	
 \cite{kokhanovskyScatteringOpticsSnow2004}'s ART theory is finally used to compute the snow grain size (SSA) from the daily albedo, as previously described in the theoretical background section.
 \end{enumerate}
 
@@ -310,41 +313,90 @@ irradiance partition modelled with SBDART, while overcast days are treated as
 fully diffuse across all wavelengths.
 \begin{figure}
 	\centering
-	\includegraphics[width=16cm]{era5_vs_cnr4.pdf}
+	\includegraphics[width=15cm]{era5_vs_cnr4.pdf}
 	\mycaption{Validation of ERA5 against CNR4 measurements at D17}{The reanalysis yields very close \qty{2}{\meter} air temperature values to the ones measured \emph{in situ} with a Pearson's $r$ close to 1; the long-wave down records from both methods are also satisfyingly close.}
 	\label{fig:era5cnr4}
 \end{figure}
 				\paragraph{Diagnostic procedures}
 
 \begin{itemize}[align=right,itemindent=2em,labelsep=4pt,labelwidth=1em,leftmargin=0pt,nosep]
-	\item \textbf{Calibration curves}\\
+	\item \textbf{Calibration curves} |
 Cross calibration is the first step of the processing that must be analysed when instrumental issues arise. The related files allow a precise examination of the signal recorded by the two cosine collectors, and of their ratio at different wavelengths $R_\mathrm{CC}$. Particularly, we expect this ratio to be fairly close to 1---meaning that the instrumental differences between the two channels are minimal. Values exceeding 1 of more than $\pm20\%$ must arouse suspicion, as they could affect first albedo estimations by non-negligible amounts, following Equations \eqref{eq:inc_cc} and  \eqref{eq:alb1}. Causes: bad verrrouilement, usure des capsules des cosines
 	
-	\item \textbf{Inclinometer time series}\\
+	\item \textbf{Inclinometer time series} |
 Further issues can come from pronounced tilting of the albedometer (\eg under strong winds), that can negatively impact the albedo retrieval by complicating slope correction. Every Multiband is equipped with an inclinometer recording the bidirectional tilting of the albedometer's head $(\theta_1, \theta_2)$ at the same temporal resolution of the light collectors. From this, time series of both angles can be traced to investigate whether the head is leaning or not. This analysis is particularly useful for the two EAIIST stations, that cannot be re-adjusted for logistical reasons, and can help telling if it is necessary to apply an \emph{a posteriori} correction factor.
 
-	\item \textbf{Sub-daily variability in the signal}\\
+	\item \textbf{Sub-daily variability in the signal} |
 Further insights can be gained by analyzing the temporal evolution of the signal at each wavelength and correction step. If the albedometer is functioning correctly, the signal after dark subtraction should exhibit a wavelength- and time-independent offset, particularly with respect to the SZA. Additionally, under near-perfect direct light conditions, the cross-calibrated and cosine-corrected signal should be symmetric about solar noon. Finally, the daily variability of albedo spectra can be examined.
 
 \end{itemize}
 
 		\subsection{Processing of Solalb data}
-Solalb records can be processed analogously to Multiband ones. Cross-calibration is not performed, as there is only one light collector on the head. Each experiment reports a quality tag (A+, A, B, C) indicating the consistency of spectra throughout the experiment, depending on light conditions. Only A and A+ records are selected, with less than 10\% internal variability between the ten upward and downward measurements.
+Solalb records are processed analogously to Multiband ones. Cross calibration is not performed, as there is only one light collector on the head. Each experiment reports a quality tag (A+, A, B, C) indicating the consistency of spectra throughout the experiment, depending on the variability of light conditions. Only A and A+ records are selected, with less than 10\% internal variability between the ten upward and downward measurements.
 The direct-to-diffuse ratio is measured directly with the instrument. This consists of first measuring the total incoming radiation with the upward-oriented collector; then, a small metal beam is positioned in front of the collector to remove the direct component of radiation and record the diffuse fraction. The two signals---total and diffuse---are saved on the incident and reflected channels, respectively. This experiment is usually carried out once a day, and the direct-to-diffuse ratio can be obtained from Equation~\eqref{eq:dirdifftot}. For a single day, several Solalb experiments can be executed---either on a transect of a few tens of meters or in the same position. The daily SSA is retrieved from the average of each experiment.
-
 				
 		\subsection{Processing of S-3 OLCI data}
-		
-			\subsubsection{Implementation of SICE 1.6 utilities}
-			
+\begin{figure}
+	\centering
+	\includegraphics[width=14cm]{sicewf.pdf}
+	\mycaption{SICE 1.6 processing chain}{}
+	\label{fig:sicewf}
+\end{figure}		
+			\subsubsection{SICE 1.6 processing chain}
+The retrieval of snow properties from OLCI data was fully implemented by \cite{kokhanovskyRetrievalSnowProperties2019} in the "Pre-Operational Sentinel-3 Snow and Ice Product" (SICE) algorithm; we adopted for our analysis version 1.6. A translation from the former Fortran code to Python was also carried out by Baptiste Vandeecrux---we implemented modules \texttt{sice\_io} and \texttt{sice\_lib}, the first for dowloading the data, the second to process them.
+
+The very synthetic functioning is shown in Figure \ref{fig:sicewf}. The whole processing, in our specific case, has been run under the hypothesis of clean snow: no pollution is being accounted for our five sites at Cap Prud'homme and in the megadunes field, coherently with the choice of a pristine atmopshere for SBDART simulations. The pipeline of SICE processing from raw OLCI data to SSA maps can be summarized as follows:
+\begin{enumerate}[align=right,itemindent=2em,labelsep=4pt,labelwidth=1em,leftmargin=0pt,nosep]
+	\item \textbf{Bands selection} |
+OLCI bands 17 ($\lambda_1 = \qty{865}{\nano\meter}$) and 21 ($\lambda_2 = \qty{1020}{\nano\meter}$) are first selected (WHY ???). 
+	\item \textbf{Reflectance and filtering of pixels unsuitable for retrieval} |
+Top of atmosphere reflectances ($R_\mathrm{TOA}$) for both bands are directly available after a first preprocessing selection step, that discards low values of reflectance $R_\mathrm{TOA} < 0.1$ and high SZAs ($\sza > \ang{75}$). 
+	\item \textbf{Definition of viewing geometry} |
+The function \texttt{sice\_lib.view\_geometry()} takes as inputs the filtered OLCI scene and outputs the angles necessary for the retrieval, particularly the satellite's relative azimuthal angle $\mathrm{RAA} = \ang{180} \times (\mathrm{VAA} - \mathrm{SAA})$ (VAA = Viewing Azimuthal Angle), cosines and sines of SZA and VZA (Viewing Zenithal Angle). It also computes the escape function for both SZA and VZA directions.\textbf{THEORY?????} This is given bye the probability that a photon, after being repeatedly scattered within the snowpack, will escape the medium in a specific direction $\theta$ \parencite{sobolevLightScatteringPlanetary2014}:
+\begin{equation}\label{eq:escape}
+	u(\theta) = \frac{3}{7}(1 + 2\cos\theta)
+\end{equation}
+	\item \textbf{Atmospheric correction} |
+TOA reflectances are corrected for ozone absorption and for the observed aerosol optical thickness. Both the corrections depend on the previously defined viewing/relative angles and elevation. This step outputs a bottom of atmosphere reflectance $R_\mathrm{BOA}$, $R$ here-hence.
+	\item \textbf{Retrieval of snow SSA} |
+This is the main processing step executed via the \texttt{sice\_lib.snow\_properties()} function and it is based on one of most relevant of the ART theory: snow reflectance in the visible and NIR is function of spectral bulk ice absorption coefficient $a(\lambda)$ (\unit{\mol\per\meter}), the reflectance of a non-absorbing snow $R_0$ and the absorption length $l_\mathrm{abs}$ (\unit{\meter}) only:
+\begin{equation}
+	R(\lambda) = R_0 \exp(-f \sqrt{a(\lambda) l_\mathrm{abs}})
+\end{equation}
+$R_0$ and $l$ can be computed from measurements at the two selected wavelengths $\lambda_1$, $\lambda_2$:
+\begin{equation}
+	R_0 = R_1^\epsilon R_2^{(1-\epsilon)}, \qquad \epsilon = \left(1 - \sqrt{\frac{a_1}{a_2}}\right)^{-1} \simeq 1.5496
+\end{equation}
+and
+\begin{equation}\label{eq:labs}
+	l_\mathrm{abs} = \frac{1}{a_2 f^2} \ln(\frac{R_1}{R_2}), \qquad f = \frac{u(\sza) u(\mathrm{VZA})}{R_0}
+\end{equation}
+with $f$ being the angular function \parencite{kokhanovskyScatteringOpticsSnow2004}. From absorption length expressed in mm, the effective optical diameter can be easily retrieved:
+\begin{equation}
+	d = \frac{l_\mathrm{abs}}{9.2 \times 16 / 9} \qquad (\unit{\meter})
+\end{equation}
+and SSA can finally be estimated from $d$ and ice density $\rho_\mathrm{ice}$:
+\begin{equation}
+	\ssa = \frac{6}{d \rho_\mathrm{ice}}
+\end{equation}
+From $R(\lambda)$, more properties are also computed (plane spectral albedo, broadband albedo).
+\end{enumerate}
+
 			\subsubsection{Diagnostic techniques}
-			
+The main potential problem with OLCI-retrieved SSAs is the artificial dependence of grain size on solar angles induced by the effect of escape function on absorption length (Equations \eqref{eq:escape} and \eqref{eq:labs}). In fact, we don't expect the grain size to vary much during the day, precipitation and metamorphism-wise---possible changes in grain size are therefore relatable to SZA-induced artefact and must be investigated. To account for this, we performed different processing: the first one, being the reference (REF) without modifying anything in the algorithm; then, we added a flattening term to the escape function in \texttt{sice\_lib.view\_geometry(r)}:
+\begin{equation}
+	u(\theta) \leftarrow u(\theta) (1 - r) + r
+\end{equation}
+with $r$ initially tested at 0.3 and progressively raised to 0.5 at each simulation.
+By adding this factor, we artificially reduce the dependence of SSA on solar angles and possibly draw conclusions about the effectiveness of the algorithm.
+
 \setpartcolor{part3color}
+
 \part{Results}
 
 	\section{Time series from Multiband and S-3 OLCI}
 
-DDU very cool, EAIIST not so very cool, then...
+
 	
 	\section{Diagnostic of the results for EAIIST stations}
 	
