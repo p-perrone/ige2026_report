@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.5.26)  27 MAY 2026 17:53
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.5.26)  28 MAY 2026 17:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2204,6 +2204,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [15]
+File: ../figures/timeseries_example.pdf Graphic file (type pdf)
+<use ../figures/timeseries_example.pdf>
+
+
+LaTeX Warning: Reference `a:timeseries' on page 16 undefined on input line 405.
+
+
+
+Overfull \hbox (9.81403pt too wide) in paragraph at lines 407--408
+[]\TU/LatinModernSans(0)/sbc/sl/10.95 At D17—Cap Prud’homme in general—Multiban
+d retrieved SSA values are typically lower than [][]
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2213,9 +2226,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [16]
 
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 425.
+LaTeX Warning: Reference `fig:corr_sice_mb' on page 17 undefined on input line 
+409.
 
+File: ../figures/eaiist01_cc_500.pdf Graphic file (type pdf)
+<use ../figures/eaiist01_cc_500.pdf>
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2224,6 +2239,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [17]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 440.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2240,7 +2259,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [19]
-Overfull \hbox (2.3151pt too wide) in paragraph at lines 425--425
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[20]
+Overfull \hbox (2.3151pt too wide) in paragraph at lines 440--440
 [][]\TU/LatinModernSans(0)/sbc/sl/10.95 World Meteorological Organization. (202
 4). Blowing snow. Retrieved May 15, 2026, from [][]$[][][][][] [] [] [] [][][][
 ][][][][][][] []
@@ -2253,7 +2280,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[20] (stage_2026_report.aux
+[21]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[22] (stage_2026_report.aux
 * soulpos - computing points - it may take a few seconds *
 \openout4 = `stage_2026_report.upb'.
 
@@ -2267,23 +2302,22 @@ L3 programming layer <2026-03-20>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `stage_2026_report.out' has not changed.
-(rerunfilecheck)             Checksum: 216BBA42E89FFC6C818DB9B7EA6F7599;5846.
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
+(rerunfilecheck)             Checksum: A6BC6A754BB85019693765AD7C56840F;5846.
 Package logreq Info: Writing requests to 'stage_2026_report.run.xml'.
 \openout1 = `stage_2026_report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 55140 strings out of 402807
- 1232075 string characters out of 5448229
- 2338014 words of memory out of 5000000
- 83313 multiletter control sequences out of 15000+600000
+ 55166 strings out of 402807
+ 1232920 string characters out of 5448229
+ 2338301 words of memory out of 5000000
+ 83338 multiletter control sequences out of 15000+600000
  661891 words of font info for 129 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  98i,15n,133p,2383b,6382s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on stage_2026_report.pdf (20 pages).
+Output written on stage_2026_report.pdf (22 pages).

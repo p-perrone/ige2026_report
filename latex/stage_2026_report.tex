@@ -321,7 +321,7 @@ fully diffuse across all wavelengths.
 
 \begin{itemize}[align=right,itemindent=2em,labelsep=4pt,labelwidth=1em,leftmargin=0pt,nosep]
 	\item \textbf{Calibration curves} |
-Cross calibration is the first step of the processing that must be analysed when instrumental issues arise. The related files allow a precise examination of the signal recorded by the two cosine collectors, and of their ratio at different wavelengths $R_\mathrm{CC}$. Particularly, we expect this ratio to be fairly close to 1---meaning that the instrumental differences between the two channels are minimal. Values exceeding 1 of more than $\pm20\%$ must arouse suspicion, as they could affect first albedo estimations by non-negligible amounts, following Equations \eqref{eq:inc_cc} and  \eqref{eq:alb1}. Causes: bad verrrouilement, usure des capsules des cosines
+Cross calibration is the first step of the processing that must be analysed when instrumental issues arise. The related files allow a precise examination of the signal recorded by the two cosine collectors, and of their ratio at different wavelengths $R_\mathrm{CC}$. Particularly, we expect this ratio to be fairly close to 1---meaning that the instrumental differences between the two channels are minimal. Values exceeding 1 of more than $\pm20\%$ must arouse suspicion, as they could affect first albedo estimations by non-negligible amounts, following Equations \eqref{eq:inc_cc} and  \eqref{eq:alb1}. 
 	
 	\item \textbf{Inclinometer time series} |
 Further issues can come from pronounced tilting of the albedometer (\eg under strong winds), that can negatively impact the albedo retrieval by complicating slope correction. Every Multiband is equipped with an inclinometer recording the bidirectional tilting of the albedometer's head $(\theta_1, \theta_2)$ at the same temporal resolution of the light collectors. From this, time series of both angles can be traced to investigate whether the head is leaning or not. This analysis is particularly useful for the two EAIIST stations, that cannot be re-adjusted for logistical reasons, and can help telling if it is necessary to apply an \emph{a posteriori} correction factor.
@@ -383,28 +383,43 @@ From $R(\lambda)$, more properties are also computed (plane spectral albedo, bro
 \end{enumerate}
 
 			\subsubsection{Diagnostic techniques}
-The main potential problem with OLCI-retrieved SSAs is the artificial dependence of grain size on solar angles induced by the effect of escape function on absorption length (Equations \eqref{eq:escape} and \eqref{eq:labs}). In fact, we don't expect the grain size to vary much during the day, precipitation and metamorphism-wise---possible changes in grain size are therefore relatable to SZA-induced artefact and must be investigated. To account for this, we performed different processing: the first one, being the reference (REF) without modifying anything in the algorithm; then, we added a flattening term to the escape function in \texttt{sice\_lib.view\_geometry(r)}:
+The main potential issue with OLCI-retrieved SSAs is the artificial dependence of grain size on solar angles, induced by the effect of the escape function on the absorption length (Equations~\eqref{eq:escape} and~\eqref{eq:labs}). Since we do not expect grain size to vary significantly during the day—unless due to precipitation or metamorphism—any observed changes in grain size are likely SZA-induced artifacts and must be investigated.
+
+To address this, we performed different processing tests. The first, serving as the reference (REF), leaves the algorithm unchanged. The second (and further ones) introduce a flattening term to the escape function in \texttt{sice\_lib.view\_geometry(r)}:
 \begin{equation}
 	u(\theta) \leftarrow u(\theta) (1 - r) + r
 \end{equation}
-with $r$ initially tested at 0.3 and progressively raised to 0.5 at each simulation.
-By adding this factor, we artificially reduce the dependence of SSA on solar angles and possibly draw conclusions about the effectiveness of the algorithm.
+where $r$ was initially tested at 0.3 and progressively increased to 0.5 in subsequent simulations. By adding this factor, we artificially reduce the dependence of SSA on solar angles, allowing us to evaluate the effectiveness of the algorithm.
 
 \setpartcolor{part3color}
 
 \part{Results}
 
 	\section{Time series from Multiband and S-3 OLCI}
+\begin{figure}
+	\centering
+	\includegraphics[width=17cm]{timeseries_example}
+	\mycaption{Representative SSA time series from Multiband and OLCI}{On the left, data at D17 station at Cap Prud'homme; on the right, at EAIIST02 station in the megadunes zone}
+	\label{fig:tsex}
+\end{figure}
+Time series of snow SSA were successfully obtained for all the five stations and from both Multiband records and S-3/OLCI data. A representative example of the two locations is show in Figure \ref{fig:tsex}; the stacks from all years are reported in the Appendix \ref{a:timeseries}.
 
+At D17---Cap Prud'homme in general---Multiband retrieved SSA values are typically lower than \qty{20}{\ssaunit} in mid-austral summer, whereas they tend to reach up to more than \qty{50}{\ssaunit} at the beginning and at the end; the series are in general continuous with few interrruption in the signal, meaning a proper functioning of the instrument. Multiband records much similar sizes and dynamics across the three stations, meaning consistent environemental conditions at surface in that area. OLCI-retrieved SSA for this location show a relatively good agreement with Multiband data, exception made for each beginning of summer season, when the satellite's SSA is singificantly lower of $\sim 25$--\qty{50}{\ssaunit}. OLCI series are also much sparser and NaNs are typically registered when Multiband signal abruptly peaks---in that situation, precipitation likely occurs and the sky is therefore overcast, preventing the satellite from seeing the surface. Overall, throughout all the years and for all cap Prud'homme stations, there is consistency between \emph{in situ} an satellite observations.
 
-	
+In the megadunes, the SSA measured by Multiband is generally higher, reflecting the absence of wet metamorphism and subsequent smaller grain size. The signals from the two stations are also diverging one from the other in mid-summer and their year-toyear variability is much stronger than at Cap Prud'homme; the reasons of such behaviour will be explain later on in the Discussion. When comparing Multiband records to OLCI, the most relevant issue of this analysis arise: in contrast to Cap Prud'homme, the two methods are yielding significantly different SSAs in terms of absolute values---the offset between the two is typically $\sim 25$--\qty{30}{\ssaunit}, representing non-negligible. However, the two time series are typically able to register the same temporal evolution of snow grain size: this consistent co-dynamic can notably be seen in Figure \ref{fig:tsex}---SSA changes relatively in time of the same amount and in the same direction (positive or negative change) on both Multiband and OLCI record. In fact, quantitatively, the correlation coefficient between the two series is failry good at r and r respectively, whereas the bias is very high (Figure \ref{fig:corr_sice_mb}) With the aim of understanding and fixing this gap, we proceed with diagnostics described in the Methods.
+
 	\section{Diagnostic of the results for EAIIST stations}
-	
-... then here we go
 
 		\subsection{Multiband issues}
-	
-		\subsection{OLCI issues}
+\begin{figure}
+	\centering
+	\includegraphics[width=15cm]{eaiist01_cc_500.pdf}
+	\mycaption{Cross-calibration experiment of EAIIST01}{Cgfckalushdf}
+	\label{fig:eaiist01cc}
+\end{figure}
+The rigid offset between \emph{in situ} and satellite time series made us first consider a potential instrumental issue in Multiband functioning. We first checked the cross-calibration curves used for the correction for both station, and for each specific wavelength. EAIIST02's calibration returned an average $R_\mathrm{CC} = \num{1.055(0.004)}$, confirming consistency over all the experiment duration and across every wavelength, a more than reasonable result that we validated. The same analysis on EAIIST01 revealed the first technical issue: the computed ratio is generally very low, especially at small wavelengths---see an example for \qty{500}{\nano\meter} in Figure \ref{fig:eaiist01cc}, where the computed $R_\mathrm{CC}$ is \num{0.656555555555555555555555(345636)} across the experiment. Such value for the ratio is not acceptable and is probably a consequence of a bad locking connection between the optical fibers and the other components, as well as potentially wearing out of one of the two cosin ecollectors. 
+ 
+ 		\subsection{OLCI issues}
 		
 		\subsection{OLCI and Solalb: a comparison}
 		
@@ -424,4 +439,4 @@ Despite the imperfection of the results and the technical issues, some interesti
 
 \printbibliography[heading=bibintoc]
 	
-\end{document}
+\end{document}	
