@@ -313,7 +313,7 @@ irradiance partition modelled with SBDART, while overcast days are treated as
 fully diffuse across all wavelengths.
 \begin{figure}
 	\centering
-	\includegraphics[width=15cm]{era5_vs_cnr4.pdf}
+	\includegraphics[width=14cm]{era5_vs_cnr4.pdf}
 	\mycaption{Validation of ERA5 against CNR4 measurements at D17}{The reanalysis yields very close \qty{2}{\meter} air temperature values to the ones measured \emph{in situ} with a Pearson's $r$ close to 1; the long-wave down records from both methods are also satisfyingly close.}
 	\label{fig:era5cnr4}
 \end{figure}
@@ -398,8 +398,9 @@ where $r$ was initially tested at 0.3 and progressively increased to 0.5 in subs
 	\section{Time series from Multiband and S-3 OLCI}
 \begin{figure}
 	\centering
-	\includegraphics[width=17cm]{timeseries_example}
-	\mycaption{Representative SSA time series from Multiband and OLCI}{On the left, data at D17 station at Cap Prud'homme; on the right, at EAIIST02 station in the megadunes zone}
+	\subfloat[On the left, data at D17 station at Cap Prud'homme; on the right, at EAIIST02 station in the megadunes zone]{\includegraphics[width=17cm]{timeseries_example}}\\
+	\subfloat[On the left, data at D17 station at Cap Prud'homme; on the right, at EAIIST02 station in the megadunes zone]{\includegraphics[width=17cm]{stations_mb_sice}}	
+	\mycaption{\emph{In situ} and satellite retrieved SSAs}{Comparison between Multiband and S-3/OLCI}
 	\label{fig:tsex}
 \end{figure}
 Time series of snow SSA were successfully obtained for all the five stations and from both Multiband records and S-3/OLCI data. A representative example of the two locations is show in Figure \ref{fig:tsex}; the stacks from all years are reported in the Appendix \ref{a:timeseries}.
@@ -418,6 +419,10 @@ In the megadunes, the SSA measured by Multiband is generally higher, reflecting 
 	\label{fig:eaiist01cc}
 \end{figure}
 The rigid offset between \emph{in situ} and satellite time series made us first consider a potential instrumental issue in Multiband functioning. We first checked the cross-calibration curves used for the correction for both station, and for each specific wavelength. EAIIST02's calibration returned an average $R_\mathrm{CC} = \num{1.055(0.004)}$, confirming consistency over all the experiment duration and across every wavelength, a more than reasonable result that we validated. The same analysis on EAIIST01 revealed the first technical issue: the computed ratio is generally very low, especially at small wavelengths---see an example for \qty{500}{\nano\meter} in Figure \ref{fig:eaiist01cc}, where the computed $R_\mathrm{CC}$ is \num{0.656555555555555555555555(345636)} across the experiment. Such value for the ratio is not acceptable and is probably a consequence of a bad locking connection between the optical fibers and the other components, as well as potentially wearing out of one of the two cosin ecollectors. 
+
+Concerning the inclinometers, for both EAIIST01 and EAIIST02, exclusion made for some electrical noise at the beginning of each season, the signal yields stable angles fluctuating in a range of $\pm \ang{2.5}$. However, the curves stabilize completely from 2025 on, meaning potential interruption in the functioning---this measure is therefore not exploitable after that date. 
+
+
  
  		\subsection{OLCI issues}
 		
