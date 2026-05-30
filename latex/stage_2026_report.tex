@@ -327,7 +327,7 @@ Cross calibration is the first step of the processing that must be analysed when
 Further issues can come from pronounced tilting of the albedometer (\eg under strong winds), that can negatively impact the albedo retrieval by complicating slope correction. Every Multiband is equipped with an inclinometer recording the bidirectional tilting of the albedometer's head $(\theta_1, \theta_2)$ at the same temporal resolution of the light collectors. From this, time series of both angles can be traced to investigate whether the head is leaning or not. This analysis is particularly useful for the two EAIIST stations, that cannot be re-adjusted for logistical reasons, and can help telling if it is necessary to apply an \emph{a posteriori} correction factor.
 
 	\item \textbf{Sub-daily variability in the signal} |
-Further insights can be gained by analyzing the temporal evolution of the signal at each wavelength and correction step. If the albedometer is functioning correctly, the signal after dark subtraction should exhibit a wavelength- and time-independent offset, particularly with respect to the SZA. Additionally, under near-perfect direct light conditions, the cross-calibrated and cosine-corrected signal should be symmetric about solar noon. Finally, the daily variability of albedo spectra can be examined.
+Further insights can be gained by analyzing the temporal evolution of the signal at each wavelength and correction step. If the albedometer is functioning correctly, the signal after dark subtraction should exhibit a wavelength- and time-independent offset, particularly with respect to the SZA. Additionally, under near-perfect direct light conditions, the cross-calibrated and cosine-corrected signal should be symmetric about solar noon. Finally, the daily variability of albedo spectra can be examined. To ensure the inspected signals were acquired under optimal conditions, we chose good weather days only by setting an average daily CSI of 0.9 maximum, with a daily standard deviation of no more than 0.05; moreover, we excluded days with low sun, \ie only mid-summer dqys were selected. 
 
 \end{itemize}
 
@@ -420,9 +420,9 @@ In the megadunes, the SSA measured by Multiband is generally higher, reflecting 
 \end{figure}
 The rigid offset between \emph{in situ} and satellite time series made us first consider a potential instrumental issue in Multiband functioning. We first checked the cross-calibration curves used for the correction for both station, and for each specific wavelength. EAIIST02's calibration returned an average $R_\mathrm{CC} = \num{1.055(0.004)}$, confirming consistency over all the experiment duration and across every wavelength, a more than reasonable result that we validated. The same analysis on EAIIST01 revealed the first technical issue: the computed ratio is generally very low, especially at small wavelengths---see an example for \qty{500}{\nano\meter} in Figure \ref{fig:eaiist01cc}, where the computed $R_\mathrm{CC}$ is \num{0.656555555555555555555555(345636)} across the experiment. Such value for the ratio is not acceptable and is probably a consequence of a bad locking connection between the optical fibers and the other components, as well as potentially wearing out of one of the two cosin ecollectors. 
 
-Concerning the inclinometers, for both EAIIST01 and EAIIST02, exclusion made for some electrical noise at the beginning of each season, the signal yields stable angles fluctuating in a range of $\pm \ang{2.5}$. However, the curves stabilize completely from 2025 on, meaning potential interruption in the functioning---this measure is therefore not exploitable after that date. 
+Concerning the inclinometers, for both EAIIST01 and EAIIST02, exclusion made for some electrical noise at the beginning of each season, the signal yields stable angles fluctuating in a range of $\pm \ang{2.5}$. However, the curves stabilize completely from 2025 on, meaning potential interruption in the functioning---this measure is therefore not exploitable after that date and no conclusion can be drawn about the potential tilting of the albedometers' heads.
 
-
+When looking at the signals 
  
  		\subsection{OLCI issues}
 		
@@ -437,7 +437,9 @@ Concerning the inclinometers, for both EAIIST01 and EAIIST02, exclusion made for
 	\section{Considerations on the performance of the instruments}
 	
 	\section{Geoscientific interpretation of the time series}
-Despite the imperfection of the results and the technical issues, some interesting interpretations about the signal recorded from both the \emph{in situ} equipment and the satellite can be drawn.
+Despite the imperfection of the results and the technical issues, some interesting interpretations about the signal recorded from both the \emph{in situ} equipment and the satellite can be drawn. 
+
+Regarding Multiband records from Cap Prud'homme, we observe that fluctuations in grain size are well captured both at the short- and long-term time scale. Starting from the seasonal signal, we observe that SSA has the tendency to be lowest in early December to end of January, when summer temperatures are highest. This reflects well the effect of wet metamorphism 
 
 \setpartcolor{part5color}
 \part{Conclusion}
