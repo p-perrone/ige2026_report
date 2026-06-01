@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.5.6)  30 MAY 2026 22:18
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.5.6)  31 MAY 2026 20:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2261,8 +2261,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [18]
 
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 447.
+LaTeX Warning: Reference `fig:sice_subdaily' on page 19 undefined on input line
+ 428.
+
+
+LaTeX Warning: Reference `sssc:sicediagn' on page 19 undefined on input line 42
+8.
+
+
+LaTeX Warning: Reference `fig:siceflat' on page 19 undefined on input line 428.
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2272,7 +2280,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [19]
-Overfull \hbox (4.48695pt too wide) in paragraph at lines 447--447
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 448.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[20]
+Overfull \hbox (4.48695pt too wide) in paragraph at lines 448--448
 \TU/LatinModernSans(0)/sbc/sl/10.95 measurements of snow Bidirectional Reflecta
 nce Distribution Function at visible and NIR wavelengths
  []
@@ -2284,8 +2304,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[20]
-Overfull \hbox (3.55856pt too wide) in paragraph at lines 447--447
+[21]
+Overfull \hbox (3.55856pt too wide) in paragraph at lines 448--448
 \TU/LatinModernSans(0)/sbc/sl/10.95 albedo measurements over snow-covered slope
 s: Theory and slope effect corrections. \TU/LatinModernSans(0)/m/it/10.95 The C
 ryosphere\TU/LatinModernSans(0)/sbc/sl/10.95 ,
@@ -2298,22 +2318,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[21]
-Overfull \hbox (2.3151pt too wide) in paragraph at lines 447--447
+[22]
+Overfull \hbox (2.3151pt too wide) in paragraph at lines 448--448
 [][]\TU/LatinModernSans(0)/sbc/sl/10.95 World Meteorological Organization. (202
 4). \TU/LatinModernSans(0)/m/it/10.95 Blowing snow\TU/LatinModernSans(0)/sbc/sl
 /10.95 . Retrieved May 15, 2026, from [][]$[][][][][] [] [] [] [][][][][][][][]
 [][] []
  []
 
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[22]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2345,10 +2357,10 @@ Package logreq Info: Writing requests to 'stage_2026_report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 55034 strings out of 404949
- 1227565 string characters out of 5481587
- 2326460 words of memory out of 5000000
- 82896 multiletter control sequences out of 15000+600000
+ 55038 strings out of 404949
+ 1227625 string characters out of 5481587
+ 2327465 words of memory out of 5000000
+ 82900 multiletter control sequences out of 15000+600000
  663475 words of font info for 139 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
  98i,15n,133p,2383b,6386s stack positions out of 10000i,1000n,20000p,200000b,200000s
