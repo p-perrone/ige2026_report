@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.5.26)  2 JUN 2026 11:57
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.5.26)  2 JUN 2026 21:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2204,8 +2204,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [15]
-File: ../figures/timeseries_example.pdf Graphic file (type pdf)
-<use ../figures/timeseries_example.pdf>
+File: ../figures/timeseries_example1.pdf Graphic file (type pdf)
+<use ../figures/timeseries_example1.pdf>
 File: ../figures/stations_mb_sice.pdf Graphic file (type pdf)
 <use ../figures/stations_mb_sice.pdf>
 LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <10> not available
@@ -2213,7 +2213,7 @@ LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <10> not available
 
 
 
-LaTeX Warning: Reference `a:timeseries' on page 16 undefined on input line 407.
+LaTeX Warning: Reference `a:timeseries' on page 16 undefined on input line 408.
 
 
 
@@ -2224,6 +2224,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [16]
+Overfull \hbox (9.60596pt too wide) in paragraph at lines 410--411
+[]\TU/LatinModernSans(0)/sbc/sl/10.95 At D17—and Cap Prud’homme in general—Mult
+iband-retrieved SSA values are typically below [][]
+ []
+
+
+LaTeX Warning: Reference `fig:corr_sice_mb' on page 17 undefined on input line 
+412.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2232,91 +2241,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [17]
-Overfull \hbox (9.60596pt too wide) in paragraph at lines 409--410
-[]\TU/LatinModernSans(0)/sbc/sl/10.95 At D17—and Cap Prud’homme in general—Mult
-iband-retrieved SSA values are typically below [][]
- []
-
-
-LaTeX Warning: Reference `fig:corr_sice_mb' on page 18 undefined on input line 
-411.
-
 File: ../figures/eaiist01_cc_500.pdf Graphic file (type pdf)
 <use ../figures/eaiist01_cc_500.pdf>
-! Missing number, treated as zero.
-<to be read again> 
-                   c
-l.419 ...egraphics[width=cm]{eaiist01_cc_500.pdf}}
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   c
-l.419 ...egraphics[width=cm]{eaiist01_cc_500.pdf}}
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-File: ../figures/eaiist01_cc_500.pdf Graphic file (type pdf)
-<use ../figures/eaiist01_cc_500.pdf>
-
-Overfull \hbox (12.753pt too wide) in paragraph at lines 419--419
-[]\TU/lmss/bx/n/9 (b)
- []
-
-
-Overfull \hbox (20.79001pt too wide) in paragraph at lines 419--419
-|\TU/lmss/m/n/9 Cross
- []
-
-
-Overfull \hbox (13.851pt too wide) in paragraph at lines 419--419
-\TU/lmss/m/n/9 cal-
- []
-
-
-Overfull \hbox (5.292pt too wide) in paragraph at lines 419--419
-\TU/lmss/m/n/9 i-
- []
-
-
-Overfull \hbox (15.21pt too wide) in paragraph at lines 419--419
-\TU/lmss/m/n/9 bra-
- []
-
-
-Overfull \hbox (14.949pt too wide) in paragraph at lines 419--419
-\TU/lmss/m/n/9 tion
- []
-
-
-Overfull \hbox (7.452pt too wide) in paragraph at lines 419--419
-\TU/lmss/m/n/9 of
- []
-
-
-Overfull \hbox (17.406pt too wide) in paragraph at lines 419--419
-\TU/lmss/m/n/9 EAI-
- []
-
-
-Overfull \hbox (23.292pt too wide) in paragraph at lines 419--419
-\TU/lmss/m/n/9 IST01
- []
-
-
-Overfull \hbox (7.785pt too wide) in paragraph at lines 419--419
-\TU/lmss/m/n/9 at
- []
-
-
-Overfull \hbox (27.50133pt too wide) in paragraph at lines 419--419
-[][]| 
- []
+File: ../figures/inclino_eaiist02.pdf Graphic file (type pdf)
+<use ../figures/inclino_eaiist02.pdf>
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2327,6 +2255,24 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [18]
 
+LaTeX Warning: Reference `fig:sice_subdaily' on page 19 undefined on input line
+ 431.
+
+
+LaTeX Warning: Reference `sssc:sicediagn' on page 19 undefined on input line 43
+3.
+
+
+LaTeX Warning: Reference `fig:siceflat' on page 19 undefined on input line 433.
+
+
+File: ../figures/sicesolalb.pdf Graphic file (type pdf)
+<use ../figures/sicesolalb.pdf>
+
+LaTeX Warning: Reference `fig:sicesolalb' on page 19 undefined on input line 44
+2.
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.59999pt}.
@@ -2335,20 +2281,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [19]
 
-LaTeX Warning: Reference `fig:sice_subdaily' on page 20 undefined on input line
- 430.
+LaTeX Warning: Reference `fig:tempmb' on page 20 undefined on input line 454.
 
 
-LaTeX Warning: Reference `sssc:sicediagn' on page 20 undefined on input line 43
-2.
+LaTeX Warning: Reference `fig:sr50mb' on page 20 undefined on input line 454.
 
 
-LaTeX Warning: Reference `fig:siceflat' on page 20 undefined on input line 432.
-
-
-
-LaTeX Warning: Reference `fig:sicesolalb' on page 20 undefined on input line 43
-5.
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 461.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2358,16 +2298,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [20]
-
-LaTeX Warning: Reference `fig:tempmb' on page 21 undefined on input line 447.
-
-
-LaTeX Warning: Reference `fig:sr50mb' on page 21 undefined on input line 447.
-
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 454.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2384,15 +2314,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [22]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[23]
-Overfull \hbox (2.3151pt too wide) in paragraph at lines 454--454
+Overfull \hbox (2.3151pt too wide) in paragraph at lines 461--461
 [][]\TU/LatinModernSans(0)/sbc/sl/10.95 World Meteorological Organization. (202
 4). Blowing snow. Retrieved May 15, 2026, from [][]$[][][][][] [] [] [] [][][][
 ][][][][][][] []
@@ -2405,7 +2327,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[24] (stage_2026_report.aux
+[23] (stage_2026_report.aux
 * soulpos - computing points - it may take a few seconds *
 \openout4 = `stage_2026_report.upb'.
 
@@ -2423,22 +2345,18 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `stage_2026_report.out' has not changed.
-(rerunfilecheck)             Checksum: A6BC6A754BB85019693765AD7C56840F;5846.
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
+(rerunfilecheck)             Checksum: 5FAAB15743F5A5C653ED530CABE5B55F;5847.
 Package logreq Info: Writing requests to 'stage_2026_report.run.xml'.
 \openout1 = `stage_2026_report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 55222 strings out of 402807
- 1234442 string characters out of 5448229
- 2339359 words of memory out of 5000000
- 83384 multiletter control sequences out of 15000+600000
+ 55246 strings out of 402807
+ 1235179 string characters out of 5448229
+ 2339453 words of memory out of 5000000
+ 83406 multiletter control sequences out of 15000+600000
  663475 words of font info for 139 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  98i,15n,133p,2383b,6382s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on stage_2026_report.pdf (24 pages).
+Output written on stage_2026_report.pdf (23 pages).

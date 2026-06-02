@@ -398,17 +398,18 @@ where $r$ was initially tested at 0.3 and progressively increased to 0.5 in subs
 	\section{Time series from Multiband and S-3 OLCI}
 \begin{figure}
 	\centering
-	\subfloat[On the left, data at D17 station at Cap Prud'homme; on the right, at EAIIST02 station in the megadunes zone]{\includegraphics[width=17cm]{timeseries_example}}\\
+	\subfloat[On the left, data at D17 station at Cap Prud'homme; on the right, at EAIIST02 station in the megadunes zone]{\includegraphics[width=17cm]{timeseries_example1}}\\
 	\subfloat[On the left, data at D17 station at Cap Prud'homme; on the right, at EAIIST02 station in the megadunes zone]{\includegraphics[width=17cm]{stations_mb_sice}}	
 	\mycaption{\emph{In situ} and satellite retrieved SSAs}{Comparison between Multiband and S-3/OLCI}
 	\label{fig:tsex}
+	\vspace{-0.3cm}
 \end{figure}
 
 Time series of snow SSA were successfully obtained for all five stations from both Multiband records and S-3/OLCI data. A representative example for the two locations is shown in Figure~\ref{fig:tsex}, with full stacks reported in Appendix~\ref{a:timeseries}.
 
 At D17---and Cap Prud'homme in general---Multiband-retrieved SSA values are typically below \qty{20}{\ssaunit} in mid-austral summer, reaching up to \qty{50}{\ssaunit} at the beginning and end of the season. The series are generally continuous, with few interruptions, indicating proper instrument functioning. Multiband records show similar sizes and dynamics across the three stations, reflecting consistent surface environmental conditions. OLCI-retrieved SSA for this location agrees well with Multiband data on average (biases below \qty{6}{\ssaunit}), except at the start of each summer season, when satellite SSA is significantly lower by $\sim 25$--\qty{50}{\ssaunit}. OLCI series are sparser, with NaNs typically occurring when Multiband signals peak abruptly, likely due to precipitation and overcast conditions preventing surface visibility. Overall, \emph{in situ} and satellite observations are consistent across all years and Cap Prud'homme stations.
 
-In the megadunes, Multiband-measured SSA is generally higher, reflecting the absence of wet metamorphism and smaller grain sizes. The signals from the two stations diverge in mid-summer, with stronger year-to-year variability than at Cap Prud'homme. When comparing Multiband records to OLCI, the most relevant issue arises: the two methods yield significantly different SSAs in absolute values. For EAIIST01, the offset is only slightly higher than at coastal stations, but the time series show a more systematic bias. For EAIIST02, the bias is nearly \qty{25}{\ssaunit}. However, at EAIIST01, the two time series still capture the same temporal evolution of snow grain size, with relative changes in SSA occurring in the same direction and magnitude. This is not the case for EAIIST02, where the two methods sometimes register different evolutions, particularly in 2022 and 2023. Quantitatively, the correlation coefficient is $r=0.65$ for EAIIST01 and $r=0.21$ for EAIIST02 (Figure~\ref{fig:corr_sice_mb}). To understand and address these differences, we proceed with the diagnostics described in the Methods.
+In the megadunes, Multiband-measured SSA is generally higher, reflecting the absence of wet metamorphism and smaller grain sizes. The signals from the two stations diverge in mid-summer, with stronger year-to-year variability than at Cap Prud'homme. When comparing Multiband records to OLCI, an issue arises: the two methods yield different SSAs. For EAIIST01, the offset is only slightly higher than at coastal stations, but the time series show a more systematic bias. For EAIIST02, the bias is nearly \qty{25}{\ssaunit}. However, at EAIIST01, the two time series still capture the same temporal evolution of snow grain size, with relative changes in SSA occurring in the same direction and magnitude. This is not the case for EAIIST02, where the two methods sometimes register different evolutions, particularly in 2022 and 2023. Quantitatively, the correlation coefficient is $r=0.65$ for EAIIST01 and $r=0.21$ for EAIIST02 (Figure~\ref{fig:corr_sice_mb}). To understand and address these differences, we proceed with the diagnostics described in the Methods.
 
 	\section{Diagnostic of the results for EAIIST stations}
 
@@ -416,7 +417,7 @@ In the megadunes, Multiband-measured SSA is generally higher, reflecting the abs
 \begin{figure}
 	\centering
 	\subfloat[Cross calibration of EAIIST01 at \qty{500}{\nano\meter}]{\includegraphics[width=9cm]{eaiist01_cc_500.pdf}}\quad
-	\subfloat[Cross calibration of EAIIST01 at \qty{500}{\nano\meter}]{\includegraphics[width=cm]{eaiist01_cc_500.pdf}}
+	\subfloat[Cross calibration of EAIIST01 at \qty{500}{\nano\meter}]{\includegraphics[width=7cm]{inclino_eaiist02.pdf}}
 	\mycaption{Cross-calibration experiment of EAIIST01}{Cgfckalushdf}
 	\label{fig:eaiist01cc}
 \end{figure}
@@ -432,6 +433,12 @@ For some seasons, particularly at EAIIST02, SICE and Multiband yield completely 
 Since a monotonic increase in SSA is often observed but not physically expected---especially on cloud- and precipitation-free days \parencite{picardSpectralAlbedoMeasurements2020}---we applied the SZA flattening factor to reduce its influence, as described in Section~\ref{sssc:sicediagn}. This produced two new SSA series with factors $r = 0.3$ (Pr30) and $r = 0.4$ (Pr40). A comparison with the reference processing is shown in Figure~\ref{fig:siceflat}. While this adjustment increased SSA values by $\sim$5--\qty{10}{\ssaunit}, it was insufficient to fully account for the discrepancy between \emph{in situ} and satellite time series.
 		
 		\subsection{OLCI and Solalb: a comparison}
+\begin{figure}
+	\centering
+	\includegraphics[width=14cm]{sicesolalb.pdf}
+	\mycaption{Cross-calibration experiment of EAIIST01}{Cgfckalushdf}
+	\label{fig:solalb}
+\end{figure}
 We compared SICE 1.6's SSA with grain sizes measured by Solalb during the EAIIST and ICORDA campaigns, introducing a third element of comparison that serves as a reference for precision and reliability, as all measurements are performed manually under optimal conditions. The results are shown in Figure~\ref{fig:sicesolalb}.
 
 For EAIIST, Solalb measurements show a medium-to-strong correlation with S-3/OLCI, with $r=0.68$ and a small bias of \qty{1.31}{\ssaunit}. This suggests no obvious misfunction in the SICE 1.6 retrieval algorithm. For ICORDA, the correlation is very strong ($r = 0.85$), but S-3/OLCI's SSA values exhibit a strong negative bias ($\mathrm{Bias} = \qty{-11.45}{\ssaunit}$), similar to the behavior observed with Multiband, where SICE 1.6 underestimates SSA compared to \emph{in situ} instruments. However, this last set of measurements is less reliable due to its limited size (only 5 valid points).
@@ -446,7 +453,7 @@ Despite the imperfection of the results and the technical issues, some interesti
 
 Regarding Multiband records from Cap Prud'homme and the coastal area, we observe that fluctuations in grain size are well captured both at the short- and long-term time scale. Starting from the seasonal signal, we observe that SSA has the tendency to be lowest in early December to end of January, when summer temperatures are highest (Figure \ref{fig:tempmb}). This reflects well the effect of wet metamorphism, as also previously stated by \cite{arioliDynamicsSnowGrain2023} based on \cite{vandecruxDeterminationSnowOptical2022}'s finding that $\ssa = \qty{10.22}{\ssaunit}$ represents a possible threshold for discriminating days of unlikely melt and days of intense snow melt. In fact, several days of grain size below this critical value are observed at the three stations, particularly around end of December and mid-February. The snowfall dynamics are also well visible in the time series: a typical precipitation yields an abrubt increase in the SSA upt to values typical of fresh fallen snow ($\ssa > \qty{60}{\ssaunit}$, \cite{domineThreeExamplesWhere2009}). These events are usually followed by a more gradual increase in grain size given by the coupled effects of wind and metamorphism, with values between 10 and \qty{40}{\ssaunit}. Namely, snowfalls are typically related to a strong surface temperature gradient, one of the most important drivers of dry metamorphism \parencite{colbeckOverviewSeasonalSnow1982}. We can clearly see how these peacks direclty correlate with snowfalls recorded by the SR50 sensor in Figure \ref{fig:sr50mb}.
 
-In the megadunes field, as previously anticipated, Multiband was able to capture different grain size dynamics on the accumulation and erosion zones of a dune. 
+In the megadunes field, as previously anticipated, Multiband was able to capture different grain size dynamics on the accumulation and erosion zones of a dune, excepetion made for the 2020--2021 season. Few previous studies already tackled this topic: \cite{fahnestockSnowMegaduneFields2000} found significant differences between the deposition side---where finer grains of fresh or fractured snow are accumulted---and the ablation side---where deeper, coarser layers are exposed to surface. Particularly, the SSA in the erosion zone SSA stabilizes through the season
 
 \setpartcolor{part5color}
 \part{Conclusion}
