@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.5.6)  2 JUN 2026 23:35
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.5.6)  3 JUN 2026 00:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2270,20 +2270,24 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [18]
+File: ../figures/sice_ssa_dailyvariability_eaiist01_24.pdf Graphic file (type p
+df)
+<use ../figures/sice_ssa_dailyvariability_eaiist01_24.pdf>
+File: ../figures/olci_ssadaily_std_2023.pdf Graphic file (type pdf)
+<use ../figures/olci_ssadaily_std_2023.pdf>
+
 
 LaTeX Warning: Reference `fig:sice_subdaily' on page 19 undefined on input line
- 429.
+ 435.
 
 
 LaTeX Warning: Reference `sssc:sicediagn' on page 19 undefined on input line 43
-1.
+7.
 
 
-LaTeX Warning: Reference `fig:siceflat' on page 19 undefined on input line 431.
+LaTeX Warning: Reference `fig:siceflat' on page 19 undefined on input line 437.
 
 
-File: ../figures/sicesolalb.pdf Graphic file (type pdf)
-<use ../figures/sicesolalb.pdf>
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2292,11 +2296,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [19]
+File: ../figures/sicesolalb.pdf Graphic file (type pdf)
+<use ../figures/sicesolalb.pdf>
 
-LaTeX Warning: Reference `fig:tempmb' on page 20 undefined on input line 452.
+
+LaTeX Warning: Reference `fig:tempmb' on page 20 undefined on input line 458.
 
 
-LaTeX Warning: Reference `fig:sr50mb' on page 20 undefined on input line 452.
+LaTeX Warning: Reference `fig:sr50mb' on page 20 undefined on input line 458.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2308,10 +2315,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [20]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 459.
+(hyperref)                be the same. Added a new anchor on input line 465.
 
 
-Overfull \hbox (4.48695pt too wide) in paragraph at lines 459--459
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[21]
+Overfull \hbox (4.48695pt too wide) in paragraph at lines 465--465
 \TU/LatinModernSans(0)/sbc/sl/10.95 measurements of snow Bidirectional Reflecta
 nce Distribution Function at visible and NIR wavelengths
  []
@@ -2323,8 +2337,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[21]
-Overfull \hbox (3.55856pt too wide) in paragraph at lines 459--459
+[22]
+Overfull \hbox (3.55856pt too wide) in paragraph at lines 465--465
 \TU/LatinModernSans(0)/sbc/sl/10.95 albedo measurements over snow-covered slope
 s: Theory and slope effect corrections. \TU/LatinModernSans(0)/m/it/10.95 The C
 ryosphere\TU/LatinModernSans(0)/sbc/sl/10.95 ,
@@ -2337,16 +2351,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[22]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
 [23]
-Overfull \hbox (2.3151pt too wide) in paragraph at lines 459--459
+Overfull \hbox (2.3151pt too wide) in paragraph at lines 465--465
 [][]\TU/LatinModernSans(0)/sbc/sl/10.95 World Meteorological Organization. (202
 4). Blowing snow. Retrieved May 15, 2026, from [][]$[][][][][] [] [] [] [][][][
 ][][][][][][] []
@@ -2377,7 +2383,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `stage_2026_report.out' has not changed.
-(rerunfilecheck)             Checksum: 5FAAB15743F5A5C653ED530CABE5B55F;5847.
+(rerunfilecheck)             Checksum: 417D2594CA63FB1D6F323208E391D192;5847.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                stage_2026_report
@@ -2388,10 +2394,10 @@ Package logreq Info: Writing requests to 'stage_2026_report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 55092 strings out of 404949
- 1229020 string characters out of 5481587
- 2326781 words of memory out of 5000000
- 82946 multiletter control sequences out of 15000+600000
+ 55115 strings out of 404949
+ 1230103 string characters out of 5481587
+ 2327883 words of memory out of 5000000
+ 82967 multiletter control sequences out of 15000+600000
  681181 words of font info for 149 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
  98i,15n,133p,2383b,6386s stack positions out of 10000i,1000n,20000p,200000b,200000s
