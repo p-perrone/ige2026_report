@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.5.26)  5 JUN 2026 11:43
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.5.26)  5 JUN 2026 18:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2239,10 +2239,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [17]
 
-LaTeX Warning: Reference `fig:corr_sice_mb' on page 18 undefined on input line 
-419.
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.59999pt}.
@@ -2250,6 +2246,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [18]
+
+LaTeX Warning: Reference `fig:corr_sice_mb' on page 19 undefined on input line 
+427.
+
 File: ../figures/eaiist01_cc_500.pdf Graphic file (type pdf)
 <use ../figures/eaiist01_cc_500.pdf>
 File: ../figures/inclino_eaiist02.pdf Graphic file (type pdf)
@@ -2258,7 +2258,6 @@ File: ../figures/albedo500_timeseries.pdf Graphic file (type pdf)
 <use ../figures/albedo500_timeseries.pdf>
 File: ../figures/albedo_check_eaiist02.pdf Graphic file (type pdf)
 <use ../figures/albedo_check_eaiist02.pdf>
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2274,18 +2273,6 @@ File: ../figures/olci_ssadaily_std_2023.pdf Graphic file (type pdf)
 <use ../figures/olci_ssadaily_std_2023.pdf>
 
 
-LaTeX Warning: Reference `fig:sice_subdaily' on page 20 undefined on input line
- 450.
-
-
-LaTeX Warning: Reference `sssc:sicediagn' on page 20 undefined on input line 45
-2.
-
-
-LaTeX Warning: Reference `fig:siceflat' on page 20 undefined on input line 452.
-
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.59999pt}.
@@ -2293,9 +2280,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [20]
+
+LaTeX Warning: Reference `fig:sice_subdaily' on page 21 undefined on input line
+ 458.
+
+
+LaTeX Warning: Reference `sssc:sicediagn' on page 21 undefined on input line 46
+0.
+
+
+LaTeX Warning: Reference `fig:siceflat' on page 21 undefined on input line 460.
+
+
 File: ../figures/sicesolalb.pdf Graphic file (type pdf)
 <use ../figures/sicesolalb.pdf>
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2305,10 +2303,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [21]
 
-LaTeX Warning: Reference `fig:tempmb' on page 22 undefined on input line 476.
+LaTeX Warning: Reference `fig:tempmb' on page 22 undefined on input line 484.
 
 
-LaTeX Warning: Reference `fig:sr50mb' on page 22 undefined on input line 476.
+LaTeX Warning: Reference `fig:sr50mb' on page 22 undefined on input line 484.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2319,12 +2317,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [22]
 
-LaTeX Warning: Reference `fig:eaiistwind' on page 23 undefined on input line 47
-8.
+LaTeX Warning: Reference `fig:eaiistwind' on page 23 undefined on input line 48
+6.
 
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 483.
+(hyperref)                be the same. Added a new anchor on input line 491.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2350,7 +2348,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [25]
-Overfull \hbox (2.3151pt too wide) in paragraph at lines 483--483
+Overfull \hbox (2.3151pt too wide) in paragraph at lines 491--491
 [][]\TU/LatinModernSans(0)/sbc/sl/10.95 World Meteorological Organization. (202
 4). Blowing snow. Retrieved May 15, 2026, from [][]$[][][][][] [] [] [] [][][][
 ][][][][][][] []
