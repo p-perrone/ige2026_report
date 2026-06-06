@@ -6,6 +6,7 @@
 \usepackage[margin=2cm]{geometry}
 \renewcommand{\baselinestretch}{1.5} 
 \usepackage{indentfirst}
+\usepackage{svg}
 % ------ font ----------
 \usepackage{sansmathfonts}
 \usepackage{fontspec}
@@ -66,6 +67,7 @@ urlcolor=BlueViolet]{hyperref}
 \pagestyle{fancy}
 \fancyhf{} 
 \fancyhead[L]{\leftmark}
+\fancyhead[R]{\rightmark}
 \fancyfoot[C]{\thepage}
 \usepackage{titlesec}
 \usepackage{etoolbox}
@@ -348,45 +350,45 @@ urlcolor=BlueViolet]{hyperref}
 		\label{fig:sicewf}
 	\end{figure}		
 	\subsubsection{SICE 1.6 processing chain}
-	The retrieval of snow properties from OLCI data was fully implemented by \cite{kokhanovskyRetrievalSnowProperties2019} in the "Pre-Operational Sentinel-3 Snow and Ice Product" (SICE) algorithm; we adopted for our analysis version 1.6. A translation and optimisation from the former Fortran code to Python was also carried out by Baptiste Vandecrux and Ghislain Picard---we employed modules \texttt{sice\_io} and \texttt{sice\_lib}, the first for downloading the data, the second to process them.
-	
-	The synthetic functioning is shown in Figure \ref{fig:sicewf}. The whole processing, in our specific case, has been run under the hypothesis of clean snow: no pollution is being accounted for our five sites at Cap Prud'homme and in the megadunes field, coherently with the choice of a pristine atmosphere for SBDART simulations. The pipeline of SICE processing from raw OLCI data to SSA maps can be summarized as follows:
-	\begin{enumerate}[align=right,itemindent=2em,labelsep=4pt,labelwidth=1em,leftmargin=0pt,nosep]
-		\item \textbf{Bands selection} |
-	OLCI bands 17 ($\lambda_1 = \qty{865}{\nano\meter}$) and 21 ($\lambda_2 = \qty{1020}{\nano\meter}$) are first selected. The choice of this pair of bands is designed to minimize and maximize the albedo's sensitivity to grain size, while also avoiding the influence of impurities and Chappuis band absorption.
-		\item \textbf{Reflectance and filtering of pixels unsuitable for retrieval} |
-	Top of atmosphere reflectances ($R_\mathrm{TOA}$) for both bands are directly available after a first preprocessing selection step, that discards low values of reflectance $R_\mathrm{TOA} < 0.1$ and high SZAs ($\sza > \ang{75}$). 
-	\item \textbf{Definition of viewing geometry} |
-	The function \texttt{sice\_lib.view\_geometry()} takes as inputs the filtered OLCI scene and outputs the angles necessary for the retrieval, particularly the satellite's Viewing Azimuthal Angle (VAA), cosines and sines of SZA and VZA (Viewing Zenithal Angle). It also computes the escape function for both SZA and VZA directions.\textbf{THEORY?????} This function gives  the probability that a photon, after being repeatedly scattered within the snowpack, will escape the medium in a specific direction $\theta$ \parencite{sobolevLightScatteringPlanetary2014}:
-		\begin{equation}\label{eq:escape}
-			u(\theta) = \frac{3}{7}(1 + 2\cos\theta)
-		\end{equation}
-		\item \textbf{Atmospheric correction} |
-	TOA reflectances are corrected for ozone absorption and for the observed aerosol optical thickness. Both the corrections depend on the previously defined viewing/relative angles and elevation. This step outputs a bottom of atmosphere reflectance $R_\mathrm{BOA}$, $R$ here-hence.
-	\item \textbf{Retrieval of snow SSA} |
-	This is the main processing step executed via the \texttt{sice\_lib.snow\_properties()} function and it is based on one of most relevant results of the ART theory: snow reflectance in the visible and NIR is function of spectral bulk ice absorption coefficient $a(\lambda)$ (\unit{\mol\per\meter}), the reflectance of a non-absorbing snow $R_0$ and the absorption length $l_\mathrm{abs}$ (\unit{\meter}) only:
-	\begin{equation}
-		R(\lambda) = R_0 \exp(-f \sqrt{a(\lambda) l_\mathrm{abs}})
+The retrieval of snow properties from OLCI data was fully implemented by \cite{kokhanovskyRetrievalSnowProperties2019} in the "Pre-Operational Sentinel-3 Snow and Ice Product" (SICE) algorithm; we adopted for our analysis version 1.6. A translation and optimisation from the former Fortran code to Python was also carried out by Baptiste Vandecrux and Ghislain Picard---we employed modules \texttt{sice\_io} and \texttt{sice\_lib}, the first for downloading the data, the second to process them.
+
+The synthetic functioning is shown in Figure \ref{fig:sicewf}. The whole processing, in our specific case, has been run under the hypothesis of clean snow: no pollution is being accounted for our five sites at Cap Prud'homme and in the megadunes field, coherently with the choice of a pristine atmosphere for SBDART simulations. The pipeline of SICE processing from raw OLCI data to SSA maps can be summarized as follows:
+\begin{enumerate}[align=right,itemindent=2em,labelsep=4pt,labelwidth=1em,leftmargin=0pt,nosep]
+	\item \textbf{Bands selection} |
+OLCI bands 17 ($\lambda_1 = \qty{865}{\nano\meter}$) and 21 ($\lambda_2 = \qty{1020}{\nano\meter}$) are first selected. The choice of this pair of bands is designed to minimize and maximize the albedo's sensitivity to grain size, while also avoiding the influence of impurities and Chappuis band absorption.
+	\item \textbf{Reflectance and filtering of pixels unsuitable for retrieval} |
+Top of atmosphere reflectances ($R_\mathrm{TOA}$) for both bands are directly available after a first preprocessing selection step, that discards low values of reflectance $R_\mathrm{TOA} < 0.1$ and high SZAs ($\sza > \ang{75}$). 
+\item \textbf{Definition of viewing geometry} |
+The function \texttt{sice\_lib.view\_geometry()} takes as inputs the filtered OLCI scene and outputs the angles necessary for the retrieval, particularly the satellite's Viewing Azimuthal Angle (VAA), cosines and sines of SZA and VZA (Viewing Zenithal Angle). It also computes the escape function for both SZA and VZA directions.\textbf{THEORY?????} This function gives  the probability that a photon, after being repeatedly scattered within the snowpack, will escape the medium in a specific direction $\theta$ \parencite{sobolevLightScatteringPlanetary2014}:
+	\begin{equation}\label{eq:escape}
+		u(\theta) = \frac{3}{7}(1 + 2\cos\theta)
 	\end{equation}
-	$R_0$ and $l$ can be computed from measurements at the two selected wavelengths $\lambda_1$, $\lambda_2$:
-	\begin{equation}
-		R_0 = R_1^\epsilon R_2^{(1-\epsilon)}, \qquad \epsilon = \left(1 - \sqrt{\frac{a_1}{a_2}}\right)^{-1} \simeq 1.5496
-	\end{equation}
-	and
-	\begin{equation}\label{eq:labs}
-		l_\mathrm{abs} = \frac{1}{a_2 f^2} \ln(\frac{R_1}{R_2}), \qquad f = \frac{u(\sza) u(\mathrm{VZA})}{R_0}
-	\end{equation}
-	with $f$ being the angular function \parencite{kokhanovskyScatteringOpticsSnow2004}. From absorption length expressed in mm, the effective optical diameter can be easily retrieved:
-	\begin{equation}
-		d = \frac{l_\mathrm{abs}}{9.2 \times 16 / 9} \qquad (\unit{\meter})
-	\end{equation}
-	and SSA can finally be estimated from $d$ and ice density $\rho_\mathrm{ice}$:
-	\begin{equation}
-		\ssa = \frac{6}{d \rho_\mathrm{ice}}
-	\end{equation}
-	From $R(\lambda)$, more properties are also computed (plane spectral albedo, broadband albedo) but they are not used in this work.
-	\end{enumerate}
-	
+	\item \textbf{Atmospheric correction} |
+TOA reflectances are corrected for ozone absorption and for the observed aerosol optical thickness. Both the corrections depend on the previously defined viewing/relative angles and elevation. This step outputs a bottom of atmosphere reflectance $R_\mathrm{BOA}$, $R$ here-hence.
+\item \textbf{Retrieval of snow SSA} |
+This is the main processing step executed via the \texttt{sice\_lib.snow\_properties()} function and it is based on one of most relevant results of the ART theory: snow reflectance in the visible and NIR is function of spectral bulk ice absorption coefficient $a(\lambda)$ (\unit{\mol\per\meter}), the reflectance of a non-absorbing snow $R_0$ and the absorption length $l_\mathrm{abs}$ (\unit{\meter}) only:
+\begin{equation}
+	R(\lambda) = R_0 \exp(-f \sqrt{a(\lambda) l_\mathrm{abs}})
+\end{equation}
+$R_0$ and $l$ can be computed from measurements at the two selected wavelengths $\lambda_1$, $\lambda_2$:
+\begin{equation}
+	R_0 = R_1^\epsilon R_2^{(1-\epsilon)}, \qquad \epsilon = \left(1 - \sqrt{\frac{a_1}{a_2}}\right)^{-1} \simeq 1.5496
+\end{equation}
+and
+\begin{equation}\label{eq:labs}
+	l_\mathrm{abs} = \frac{1}{a_2 f^2} \ln(\frac{R_1}{R_2}), \qquad f = \frac{u(\sza) u(\mathrm{VZA})}{R_0}
+\end{equation}
+with $f$ being the angular function \parencite{kokhanovskyScatteringOpticsSnow2004}. From absorption length expressed in mm, the effective optical diameter can be easily retrieved:
+\begin{equation}
+	d = \frac{l_\mathrm{abs}}{9.2 \times 16 / 9} \qquad (\unit{\meter})
+\end{equation}
+and SSA can finally be estimated from $d$ and ice density $\rho_\mathrm{ice}$:
+\begin{equation}
+	\ssa = \frac{6}{d \rho_\mathrm{ice}}
+\end{equation}
+From $R(\lambda)$, more properties are also computed (plane spectral albedo, broadband albedo) but they are not used in this work.
+\end{enumerate}
+
 	\subsubsection{Diagnostic techniques}
 The main potential issue with OLCI-retrieved SSAs is the artificial dependence of the estimated SSA on solar angles during a day, induced by an uncertainty in the escape function (Equations~\eqref{eq:escape} and~\eqref{eq:labs}). Since we do not expect grain size to vary significantly during the day—unless due to precipitation or metamorphism—any observed changes in SSA are likely SZA-induced artifacts and must be investigated.
 
@@ -411,7 +413,9 @@ where $\gamma$ was initially tested at 0.3 and progressively increased to 0.4 in
 Time series of snow SSA were successfully obtained for all five stations from both Multiband records and S-3/OLCI data. A representative example summer for both locations is shown in Figure~\ref{fig:tsex}. All years are reported in Appendix~\ref{a:timeseries}. Comparisons of the full series for all stations are shown in Figure \ref{fig:scatter}. Points are respectively colored or gray depending whether they are under or exceeding three times the bias between the two methods---in the second case, they are defined as outliers.
 
 At Cap Prud'homme, Multiband-retrieved series are generally continuous, with few interruptions, indicating proper instrument functioning. These records show similar SSA values and dynamics across the three Cap Prud'homme stations (Appendix), reflecting consistent surface environmental conditions. The median summer SSA for the three stations is \qty{15.38}{\ssaunit}. SSA values are typically below \qty{20}{\ssaunit} over the mid-austral summer (December 1 to January 31), with the three stations' outlier-free median SSA equal to \qty{11.80}{\ssaunit}. In early and late summer, SSA is often above \qty{30.18}{\ssaunit} (75\% percentile), with an October, November and February median of \qty{17.87}{\ssaunit}. At this location, SSA does not exhibit any particular increasing or decreasing trend at the seasonal time scale, remaining fairly constant across the summer. Abrupt peaks are often registered, with SSA reaching values typical of fresh fallen snow (\ie more than \qty{40}{\ssaunit}) from one day to the next---this is the typical signature of snow precipitation. \\
-OLCI-retrieved SSA for this location are sparser, with NaNs typically occurring when Multiband signals peak abruptly, as precipitations are often accompanied by overcast conditions that prevent surface visibility. The satellite time series agree fairly well with Multiband data on average (biases below \qty{5}{\ssaunit})---SICE 1.6 yields a slightly lower mid-summer median of \qty{8.11}{\ssaunit}. At the start of each summer season, satellite SSAs are systematically lower than Multiband measurements, particularly in October, with an average bias of \qty{13.42}{\ssaunit} and maximum differences reaching \qty{25.12}{\ssaunit}. Overall, \emph{in situ} and satellite observations are consistent across all years and Cap Prud'homme stations, with an average $r=0.80$.
+OLCI-retrieved SSA for this location are sparser, with NaNs typically occurring when Multiband signals peak abruptly, as precipitation is often accompanied by overcast conditions that prevent surface visibility. For D5, D10, and D17, SICE 1.6 yields NaNs for 69.37\%, 74.26\%, and 74.37\% of Multiband data, respectively. For D10 in particular, Multiband series are already short (only one year and a half), so the number of points recorded by both Multiband and S-3/OLCI is very small—only 42, compared to more than 200 for all the other stations—preventing statistically consistent conclusions from being drawn.
+The satellite time series agree fairly well with Multiband data on average (biases below \qty{5}{\ssaunit}). SICE 1.6 yields a slightly lower mid-summer median of \qty{8.11}{\ssaunit}. At the start of each summer season, however, satellite SSAs are systematically lower than Multiband measurements, particularly in October, with an average bias of \qty{13.42}{\ssaunit} and maximum differences reaching \qty{25.12}{\ssaunit}. Overall, \emph{in situ} and satellite observations are moderately consistent across all years and Cap Prud'homme stations, with an average $r=0.67r$ (D5 and D17 only).
+
 
 In the megadunes, Multiband-measured SSA time series have been uninterrupted since 2019. SSA values are generally higher than \qty{20}{\ssaunit}, with a median of \qty{25.61}{\ssaunit} (corresponding to grain sizes ~1.5 times smaller than at Cap Prud'homme), reflecting the absence of wet metamorphism. The signals from the two stations diverge in mid-summer, showing greater interannual variability than at Cap Prud'homme.
 
@@ -424,51 +428,51 @@ In the megadunes, Multiband-measured SSA time series have been uninterrupted sin
 		\item In the second case (summers of 2022, 2023, and 2025), SSA rapidly increases in November, fluctuates around much higher values in December (median of the three years: \qty{51.35}{\ssaunit}), then decreases in January, tapering to values similar to those of EAIIST01 by February.
 	\end{itemize}
 \end{itemize}
-When comparing Multiband records to OLCI, some technical issues arise. For EAIIST01, although the offset is even slightly lower than at coastal stations, the number of outliers is very high and the variance of the full dataset is significant. Moreover, despite the good linear correlation, the offset appears more systematic when examining the time series for some seasons, \eg 2021--2022. The co-dynamics of the two sets of SSAs, however, remain generally very good, with $r = 0.94$. For EAIIST02, the two methods systematically register different evolutions, particularly in mid-summer 2022 and 2023 (Figure~\ref{fig:corr_sice_mb}), resulting in a worse correlation between the two sets ($r = 0.63$). To understand and address these differences, we proceed with the diagnostics described in the Methods.
+SICE 1.6 results for the megadunes are far more continuous than at Cap Prud'homme, as overcast conditions in the Central AIS are much less frequent. For this region, SICE 1.6's NaNs represent only 11.97\% and 12.24\% of Multiband data for EAIIST01 and EAIIST02, respectively. At EAIIST01 (erosion side of the dune), the bias between Multiband and satellite SSAs is much lower than at coastal stations. However, despite a moderately good linear correlation ($r = 0.64$), Multiband systematically registers higher SSAs during the 2021--2022 season, with a bias of \qty{10.00}{uni\ssaunit}---for all the other years the bias is below \qty{2}{\ssaunit}. This discrepancy is much more interannual  at EAIIST02 (accumulation side of the dune) (Figure~\ref{fig:corr_sice_mb}), where the correlation between the two datasets is therefore poorer ($r = 0.39$). In particular, SICE 1.6 at EAIIST02 yields SSAs much closer to those of the erosion area, \ie remaining constant around \qty{20}{\ssaunit} throughout the summer. To understand and address these differences, we proceed with the diagnostics described in the Methods.
 	
 		\section{Diagnostic of the results for EAIIST stations}
 			\subsection{Multiband issues}
 	\begin{figure}
 		\centering
-		\subfloat[Cross calibration of EAIIST01 at \qty{500}{\nano\meter}]{\includegraphics[width=9cm]{eaiist01_cc_500.pdf}}\quad
-		\subfloat[Cross-calibration of EAIIST01 at \qty{500}{\nano\meter}]{\includegraphics[width=7cm]{inclino_eaiist02.pdf}}
-		\mycaption{Calibrations and inclinometers}{For both EAIIST stations}
-		\label{fig:eaiist01cc}
+		\subfloat[\label{fig:eaiist01cc}]{\includegraphics[width=9cm]{eaiist01_cc_500.pdf}}\quad
+		\subfloat[\label{fig:inclino}]{\includegraphics[width=7cm]{inclino_eaiist02.pdf}}
+		\mycaption{Calibrations and inclinometers}{\textbf{(a)} Cross-calibration experiment performed for EAIIST01, carried on on December 29, 2019. In the upper plot, evolution of the raw signals at \qty{500}{\nano\meter}: "inc" and "ref" are for incident and reflected channel respectively, "Si" is for the type of photodiode (Silicon), the digits 02, 06, 09 are the steps of the rotating wheel. In the lower plot, the ratio computed between the reflected and incident signals acquired at the same step (02). \textbf{(b)} Time series of the tilting angles measured by the inclinometer at EAIIST01 for two representative years.}
+		\label{fig:cc}
 	\end{figure}
-	The offsets between \emph{in situ} and satellite time series initially led us to consider a potential instrumental issue in Multiband. We first examined the cross-calibration curves used for the correction at both stations, for each specific wavelength. For EAIIST02, the calibration returned an average $R_\mathrm{CC} = \num{1.055(0.004)}$, confirming consistency throughout the experiment and across all wavelengths---a more than reasonable result that we validated. However, the same analysis for EAIIST01 revealed a first technical issue: the computed ratio is generally too low, particularly at shorter wavelengths. For example, at \qty{500}{\nano\meter} (Figure~\ref{fig:eaiist01cc}), the computed $R_\mathrm{CC}$ is \num{0.660(0.003)} across the calibration phase. Such a value indicates a large difference between both channels, which is unexpected and is likely a consequence of a poor locking connection between the optical fibers and the other components, as well as potential wear of one of the two cosine collectors. While the calibration is designed to compensate for such issue, this is not satisfactory.
-	\begin{figure}
-		\centering
-		\subfloat[]{\includegraphics[width=10cm]{albedo500_timeseries.pdf}}\quad
-		\subfloat[]{\includegraphics[width=6cm]{albedo_check_eaiist02.pdf}}
-		\mycaption{Calibrations and inclinometers}{For both EAIIST stations}
-		\label{fig:albedo500}
-	\end{figure}
-	Concerning the inclinometers, for both EAIIST01 and EAIIST02, appart some electrical noise at the beginning of each season, the signal yields stable angles fluctuating within a range of $\pm \ang{2.5}$. However, the inclinometers failed from 2025 onward, which is a known problem at low temperatures. This measure is therefore not exploitable after that date, and no conclusion can be drawn about the potential tilting of the albedometers' heads.
+The bias between \emph{in situ} and satellite time series, at EAIIST02 particularly, initially led us to consider a potential instrumental issue in Multiband. We first examined the cross-calibration curves used for the correction at both stations, for each specific wavelength. For EAIIST02, the calibration experiment returned an average $R_\mathrm{CC} = \num{1.055(0.004)}$, confirming consistency throughout the experiment and across all wavelengths. However, the same analysis for EAIIST01 revealed a much lower cross-calibration ratio, particularly at shorter wavelengths. For example, at \qty{500}{\nano\meter} (Figure~\ref{fig:eaiist01cc}), the computed $R_\mathrm{CC}$ is \num{0.660(0.003)} across the calibration phase. Such a value indicates a large difference between both channels, which is unexpected and is likely a consequence of a poor locking connection between the optical fibers and the other components, as well as potential wear of one of the two cosine collectors. While the calibration is designed to compensate for such issue, this is not satisfactory.
+\begin{figure}
+	\centering
+	\subfloat[\label{fig:albedoeaiist01}]{\includegraphics[width=6cm]{albedo_check_eaiist02.pdf}}\quad
+	\subfloat[\label{fig:albedo500ts}]{\includegraphics[width=10cm]{albedo500_timeseries.pdf}}
+	\mycaption{Multiband's albedo non-convergence in the visible}{\textbf{(a)} Albedo spectra acquired during a mid-summer day with EAIIST02 albedometer. The dashed red line indicates the expected convergence value of the spectrum at \qty{500}{\nano\meter} (0.98). \textbf{(b)} Interannual evolution of daily average and maximum spectral albedo at \qty{500}{\nano\meter} at both EAIIST stations, during summer days with constant and diffuse light conditions only.}
+	\label{fig:albedo500}
+\end{figure}
+Concerning the inclinometers, for both EAIIST01 and EAIIST02, exception made for some electrical noise at the beginning of each season, the signal yields stable angles fluctuating within a range of $\pm \ang{2.5}$. However, the inclinometers failed from 2025 onward, which is a known problem at low temperatures (Fig \ref{fig:inclino}). This measure is therefore not exploitable after that date, and no conclusion can be drawn about the potential tilting of the albedometers' heads.
+
+When examining the sub-daily variability in albedo spectra, we noticed that in many cases, the values do not converge to 0.98 in the visible range as expected, instead yielding unrealistically high values around 1.2. An example for a recent winter day (with constant and diffuse ambient light) is shown in Figure \ref{fig:albedoeaiist02}, showing albedo acquired at any solar time of the day always far above 1 in the visible. We then investigated how daily average and maximum values of spectral albedo at \qty{500}{\nano\meter} evolved over the years at both EAIIST stations (Fig. \ref{fig:albedo500}). From the installation to recent days, this value has not being constant both in EAIIST01 and EAIIST02, despite ideally very similar diffuse light conditions, but it is generally too low and too high respectively. Particularly, in 2025, at EAIIST02 daily average albedo at \qty{500}{\nano\meter} is \emph{always} above 1 by 5\% to 15\%.
 	
-	When examining the sub-daily variability in albedo spectra, we noticed that in many cases, the values do not converge to $\approx$1 in the visible range as expected, instead yielding unrealistically high values around 1.2 (<add figure of the spectrum>). <PARTIE PROVISOIRE> We tried to constrain this value in order to weight all the albedo spectra of an offset factor, to bring back the spectra converging at 0.98 in the visible. This was done by computing the average of spectral albedo at \qty{500}{\nano\meter} measured around noon <option A> during the first days following the installation <option B> during a set of good weather days. For coherence, we performed this correction for all the five stations---the correction factors are shown in Table @to do. The albedo-corrected time series are shown in Figure @to do --- <comment the correction --- note, this are methodological statements, but are consequences of a result and I found it hard to motivate them in the Methods section>.
+		\subsection{SICE 1.6 (S-3/OLCI) issues}
+\begin{figure}
+	\centering
+	\subfloat[SSA sub-daily variability induced by SZA at EAIIST01]{\includegraphics[width=7cm]{sice_ssa_dailyvariability_eaiist01_24.pdf}}\quad
+	\subfloat[SICE 1.6 processings with different SZA flattening paramters (REF = 0, Pr30 = 0.30, Pr40 =0.40)]{\includegraphics[width=9cm]{olci_ssadaily_std_2023.pdf}}
+	\mycaption{Diagnostic of SICE 1.6}{investigating the effect of SZA on grain size}
+	\label{fig:subdailysice}
+\end{figure}
+For some seasons, particularly at EAIIST02 (\eg 2022-2023, Fig. \ref{fig:tsex} on the right), SICE and Multiband yield completely different grain size dynamics. To investigate, we inspected S-3/OLCI data and its SICE 1.6 processing. Following the same approach as with Multiband, we analyzed sub-daily albedo variations from both EAIIST stations, focusing on clear-sky weather days and excluding hours with $\mathrm{CSI} \geq 1.0$ to explore the effect of SZA on the SICE 1.6 algorithm. The analysis, performed on random clusters of consecutive days, revealed strong and non-realistic sub-daily variability, with average deviations of \qty{4.18}{\ssaunit} for EAIIST01 and \qty{3.57}{\ssaunit} for EAIIST02. This variability is day-dependent and can manifest as either a gradual increase in SSA throughout the day or non-directional random fluctuations (Figure \ref{fig:sice_subdaily}), making it difficult to draw precise conclusions.
+
+Since a monotonic increase in SSA is often observed but not physically expected---especially on cloud- and precipitation-free days \parencite{picardSpectralAlbedoMeasurements2020}---we applied the SZA flattening factor to reduce its influence, as described in Section \ref{sssc:sicediagn}. This produced two new SSA series obtained with factors $\gamma = 0.3$ (Pr30) and $\gamma = 0.4$ (Pr40). A comparison with the reference processing is shown in Figure \ref{fig:siceflat}. While this adjustment increased SSA values by $\sim$5--\qty{10}{\ssaunit}, it was insufficient to fully account for the discrepancy between \emph{in situ} and satellite time series.
 	
-	\subsection{OLCI issues}
-	\begin{figure}
-		\centering
-		\subfloat[SSA sub-daily variability induced by SZA at EAIIST01]{\includegraphics[width=7cm]{sice_ssa_dailyvariability_eaiist01_24.pdf}}\quad
-		\subfloat[SICE 1.6 processings with different SZA flattening paramters (REF = 0, Pr30 = 0.30, Pr40 =0.40)]{\includegraphics[width=9cm]{olci_ssadaily_std_2023.pdf}}
-		\mycaption{Diagnostic of SICE 1.6}{investigating the effect of SZA on grain size}
-		\label{fig:subdailysice}
-	\end{figure}
-	For some seasons, particularly at EAIIST02, SICE and Multiband yield completely different grain size dynamics. To investigate, we inspected S-3/OLCI data and its SICE 1.6 processing. Following the same approach as with Multiband, we analyzed sub-daily albedo variations from both EAIIST stations, focusing on clear-sky weather days and excluding hours with $\mathrm{CSI} \geq 1.0$. The analysis, performed on random clusters of consecutive days, revealed strong and non-realistic sub-daily variability, with average deviations of \qty{4.18}{\ssaunit} for EAIIST01 and \qty{3.57}{\ssaunit} for EAIIST02. This variability is day-dependent and can manifest as either a gradual increase in SSA throughout the day or non-directional random fluctuations (Figure \ref{fig:sice_subdaily}), making it difficult to draw precise conclusions.
-	
-	Since a monotonic increase in SSA is often observed but not physically expected---especially on cloud- and precipitation-free days \parencite{picardSpectralAlbedoMeasurements2020}---we applied the SZA flattening factor to reduce its influence, as described in Section \ref{sssc:sicediagn}. This produced two new SSA series with factors $\gamma = 0.3$ (Pr30) and $\gamma = 0.4$ (Pr40). A comparison with the reference processing is shown in Figure \ref{fig:siceflat}. While this adjustment increased SSA values by $\sim$5--\qty{10}{\ssaunit}, it was insufficient to fully account for the discrepancy between \emph{in situ} and satellite time series.
-	
-	\subsection{Comparaison between OLCI and Solalb}
-	\begin{figure}
-		\centering
-		\includegraphics[width=14cm]{sicesolalb.pdf}
-		\mycaption{}{}
-		\label{fig:solalb}
-	\end{figure}
-	We compared SICE 1.6's SSA with SSA estimated with Solalb during the EAIIST and ICORDA campaigns, introducing a third element of comparison that serves as a reference for precision and reliability, as all measurements are performed manually under optimal conditions. The results are shown in Figure~\ref{fig:solalb}.
-	
-	For  EAIIST, Solalb measurements show a medium-to-strong correlation with S-3/OLCI, with $r=0.68$ and a small bias of \qty{1.31}{\ssaunit}. This suggests no obvious misfunction in the SICE 1.6 retrieval algorithm. For ICORDA, the correlation is very strong ($r = 0.85$), but S-3/OLCI's SSA values exhibit a strong negative bias ($\mathrm{Bias} = \qty{-11.45}{\ssaunit}$), similar to the behavior observed with Multiband, where SICE 1.6 underestimates SSA compared to \emph{in situ} instruments. However, this last set of measurements is less reliable due to its limited size (only 5 valid points with clear sky conditions).
+\subsection{Comparison between SICE 1.6 and Solalb}
+\begin{figure}
+	\centering
+	\includegraphics[width=14cm]{sicesolalb.pdf}
+	\mycaption{Comparison between SICE 1.6 and Solalb}{On the left, Solalb measurements acquired during 2019 EAIIST raid at different locations between Concordia station and the megadune field, against SICE 1.6 retrieved values. On the right, Solalb measurement from the ICORDA campaign, in a fixed location.}
+	\label{fig:solalb}
+\end{figure}
+We compared SICE 1.6's SSA with SSA estimated with Solalb during the EAIIST and ICORDA campaigns, introducing a third element of comparison that serves as a reference for precision and reliability, as all measurements are performed manually under optimal conditions. The results are shown in Figure~\ref{fig:solalb}.
+
+For  EAIIST, Solalb measurements show a medium-to-strong correlation with S-3/OLCI, with $r=0.68$ and a small bias of \qty{1.31}{\ssaunit}. This suggests no obvious misfunction in the SICE 1.6 retrieval algorithm. For ICORDA, the correlation is very strong ($r = 0.85$), but S-3/OLCI's SSA values exhibit a strong negative bias ($\mathrm{Bias} = \qty{-11.45}{\ssaunit}$), similar to the behavior observed with Multiband, where SICE 1.6 underestimates SSA compared to \emph{in situ} instruments. However, this last set of measurements is less reliable due to its limited size (only 5 valid points with clear sky conditions).
 	
 	\setpartcolor{part4color}
 	\part{Discussion}
@@ -476,7 +480,7 @@ When comparing Multiband records to OLCI, some technical issues arise. For EAIIS
 	\section{Considerations on the performance of the instruments}
 	Positive considerations can be drawn about Multiband regarding its continuous functioning without interruption, even in harsh conditions — it ultimately represents a reliable option for exploring snow optical properties in remote environments such as the Antarctic Ice Sheet. In particular, the time series of SSA at the megadunes represents an unprecedented \emph{in-situ} record of grain size evolution over 6 years at such a remote location.
 	
-	However, the instrumental issues encountered strongly underline the importance of more accurate calibration and the need for maintenance in case of component wear. <to be improved once I will have clearer results about albedo correction at 500 nm, because such results might show that calibration issues arise even where (apparently) SSA time series seem statistically and physically consistent. This is particularly the case for EAIIST01 station which, exception made for the 2022--2023 season, records grain size dynamics that are consistent from year to year and coherent with satellite's measurements. > For these reasons, it will be important to implement such diagnostics steps in the processing regardless of the first-sigth performance of the albedometers. In some cases, such as the coastal stations, there is the possibility to fix once a year possible 
+	However, the instrumental issues encountered, particularly on EAIIST02 station, strongly underline the importance of more accurate calibration and the need for maintenance in case of component wear. <to be improved once I will have clearer results about albedo correction at 500 nm, because such results might show that calibration issues arise even where (apparently) SSA time series seem statistically and physically consistent. This is particularly the case for EAIIST01 station which, exception made for the 2022--2023 season, records grain size dynamics that are consistent from year to year and coherent with satellite's measurements. > For these reasons, it will be important to implement such diagnostics steps in the processing regardless of the first-sigth performance of the albedometers. In some cases, such as the coastal stations, there is the possibility to fix once a year possible 
 	
 	\section{Geoscientific interpretation of the time series}
 	Despite the imperfection of the estimates and the technical issues, some interesting interpretations about the signal recorded from both the \emph{in situ} equipment and the satellite can be drawn. 
