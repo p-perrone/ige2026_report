@@ -208,7 +208,7 @@ The retrieval of snow grain size from the measured snow albedo is possible thank
 \begin{equation}
 	f_\mathrm{r}(\theta_0, \theta', \phi_0, \phi', \lambda) = \dv{L_\mathrm{r}(\theta', \phi', \lambda)}{E_\mathrm{i}(\theta_0, \phi_0, \lambda)} \qquad (\unit{\per\steradian})
 \end{equation}
-with $(\theta_0, \phi_0)$ the solar incident zenithal (also SZA) and azimuthal (SAA) angles, $(\theta', \phi')$ the reflected (zenithal, azimuthal) angles, and $\lambda$ the wavelength. Here, $L_\mathrm{r}$ is the reflected spectral radiance (\unit{\watt\per\meter\squared\per\steradian\per\nano\meter}) and $E_\mathrm{i} = \mu_0 L_\mathrm{i}\dd{\theta_0}\dd{\phi_0}$ the incident solar spectral irradiance (\unit{\watt\per\meter\squared\per\nano\meter}), with $\mu_0 = \cos \theta_0$. For a satellite, for instance, the measured reflectance will be given by the integral of $f_\mathrm{r}$ over its whole field of view $(\theta', \phi')$. Stemming from the definition of , \cite{warrenOpticalPropertiesSnow1982} proposed an expression for snow \emph{direct albedo}, as a form of spectral directional-hemispherical reflectance, that integrates $f_\mathrm{r}$ over all the reflection angles:
+with $(\theta_0, \phi_0)$ the solar incident zenithal (also SZA) and azimuthal (SAA) angles, $(\theta', \phi')$ the reflected (zenithal, azimuthal) angles, and $\lambda$ the wavelength. Here, $L_\mathrm{r}$ is the reflected spectral radiance (\unit{\watt\per\meter\squared\per\steradian\per\nano\meter}) and $E_\mathrm{i} = \mu_0 L_\mathrm{i}\dd{\theta_0}\dd{\phi_0}$ the incident solar spectral irradiance (\unit{\watt\per\meter\squared\per\nano\meter}), with $\mu_0 = \cos \theta_0$. For a satellite, for instance, the measured reflectance will be given by the integral of $f_\mathrm{r}$ over its whole field of view $(\theta', \phi')$. Stemming from the definition of $f_\mathrm{r}$, \cite{warrenOpticalPropertiesSnow1982} proposed an expression for snow \emph{direct albedo}, as a form of spectral directional-hemispherical reflectance, that integrates $f_\mathrm{r}$ over all the reflection angles:
 \begin{equation}
 	\alpha^\mathrm{dir}(\theta_0, \lambda) = \int_0^1 \mu' \dd{\mu'} \int_0^{2\pi}f_\mathrm{r}(\theta_0, \theta', \phi_0, \phi', \lambda) \dd{\phi'}.
 \end{equation}
@@ -216,11 +216,18 @@ Integrating this expression over all the incidence angles yields the \emph{diffu
 \begin{equation}
 	\alpha^\mathrm{dif}(\lambda) = 2 \int_0^1 \mu_0 \alpha^\mathrm{dir}(\mu_0, \lambda) \dd{\phi'}.
 \end{equation}
-Depending on ambient light conditions, spectral albedo is characterized by a combination of direct and diffuse albedo, weighted by the diffuse-to-total light partitioning $D^\mathrm{diff}$:
-\begin{equation}
-	\alpha(\lambda) = D^\mathrm{diff} \alpha^\mathrm{dif} + (1 - D^\mathrm{diff}) \alpha^\mathrm{dir}(\theta_0, \lambda)
-\end{equation}
 
+ART theory finally allows to retrieve snow grain size in terms of SSA from albedo from both the direct and diffuse albedos. These can in fact be modeled as a function of snow SSA, cosine of solar angle $\mu_0$, and geometrical properties of snow grains:
+\begin{align}
+	\alpha^\mathrm{dir}(\theta_0, \lambda) &= \exp\left(-\frac{12}{7} (1 + 2 \mu_0) \sqrt{\frac{2 B \gamma(\lambda)}{3 \rho_\mathrm{ice} \ssa (1 -g)}}\right) \\
+	\alpha^\mathrm{dif}(\lambda) &= \exp \left(-4 \sqrt{\frac{2 B \gamma(\lambda)}{3 \rho_\mathrm{ice} \ssa (1 -g)}}\right)
+\end{align}
+where $\rho_\mathrm{ice} = \qty{917}{\kilo\gram\per\cubed\meter}$ is density of ice at \qty{0}{\celsius} and $\gamma$ is the absorption coefficient of ice. $B$ and $g$ are the absorption enhancement parameter and the asymmetry factor, two quantities accounting for the non-sphericity of snow grains, assessed at 1.6 and 0.85 respectively by \cite{liboisInfluenceGrainShape2013}. 
+Depending on ambient light conditions, spectral albedo is characterized by a combination of direct and diffuse albedo, weighted by the diffuse-to-total light partitioning $D^\mathrm{dif}$:
+\begin{equation}
+	\alpha(\lambda) = D^\mathrm{dif} \alpha^\mathrm{dif} + (1 - D^\mathrm{dif}) \alpha^\mathrm{dir}(\theta_0, \lambda).
+\end{equation}
+SSA can be obtained fitting this model blah.
 
 	\section{Study area: an overview of the stations}
 
@@ -438,11 +445,11 @@ From $R(\lambda)$, more properties are also computed (plane spectral albedo, bro
 	\subsubsection{Diagnostic techniques}
 The main potential issue with OLCI-retrieved SSAs is the artificial dependence of the estimated SSA on solar angles during a day, induced by an uncertainty in the escape function (Equations~\eqref{eq:escape} and~\eqref{eq:labs}). Since we do not expect grain size to vary significantly during the day—unless due to precipitation or metamorphism—any observed changes in SSA are likely SZA-induced artifacts and must be investigated.
 
-To address this, we performed different processing tests. The first, serving as the reference (REF), leaves the algorithm unchanged. The second (and further ones) introduce a flattening term to the escape function in \texttt{sice\_lib.view\_geometry(gamma)}:
+To address this, we performed different processing tests. The first, serving as the reference (REF), leaves the algorithm unchanged. The second (and further ones) introduce a flattening term to the escape function in \texttt{sice\_lib.view\_geometry(r)}:
 \begin{equation}
-	u(\theta) \leftarrow u(\theta) (1 - \gamma) + \gamma
+	u(\theta) \leftarrow u(\theta) (1 - r) + r
 \end{equation}
-where $\gamma$ was initially tested at 0.3 and progressively increased to 0.4 in subsequent simulations. By adding this factor, we artificially reduce the dependence of SSA estimates on solar angles, allowing us to evaluate the effectiveness of the algorithm.
+where $r$ was initially tested at 0.3 and progressively increased to 0.4 in subsequent simulations. By adding this factor, we artificially reduce the dependence of SSA estimates on solar angles, allowing us to evaluate the effectiveness of the algorithm.
 
 	\setpartcolor{part3color}
 	
