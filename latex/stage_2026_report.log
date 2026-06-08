@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.5.6)  6 JUN 2026 14:30
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.5.6)  8 JUN 2026 09:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2362,14 +2362,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [22]
 
-LaTeX Warning: Reference `fig:tempmb' on page 23 undefined on input line 488.
+LaTeX Warning: Reference `fig:tempmb' on page 23 undefined on input line 489.
 
 
-LaTeX Warning: Reference `fig:sr50mb' on page 23 undefined on input line 488.
+LaTeX Warning: Reference `fig:sr50mb' on page 23 undefined on input line 489.
 
 
 LaTeX Warning: Reference `fig:eaiistwind' on page 23 undefined on input line 49
-0.
+1.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2381,10 +2381,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [23]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 495.
+(hyperref)                be the same. Added a new anchor on input line 496.
 
 
-Overfull \hbox (4.48695pt too wide) in paragraph at lines 495--495
+Overfull \hbox (4.48695pt too wide) in paragraph at lines 496--496
 \TU/LatinModernSans(0)/sbc/sl/10.95 measurements of snow Bidirectional Reflecta
 nce Distribution Function at visible and NIR wavelengths
  []
@@ -2397,7 +2397,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [24]
-Overfull \hbox (3.55856pt too wide) in paragraph at lines 495--495
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[25]
+Overfull \hbox (3.55856pt too wide) in paragraph at lines 496--496
 \TU/LatinModernSans(0)/sbc/sl/10.95 albedo measurements over snow-covered slope
 s: Theory and slope effect corrections. \TU/LatinModernSans(0)/m/it/10.95 The C
 ryosphere\TU/LatinModernSans(0)/sbc/sl/10.95 ,
@@ -2410,19 +2418,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[25]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
 [26]
-Overfull \hbox (2.3151pt too wide) in paragraph at lines 495--495
+Overfull \hbox (2.3151pt too wide) in paragraph at lines 496--496
 [][]\TU/LatinModernSans(0)/sbc/sl/10.95 World Meteorological Organization. (202
-4). Blowing snow. Retrieved May 15, 2026, from [][]$[][][][][] [] [] [] [][][][
-][][][][][][] []
+4). \TU/LatinModernSans(0)/m/it/10.95 Blowing snow\TU/LatinModernSans(0)/sbc/sl
+/10.95 . Retrieved May 15, 2026, from [][]$[][][][][] [] [] [] [][][][][][][][]
+[][] []
  []
 
 
@@ -2456,10 +2457,10 @@ Package logreq Info: Writing requests to 'stage_2026_report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 55960 strings out of 404949
- 1249112 string characters out of 5481587
- 2372330 words of memory out of 5000000
- 83791 multiletter control sequences out of 15000+600000
+ 55970 strings out of 404949
+ 1249435 string characters out of 5481587
+ 2374407 words of memory out of 5000000
+ 83801 multiletter control sequences out of 15000+600000
  663475 words of font info for 139 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
  94i,15n,133p,2365b,6402s stack positions out of 10000i,1000n,20000p,200000b,200000s
