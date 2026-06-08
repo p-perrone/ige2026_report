@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.5.26)  8 JUN 2026 12:28
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.5.26)  8 JUN 2026 18:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2078,19 +2078,7 @@ LaTeX Font Info:    Trying to load font information for U+ssmsb on input line 7
 
 (/home/perronep/.miktex/texmfs/install/tex/latex/sansmathfonts/ussmsb.fd
 File: ussmsb.fd 2024/10/15
-)
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[1
-
-\openout4 = `stage_2026_report.upa'.
-
-])
+))
 \tf@toc=\write7
 \openout7 = `stage_2026_report.toc'.
 
@@ -2102,7 +2090,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[2]
+[1
+
+\openout4 = `stage_2026_report.upa'.
+
+]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2110,10 +2102,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[3]
+[2]
 
-LaTeX Warning: Citation 'find a ref for this' on page 4 undefined on input line
- 146.
+LaTeX Warning: Citation 'find a ref for this' on page 3 undefined on input line
+ 148.
 
 Missing character: There is no ⁻ in font Latin Modern Sans 10 Regular/OT:script
 =latn;language=dflt;mapping=tex-text;!
@@ -2124,7 +2116,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
+[3]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
 [4]
+File: ../figures/st_temp_av.pdf Graphic file (type pdf)
+<use ../figures/st_temp_av.pdf>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2133,15 +2136,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [5]
-File: ../figures/st_temp_av.pdf Graphic file (type pdf)
-<use ../figures/st_temp_av.pdf>
+Overfull \hbox (23.71918pt too wide) in paragraph at lines 210--212
+\TU/LatinModernSans(0)/m/n/10.95 (zenithal, azimuthal) angles, and $\OML/cmssm/
+m/it/10.95 ^^U$ \TU/LatinModernSans(0)/m/n/10.95 the wavelength. Here, $\OML/cm
+ssm/m/it/10.95 L[]$ \TU/LatinModernSans(0)/m/n/10.95 is the reflected spectral 
+radiance ([])
+ []
 
 
-LaTeX Warning: Reference `fig:geo' on page 6 undefined on input line 210.
-
-
-LaTeX Warning: Reference `fig:temp_avail' on page 6 undefined on input line 210
-.
+LaTeX Warning: Reference `fig:geo' on page 6 undefined on input line 227.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2152,7 +2155,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [6]
 LaTeX Font Info:    Font shape `TU/lmss/sbc/it' in size <12> not available
-(Font)              Font shape `TU/lmss/sbc/sl' tried instead on input line 218
+(Font)              Font shape `TU/lmss/sbc/sl' tried instead on input line 235
 .
 File: ../figures/mbscheme.pdf Graphic file (type pdf)
 <use ../figures/mbscheme.pdf>
@@ -2178,11 +2181,11 @@ File: ../figures/mbwf.pdf Graphic file (type pdf)
 
 
 LaTeX Font Warning: Font shape `TU/LatinModernSans(0)/sbc/sl' undefined
-(Font)              using `TU/LatinModernSans(0)/m/n' instead on input line 253
+(Font)              using `TU/LatinModernSans(0)/m/n' instead on input line 270
 .
 
 LaTeX Font Info:    Font shape `TU/FiraMono(0)/m/n' will be
-(Font)              scaled to size 9.30756pt on input line 254.
+(Font)              scaled to size 9.30756pt on input line 271.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2201,7 +2204,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [10]
 
 LaTeX Font Warning: Font shape `TU/lmss/sc/sl' undefined
-(Font)              using `TU/lmss/m/n' instead on input line 288.
+(Font)              using `TU/lmss/m/n' instead on input line 305.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2216,12 +2219,18 @@ Missing character: There is no ​ in font Latin Modern Sans 10 Regular/OT:scrip
 File: ../figures/appemitt_scatter_def.pdf Graphic file (type pdf)
 <use ../figures/appemitt_scatter_def.pdf>
 LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
-315.
+332.
 (/usr/local/share/miktex-texmf/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 315.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 332.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2269,7 +2278,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [16]
-Overfull \hbox (26.0339pt too wide) in paragraph at lines 397--399
+Overfull \hbox (26.0339pt too wide) in paragraph at lines 414--416
 []\TU/LatinModernSans(0)/b/n/10.95 Retrieval of snow SSA \TU/LatinModernSans(0)
 /sbc/sl/10.95 | This is the main processing step executed via the []
  []
@@ -2287,11 +2296,11 @@ File: ../figures/timeseries_example1.pdf Graphic file (type pdf)
 File: ../figures/stations_mb_sice.pdf Graphic file (type pdf)
 <use ../figures/stations_mb_sice.pdf>
 LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <10> not available
-(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 439.
+(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 456.
 
 
 
-LaTeX Warning: Reference `a:timeseries' on page 18 undefined on input line 442.
+LaTeX Warning: Reference `a:timeseries' on page 18 undefined on input line 459.
 
 
 
@@ -2312,7 +2321,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [19]
 
 LaTeX Warning: Reference `fig:corr_sice_mb' on page 20 undefined on input line 
-460.
+477.
 
 File: ../figures/eaiist01_cc_500.pdf Graphic file (type pdf)
 <use ../figures/eaiist01_cc_500.pdf>
@@ -2324,7 +2333,7 @@ File: ../figures/albedo500_timeseries.pdf Graphic file (type pdf)
 <use ../figures/albedo500_timeseries.pdf>
 
 LaTeX Warning: Reference `fig:albedoeaiist02' on page 20 undefined on input lin
-e 481.
+e 498.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2342,14 +2351,14 @@ File: ../figures/olci_ssadaily_std_2023.pdf Graphic file (type pdf)
 
 
 LaTeX Warning: Reference `fig:sice_subdaily' on page 21 undefined on input line
- 491.
+ 508.
 
 
-LaTeX Warning: Reference `sssc:sicediagn' on page 21 undefined on input line 49
-3.
+LaTeX Warning: Reference `sssc:sicediagn' on page 21 undefined on input line 51
+0.
 
 
-LaTeX Warning: Reference `fig:siceflat' on page 21 undefined on input line 493.
+LaTeX Warning: Reference `fig:siceflat' on page 21 undefined on input line 510.
 
 
 
@@ -2380,10 +2389,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [23]
 
-LaTeX Warning: Reference `fig:tempmb' on page 24 undefined on input line 519.
+LaTeX Warning: Reference `fig:tempmb' on page 24 undefined on input line 536.
 
 
-LaTeX Warning: Reference `fig:sr50mb' on page 24 undefined on input line 519.
+LaTeX Warning: Reference `fig:sr50mb' on page 24 undefined on input line 536.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2394,12 +2403,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [24]
 
-LaTeX Warning: Reference `fig:eaiistwind' on page 25 undefined on input line 52
-1.
+LaTeX Warning: Reference `fig:eaiistwind' on page 25 undefined on input line 53
+8.
 
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 526.
+(hyperref)                be the same. Added a new anchor on input line 543.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2425,7 +2434,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [27]
-Overfull \hbox (2.3151pt too wide) in paragraph at lines 526--526
+Overfull \hbox (2.3151pt too wide) in paragraph at lines 543--543
 [][]\TU/LatinModernSans(0)/sbc/sl/10.95 World Meteorological Organization. (202
 4). Blowing snow. Retrieved May 15, 2026, from [][]$[][][][][] [] [] [] [][][][
 ][][][][][][] []
@@ -2462,12 +2471,12 @@ Package logreq Info: Writing requests to 'stage_2026_report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 56241 strings out of 402807
- 1258074 string characters out of 5448229
- 2387529 words of memory out of 5000000
- 84370 multiletter control sequences out of 15000+600000
+ 56253 strings out of 402807
+ 1258723 string characters out of 5448229
+ 2387778 words of memory out of 5000000
+ 84382 multiletter control sequences out of 15000+600000
  663475 words of font info for 139 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 94i,15n,133p,2365b,6398s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,15n,133p,3007b,5650s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on stage_2026_report.pdf (28 pages).

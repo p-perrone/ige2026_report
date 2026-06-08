@@ -1825,6 +1825,52 @@
       \verb https://nsidc.org/learn/what-cryosphere
       \endverb
     \endentry
+    \entry{nicodemusDirectionalReflectanceEmissivity1965}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3a154e664279be011c1b33b5c4626e60}{%
+           family={Nicodemus},
+           familyi={N\bibinitperiod},
+           given={Fred\bibnamedelima E.},
+           giveni={F\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {OSA}%
+      }
+      \strng{namehash}{3a154e664279be011c1b33b5c4626e60}
+      \strng{fullhash}{3a154e664279be011c1b33b5c4626e60}
+      \strng{fullhashraw}{3a154e664279be011c1b33b5c4626e60}
+      \strng{bibnamehash}{3a154e664279be011c1b33b5c4626e60}
+      \strng{authorbibnamehash}{3a154e664279be011c1b33b5c4626e60}
+      \strng{authornamehash}{3a154e664279be011c1b33b5c4626e60}
+      \strng{authorfullhash}{3a154e664279be011c1b33b5c4626e60}
+      \strng{authorfullhashraw}{3a154e664279be011c1b33b5c4626e60}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Available from http://www.opticsInfoBase.org/abstract.cfm?id=13818;}
+      \field{issn}{0003-6935}
+      \field{journaltitle}{Applied Optics}
+      \field{month}{7}
+      \field{title}{Directional Reflectance and Emissivity of an Opaque Surface}
+      \field{volume}{4}
+      \field{year}{1965}
+      \field{pages}{767}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1364/AO.4.000767
+      \endverb
+      \verb{urlraw}
+      \verb https://ui.adsabs.harvard.edu/abs/1965ApOpt...4..767N
+      \endverb
+      \verb{url}
+      \verb https://ui.adsabs.harvard.edu/abs/1965ApOpt...4..767N
+      \endverb
+    \endentry
     \entry{picardDevelopmentCalibrationAutomatic2016a}{article}{}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=136c80467513442a81e353849106c031}{%
@@ -2650,6 +2696,57 @@
       \field{year}{1968}
       \field{pages}{370\bibrangedash 379}
       \range{pages}{10}
+    \endentry
+    \entry{warrenOpticalPropertiesSnow1982}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0479d7af85d73e10446468e75f86efac}{%
+           family={Warren},
+           familyi={W\bibinitperiod},
+           given={Stephen\bibnamedelima G.},
+           giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons, Ltd}%
+      }
+      \strng{namehash}{0479d7af85d73e10446468e75f86efac}
+      \strng{fullhash}{0479d7af85d73e10446468e75f86efac}
+      \strng{fullhashraw}{0479d7af85d73e10446468e75f86efac}
+      \strng{bibnamehash}{0479d7af85d73e10446468e75f86efac}
+      \strng{authorbibnamehash}{0479d7af85d73e10446468e75f86efac}
+      \strng{authornamehash}{0479d7af85d73e10446468e75f86efac}
+      \strng{authorfullhash}{0479d7af85d73e10446468e75f86efac}
+      \strng{authorfullhashraw}{0479d7af85d73e10446468e75f86efac}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Measurements of the dependence of snow albedo on wavelength, zenith angle, grain size, impurity content, and cloud cover can be interpreted in terms of single-scattering and multiple-scattering radiative transfer theory. Ice is very weakly absorptive in the visible (minimum absorption at ? = 0.46 \textmu m) but has strong absorption bands in the near infrared (near IR). Snow albedo is therefore much lower in the near IR. The near-IR solar irradiance thus plays an important role in snowmelt and in the energy balance at a snow surface. The near-IR albedo is very sensitive to snow grain size and moderately sensitive to solar zenith angle. The visible albedo (for pure snow) is not sensitive to these parameters but is instead affected by snowpack thickness and parts-per-million amounts (or less) of impurities. Grain size normally increases as the snow ages, causing a reduction in albedo. If the grain size increases as a function of depth, the albedo may suffer more reduction in the visible or in the near IR, depending on the rate of grain size increase. The presence of liquid water has little effect per se on snow optical properties in the solar spectrum, in contrast to its enormous effect on microwave emissivity. Snow albedo is increased at all wavelengths as the solar zenith angle increases but is most sensitive around ? =1 \textmu m. Many apparently conflicting measurements of the zenith angle dependence of albedo are difficult to interpret because of modeling error, instrument error, and inadequate documentation of grain size, surface roughness, and incident radiation spectrum. Cloud cover affects snow albedo both by converting direct radiation into diffuse radiation and also by altering the spectral distribution of the radiation. Cloud cover normally causes an increase in spectrally integrated snow albedo. Some measurements of spectral flux extinction in snow are difficult to reconcile with the spectral albedo measurements. The bidirectional reflectance distribution function which apportions the reflected solar radiation among the various reflection angles must be known in order to interpret individual satellite measurements. It has been measured at the snow surface and at the top of the atmosphere, but its dependence on wavelength, snow grain size, and surface roughness is still unknown. Thermal infrared emissivity of snow is close to 100\% but is a few percent lower at large viewing angles than for overhead viewing. It is very insensitive to grain size, impurities, snow depth, liquid water content, or density. Solar reflectance and microwave emissivity are both sensitive to various of these snowpack parameters. However, none of these parameters can be uniquely determined by satellite measurements at a single wavelength; a multichannel method is thus necessary if they are to be determined by remote sensing.}
+      \field{issn}{8755-1209}
+      \field{journaltitle}{Reviews of Geophysics}
+      \field{month}{2}
+      \field{number}{1}
+      \field{title}{Optical Properties of Snow}
+      \field{urlday}{14}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{volume}{20}
+      \field{year}{1982}
+      \field{urldateera}{ce}
+      \field{pages}{67\bibrangedash 89}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1029/RG020i001p00067
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1029/RG020i001p00067
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1029/RG020i001p00067
+      \endverb
     \endentry
     \entry{warrenModelSpectralAlbedo1980}{article}{}{}
       \name{author}{2}{}{%
@@ -4633,6 +4730,52 @@
       \verb https://nsidc.org/learn/what-cryosphere
       \endverb
     \endentry
+    \entry{nicodemusDirectionalReflectanceEmissivity1965}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3a154e664279be011c1b33b5c4626e60}{%
+           family={Nicodemus},
+           familyi={N\bibinitperiod},
+           given={Fred\bibnamedelima E.},
+           giveni={F\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {OSA}%
+      }
+      \strng{namehash}{3a154e664279be011c1b33b5c4626e60}
+      \strng{fullhash}{3a154e664279be011c1b33b5c4626e60}
+      \strng{fullhashraw}{3a154e664279be011c1b33b5c4626e60}
+      \strng{bibnamehash}{3a154e664279be011c1b33b5c4626e60}
+      \strng{authorbibnamehash}{3a154e664279be011c1b33b5c4626e60}
+      \strng{authornamehash}{3a154e664279be011c1b33b5c4626e60}
+      \strng{authorfullhash}{3a154e664279be011c1b33b5c4626e60}
+      \strng{authorfullhashraw}{3a154e664279be011c1b33b5c4626e60}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Available from http://www.opticsInfoBase.org/abstract.cfm?id=13818;}
+      \field{issn}{0003-6935}
+      \field{journaltitle}{Applied Optics}
+      \field{month}{7}
+      \field{title}{Directional Reflectance and Emissivity of an Opaque Surface}
+      \field{volume}{4}
+      \field{year}{1965}
+      \field{pages}{767}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1364/AO.4.000767
+      \endverb
+      \verb{urlraw}
+      \verb https://ui.adsabs.harvard.edu/abs/1965ApOpt...4..767N
+      \endverb
+      \verb{url}
+      \verb https://ui.adsabs.harvard.edu/abs/1965ApOpt...4..767N
+      \endverb
+    \endentry
     \entry{picardSpectralAlbedoMeasurements2020}{article}{}{}
       \name{author}{7}{}{%
         {{un=0,uniquepart=base,hash=136c80467513442a81e353849106c031}{%
@@ -5458,6 +5601,57 @@
       \field{year}{1968}
       \field{pages}{370\bibrangedash 379}
       \range{pages}{10}
+    \endentry
+    \entry{warrenOpticalPropertiesSnow1982}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0479d7af85d73e10446468e75f86efac}{%
+           family={Warren},
+           familyi={W\bibinitperiod},
+           given={Stephen\bibnamedelima G.},
+           giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons, Ltd}%
+      }
+      \strng{namehash}{0479d7af85d73e10446468e75f86efac}
+      \strng{fullhash}{0479d7af85d73e10446468e75f86efac}
+      \strng{fullhashraw}{0479d7af85d73e10446468e75f86efac}
+      \strng{bibnamehash}{0479d7af85d73e10446468e75f86efac}
+      \strng{authorbibnamehash}{0479d7af85d73e10446468e75f86efac}
+      \strng{authornamehash}{0479d7af85d73e10446468e75f86efac}
+      \strng{authorfullhash}{0479d7af85d73e10446468e75f86efac}
+      \strng{authorfullhashraw}{0479d7af85d73e10446468e75f86efac}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Measurements of the dependence of snow albedo on wavelength, zenith angle, grain size, impurity content, and cloud cover can be interpreted in terms of single-scattering and multiple-scattering radiative transfer theory. Ice is very weakly absorptive in the visible (minimum absorption at ? = 0.46 \textmu m) but has strong absorption bands in the near infrared (near IR). Snow albedo is therefore much lower in the near IR. The near-IR solar irradiance thus plays an important role in snowmelt and in the energy balance at a snow surface. The near-IR albedo is very sensitive to snow grain size and moderately sensitive to solar zenith angle. The visible albedo (for pure snow) is not sensitive to these parameters but is instead affected by snowpack thickness and parts-per-million amounts (or less) of impurities. Grain size normally increases as the snow ages, causing a reduction in albedo. If the grain size increases as a function of depth, the albedo may suffer more reduction in the visible or in the near IR, depending on the rate of grain size increase. The presence of liquid water has little effect per se on snow optical properties in the solar spectrum, in contrast to its enormous effect on microwave emissivity. Snow albedo is increased at all wavelengths as the solar zenith angle increases but is most sensitive around ? =1 \textmu m. Many apparently conflicting measurements of the zenith angle dependence of albedo are difficult to interpret because of modeling error, instrument error, and inadequate documentation of grain size, surface roughness, and incident radiation spectrum. Cloud cover affects snow albedo both by converting direct radiation into diffuse radiation and also by altering the spectral distribution of the radiation. Cloud cover normally causes an increase in spectrally integrated snow albedo. Some measurements of spectral flux extinction in snow are difficult to reconcile with the spectral albedo measurements. The bidirectional reflectance distribution function which apportions the reflected solar radiation among the various reflection angles must be known in order to interpret individual satellite measurements. It has been measured at the snow surface and at the top of the atmosphere, but its dependence on wavelength, snow grain size, and surface roughness is still unknown. Thermal infrared emissivity of snow is close to 100\% but is a few percent lower at large viewing angles than for overhead viewing. It is very insensitive to grain size, impurities, snow depth, liquid water content, or density. Solar reflectance and microwave emissivity are both sensitive to various of these snowpack parameters. However, none of these parameters can be uniquely determined by satellite measurements at a single wavelength; a multichannel method is thus necessary if they are to be determined by remote sensing.}
+      \field{issn}{8755-1209}
+      \field{journaltitle}{Reviews of Geophysics}
+      \field{month}{2}
+      \field{number}{1}
+      \field{title}{Optical Properties of Snow}
+      \field{urlday}{14}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{volume}{20}
+      \field{year}{1982}
+      \field{urldateera}{ce}
+      \field{pages}{67\bibrangedash 89}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1029/RG020i001p00067
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1029/RG020i001p00067
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1029/RG020i001p00067
+      \endverb
     \endentry
     \entry{warrenSnowDepthArctic1999}{article}{}{}
       \name{author}{7}{}{%

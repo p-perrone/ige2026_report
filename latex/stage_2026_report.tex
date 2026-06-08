@@ -130,8 +130,10 @@ urlcolor=BlueViolet]{hyperref}
 	\setlength{\belowdisplayskip}{5pt}
 	
 	\title{Internship report}
-	
+	\renewcommand{\baselinestretch}{1}\normalsize
 	\tableofcontents
+	\renewcommand{\baselinestretch}{1.5}\normalsize
+	
 	\newpage
 	
 	\setpartcolor{part1color}
@@ -175,36 +177,51 @@ urlcolor=BlueViolet]{hyperref}
 	
 	\setpartcolor{part2color}
 	\part{Material and methods}
-\begin{figure}[t]
-	\centering
-	\subfloat[\label{fig:st_temp_av}]{%
-		\includegraphics[width=10cm]{st_temp_av}%
-	}
-	\hfill
-	\subfloat[\label{tab:stations}]{%
-		{\small
-		\raisebox{2.5cm}{%
-			\begin{tabular}{lSS}
-				\toprule
-				Station & {Lon (°E)} & {Lat (°S)} \\
-				\midrule
-				EAIIST01 & 121.682 & 80.564 \\
-				EAIIST02 & 121.632 & 80.575 \\
-				D17      & 139.716 & 66.720 \\
-				D10      & 139.810 & 66.700 \\
-				D5       & 139.884 & 66.699 \\
-				\bottomrule
-			\end{tabular}%
-		}%
-	}
-	}
-	\mycaption{Stations overview}{\textbf{(a)} Temporal data availability of each measurement station; \textbf{(b)} exact position of each station in WGS 84 coordinates.}
-	\label{fig:stations}
-\end{figure}
+	\begin{figure}[t]	
+		\subfloat[\label{tab:geo}]{%
+			{\small
+				\raisebox{2.5cm}{%
+					\begin{tabular}{lSS}
+						\toprule
+						Station & {Lon (°E)} & {Lat (°S)} \\
+						\midrule
+						EAIIST01 & 121.682 & 80.564 \\
+						EAIIST02 & 121.632 & 80.575 \\
+						D17      & 139.716 & 66.720 \\
+						D10      & 139.810 & 66.700 \\
+						D5       & 139.884 & 66.699 \\
+						\bottomrule
+					\end{tabular}%
+				}%
+			}
+		}\hfill
+		\centering
+		\subfloat[\label{fig:temp_avail}]{%
+			\includegraphics[width=10cm]{st_temp_av}%
+		}
+		\mycaption{Stations overview}{\textbf{(a)} Temporal data availability of each measurement station; \textbf{(b)} exact position of each station in WGS 84 coordinates.}
+		\label{fig:stations}
+	\end{figure}
 	
 	\section{Theoretical backgrounds}
-	ART theory, effects of SZA/SAA, effects of slope ...
-	
+The retrieval of snow grain size from the measured snow albedo is possible thanks to the Asymptotic Radiative Transfer (ART), fully described by \cite{kokhanovskyScatteringOpticsSnow2004}. To clarify how snow albedo is quantified we must first describe how light interacts with snow. Snow can be cosnsidered, from a radiative point of view, an opaque medium, \ie with a nearly zero transmissivity. It follows that its interaction with sunlight can be either a form of absoprtion or reflection. In particular, the way incident solar radiation is reflected by snow can be described through the bidirectional reflection distribution function $f_\mathrm{r}$ for opaque bodies \parencite{nicodemusDirectionalReflectanceEmissivity1965}:
+\begin{equation}
+	f_\mathrm{r}(\theta_0, \theta', \phi_0, \phi', \lambda) = \dv{L_\mathrm{r}(\theta', \phi', \lambda)}{E_\mathrm{i}(\theta_0, \phi_0, \lambda)} \qquad (\unit{\per\steradian})
+\end{equation}
+with $(\theta_0, \phi_0)$ the solar incident zenithal (also SZA) and azimuthal (SAA) angles, $(\theta', \phi')$ the reflected (zenithal, azimuthal) angles, and $\lambda$ the wavelength. Here, $L_\mathrm{r}$ is the reflected spectral radiance (\unit{\watt\per\meter\squared\per\steradian\per\nano\meter}) and $E_\mathrm{i} = \mu_0 L_\mathrm{i}\dd{\theta_0}\dd{\phi_0}$ the incident solar spectral irradiance (\unit{\watt\per\meter\squared\per\nano\meter}), with $\mu_0 = \cos \theta_0$. For a satellite, for instance, the measured reflectance will be given by the integral of $f_\mathrm{r}$ over its whole field of view $(\theta', \phi')$. Stemming from the definition of , \cite{warrenOpticalPropertiesSnow1982} proposed an expression for snow \emph{direct albedo}, as a form of spectral directional-hemispherical reflectance, that integrates $f_\mathrm{r}$ over all the reflection angles:
+\begin{equation}
+	\alpha^\mathrm{dir}(\theta_0, \lambda) = \int_0^1 \mu' \dd{\mu'} \int_0^{2\pi}f_\mathrm{r}(\theta_0, \theta', \phi_0, \phi', \lambda) \dd{\phi'}.
+\end{equation}
+Integrating this expression over all the incidence angles yields the \emph{diffuse albedo}, \ie a spectral bi-hemispherical reflectance:
+\begin{equation}
+	\alpha^\mathrm{dif}(\lambda) = 2 \int_0^1 \mu_0 \alpha^\mathrm{dir}(\mu_0, \lambda) \dd{\phi'}.
+\end{equation}
+Depending on ambient light conditions, spectral albedo is characterized by a combination of direct and diffuse albedo, weighted by the diffuse-to-total light partitioning $D^\mathrm{diff}$:
+\begin{equation}
+	\alpha(\lambda) = D^\mathrm{diff} \alpha^\mathrm{dif} + (1 - D^\mathrm{diff}) \alpha^\mathrm{dir}(\theta_0, \lambda)
+\end{equation}
+
+
 	\section{Study area: an overview of the stations}
 
 We employed data from five automated stations located across the Antarctic Ice Sheet. Their precise geolocalizations are shown in Figure~\ref{fig:geo}, while the temporal availability of data for each station is presented in Figure~\ref{fig:temp_avail}. Each station is equipped with an albedometer (described in Section~\ref{ssc:mb}) and an automated weather station (AWS).
