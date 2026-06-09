@@ -424,13 +424,9 @@ and
 \begin{equation}\label{eq:labs}
 	l_\mathrm{abs} = \frac{1}{a_2 f^2} \ln(\frac{R_1}{R_2}), \qquad f = \frac{u(\sza) u(\mathrm{VZA})}{R_0}
 \end{equation}
-with $f$ being the angular function \parencite{kokhanovskyScatteringOpticsSnow2004}. From absorption length expressed in mm, the effective optical diameter can be easily retrieved:
+with $f$ being the angular function \parencite{kokhanovskyScatteringOpticsSnow2004}. From absorption length expressed in mm, the effective optical diameter can be easily retrieved, and at its turn SSA can finally be estimated:
 \begin{equation}
-	d = \frac{l_\mathrm{abs}}{9.2 \times 16 / 9} \qquad (\unit{\meter})
-\end{equation}
-and SSA can finally be estimated from $d$ and ice density $\rho_\mathrm{ice}$:
-\begin{equation}
-	\ssa = \frac{6}{d \rho_\mathrm{ice}}
+	d = \frac{l_\mathrm{abs}}{9.2 \times 16 / 9}, \qquad \ssa = \frac{6}{d \rho_\mathrm{ice}}
 \end{equation}
 From $R(\lambda)$, more properties are also computed (plane spectral albedo, broadband albedo) but they are not used in this work.
 \end{enumerate}
@@ -465,11 +461,11 @@ The satellite time series agree fairly well with Multiband data on average (bias
 
 In the megadunes, Multiband-measured SSA time series have been uninterrupted since 2019. SSA values are generally higher than \qty{20}{\ssaunit}, with a median of \qty{25.61}{\ssaunit} (corresponding to grain sizes ~1.5 times smaller than at Cap Prud'homme), reflecting the absence of wet metamorphism. The signals from the two stations diverge in mid-summer, showing greater interannual variability than at Cap Prud'homme.
 
-\begin{itemize}[align=right, itemindent=1em, leftmargin=6pt,  labelsep=4pt,labelwidth=1em,nosep]
-	\item At EAIIST01, the SSA signal stabilizes from late November around \qty{20}{\ssaunit}, with a December--January median of \qty{21.44}{\ssaunit}; this pattern repeats consistently every year.
-	
-	\item At EAIIST02, two distinct dynamics are observed. In the first case (summers of 2020, 2021, and 2024), SSA co-evolves with the erosion area, maintaining higher values (median over the three years: \qty{25.19}{\ssaunit}). In the second case (summers of 2022, 2023, and 2025), SSA rapidly increases in November, fluctuates around much higher values in December (median of the three years: \qty{51.35}{\ssaunit}), then decreases in January, tapering to values similar to those of EAIIST01 by February.
-\end{itemize}
+	\begin{itemize}[align=right, itemindent=1em, leftmargin=6pt,  labelsep=4pt,labelwidth=1em,nosep]
+		\item At EAIIST01, the SSA signal stabilizes from late November around \qty{20}{\ssaunit}, with a December--January median of \qty{21.44}{\ssaunit}; this pattern repeats consistently every year.
+		
+		\item At EAIIST02, two distinct dynamics are observed. In the first case (summers of 2020, 2021, and 2024), SSA co-evolves with the erosion area, maintaining higher values (median over the three years: \qty{25.19}{\ssaunit}). In the second case (summers of 2022, 2023, and 2025), SSA rapidly increases in November, fluctuates around much higher values in December (median of the three years: \qty{51.35}{\ssaunit}), then decreases in January, tapering to values similar to those of EAIIST01 by February.
+	\end{itemize}
 SICE 1.6 results for the megadunes are far more continuous than at Cap Prud'homme, as overcast conditions in the Central AIS are much less frequent. For this region, SICE 1.6's NaNs represent only 11.97\% and 12.24\% of Multiband data for EAIIST01 and EAIIST02, respectively. At EAIIST01 (erosion side of the dune), the bias between Multiband and satellite SSAs is much lower than at coastal stations. However, despite a moderately good linear correlation ($r = 0.64$), Multiband systematically registers higher SSAs during the 2021--2022 season, with a bias of \qty{10.00}{\ssaunit}---for all the other years the bias is below \qty{2}{\ssaunit}. This discrepancy is much more interannual  at EAIIST02 (accumulation side of the dune) (Figure~\ref{fig:corr_sice_mb}), where the correlation between the two datasets is therefore poorer ($r = 0.39$). In particular, SICE 1.6 at EAIIST02 yields SSAs much closer to those of the erosion area, \ie remaining constant around \qty{20}{\ssaunit} throughout the summer. To understand and address these differences, we proceed with the diagnostics described in the Methods.
 	
 		\section{Diagnostic of the results for EAIIST stations}
