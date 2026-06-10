@@ -1,11 +1,11 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.5.6)  9 JUN 2026 22:12
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.5.26)  10 JUN 2026 17:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **./stage_2026_report.tex
 (stage_2026_report.tex
 LaTeX2e <2025-11-01>
-L3 programming layer <2026-01-19>
+L3 programming layer <2026-03-20>
 (/usr/local/share/miktex-texmf/tex/latex/base/article.cls
 Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
 (/usr/local/share/miktex-texmf/tex/latex/base/size11.clo
@@ -21,9 +21,9 @@ File: size11.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 \c@table=\count278
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
-\bibindent=\dimen148
+\bibindent=\dimen150
 )
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/fira/FiraMono.sty
+(/home/perronep/.miktex/texmfs/install/tex/latex/fira/FiraMono.sty
 Package: FiraMono 2022/09/17 (Bob Tennent and autoinst) Style file for Fira Mon
 o fonts.
 
@@ -54,10 +54,10 @@ Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
 (/usr/local/share/miktex-texmf/tex/latex/fontspec/fontspec.sty
 (/usr/local/share/miktex-texmf/tex/latex/l3packages/xparse/xparse.sty
 (/usr/local/share/miktex-texmf/tex/latex/l3kernel/expl3.sty
-Package: expl3 2026-01-19 L3 programming layer (loader) 
+Package: expl3 2026-03-20 L3 programming layer (loader) 
 
 (/usr/local/share/miktex-texmf/tex/latex/l3backend/l3backend-xetex.def
-File: l3backend-xetex.def 2025-10-09 L3 backend support: XeTeX
+File: l3backend-xetex.def 2026-02-18 L3 backend support: XeTeX
 \g__graphics_track_int=\count280
 \g__pdfannot_backend_int=\count281
 \g__pdfannot_backend_link_int=\count282
@@ -80,9 +80,9 @@ X
 \l__fontspec_emdef_int=\count291
 \l__fontspec_strong_int=\count292
 \l__fontspec_strongdef_int=\count293
-\l__fontspec_tmpa_dim=\dimen149
-\l__fontspec_tmpb_dim=\dimen150
-\l__fontspec_tmpc_dim=\dimen151
+\l__fontspec_tmpa_dim=\dimen151
+\l__fontspec_tmpb_dim=\dimen152
+\l__fontspec_tmpc_dim=\dimen153
 
 (/usr/local/share/miktex-texmf/tex/latex/base/fontenc.sty
 Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
@@ -280,7 +280,7 @@ Package: inputenc 2024/02/08 v1.3d Input encoding file
 Package inputenc Warning: inputenc package ignored with utf8 based engines.
 
 ) (/usr/local/share/miktex-texmf/tex/generic/babel/babel.sty
-Package: babel 2026/01/26 v26.2 The multilingual framework for LuaLaTeX, pdfLaT
+Package: babel 2026/04/15 v26.6 The multilingual framework for LuaLaTeX, pdfLaT
 eX and XeLaTeX
 \babel@savecnt=\count294
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
@@ -297,8 +297,8 @@ LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?)
 on input line 2086.
 LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
 on input line 2111.
-\U@D=\dimen152
-\l@unhyphenated=\language1
+\U@D=\dimen154
+\l@unhyphenated=\language79
 
 (/usr/local/share/miktex-texmf/tex/generic/babel/xebabel.def)
 \bbl@readstream=\read2
@@ -320,9 +320,15 @@ Package babel Info: Importing font and identification data for english
 
 (/usr/local/share/miktex-texmf/tex/latex/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 108.
 ))
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/geometry/geometry.sty
-Package: geometry 2020/01/02 v5.9 Page Geometry
+(/home/perronep/.miktex/texmfs/install/tex/latex/geometry/geometry.sty
+Package: geometry 2026/03/07 v6.0 Page Geometry
 
 (/usr/local/share/miktex-texmf/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
@@ -330,54 +336,56 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@cnth=\count296
 \Gm@cntv=\count297
 \c@Gm@tempcnt=\count298
-\Gm@bindingoffset=\dimen153
-\Gm@wd@mp=\dimen154
-\Gm@odd@mp=\dimen155
-\Gm@even@mp=\dimen156
-\Gm@layoutwidth=\dimen157
-\Gm@layoutheight=\dimen158
-\Gm@layouthoffset=\dimen159
-\Gm@layoutvoffset=\dimen160
+\Gm@bindingoffset=\dimen155
+\Gm@wd@mp=\dimen156
+\Gm@odd@mp=\dimen157
+\Gm@even@mp=\dimen158
+\Gm@layoutwidth=\dimen159
+\Gm@layoutheight=\dimen160
+\Gm@layouthoffset=\dimen161
+\Gm@layoutvoffset=\dimen162
 \Gm@dimlist=\toks21
 
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/geometry/geometry.cfg))
+(/home/perronep/.miktex/texmfs/install/tex/latex/geometry/geometry.cfg))
 (/usr/local/share/miktex-texmf/tex/latex/tools/indentfirst.sty
 Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
 )
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/svg/svg.sty
+(/home/perronep/.miktex/texmfs/install/tex/latex/svg/svg.sty
 Package: svg 2020/11/26 v2.02k (include SVG pictures)
 
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/koma-script/scrbase.sty
+(/home/perronep/.miktex/texmfs/install/tex/latex/koma-script/scrbase.sty
 Package: scrbase 2026/02/02 v3.49.2 KOMA-Script package (KOMA-Script-independen
 t basics and keyval usage)
 
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/koma-script/scrlfile.sty
+(/home/perronep/.miktex/texmfs/install/tex/latex/koma-script/scrlfile.sty
 Package: scrlfile 2026/02/02 v3.49.2 KOMA-Script package (file load hooks)
 
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/koma-script/scrlfile-hook
-.sty
+(/home/perronep/.miktex/texmfs/install/tex/latex/koma-script/scrlfile-hook.sty
 Package: scrlfile-hook 2026/02/02 v3.49.2 KOMA-Script package (using LaTeX hook
 s)
 
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/koma-script/scrlogo.sty
+(/home/perronep/.miktex/texmfs/install/tex/latex/koma-script/scrlogo.sty
 Package: scrlogo 2026/02/02 v3.49.2 KOMA-Script package (logo)
 )))
 Applying: [2021/05/01] Usage of raw or classic option list on input line 254.
 Already applied: [0000/00/00] Usage of raw or classic option list on input line
  370.
-) (/usr/local/share/miktex-texmf/tex/generic/pdftexcmds/pdftexcmds.sty
+)
+(/usr/local/share/miktex-texmf/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/home/pietroperrone/.miktex/texmfs/install/tex/generic/infwarerr/infwarerr.sty
+(/home/perronep/.miktex/texmfs/install/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-) (/home/pietroperrone/.miktex/texmfs/install/tex/generic/ltxcmds/ltxcmds.sty
+)
+(/home/perronep/.miktex/texmfs/install/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode not found.
-) (/usr/local/share/miktex-texmf/tex/latex/trimspaces/trimspaces.sty
+)
+(/usr/local/share/miktex-texmf/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 )
 (/usr/local/share/miktex-texmf/tex/latex/graphics/graphicx.sty
@@ -397,8 +405,8 @@ Package graphics Info: Driver file: xetex.def on input line 106.
 (/usr/local/share/miktex-texmf/tex/latex/graphics-def/xetex.def
 File: xetex.def 2025/11/01 v5.0p Graphics/color driver for xetex
 ))
-\Gin@req@height=\dimen161
-\Gin@req@width=\dimen162
+\Gin@req@height=\dimen163
+\Gin@req@width=\dimen164
 )
 (/usr/local/share/miktex-texmf/tex/latex/tools/shellesc.sty
 Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
@@ -426,12 +434,11 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 )
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/transparent/transparent.s
-ty
+(/home/perronep/.miktex/texmfs/install/tex/latex/transparent/transparent.sty
 Package: transparent 2025-06-23 v1.6 Transparency with color stacks
 
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/transparent/transparent-n
-ometadata.sty
+(/home/perronep/.miktex/texmfs/install/tex/latex/transparent/transparent-nometa
+data.sty
 Package: transparent-nometadata 2025-06-23 v1.6 Transparency via pdfTeX's color
  stack (HO)
 
@@ -443,8 +450,8 @@ PDF mode.
 (/usr/local/share/miktex-texmf/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/local/share/miktex-texmf/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks22
-\pgfutil@tempdima=\dimen163
-\pgfutil@tempdimb=\dimen164
+\pgfutil@tempdima=\dimen165
+\pgfutil@tempdimb=\dimen166
 )
 (/usr/local/share/miktex-texmf/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box54
@@ -464,16 +471,16 @@ Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
 .code.tex
 \pgfkeys@tmptoks=\toks25
 ))
-\pgf@x=\dimen165
-\pgf@y=\dimen166
-\pgf@xa=\dimen167
-\pgf@ya=\dimen168
-\pgf@xb=\dimen169
-\pgf@yb=\dimen170
-\pgf@xc=\dimen171
-\pgf@yc=\dimen172
-\pgf@xd=\dimen173
-\pgf@yd=\dimen174
+\pgf@x=\dimen167
+\pgf@y=\dimen168
+\pgf@xa=\dimen169
+\pgf@ya=\dimen170
+\pgf@xb=\dimen171
+\pgf@yb=\dimen172
+\pgf@xc=\dimen173
+\pgf@yc=\dimen174
+\pgf@xd=\dimen175
+\pgf@yd=\dimen176
 \w@pgf@writea=\write3
 \r@pgf@reada=\read3
 \c@pgf@counta=\count301
@@ -510,8 +517,8 @@ File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 tex
 File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ))
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/sansmathfonts/sansmathfon
-ts.sty
+(/home/perronep/.miktex/texmfs/install/tex/latex/sansmathfonts/sansmathfonts.st
+y
 Package: sansmathfonts 2026/02/10
 
 
@@ -594,7 +601,7 @@ Package fontspec Info:
 (fontspec)             Modern
 (fontspec)             Sans/BI/OT:script=latn;language=dflt;mapping=tex-text;"
 
- (/home/pietroperrone/.miktex/texmfs/install/tex/latex/physics/physics.sty
+ (/home/perronep/.miktex/texmfs/install/tex/latex/physics/physics.sty
 Package: physics 
 
 (/usr/local/share/miktex-texmf/tex/latex/amsmath/amsmath.sty
@@ -608,11 +615,11 @@ Package: amstext 2024/11/17 v2.01 AMS text
 (/usr/local/share/miktex-texmf/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks29
-\ex@=\dimen175
+\ex@=\dimen177
 ))
 (/usr/local/share/miktex-texmf/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen176
+\pmbraise@=\dimen178
 )
 (/usr/local/share/miktex-texmf/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
@@ -634,7 +641,7 @@ LaTeX Info: Redefining \big on input line 721.
 LaTeX Info: Redefining \Big on input line 722.
 LaTeX Info: Redefining \bigg on input line 723.
 LaTeX Info: Redefining \Bigg on input line 724.
-\big@size=\dimen177
+\big@size=\dimen179
 LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
 \macc@depth=\count314
@@ -652,12 +659,12 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \column@=\count319
 \maxfields@=\count320
 \andhelp@=\toks31
-\eqnshift@=\dimen178
-\alignsep@=\dimen179
-\tagshift@=\dimen180
-\tagwidth@=\dimen181
-\totwidth@=\dimen182
-\lineht@=\dimen183
+\eqnshift@=\dimen180
+\alignsep@=\dimen181
+\tagshift@=\dimen182
+\tagwidth@=\dimen183
+\totwidth@=\dimen184
+\lineht@=\dimen185
 \@envbody=\toks32
 \multlinegap=\skip52
 \multlinetaggap=\skip53
@@ -665,14 +672,12 @@ LaTeX Info: Redefining \Relbar on input line 970.
 LaTeX Info: Redefining \[ on input line 2950.
 LaTeX Info: Redefining \] on input line 2951.
 ))
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/algorithmicx/algpseudocod
-e.sty
+(/home/perronep/.miktex/texmfs/install/tex/latex/algorithmicx/algpseudocode.sty
 Package: algpseudocode 
- (/usr/local/share/miktex-texmf/tex/latex/base/ifthen.sty
+(/usr/local/share/miktex-texmf/tex/latex/base/ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 )
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/algorithmicx/algorithmicx
-.sty
+(/home/perronep/.miktex/texmfs/install/tex/latex/algorithmicx/algorithmicx.sty
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
@@ -699,7 +704,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (/usr/local/share/miktex-texmf/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/derivative/derivative.sty
+(/home/perronep/.miktex/texmfs/install/tex/latex/derivative/derivative.sty
 (/usr/local/share/miktex-texmf/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2025-10-09 LaTeX2e option processing using LaTeX3 keys
 )
@@ -713,18 +718,18 @@ Package: derivative 2024/02/08 v1.4 Nice and easy derivatives and differentials
 \l__deriv_seq_pos_int=\count333
 \l__deriv_sort_max_int=\count334
 )
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/enumitem/enumitem.sty
+(/home/perronep/.miktex/texmfs/install/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
 \enitkv@toks@=\toks34
 \labelindent=\skip57
-\enit@outerparindent=\dimen184
+\enit@outerparindent=\dimen186
 \enit@toks=\toks35
 \enit@inbox=\box57
 \enit@count@id=\count335
 \enitdp@description=\count336
 )
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/siunitx/siunitx.sty
-Package: siunitx 2025-07-09 v3.4.14 A comprehensive (SI) units package
+(/home/perronep/.miktex/texmfs/install/tex/latex/siunitx/siunitx.sty
+Package: siunitx 2026-05-15 v3.5.5 A comprehensive (SI) units package
 \l__siunitx_number_uncert_offset_int=\count337
 \l__siunitx_number_exponent_fixed_int=\count338
 \l__siunitx_number_min_decimal_int=\count339
@@ -734,39 +739,40 @@ Package: siunitx 2025-07-09 v3.4.14 A comprehensive (SI) units package
 \l__siunitx_number_upper_threshold_int=\count343
 \l__siunitx_number_group_first_int=\count344
 \l__siunitx_number_group_size_int=\count345
-\l__siunitx_number_group_minimum_int=\count346
-\l__siunitx_angle_tmp_dim=\dimen185
-\l__siunitx_angle_marker_box=\box58
-\l__siunitx_angle_unit_box=\box59
-\l__siunitx_compound_count_int=\count347
+\l__siunitx_number_group_min_int=\count346
+\l__siunitx_number_group_minimum_int=\count347
+\l__siunitx_compound_count_int=\count348
 
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/translations/translations
-.sty
+(/home/perronep/.miktex/texmfs/install/tex/latex/translations/translations.sty
 Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
  (CN)
- (/usr/local/share/miktex-texmf/tex/latex/etoolbox/etoolbox.sty
+
+(/usr/local/share/miktex-texmf/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count348
+\etb@tempcnta=\count349
 ))
-\l__siunitx_table_tmp_box=\box60
-\l__siunitx_table_tmp_dim=\dimen186
-\l__siunitx_table_column_width_dim=\dimen187
-\l__siunitx_table_integer_box=\box61
-\l__siunitx_table_decimal_box=\box62
-\l__siunitx_table_uncert_box=\box63
-\l__siunitx_table_before_box=\box64
-\l__siunitx_table_after_box=\box65
-\l__siunitx_table_before_dim=\dimen188
-\l__siunitx_table_carry_dim=\dimen189
-\l__siunitx_unit_tmp_int=\count349
-\l__siunitx_unit_position_int=\count350
-\l__siunitx_unit_total_int=\count351
+\l__siunitx_table_tmp_box=\box58
+\l__siunitx_table_tmp_dim=\dimen187
+\l__siunitx_table_column_width_dim=\dimen188
+\l__siunitx_table_integer_box=\box59
+\l__siunitx_table_decimal_box=\box60
+\l__siunitx_table_uncert_box=\box61
+\l__siunitx_table_before_box=\box62
+\l__siunitx_table_after_box=\box63
+\l__siunitx_table_before_dim=\dimen189
+\l__siunitx_table_carry_dim=\dimen190
+\l__siunitx_unit_tmp_int=\count350
+\l__siunitx_unit_position_int=\count351
+\l__siunitx_unit_total_int=\count352
+\l__siunitx_sexagesimal_tmp_dim=\dimen191
+\l__siunitx_sexagesimal_marker_box=\box64
+\l__siunitx_sexagesimal_unit_box=\box65
 
 (/usr/local/share/miktex-texmf/tex/latex/tools/array.sty
 Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
-\col@sep=\dimen190
+\col@sep=\dimen192
 \ar@mcellbox=\box66
-\extrarowheight=\dimen191
+\extrarowheight=\dimen193
 \NC@list=\toks36
 \extratabsurround=\skip58
 \backup@length=\skip59
@@ -795,42 +801,42 @@ Package siunitx Info: Option "multi-part-units = single" has been deprecated
 (siunitx)             replacement.
 
 
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/subfig/subfig.sty
+(/home/perronep/.miktex/texmfs/install/tex/latex/subfig/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/caption/caption.sty
+(/home/perronep/.miktex/texmfs/install/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
 
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/caption/caption3.sty
+(/home/perronep/.miktex/texmfs/install/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen192
-\captionmargin=\dimen193
-\caption@leftmargin=\dimen194
-\caption@rightmargin=\dimen195
-\caption@width=\dimen196
-\caption@indent=\dimen197
-\caption@parindent=\dimen198
-\caption@hangindent=\dimen199
+\caption@tempdima=\dimen194
+\captionmargin=\dimen195
+\caption@leftmargin=\dimen196
+\caption@rightmargin=\dimen197
+\caption@width=\dimen198
+\caption@indent=\dimen199
+\caption@parindent=\dimen256
+\caption@hangindent=\dimen257
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count352
-\c@continuedfloat=\count353
+\c@caption@flags=\count353
+\c@continuedfloat=\count354
 )
-\c@KVtest=\count354
+\c@KVtest=\count355
 \sf@farskip=\skip60
-\sf@captopadj=\dimen256
+\sf@captopadj=\dimen258
 \sf@capskip=\skip61
 \sf@nearskip=\skip62
-\c@subfigure=\count355
-\c@subfigure@save=\count356
-\c@lofdepth=\count357
-\c@subtable=\count358
-\c@subtable@save=\count359
-\c@lotdepth=\count360
+\c@subfigure=\count356
+\c@subfigure@save=\count357
+\c@lofdepth=\count358
+\c@subtable=\count359
+\c@subtable@save=\count360
+\c@lotdepth=\count361
 \sf@top=\skip63
 \sf@bottom=\skip64
 )
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/caption/subcaption.sty
+(/home/perronep/.miktex/texmfs/install/tex/latex/caption/subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 LaTeX Info: Redefining \subref on input line 189.
 Package subcaption Info: The counter `subfigure' was already defined by
@@ -840,9 +846,9 @@ Package subcaption Info: The counter `subtable' was already defined by
 (subcaption)             \newsubfloat (offered by the subfig package) on input 
 line 238.
 )
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/float/float.sty
+(/home/perronep/.miktex/texmfs/install/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count361
+\c@float@type=\count362
 \float@exts=\toks37
 \float@box=\box68
 \@float@everytoks=\toks38
@@ -865,8 +871,8 @@ Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
 (/usr/local/share/miktex-texmf/tex/generic/pgf/math/pgfmath.code.tex
 (/usr/local/share/miktex-texmf/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/local/share/miktex-texmf/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen257
-\pgfmath@count=\count362
+\pgfmath@dimen=\dimen259
+\pgfmath@count=\count363
 \pgfmath@box=\box70
 \pgfmath@toks=\toks39
 \pgfmath@stack@operand=\toks40
@@ -891,38 +897,38 @@ tex)
 thmetics.code.tex)
 (/usr/local/share/miktex-texmf/tex/generic/pgf/math/pgfmathcalc.code.tex)
 (/usr/local/share/miktex-texmf/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count363
+\c@pgfmathroundto@lastzeros=\count364
 ))
 (/usr/local/share/miktex-texmf/tex/generic/pgf/math/pgfint.code.tex)
 (/usr/local/share/miktex-texmf/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
 x
 File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@picminx=\dimen258
-\pgf@picmaxx=\dimen259
-\pgf@picminy=\dimen260
-\pgf@picmaxy=\dimen261
-\pgf@pathminx=\dimen262
-\pgf@pathmaxx=\dimen263
-\pgf@pathminy=\dimen264
-\pgf@pathmaxy=\dimen265
-\pgf@xx=\dimen266
-\pgf@xy=\dimen267
-\pgf@yx=\dimen268
-\pgf@yy=\dimen269
-\pgf@zx=\dimen270
-\pgf@zy=\dimen271
+\pgf@picminx=\dimen260
+\pgf@picmaxx=\dimen261
+\pgf@picminy=\dimen262
+\pgf@picmaxy=\dimen263
+\pgf@pathminx=\dimen264
+\pgf@pathmaxx=\dimen265
+\pgf@pathminy=\dimen266
+\pgf@pathmaxy=\dimen267
+\pgf@xx=\dimen268
+\pgf@xy=\dimen269
+\pgf@yx=\dimen270
+\pgf@yy=\dimen271
+\pgf@zx=\dimen272
+\pgf@zy=\dimen273
 )
 (/usr/local/share/miktex-texmf/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
 code.tex
 File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@path@lastx=\dimen272
-\pgf@path@lasty=\dimen273
+\pgf@path@lastx=\dimen274
+\pgf@path@lasty=\dimen275
 )
 (/usr/local/share/miktex-texmf/tex/generic/pgf/basiclayer/pgfcorepathusage.code
 .tex
 File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@shorten@end@additional=\dimen274
-\pgf@shorten@start@additional=\dimen275
+\pgf@shorten@end@additional=\dimen276
+\pgf@shorten@start@additional=\dimen277
 )
 (/usr/local/share/miktex-texmf/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
 x
@@ -930,19 +936,19 @@ File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfpic=\box71
 \pgf@hbox=\box72
 \pgf@layerbox@main=\box73
-\pgf@picture@serial@count=\count364
+\pgf@picture@serial@count=\count365
 )
 (/usr/local/share/miktex-texmf/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
 ode.tex
 File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgflinewidth=\dimen276
+\pgflinewidth=\dimen278
 )
 (/usr/local/share/miktex-texmf/tex/generic/pgf/basiclayer/pgfcoretransformation
 s.code.tex
 File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@pt@x=\dimen277
-\pgf@pt@y=\dimen278
-\pgf@pt@temp=\dimen279
+\pgf@pt@x=\dimen279
+\pgf@pt@y=\dimen280
+\pgf@pt@temp=\dimen281
 )
 (/usr/local/share/miktex-texmf/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
@@ -958,13 +964,13 @@ File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 (/usr/local/share/miktex-texmf/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
 x
 File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfarrowsep=\dimen280
+\pgfarrowsep=\dimen282
 )
 (/usr/local/share/miktex-texmf/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@max=\dimen281
-\pgf@sys@shading@range@num=\count365
-\pgf@shadingcount=\count366
+\pgf@max=\dimen283
+\pgf@sys@shading@range@num=\count366
+\pgf@shadingcount=\count367
 )
 (/usr/local/share/miktex-texmf/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
@@ -998,8 +1004,8 @@ File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 (/usr/local/share/miktex-texmf/tex/latex/pgf/compatibility/pgfcomp-version-0-65
 .sty
 Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@nodesepstart=\dimen282
-\pgf@nodesepend=\dimen283
+\pgf@nodesepstart=\dimen284
+\pgf@nodesepend=\dimen285
 )
 (/usr/local/share/miktex-texmf/tex/latex/pgf/compatibility/pgfcomp-version-1-18
 .sty
@@ -1011,8 +1017,8 @@ Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
 (/usr/local/share/miktex-texmf/tex/generic/pgf/math/pgfmath.code.tex))
 (/usr/local/share/miktex-texmf/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
-\pgffor@iter=\dimen284
-\pgffor@skip=\dimen285
+\pgffor@iter=\dimen286
+\pgffor@skip=\dimen287
 \pgffor@stack=\toks42
 \pgffor@toks=\toks43
 ))
@@ -1022,33 +1028,33 @@ Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
 (/usr/local/share/miktex-texmf/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@plot@mark@count=\count367
-\pgfplotmarksize=\dimen286
+\pgf@plot@mark@count=\count368
+\pgfplotmarksize=\dimen288
 )
-\tikz@lastx=\dimen287
-\tikz@lasty=\dimen288
-\tikz@lastxsaved=\dimen289
-\tikz@lastysaved=\dimen290
-\tikz@lastmovetox=\dimen291
-\tikz@lastmovetoy=\dimen292
-\tikzleveldistance=\dimen293
-\tikzsiblingdistance=\dimen294
+\tikz@lastx=\dimen289
+\tikz@lasty=\dimen290
+\tikz@lastxsaved=\dimen291
+\tikz@lastysaved=\dimen292
+\tikz@lastmovetox=\dimen293
+\tikz@lastmovetoy=\dimen294
+\tikzleveldistance=\dimen295
+\tikzsiblingdistance=\dimen296
 \tikz@figbox=\box76
 \tikz@figbox@bg=\box77
 \tikz@tempbox=\box78
 \tikz@tempbox@bg=\box79
-\tikztreelevel=\count368
-\tikznumberofchildren=\count369
-\tikznumberofcurrentchild=\count370
-\tikz@fig@count=\count371
+\tikztreelevel=\count369
+\tikznumberofchildren=\count370
+\tikznumberofcurrentchild=\count371
+\tikz@fig@count=\count372
 
 (/usr/local/share/miktex-texmf/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfmatrixcurrentrow=\count372
-\pgfmatrixcurrentcolumn=\count373
-\pgf@matrix@numberofcolumns=\count374
+\pgfmatrixcurrentrow=\count373
+\pgfmatrixcurrentcolumn=\count374
+\pgf@matrix@numberofcolumns=\count375
 )
-\tikz@expandcount=\count375
+\tikz@expandcount=\count376
 
 (/usr/local/share/miktex-texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
@@ -1067,11 +1073,11 @@ Package: environ 2014/05/04 v0.3 A new way to define environments
 \tcb@upperbox=\box81
 \tcb@lowerbox=\box82
 \tcb@phantombox=\box83
-\c@tcbbreakpart=\count376
-\c@tcblayer=\count377
-\c@tcolorbox@number=\count378
+\c@tcbbreakpart=\count377
+\c@tcblayer=\count378
+\c@tcolorbox@number=\count379
 \l__tcobox_tmpa_box=\box84
-\l__tcobox_tmpa_dim=\dimen295
+\l__tcobox_tmpa_dim=\dimen297
 \tcb@temp=\box85
 \tcb@temp=\box86
 \tcb@temp=\box87
@@ -1079,31 +1085,27 @@ Package: environ 2014/05/04 v0.3 A new way to define environments
 
 (/usr/local/share/miktex-texmf/tex/latex/tcolorbox/tcbraster.code.tex
 Library (tcolorbox): 'tcbraster.code.tex' version '6.9.0'
-\c@tcbrastercolumn=\count379
-\c@tcbrasterrow=\count380
-\c@tcbrasternum=\count381
-\c@tcbraster=\count382
+\c@tcbrastercolumn=\count380
+\c@tcbrasterrow=\count381
+\c@tcbrasternum=\count382
+\c@tcbraster=\count383
 ) (/usr/local/share/miktex-texmf/tex/latex/tcolorbox/tcbskins.code.tex
 Library (tcolorbox): 'tcbskins.code.tex' version '6.9.0'
+(/home/perronep/.miktex/texmfs/install/tex/latex/tikzfill/tikzfill.image.sty
+Package: tikzfill.image 2026/04/23 v1.2.0 Image filling library for TikZ
 
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/tikzfill/tikzfill.image.s
-ty
-Package: tikzfill.image 2023/08/08 v1.0.1 Image filling library for TikZ
-
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/tikzfill/tikzfill-common.
-sty
-Package: tikzfill-common 2023/08/08 v1.0.1 Auxiliary code for tikzfill
-)
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/tikzfill/tikzlibraryfill.
-image.code.tex
-File: tikzlibraryfill.image.code.tex 2023/08/08 v1.0.1 Image filling library
+(/home/perronep/.miktex/texmfs/install/tex/latex/tikzfill/tikzlibraryfill.image
+.code.tex
+File: tikzlibraryfill.image.code.tex 2026/04/23 v1.2.0 Image filling library
+\l__tikzfill_tmpa_dim=\dimen298
+\l__tikzfill_tmpb_dim=\dimen299
 \l__tikzfill_img_box=\box89
 ))
 (/usr/local/share/miktex-texmf/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
 Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.9.0'
 )) (/usr/local/share/miktex-texmf/tex/latex/tcolorbox/tcbbreakable.code.tex
 Library (tcolorbox): 'tcbbreakable.code.tex' version '6.9.0'
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/pdfcol/pdfcol.sty
+(/home/perronep/.miktex/texmfs/install/tex/latex/pdfcol/pdfcol.sty
 Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
 Package pdfcol Info: Interface disabled because of missing PDF mode of pdfTeX.
 )
@@ -1118,35 +1120,35 @@ Library (tcolorbox): 'tcbhooks.code.tex' version '6.9.0'
 Library (tcolorbox): 'tcbtheorems.code.tex' version '6.9.0'
 ) (/usr/local/share/miktex-texmf/tex/latex/tcolorbox/tcbfitting.code.tex
 Library (tcolorbox): 'tcbfitting.code.tex' version '6.9.0'
-\tcbfitdim=\dimen296
-\tcb@lowerfitdim=\dimen297
-\tcb@upperfitdim=\dimen298
-\tcb@cur@hbadness=\count383
+\tcbfitdim=\dimen300
+\tcb@lowerfitdim=\dimen301
+\tcb@upperfitdim=\dimen302
+\tcb@cur@hbadness=\count384
 ) (/usr/local/share/miktex-texmf/tex/latex/tcolorbox/tcblistingsutf8.code.tex
 Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.9.0'
 (/usr/local/share/miktex-texmf/tex/latex/tcolorbox/tcblistings.code.tex
 Library (tcolorbox): 'tcblistings.code.tex' version '6.9.0'
 (/usr/local/share/miktex-texmf/tex/latex/listings/listings.sty
-\lst@mode=\count384
+\lst@mode=\count385
 \lst@gtempboxa=\box93
 \lst@token=\toks46
-\lst@length=\count385
-\lst@currlwidth=\dimen299
-\lst@column=\count386
-\lst@pos=\count387
-\lst@lostspace=\dimen300
-\lst@width=\dimen301
-\lst@newlines=\count388
-\lst@lineno=\count389
-\lst@maxwidth=\dimen302
+\lst@length=\count386
+\lst@currlwidth=\dimen303
+\lst@column=\count387
+\lst@pos=\count388
+\lst@lostspace=\dimen304
+\lst@width=\dimen305
+\lst@newlines=\count389
+\lst@lineno=\count390
+\lst@maxwidth=\dimen306
 
 (/usr/local/share/miktex-texmf/tex/latex/listings/lstpatch.sty
 File: lstpatch.sty 2025/11/14 1.11b (Carsten Heinz)
 )
 (/usr/local/share/miktex-texmf/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
-\c@lstnumber=\count390
-\lst@skipnumbers=\count391
+\c@lstnumber=\count391
+\lst@skipnumbers=\count392
 \lst@framebox=\box94
 )
 (/usr/local/share/miktex-texmf/tex/latex/listings/listings.cfg
@@ -1165,7 +1167,7 @@ Library (tcolorbox): 'tcblistingscore.code.tex' version '6.9.0'
 (/usr/local/share/miktex-texmf/tex/latex/tcolorbox/tcbprocessing.code.tex
 Library (tcolorbox): 'tcbprocessing.code.tex' version '6.9.0'
 )
-\c@tcblisting=\count392
+\c@tcblisting=\count393
 ))
 Package tcolorbox Info: Library `listingsutf8' is compatible with pdftex only. 
 Library `listings` is loaded instead. on input line 29.
@@ -1186,107 +1188,105 @@ File: pgflibraryfadings.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ))) (/usr/local/share/miktex-texmf/tex/latex/tcolorbox/tcbposter.code.tex
 Library (tcolorbox): 'tcbposter.code.tex' version '6.9.0'
 )) (/usr/local/share/miktex-texmf/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2026-01-29 v7.01p Hypertext links for LaTeX
+Package: hyperref 2026-04-24 v7.01q Hypertext links for LaTeX
 
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/kvsetkeys/kvsetkeys.sty
+(/home/perronep/.miktex/texmfs/install/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )
-(/home/pietroperrone/.miktex/texmfs/install/tex/generic/kvdefinekeys/kvdefineke
-ys.sty
+(/home/perronep/.miktex/texmfs/install/tex/generic/kvdefinekeys/kvdefinekeys.st
+y
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-)
-(/home/pietroperrone/.miktex/texmfs/install/tex/generic/pdfescape/pdfescape.sty
+) (/home/perronep/.miktex/texmfs/install/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-) (/home/pietroperrone/.miktex/texmfs/install/tex/latex/hycolor/hycolor.sty
+)
+(/home/perronep/.miktex/texmfs/install/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
 (/usr/local/share/miktex-texmf/tex/latex/hyperref/nameref.sty
 Package: nameref 2026-01-29 v2.58 Cross-referencing by name of section
 
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/refcount/refcount.sty
+(/home/perronep/.miktex/texmfs/install/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-(/home/pietroperrone/.miktex/texmfs/install/tex/generic/gettitlestring/gettitle
-string.sty
+(/home/perronep/.miktex/texmfs/install/tex/generic/gettitlestring/gettitlestrin
+g.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
-
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/kvoptions/kvoptions.sty
+ (/home/perronep/.miktex/texmfs/install/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count393
-)
-(/home/pietroperrone/.miktex/texmfs/install/tex/generic/stringenc/stringenc.sty
+\c@section@level=\count394
+) (/home/perronep/.miktex/texmfs/install/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\@linkdim=\dimen303
-\Hy@linkcounter=\count394
-\Hy@pagecounter=\count395
- (/usr/local/share/miktex-texmf/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2026-01-29 v7.01p Hyperref: PDFDocEncoding definition (HO)
+\@linkdim=\dimen307
+\Hy@linkcounter=\count395
+\Hy@pagecounter=\count396
+
+(/usr/local/share/miktex-texmf/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2026-04-24 v7.01q Hyperref: PDFDocEncoding definition (HO)
 )
-(/home/pietroperrone/.miktex/texmfs/install/tex/generic/intcalc/intcalc.sty
+(/home/perronep/.miktex/texmfs/install/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count396
+\Hy@SavedSpaceFactor=\count397
 
 (/usr/local/share/miktex-texmf/tex/latex/hyperref/puenc.def
-File: puenc.def 2026-01-29 v7.01p Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2026-04-24 v7.01q Hyperref: PDF Unicode definition (HO)
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 4072.
-Package hyperref Info: Hyper figures OFF on input line 4201.
-Package hyperref Info: Link nesting OFF on input line 4206.
-Package hyperref Info: Hyper index ON on input line 4209.
-Package hyperref Info: Plain pages OFF on input line 4216.
-Package hyperref Info: Backreferencing OFF on input line 4221.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4070.
+Package hyperref Info: Hyper figures OFF on input line 4199.
+Package hyperref Info: Link nesting OFF on input line 4204.
+Package hyperref Info: Hyper index ON on input line 4207.
+Package hyperref Info: Plain pages OFF on input line 4214.
+Package hyperref Info: Backreferencing OFF on input line 4219.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4468.
-\c@Hy@tempcnt=\count397
+Package hyperref Info: Bookmarks ON on input line 4466.
+\c@Hy@tempcnt=\count398
 
 (/usr/local/share/miktex-texmf/tex/latex/url/url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4807.
-\XeTeXLinkMargin=\dimen304
+LaTeX Info: Redefining \url on input line 4805.
+\XeTeXLinkMargin=\dimen308
 
-(/home/pietroperrone/.miktex/texmfs/install/tex/generic/bitset/bitset.sty
+(/home/perronep/.miktex/texmfs/install/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(/home/pietroperrone/.miktex/texmfs/install/tex/generic/bigintcalc/bigintcalc.s
-ty
+(/home/perronep/.miktex/texmfs/install/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count398
-\Field@Width=\dimen305
-\Fld@charsize=\dimen306
-Package hyperref Info: Hyper figures OFF on input line 6084.
-Package hyperref Info: Link nesting OFF on input line 6089.
-Package hyperref Info: Hyper index ON on input line 6092.
-Package hyperref Info: backreferencing OFF on input line 6099.
-Package hyperref Info: Link coloring ON on input line 6102.
-Package hyperref Info: Link coloring with OCG OFF on input line 6109.
-Package hyperref Info: PDF/A mode OFF on input line 6114.
-\Hy@abspage=\count399
-\c@Item=\count400
-\c@Hfootnote=\count401
+\Fld@menulength=\count399
+\Field@Width=\dimen309
+\Fld@charsize=\dimen310
+Package hyperref Info: Hyper figures OFF on input line 6091.
+Package hyperref Info: Link nesting OFF on input line 6096.
+Package hyperref Info: Hyper index ON on input line 6099.
+Package hyperref Info: backreferencing OFF on input line 6106.
+Package hyperref Info: Link coloring ON on input line 6109.
+Package hyperref Info: Link coloring with OCG OFF on input line 6116.
+Package hyperref Info: PDF/A mode OFF on input line 6121.
+\Hy@abspage=\count400
+\c@Item=\count401
+\c@Hfootnote=\count402
 )
 Package hyperref Info: Driver (autodetected): hxetex.
- (/usr/local/share/miktex-texmf/tex/latex/hyperref/hxetex.def
-File: hxetex.def 2026-01-29 v7.01p Hyperref driver for XeTeX
+(/usr/local/share/miktex-texmf/tex/latex/hyperref/hxetex.def
+File: hxetex.def 2026-04-24 v7.01q Hyperref driver for XeTeX
 \pdfm@box=\box95
-\c@Hy@AnnotLevel=\count402
-\HyField@AnnotCount=\count403
-\Fld@listcount=\count404
-\c@bookmark@seq@number=\count405
+\c@Hy@AnnotLevel=\count403
+\HyField@AnnotCount=\count404
+\Fld@listcount=\count405
+\c@bookmark@seq@number=\count406
 
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/rerunfilecheck/rerunfilec
-heck.sty
+(/home/perronep/.miktex/texmfs/install/tex/latex/rerunfilecheck/rerunfilecheck.
+sty
 Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
 
-(/home/pietroperrone/.miktex/texmfs/install/tex/generic/uniquecounter/uniquecou
-nter.sty
+(/home/perronep/.miktex/texmfs/install/tex/generic/uniquecounter/uniquecounter.
+sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
@@ -1294,13 +1294,13 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip65
 )
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/pdfcomment/pdfcomment.sty
+(/home/perronep/.miktex/texmfs/install/tex/latex/pdfcomment/pdfcomment.sty
 Package: pdfcomment 2018/11/01 pdfcomment.sty v2.4a - Josef Kleber (C) 2008-201
 2, 2015-2016, 2018
-\c@pc@count@i=\count406
-\c@pc@count@ii=\count407
-\c@pc@count@iii=\count408
-\c@pc@count@iv=\count409
+\c@pc@count@i=\count407
+\c@pc@count@ii=\count408
+\c@pc@count@iii=\count409
+\c@pc@count@iv=\count410
 \pc@mathannot@box=\box96
 \pc@nullbox=\box97
 \pc@dima=\skip66
@@ -1313,37 +1313,37 @@ Package: pdfcomment 2018/11/01 pdfcomment.sty v2.4a - Josef Kleber (C) 2008-201
 \pc@box@width=\skip73
 \pc@box@height=\skip74
 \pc@box@depth=\skip75
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/datetime2/datetime2.sty
+
+(/home/perronep/.miktex/texmfs/install/tex/latex/datetime2/datetime2.sty
 Package: datetime2 2021/03/21 v1.5.7 (NLCT) date and time formats
 
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/tracklang/tracklang.sty
-Package: tracklang 2025/03/11 v1.6.6 (NLCT) Track Languages
+(/home/perronep/.miktex/texmfs/install/tex/latex/tracklang/tracklang.sty
+Package: tracklang 2026/05/18 v1.6.7 (NLCT) Track Languages
 
-(/home/pietroperrone/.miktex/texmfs/install/tex/generic/tracklang/tracklang.tex
-)
+(/home/perronep/.miktex/texmfs/install/tex/generic/tracklang/tracklang.tex)
 Package tracklang Info: Tracking dialect `english' (language `english') on inpu
 t line 264.
 Package tracklang Info: Tracking dialect `english' (language `english') on inpu
 t line 264.
 )
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/datetime2-english/datetim
-e2-english.ldf
+(/home/perronep/.miktex/texmfs/install/tex/latex/datetime2-english/datetime2-en
+glish.ldf
 File: datetime2-english.ldf 2019/10/21 v1.05 (NLCT)
 
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/datetime2-english/datetim
-e2-english-base.ldf
+(/home/perronep/.miktex/texmfs/install/tex/latex/datetime2-english/datetime2-en
+glish-base.ldf
 File: datetime2-english-base.ldf 2019/10/21 v1.05 (NLCT)
 )))
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/zref/zref-savepos.sty
-Package: zref-savepos 2025-06-08 v2.36 Module savepos for zref (HO)
+(/home/perronep/.miktex/texmfs/install/tex/latex/zref/zref-savepos.sty
+Package: zref-savepos 2026-03-07 v2.37 Module savepos for zref (HO)
 
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/zref/zref-base.sty
-Package: zref-base 2025-06-08 v2.36 Module base for zref (HO)
+(/home/perronep/.miktex/texmfs/install/tex/latex/zref/zref-base.sty
+Package: zref-base 2026-03-07 v2.37 Module base for zref (HO)
 
-(/home/pietroperrone/.miktex/texmfs/install/tex/generic/etexcmds/etexcmds.sty
+(/home/perronep/.miktex/texmfs/install/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/auxhook/auxhook.sty
+(/home/perronep/.miktex/texmfs/install/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
 Package zref Info: New property list: main on input line 767.
@@ -1354,34 +1354,35 @@ Package zref Info: New property list: savepos on input line 56.
 Package zref Info: New property: posx on input line 58.
 Package zref Info: New property: posy on input line 59.
 )
-\c@zref@unique=\count410
+\c@zref@unique=\count411
 
 (/usr/local/share/miktex-texmf/tex/latex/tools/calc.sty
 Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
-\calc@Acount=\count411
-\calc@Bcount=\count412
-\calc@Adimen=\dimen307
-\calc@Bdimen=\dimen308
+\calc@Acount=\count412
+\calc@Bcount=\count413
+\calc@Adimen=\dimen311
+\calc@Bdimen=\dimen312
 \calc@Askip=\skip76
 \calc@Bskip=\skip77
 LaTeX Info: Redefining \setlength on input line 86.
 LaTeX Info: Redefining \addtolength on input line 87.
-\calc@Ccount=\count413
+\calc@Ccount=\count414
 \calc@Cskip=\skip78
 )
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/marginnote/marginnote.sty
+(/home/perronep/.miktex/texmfs/install/tex/latex/marginnote/marginnote.sty
 Package: marginnote 2026/01/02 1.4d non floating margin notes for LaTeX 
-\c@mn@abspage=\count414
-) (/usr/local/share/miktex-texmf/tex/generic/iftex/ifpdf.sty
+\c@mn@abspage=\count415
+)
+(/usr/local/share/miktex-texmf/tex/generic/iftex/ifpdf.sty
 Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
 )
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/soulpos/soulpos.sty
+(/home/perronep/.miktex/texmfs/install/tex/latex/soulpos/soulpos.sty
 Package: soulpos 2021/10/15 v1.2 Fancy underlining
-\ulp@subcnt=\count415
-\ulp@cnt=\count416
+\ulp@subcnt=\count416
+\ulp@cnt=\count417
 \ulp@out=\write4
 \ulp@in=\read5
-\ulwidth=\dimen309
+\ulwidth=\dimen313
 )
 
 Package hyperref Warning: Option `xetex' has already been used,
@@ -1389,66 +1390,65 @@ Package hyperref Warning: Option `xetex' has already been used,
 
 Package zref Info: New property list: pdfcomment on input line 2735.
 Package zref Info: New property: PCPDFOBJID on input line 2736.
-) (/home/pietroperrone/.miktex/texmfs/install/tex/latex/booktabs/booktabs.sty
+) (/home/perronep/.miktex/texmfs/install/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen310
-\lightrulewidth=\dimen311
-\cmidrulewidth=\dimen312
-\belowrulesep=\dimen313
-\belowbottomsep=\dimen314
-\aboverulesep=\dimen315
-\abovetopsep=\dimen316
-\cmidrulesep=\dimen317
-\cmidrulekern=\dimen318
-\defaultaddspace=\dimen319
-\@cmidla=\count417
-\@cmidlb=\count418
-\@aboverulesep=\dimen320
-\@belowrulesep=\dimen321
-\@thisruleclass=\count419
-\@lastruleclass=\count420
-\@thisrulewidth=\dimen322
+\heavyrulewidth=\dimen314
+\lightrulewidth=\dimen315
+\cmidrulewidth=\dimen316
+\belowrulesep=\dimen317
+\belowbottomsep=\dimen318
+\aboverulesep=\dimen319
+\abovetopsep=\dimen320
+\cmidrulesep=\dimen321
+\cmidrulekern=\dimen322
+\defaultaddspace=\dimen323
+\@cmidla=\count418
+\@cmidlb=\count419
+\@aboverulesep=\dimen324
+\@belowrulesep=\dimen325
+\@thisruleclass=\count420
+\@lastruleclass=\count421
+\@thisrulewidth=\dimen326
 )
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/multirow/multirow.sty
+(/home/perronep/.miktex/texmfs/install/tex/latex/multirow/multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
 \multirow@colwidth=\skip79
-\multirow@cntb=\count421
+\multirow@cntb=\count422
 \multirow@dima=\skip80
-\bigstrutjot=\dimen323
+\bigstrutjot=\dimen327
 )
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/setspace/setspace.sty
+(/home/perronep/.miktex/texmfs/install/tex/latex/setspace/setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
 )
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/pdfpages/pdfpages.sty
-Package: pdfpages 2025/07/23 v0.6g Insert pages of external PDF documents (AM)
+(/home/perronep/.miktex/texmfs/install/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2026/03/30 v0.6h Insert pages of external PDF documents (AM)
 
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/eso-pic/eso-pic.sty
+(/home/perronep/.miktex/texmfs/install/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2025/12/10 v3.0d eso-pic (RN)
-\ESO@tempdima=\dimen324
-\ESO@tempdimb=\dimen325
+\ESO@tempdima=\dimen328
+\ESO@tempdimb=\dimen329
 )
-\AM@pagewidth=\dimen326
-\AM@pageheight=\dimen327
-\AM@fboxrule=\dimen328
+\AM@pagewidth=\dimen330
+\AM@pageheight=\dimen331
+\AM@fboxrule=\dimen332
 
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/pdfpages/ppxetex.def
-File: ppxetex.def 2025/07/23 v0.6g Pdfpages driver for XeTeX (AM)
+(/home/perronep/.miktex/texmfs/install/tex/latex/pdfpages/ppxetex.def
+File: ppxetex.def 2026/03/30 v0.6h Pdfpages driver for XeTeX (AM)
 )
-\pdfpages@includegraphics@status=\count422
+\pdfpages@includegraphics@status=\count423
 \AM@pagebox=\box98
 \AM@global@opts=\toks47
-\AM@pagecnt=\count423
+\AM@pagecnt=\count424
 \AM@toc@title=\toks48
 \AM@lof@heading=\toks49
-\c@AM@survey=\count424
+\c@AM@survey=\count425
 \AM@templatesizebox=\box99
 )
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/pythonhighlight/pythonhig
-hlight.sty
+(/home/perronep/.miktex/texmfs/install/tex/latex/pythonhighlight/pythonhighligh
+t.sty
 Package: pythonhighlight 2024/03/18 python code highlighting; provided by Olivi
 er Verdier <olivier.verdier@gmail.com>
-)
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/fancyhdr/fancyhdr.sty
+) (/home/perronep/.miktex/texmfs/install/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 
 \f@nch@headwidth=\skip81
@@ -1467,71 +1467,71 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@widthR=\skip94
 \@temptokenb=\toks50
 )
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/titlesec/titlesec.sty
+(/home/perronep/.miktex/texmfs/install/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \ttl@box=\box100
 \beforetitleunit=\skip95
 \aftertitleunit=\skip96
-\ttl@plus=\dimen329
-\ttl@minus=\dimen330
+\ttl@plus=\dimen333
+\ttl@minus=\dimen334
 \ttl@toksa=\toks51
-\titlewidth=\dimen331
-\titlewidthlast=\dimen332
-\titlewidthfirst=\dimen333
+\titlewidth=\dimen335
+\titlewidthlast=\dimen336
+\titlewidthfirst=\dimen337
 )
 (/usr/local/share/miktex-texmf/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
 
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/logreq/logreq.sty
+(/home/perronep/.miktex/texmfs/install/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count425
+\lrq@indent=\count426
 
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/logreq/logreq.def
+(/home/perronep/.miktex/texmfs/install/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count426
-\c@listtotal=\count427
-\c@listcount=\count428
-\c@liststart=\count429
-\c@liststop=\count430
-\c@citecount=\count431
-\c@citetotal=\count432
-\c@multicitecount=\count433
-\c@multicitetotal=\count434
-\c@instcount=\count435
-\c@maxnames=\count436
-\c@minnames=\count437
-\c@maxitems=\count438
-\c@minitems=\count439
-\c@citecounter=\count440
-\c@maxcitecounter=\count441
-\c@savedcitecounter=\count442
-\c@uniquelist=\count443
-\c@uniquename=\count444
-\c@refsection=\count445
-\c@refsegment=\count446
-\c@maxextratitle=\count447
-\c@maxextratitleyear=\count448
-\c@maxextraname=\count449
-\c@maxextradate=\count450
-\c@maxextraalpha=\count451
-\c@abbrvpenalty=\count452
-\c@highnamepenalty=\count453
-\c@lownamepenalty=\count454
-\c@maxparens=\count455
-\c@parenlevel=\count456
-\blx@tempcnta=\count457
-\blx@tempcntb=\count458
-\blx@tempcntc=\count459
-\c@blx@maxsection=\count460
-\blx@maxsegment@0=\count461
-\blx@notetype=\count462
-\blx@parenlevel@text=\count463
-\blx@parenlevel@foot=\count464
-\blx@sectionciteorder@0=\count465
-\blx@sectionciteorderinternal@0=\count466
-\blx@entrysetcounter=\count467
-\blx@biblioinstance=\count468
+\c@tabx@nest=\count427
+\c@listtotal=\count428
+\c@listcount=\count429
+\c@liststart=\count430
+\c@liststop=\count431
+\c@citecount=\count432
+\c@citetotal=\count433
+\c@multicitecount=\count434
+\c@multicitetotal=\count435
+\c@instcount=\count436
+\c@maxnames=\count437
+\c@minnames=\count438
+\c@maxitems=\count439
+\c@minitems=\count440
+\c@citecounter=\count441
+\c@maxcitecounter=\count442
+\c@savedcitecounter=\count443
+\c@uniquelist=\count444
+\c@uniquename=\count445
+\c@refsection=\count446
+\c@refsegment=\count447
+\c@maxextratitle=\count448
+\c@maxextratitleyear=\count449
+\c@maxextraname=\count450
+\c@maxextradate=\count451
+\c@maxextraalpha=\count452
+\c@abbrvpenalty=\count453
+\c@highnamepenalty=\count454
+\c@lownamepenalty=\count455
+\c@maxparens=\count456
+\c@parenlevel=\count457
+\blx@tempcnta=\count458
+\blx@tempcntb=\count459
+\blx@tempcntc=\count460
+\c@blx@maxsection=\count461
+\blx@maxsegment@0=\count462
+\blx@notetype=\count463
+\blx@parenlevel@text=\count464
+\blx@parenlevel@foot=\count465
+\blx@sectionciteorder@0=\count466
+\blx@sectionciteorderinternal@0=\count467
+\blx@entrysetcounter=\count468
+\blx@biblioinstance=\count469
 \labelnumberwidth=\skip97
 \labelalphawidth=\skip98
 \biblabelsep=\skip99
@@ -1542,10 +1542,10 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \bibhang=\skip104
 \blx@bcfin=\read6
 \blx@bcfout=\write5
-\blx@langwohyphens=\language2
-\c@mincomprange=\count469
-\c@maxcomprange=\count470
-\c@mincompwidth=\count471
+\blx@langwohyphens=\language80
+\c@mincomprange=\count470
+\c@maxcomprange=\count471
+\c@mincompwidth=\count472
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -1555,89 +1555,89 @@ File: blx-dm.def 2025/07/10 v3.21 biblatex datamodel (PK/MW)
 Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'apa.dbx' found.
 
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/biblatex-apa/apa.dbx
+(/home/perronep/.miktex/texmfs/install/tex/latex/biblatex-apa/apa.dbx
 File: apa.dbx 2025/08/27 v9.20 APA biblatex style data model
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count472
-\c@savedafterword=\count473
-\c@annotator=\count474
-\c@savedannotator=\count475
-\c@author=\count476
-\c@savedauthor=\count477
-\c@bookauthor=\count478
-\c@savedbookauthor=\count479
-\c@commentator=\count480
-\c@savedcommentator=\count481
-\c@editor=\count482
-\c@savededitor=\count483
-\c@editora=\count484
-\c@savededitora=\count485
-\c@editorb=\count486
-\c@savededitorb=\count487
-\c@editorc=\count488
-\c@savededitorc=\count489
-\c@foreword=\count490
-\c@savedforeword=\count491
-\c@holder=\count492
-\c@savedholder=\count493
-\c@introduction=\count494
-\c@savedintroduction=\count495
-\c@namea=\count496
-\c@savednamea=\count497
-\c@nameb=\count498
-\c@savednameb=\count499
-\c@namec=\count500
-\c@savednamec=\count501
-\c@translator=\count502
-\c@savedtranslator=\count503
-\c@shortauthor=\count504
-\c@savedshortauthor=\count505
-\c@shorteditor=\count506
-\c@savedshorteditor=\count507
-\c@narrator=\count508
-\c@savednarrator=\count509
-\c@execproducer=\count510
-\c@savedexecproducer=\count511
-\c@execdirector=\count512
-\c@savedexecdirector=\count513
-\c@with=\count514
-\c@savedwith=\count515
-\c@labelname=\count516
-\c@savedlabelname=\count517
-\c@institution=\count518
-\c@savedinstitution=\count519
-\c@lista=\count520
-\c@savedlista=\count521
-\c@listb=\count522
-\c@savedlistb=\count523
-\c@listc=\count524
-\c@savedlistc=\count525
-\c@listd=\count526
-\c@savedlistd=\count527
-\c@liste=\count528
-\c@savedliste=\count529
-\c@listf=\count530
-\c@savedlistf=\count531
-\c@location=\count532
-\c@savedlocation=\count533
-\c@organization=\count534
-\c@savedorganization=\count535
-\c@origlocation=\count536
-\c@savedoriglocation=\count537
-\c@origpublisher=\count538
-\c@savedorigpublisher=\count539
-\c@publisher=\count540
-\c@savedpublisher=\count541
-\c@language=\count542
-\c@savedlanguage=\count543
-\c@origlanguage=\count544
-\c@savedoriglanguage=\count545
-\c@citation=\count546
-\c@savedcitation=\count547
-\c@pageref=\count548
-\c@savedpageref=\count549
+\c@afterword=\count473
+\c@savedafterword=\count474
+\c@annotator=\count475
+\c@savedannotator=\count476
+\c@author=\count477
+\c@savedauthor=\count478
+\c@bookauthor=\count479
+\c@savedbookauthor=\count480
+\c@commentator=\count481
+\c@savedcommentator=\count482
+\c@editor=\count483
+\c@savededitor=\count484
+\c@editora=\count485
+\c@savededitora=\count486
+\c@editorb=\count487
+\c@savededitorb=\count488
+\c@editorc=\count489
+\c@savededitorc=\count490
+\c@foreword=\count491
+\c@savedforeword=\count492
+\c@holder=\count493
+\c@savedholder=\count494
+\c@introduction=\count495
+\c@savedintroduction=\count496
+\c@namea=\count497
+\c@savednamea=\count498
+\c@nameb=\count499
+\c@savednameb=\count500
+\c@namec=\count501
+\c@savednamec=\count502
+\c@translator=\count503
+\c@savedtranslator=\count504
+\c@shortauthor=\count505
+\c@savedshortauthor=\count506
+\c@shorteditor=\count507
+\c@savedshorteditor=\count508
+\c@narrator=\count509
+\c@savednarrator=\count510
+\c@execproducer=\count511
+\c@savedexecproducer=\count512
+\c@execdirector=\count513
+\c@savedexecdirector=\count514
+\c@with=\count515
+\c@savedwith=\count516
+\c@labelname=\count517
+\c@savedlabelname=\count518
+\c@institution=\count519
+\c@savedinstitution=\count520
+\c@lista=\count521
+\c@savedlista=\count522
+\c@listb=\count523
+\c@savedlistb=\count524
+\c@listc=\count525
+\c@savedlistc=\count526
+\c@listd=\count527
+\c@savedlistd=\count528
+\c@liste=\count529
+\c@savedliste=\count530
+\c@listf=\count531
+\c@savedlistf=\count532
+\c@location=\count533
+\c@savedlocation=\count534
+\c@organization=\count535
+\c@savedorganization=\count536
+\c@origlocation=\count537
+\c@savedoriglocation=\count538
+\c@origpublisher=\count539
+\c@savedorigpublisher=\count540
+\c@publisher=\count541
+\c@savedpublisher=\count542
+\c@language=\count543
+\c@savedlanguage=\count544
+\c@origlanguage=\count545
+\c@savedoriglanguage=\count546
+\c@citation=\count547
+\c@savedcitation=\count548
+\c@pageref=\count549
+\c@savedpageref=\count550
 \shorthandwidth=\skip105
 \shortjournalwidth=\skip106
 \shortserieswidth=\skip107
@@ -1667,32 +1667,32 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 (/usr/local/share/miktex-texmf/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
-\c@textcitecount=\count550
-\c@textcitetotal=\count551
-\c@textcitemaxnames=\count552
-\c@biburlbigbreakpenalty=\count553
-\c@biburlbreakpenalty=\count554
-\c@biburlnumpenalty=\count555
-\c@biburlucpenalty=\count556
-\c@biburllcpenalty=\count557
+\c@textcitecount=\count551
+\c@textcitetotal=\count552
+\c@textcitemaxnames=\count553
+\c@biburlbigbreakpenalty=\count554
+\c@biburlbreakpenalty=\count555
+\c@biburlnumpenalty=\count556
+\c@biburlucpenalty=\count557
+\c@biburllcpenalty=\count558
 \biburlbigskip=\muskip19
 \biburlnumskip=\muskip20
 \biburlucskip=\muskip21
 \biburllcskip=\muskip22
-\c@smartand=\count558
+\c@smartand=\count559
 )
 Package biblatex Info: Trying to load bibliography style 'apa'...
 Package biblatex Info: ... file 'apa.bbx' found.
 
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/biblatex-apa/apa.bbx
+(/home/perronep/.miktex/texmfs/install/tex/latex/biblatex-apa/apa.bbx
 File: apa.bbx 2025/08/27 v9.20 APA biblatex references style
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
 (/usr/local/share/miktex-texmf/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count559
-\c@bbx:relatedtotal=\count560
+\c@bbx:relatedcount=\count560
+\c@bbx:relatedtotal=\count561
 )
 Package biblatex Info: Delimiter 'nameyeardelim' in context 'bib' already defin
 ed, overwriting.
@@ -1706,7 +1706,7 @@ Package biblatex Info: Delimiter 'nonameyeardelim' in context 'biblist' already
 Package biblatex Info: Trying to load citation style 'apa'...
 Package biblatex Info: ... file 'apa.cbx' found.
 
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/biblatex-apa/apa.cbx
+(/home/perronep/.miktex/texmfs/install/tex/latex/biblatex-apa/apa.cbx
 File: apa.cbx 2025/08/27 v9.20 APA biblatex citation style
 Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
  overwriting.
@@ -1738,7 +1738,7 @@ Package biblatex Info: XeTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Document encoding is UTF8 ....
 Package biblatex Info: ... and expl3
-(biblatex)             2026-01-19 L3 programming layer (loader) 
+(biblatex)             2026-03-20 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
 
@@ -1749,56 +1749,55 @@ Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count561
-\@quotereset=\count562
+\@quotelevel=\count562
+\@quotereset=\count563
 (stage_2026_report.aux)
 \openout1 = `stage_2026_report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmssm/m/it on input line 133.
+LaTeX Font Info:    Checking defaults for OML/cmssm/m/it on input line 134.
 LaTeX Font Info:    Trying to load font information for OML+cmssm on input line
- 133.
+ 134.
 
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/sansmathfonts/omlcmssm.fd
+(/home/perronep/.miktex/texmfs/install/tex/latex/sansmathfonts/omlcmssm.fd
 File: omlcmssm.fd 2024/10/15
 )
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for OMS/cmsssy/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for OMS/cmsssy/m/n on input line 134.
 LaTeX Font Info:    Trying to load font information for OMS+cmsssy on input lin
-e 133.
+e 134.
 
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/sansmathfonts/omscmsssy.f
-d
+(/home/perronep/.miktex/texmfs/install/tex/latex/sansmathfonts/omscmsssy.fd
 File: omscmsssy.fd 2024/10/15
 )
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for OMX/cmssex/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for OMX/cmssex/m/n on input line 134.
 LaTeX Font Info:    Trying to load font information for OMX+cmssex on input lin
-e 133.
+e 134.
 
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/sansmathfonts/omxcmssex.f
-d
+(/home/perronep/.miktex/texmfs/install/tex/latex/sansmathfonts/omxcmssex.fd
 File: omxcmssex.fd 2024/10/15
 )
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for U/cmss/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for U/cmss/m/n on input line 134.
 LaTeX Font Info:    Trying to load font information for U+cmss on input line 13
-3.
- (/usr/local/share/miktex-texmf/tex/latex/base/ucmss.fd
+4.
+
+(/usr/local/share/miktex-texmf/tex/latex/base/ucmss.fd
 File: ucmss.fd 2024/11/19 v2.5n Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
 
 Package fontspec Info: 
 (fontspec)             Adjusting the maths setup (use [no-math] to avoid
@@ -1806,64 +1805,64 @@ Package fontspec Info:
 
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 133.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 133.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 133.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 133.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 133.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 133.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 133.
-LaTeX Font Info:    Redeclaring math accent \check on input line 133.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 133.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 133.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 133.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 133.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 133.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 133.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 133.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 133.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 133.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 133.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 133.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 133.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 133.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 133.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 133.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 133.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 134.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 134.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 134.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 134.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 134.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 134.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 134.
+LaTeX Font Info:    Redeclaring math accent \check on input line 134.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 134.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 134.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 134.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 134.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 134.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 134.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 134.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 134.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 134.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 134.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 134.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 134.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 134.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 134.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 134.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 134.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 133.
+(Font)              `operators' in the math version `normal' on input line 134.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmsmf/m/n --> TU/LatinModernSans(0)/m/n on input li
-ne 133.
+ne 134.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 133.
+(Font)              `operators' in the math version `bold' on input line 134.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmsmf/bx/n --> TU/LatinModernSans(0)/m/n on input l
-ine 133.
+ine 134.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/LatinModernSans(0)/m/n --> TU/LatinModernSans(0)/m/n
- on input line 133.
+ on input line 134.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmsmf/m/it --> TU/LatinModernSans(0)/m/it on input 
-line 133.
+line 134.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmsmf/bx/n --> TU/LatinModernSans(0)/b/n on input l
-ine 133.
+ine 134.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmsmf/m/n --> TU/lmss/m/n on input line 133.
+(Font)                  OT1/cmsmf/m/n --> TU/lmss/m/n on input line 134.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/FiraMono(0)/m/n on input line 133.
+(Font)                  OT1/cmtt/m/n --> TU/FiraMono(0)/m/n on input line 134.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/LatinModernSans(0)/m/n --> TU/LatinModernSans(0)/b/n
- on input line 133.
+ on input line 134.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmsmf/bx/it --> TU/LatinModernSans(0)/b/it on input
- line 133.
+ line 134.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmsmf/m/n --> TU/lmss/b/n on input line 133.
+(Font)                  OT1/cmsmf/m/n --> TU/lmss/b/n on input line 134.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/FiraMono(0)/b/n on input line 133.
+(Font)                  OT1/cmtt/m/n --> TU/FiraMono(0)/b/n on input line 134.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1899,16 +1898,16 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 133.
+LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 134.
 LaTeX Font Info:    Overwriting symbol font `AMSa' in version `normal'
-(Font)                  U/msa/m/n --> U/ssmsa/m/n on input line 133.
+(Font)                  U/msa/m/n --> U/ssmsa/m/n on input line 134.
 LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
-(Font)                  U/msa/m/n --> U/ssmsa/m/n on input line 133.
-LaTeX Font Info:    Redeclaring symbol font `AMSb' on input line 133.
+(Font)                  U/msa/m/n --> U/ssmsa/m/n on input line 134.
+LaTeX Font Info:    Redeclaring symbol font `AMSb' on input line 134.
 LaTeX Font Info:    Overwriting symbol font `AMSb' in version `normal'
-(Font)                  U/msb/m/n --> U/ssmsb/m/n on input line 133.
+(Font)                  U/msb/m/n --> U/ssmsb/m/n on input line 134.
 LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
-(Font)                  U/msb/m/n --> U/ssmsb/m/n on input line 133.
+(Font)                  U/msb/m/n --> U/ssmsb/m/n on input line 134.
 
 Package siunitx Warning: Detected the "physics" package:
 (siunitx)                omitting definition of \qty.
@@ -1921,20 +1920,20 @@ Package siunitx Warning: Detected the "physics" package:
 (siunitx)                to your preamble.
 
 
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/translations/dicts/transl
-ations-basic-dictionary-english.trsl
+(/home/perronep/.miktex/texmfs/install/tex/latex/translations/dicts/translation
+s-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 133.
+or `english'. on input line 134.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: Option `font=sansmath' requires the `sansmath' package on
- input line 133.
+ input line 134.
 
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/sansmath/sansmath.sty
+(/home/perronep/.miktex/texmfs/install/tex/latex/sansmath/sansmath.sty
 Package: sansmath 2007/02/28  ver 1.1 Donald Arseneau
-\c@mv@sans=\count563
+\c@mv@sans=\count564
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `sans'
 (Font)                  TU/LatinModernSans(0)/m/n --> OT1/lmss/m/n on input lin
 e 103.
@@ -1957,54 +1956,54 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count564
-Package hyperref Info: Link coloring ON on input line 133.
+\c@lstlisting=\count565
+Package hyperref Info: Link coloring ON on input line 134.
 
 (stage_2026_report.out) (stage_2026_report.out)
 \@outlinefile=\write6
 \openout6 = `stage_2026_report.out'.
 
-Package soulpos Info: Loading soulutf8 on input line 133.
+Package soulpos Info: Loading soulutf8 on input line 134.
 
-(/home/pietroperrone/.miktex/texmfs/install/tex/generic/soul/soulutf8.sty
-Package: soulutf8 2023-06-14 v3.1 Permit use of UTF-8 characters in soul (HO)
+(/home/perronep/.miktex/texmfs/install/tex/generic/soul/soulutf8.sty
+Package: soulutf8 2026-03-06 v3.2 Permit use of UTF-8 characters in soul (HO)
 
 
 Package soulutf8 Warning: This package is obsolete,
 (soulutf8)                use the soul package directly. 
 (soulutf8)                 on input line 29.
 
-) (/home/pietroperrone/.miktex/texmfs/install/tex/generic/soul/soul.sty
-Package: soul 2023-06-14 v3.1 Permit use of UTF-8 characters in soul (HO)
+) (/home/perronep/.miktex/texmfs/install/tex/generic/soul/soul.sty
+Package: soul 2026-03-06 v3.2 Permit use of UTF-8 characters in soul (HO)
 
-(/home/pietroperrone/.miktex/texmfs/install/tex/generic/soul/soul-ori.sty
-Package: soul-ori 2023-06-14 v3.1 letterspacing/underlining (mf)
+(/home/perronep/.miktex/texmfs/install/tex/generic/soul/soul-ori.sty
+Package: soul-ori 2026-03-06 v3.2 letterspacing/underlining (mf)
 \SOUL@word=\toks52
 \SOUL@lasttoken=\toks53
 \SOUL@syllable=\toks54
 \SOUL@cmds=\toks55
 \SOUL@buffer=\toks56
 \SOUL@token=\toks57
-\SOUL@syllgoal=\dimen334
-\SOUL@syllwidth=\dimen335
-\SOUL@charkern=\dimen336
-\SOUL@hyphkern=\dimen337
-\SOUL@dimen=\dimen338
-\SOUL@dimeni=\dimen339
-\SOUL@minus=\count565
-\SOUL@comma=\count566
-\SOUL@apo=\count567
-\SOUL@grave=\count568
+\SOUL@syllgoal=\dimen338
+\SOUL@syllwidth=\dimen339
+\SOUL@charkern=\dimen340
+\SOUL@hyphkern=\dimen341
+\SOUL@dimen=\dimen342
+\SOUL@dimeni=\dimen343
+\SOUL@minus=\count566
+\SOUL@comma=\count567
+\SOUL@apo=\count568
+\SOUL@grave=\count569
 \SOUL@spaceskip=\skip119
-\SOUL@ttwidth=\dimen340
-\SOUL@uldp=\dimen341
-\SOUL@ulht=\dimen342
+\SOUL@ttwidth=\dimen344
+\SOUL@uldp=\dimen345
+\SOUL@ulht=\dimen346
 ))
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/pdflscape/pdflscape.sty
+(/home/perronep/.miktex/texmfs/install/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
 
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/pdflscape/pdflscape-nomet
-adata.sty
+(/home/perronep/.miktex/texmfs/install/tex/latex/pdflscape/pdflscape-nometadata
+.sty
 Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
 F (HO)
  (/usr/local/share/miktex-texmf/tex/latex/graphics/lscape.sty
@@ -2016,23 +2015,23 @@ Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
 Package biblatex Info: Trying to load language 'english' -> 'english-apa'...
 Package biblatex Info: ... file 'english-apa.lbx' found.
 
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/biblatex-apa/english-apa.
-lbx
+(/home/perronep/.miktex/texmfs/install/tex/latex/biblatex-apa/english-apa.lbx
 File: english-apa.lbx 2025/08/27 v9.20 APA biblatex localisation
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
- (/usr/local/share/miktex-texmf/tex/latex/biblatex/lbx/english.lbx
+
+(/usr/local/share/miktex-texmf/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load language 'american' -> 'american-apa'...
 Package biblatex Info: ... file 'american-apa.lbx' found.
 
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/biblatex-apa/american-apa
-.lbx
+(/home/perronep/.miktex/texmfs/install/tex/latex/biblatex-apa/american-apa.lbx
 File: american-apa.lbx 2025/08/27 v9.20 APA biblatex localisation
 Package biblatex Info: Trying to load language 'american'...
 Package biblatex Info: ... file 'american.lbx' found.
- (/usr/local/share/miktex-texmf/tex/latex/biblatex/lbx/american.lbx
+
+(/usr/local/share/miktex-texmf/tex/latex/biblatex/lbx/american.lbx
 File: american.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
@@ -2065,23 +2064,24 @@ Package biblatex Warning: The following entry could not be found
 (biblatex)                LaTeX afterwards.
 
 )
-Package biblatex Info: Reference section=0 on input line 133.
-Package biblatex Info: Reference segment=0 on input line 133.
+Package biblatex Info: Reference section=0 on input line 134.
+Package biblatex Info: Reference segment=0 on input line 134.
  (stage_2026_report.toc
 LaTeX Font Info:    Trying to load font information for U+ssmsa on input line 7
 .
 
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/sansmathfonts/ussmsa.fd
+(/home/perronep/.miktex/texmfs/install/tex/latex/sansmathfonts/ussmsa.fd
 File: ussmsa.fd 2024/10/15
 )
 LaTeX Font Info:    Trying to load font information for U+ssmsb on input line 7
 .
 
-(/home/pietroperrone/.miktex/texmfs/install/tex/latex/sansmathfonts/ussmsb.fd
+(/home/perronep/.miktex/texmfs/install/tex/latex/sansmathfonts/ussmsb.fd
 File: ussmsb.fd 2024/10/15
 ))
 \tf@toc=\write7
 \openout7 = `stage_2026_report.toc'.
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2105,7 +2105,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [2]
 
 LaTeX Warning: Citation 'find a ref for this' on page 3 undefined on input line
- 153.
+ 154.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2134,21 +2134,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [5]
-Overfull \hbox (7.45418pt too wide) in paragraph at lines 212--213
-[]\TU/LatinModernSans(0)/m/n/10.95 For snow, []Warren, [][]1982[][] defined the
- \TU/LatinModernSans(0)/m/it/10.95 direct albedo $\OML/cmssm/m/it/10.95 ^^K[]$ 
-\TU/LatinModernSans(0)/m/n/10.95 as the spectral directional-hemispherical refl
-ectance,
- []
-
-
-Overfull \hbox (1.6024pt too wide) in paragraph at lines 215--217
-\TU/LatinModernSans(0)/m/n/10.95 Integrating $\OML/cmssm/m/it/10.95 ^^K[]$ \TU/
-LatinModernSans(0)/m/n/10.95 over all incidence angles yields the \TU/LatinMode
-rnSans(0)/m/it/10.95 diffuse albedo $\OML/cmssm/m/it/10.95 ^^K[]$\TU/LatinModer
-nSans(0)/m/n/10.95 , a spectral bi-hemispherical reflectance,
- []
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2158,10 +2143,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [6]
 
-LaTeX Warning: Reference `fig:geo' on page 7 undefined on input line 234.
+LaTeX Warning: Reference `fig:geo' on page 7 undefined on input line 235.
 
 LaTeX Font Info:    Font shape `TU/lmss/sbc/it' in size <12> not available
-(Font)              Font shape `TU/lmss/sbc/sl' tried instead on input line 242
+(Font)              Font shape `TU/lmss/sbc/sl' tried instead on input line 243
 .
 File: ../figures/mbscheme.pdf Graphic file (type pdf)
 <use ../figures/mbscheme.pdf>
@@ -2186,11 +2171,11 @@ File: ../figures/mbwf.pdf Graphic file (type pdf)
 
 
 LaTeX Font Warning: Font shape `TU/LatinModernSans(0)/sbc/sl' undefined
-(Font)              using `TU/LatinModernSans(0)/m/n' instead on input line 277
+(Font)              using `TU/LatinModernSans(0)/m/n' instead on input line 278
 .
 
 LaTeX Font Info:    Font shape `TU/FiraMono(0)/m/n' will be
-(Font)              scaled to size 9.30756pt on input line 278.
+(Font)              scaled to size 9.30756pt on input line 279.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2208,6 +2193,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [10]
 
+LaTeX Font Warning: Font shape `TU/lmss/sc/sl' undefined
+(Font)              using `TU/lmss/m/n' instead on input line 313.
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.59999pt}.
@@ -2215,10 +2204,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [11]
-
-LaTeX Font Warning: Font shape `TU/lmss/sc/sl' undefined
-(Font)              using `TU/lmss/m/n' instead on input line 312.
-
 Missing character: There is no ​ in font Latin Modern Sans 10 Regular/OT:script
 =latn;language=dflt;mapping=tex-text;!
 
@@ -2232,15 +2217,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: ../figures/appemitt_scatter_def.pdf Graphic file (type pdf)
 <use ../figures/appemitt_scatter_def.pdf>
 LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
-339.
+340.
  (/usr/local/share/miktex-texmf/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 339.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 340.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2270,7 +2252,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [15]
 
-LaTeX Warning: Reference `fig:sicewf' on page 16 undefined on input line 401.
+LaTeX Warning: Reference `fig:sicewf' on page 16 undefined on input line 402.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2280,7 +2262,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [16]
-Overfull \hbox (26.0339pt too wide) in paragraph at lines 414--416
+Overfull \hbox (26.0339pt too wide) in paragraph at lines 415--417
 []\TU/LatinModernSans(0)/b/n/10.95 Retrieval of snow SSA \TU/LatinModernSans(0)
 /sbc/sl/10.95 | This is the main processing step executed via the []
  []
@@ -2293,16 +2275,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [17]
-File: ../figures/timeseries_example1.pdf Graphic file (type pdf)
-<use ../figures/timeseries_example1.pdf>
+File: ../figures/timeseries_example_df.pdf Graphic file (type pdf)
+<use ../figures/timeseries_example_df.pdf>
 File: ../figures/stations_mb_sice.pdf Graphic file (type pdf)
 <use ../figures/stations_mb_sice.pdf>
 LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <10> not available
-(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 452.
+(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 453.
 
 
 
-LaTeX Warning: Reference `a:timeseries' on page 18 undefined on input line 455.
+LaTeX Warning: Reference `a:timeseries' on page 18 undefined on input line 456.
 
 
 
@@ -2314,16 +2296,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [18]
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[19]
-
-LaTeX Warning: Reference `fig:corr_sice_mb' on page 20 undefined on input line 
-469.
+LaTeX Warning: Reference `fig:corr_sice_mb' on page 19 undefined on input line 
+470.
 
 File: ../figures/eaiist01_cc_500.pdf Graphic file (type pdf)
 <use ../figures/eaiist01_cc_500.pdf>
@@ -2340,10 +2314,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[20]
+[19]
 
-LaTeX Warning: Reference `fig:albedoeaiist02' on page 21 undefined on input lin
-e 490.
+LaTeX Warning: Reference `fig:albedoeaiist02' on page 20 undefined on input lin
+e 491.
 
 File: ../figures/sice_ssa_dailyvariability_eaiist01_24.pdf Graphic file (type p
 df)
@@ -2351,8 +2325,27 @@ df)
 File: ../figures/olci_ssadaily_std_2023.pdf Graphic file (type pdf)
 <use ../figures/olci_ssadaily_std_2023.pdf>
 
-LaTeX Warning: Reference `fig:sice_subdaily' on page 21 undefined on input line
- 500.
+LaTeX Warning: Reference `fig:sice_subdaily' on page 20 undefined on input line
+ 501.
+
+
+LaTeX Warning: Reference `sssc:sicediagn' on page 20 undefined on input line 50
+3.
+
+
+LaTeX Warning: Reference `fig:siceflat' on page 20 undefined on input line 503.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[20]
+File: ../figures/sicesolalb.pdf Graphic file (type pdf)
+<use ../figures/sicesolalb.pdf>
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2362,6 +2355,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [21]
+File: ../figures/disc_eaiist.pdf Graphic file (type pdf)
+<use ../figures/disc_eaiist.pdf>
+File: ../figures/disc_d17.pdf Graphic file (type pdf)
+<use ../figures/disc_d17.pdf>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2371,15 +2369,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [22]
 
-LaTeX Warning: Reference `sssc:sicediagn' on page 23 undefined on input line 50
-2.
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 547.
 
-
-LaTeX Warning: Reference `fig:siceflat' on page 23 undefined on input line 502.
-
-
-File: ../figures/sicesolalb.pdf Graphic file (type pdf)
-<use ../figures/sicesolalb.pdf>
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2389,12 +2381,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [23]
 
-LaTeX Warning: Reference `fig:tempmb' on page 24 undefined on input line 528.
-
-
-LaTeX Warning: Reference `fig:sr50mb' on page 24 undefined on input line 528.
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.59999pt}.
@@ -2402,19 +2388,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [24]
-
-LaTeX Warning: Reference `fig:eaiistwind' on page 25 undefined on input line 53
-0.
-
-
-Overfull \hbox (0.43547pt too wide) in paragraph at lines 530--531
-\TU/LatinModernSans(0)/sbc/sl/10.95 differences between the deposition side—whe
-re finer grains of fresh or wind-fractured snow are accumulted—
+Overfull \hbox (2.3151pt too wide) in paragraph at lines 547--547
+[][]\TU/LatinModernSans(0)/sbc/sl/10.95 World Meteorological Organization. (202
+4). Blowing snow. Retrieved May 15, 2026, from [][]$[][][][][] [] [] [] [][][][
+][][][][][][] []
  []
-
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 535.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2424,11 +2402,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [25]
-Overfull \hbox (4.48695pt too wide) in paragraph at lines 535--535
-\TU/LatinModernSans(0)/sbc/sl/10.95 measurements of snow Bidirectional Reflecta
-nce Distribution Function at visible and NIR wavelengths
- []
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2437,19 +2410,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [26]
-Overfull \hbox (5.09645pt too wide) in paragraph at lines 535--535
-\TU/LatinModernSans(0)/sbc/sl/10.95 Experimental determination of the absorptio
-n enhancement parameter of snow. \TU/LatinModernSans(0)/m/it/10.95 Journal of G
-laciology\TU/LatinModernSans(0)/sbc/sl/10.95 ,
- []
-
-
-Overfull \hbox (3.55856pt too wide) in paragraph at lines 535--535
-\TU/LatinModernSans(0)/sbc/sl/10.95 albedo measurements over snow-covered slope
-s: Theory and slope effect corrections. \TU/LatinModernSans(0)/m/it/10.95 The C
-ryosphere\TU/LatinModernSans(0)/sbc/sl/10.95 ,
- []
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2458,12 +2418,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [27]
-Overfull \hbox (2.3151pt too wide) in paragraph at lines 535--535
-[][]\TU/LatinModernSans(0)/sbc/sl/10.95 World Meteorological Organization. (202
-4). Blowing snow. Retrieved May 15, 2026, from [][]$[][][][][] [] [] [] [][][][
-][][][][][][] []
- []
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2479,7 +2433,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[29] (stage_2026_report.aux
+[29]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[30] (stage_2026_report.aux
 * soulpos - computing points - it may take a few seconds *
 \openout4 = `stage_2026_report.upb'.
 
@@ -2487,7 +2449,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (stage_2026_report.upa))
  ***********
 LaTeX2e <2025-11-01>
-L3 programming layer <2026-01-19>
+L3 programming layer <2026-03-20>
  ***********
 
 
@@ -2497,7 +2459,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `stage_2026_report.out' has not changed.
-(rerunfilecheck)             Checksum: 6C39980C10D8D020F8C8426014A6A493;5498.
+(rerunfilecheck)             Checksum: 83B2F06768CC489101B7F6C8DE2D9359;5488.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                stage_2026_report
@@ -2508,12 +2470,12 @@ Package logreq Info: Writing requests to 'stage_2026_report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 55721 strings out of 404949
- 1244129 string characters out of 5481587
- 2280959 words of memory out of 5000000
- 83557 multiletter control sequences out of 15000+600000
+ 55914 strings out of 402807
+ 1251103 string characters out of 5448229
+ 2309944 words of memory out of 5000000
+ 84049 multiletter control sequences out of 15000+600000
  663475 words of font info for 139 fonts, out of 8000000 for 9000
- 0 hyphenation exceptions out of 8191
- 94i,15n,133p,3007b,5660s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 1348 hyphenation exceptions out of 8191
+ 94i,15n,133p,3007b,5658s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on stage_2026_report.pdf (29 pages).
+Output written on stage_2026_report.pdf (30 pages).
