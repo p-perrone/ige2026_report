@@ -167,20 +167,18 @@ urlcolor=BlueViolet]{hyperref}
 	\begin{enumerate}[noitemsep]
 		\item \textbf{Processing of \emph{in situ} data}: upgrading and optimizing the existing workflow developed by \cite{arioliDynamicsSnowGrain2023}; this includes both processing data from the main instrument (Multiband and relative weather stations) and from Solalb, a second albedometer used as as external reference to asses the quality of Multiband and Sentinel-3 performaces;
 		\item \textbf{Processing of Sentinel-3 data}: downloading the frames and applying the SICE 1.6 algorithm, as described by \cite{kokhanovskyRetrievalSnowProperties2019};
-		\item \textbf{Comparison of the time series}: performing corrections to address possible gaps between the two datasets and interpreting the retrieved albedo dynamics geoscientifically.
+		\item \textbf{Comparison of the time series}: performing corrections to address possible gaps between the two datasets and interpreting the retrieved albedo dynamics geophysically.
 	\end{enumerate}
 	
-	ICI: tu peux mieux montrerla difficulté de ce que tu as fait. Revois les points de facon moins factuel. e.g. For this, I've adapted an existing algorithm to process in-situ measurments to the megadune site for the fist time. This involved many changes and detailed verification of the signals. I've then selected, downloaded automatically (1Tb) processed OLCI satellite data using the existing algorithm SICE, and I've compared them to the in-situ data.
-	The core of my work was data analysis of the insit data, in a context of complex instrumentation.
-	Un truc comme ca.
-	
+For this, I've adapted an existing algorithm to process in-situ measurments to the megadune site for the fist time. This involved many changes and detailed verification of the signals. I've then selected, downloaded automatically (1Tb) processed OLCI satellite data using the existing algorithm SICE, and I've compared them to the in-situ data.
+The core of my work was data analysis of the insit data, in a context of complex instrumentation.
 	
 	\setpartcolor{part2color}
 	\part{Material and methods}
 	\begin{figure}[t]	
 		\subfloat[\label{tab:geo}]{%
 			{\small
-				\raisebox{2.5cm}{%
+				\raisebox{2cm}{%
 					\begin{tabular}{lSS}
 						\toprule
 						Station & {Lon (°E)} & {Lat (°S)} \\
@@ -195,11 +193,10 @@ urlcolor=BlueViolet]{hyperref}
 				}%
 			}
 		}\hfill
-		\centering
 		\subfloat[\label{fig:temp_avail}]{%
-			\includegraphics[width=10cm]{st_temp_av}%
+			\includegraphics[width=11.5cm]{st_temp_av}%
 		}
-		\mycaption{Stations overview}{\textbf{(a)} Temporal data availability of each measurement station; \textbf{(b)} exact position of each station in WGS 84 coordinates.}
+		\mycaption{Stations overview}{\textbf{(a)} exact position of each station in WGS 84 coordinates; \textbf{(b)} Temporal data availability of each measurement station;}
 		\label{fig:stations}
 	\end{figure}
 	
@@ -318,6 +315,12 @@ Simulations of direct/diffuse partitioning with SBDART consist of computing SZA-
 These ratios are also used in the processing chain during slope correction and SSA estimation, where either the direct-to-diffuse or the diffuse-to-total ratio can be provided as inputs, depending on the specific function.
 	
 				\paragraph{Clear Sky Index (CSI) for cloud masking}
+\begin{figure}
+	\centering
+	\includegraphics[width=17cm]{appemitt_scatter_def.pdf}
+	\mycaption{Apparent clear sky emissivity model}{The right-most bimodal scatter (blue) shows all summer days from 2014 to 2025 at D17, with emittances computed from CNR4 records; the model is fitted to points satisfying $\epsilon_{A} \leq 0.8$ (lower subset, \ie the Empirical clear sky set). The cross scatter represents emittances from days identified as clear sky using D17's camera (\ie the Observed clear sky set). The statistics for these models reveal that the variability in $\epsilon_{A}$ is moderately dependent on $\beta$, with a high significance level. The left-most scatter (green) shows emittances derived from ERA5 records in the megadunes field at EAIIST stations. <ICI aussi je vais changer dans le plot p < 0.001>}
+	\label{fig:appemit}
+\end{figure}
 We employed \cite{martyClearskyIndexSeparate2000}'s technique to discriminate between overcast and clear-sky conditions using the \emph{Clear Sky Index} (CSI), which involves comparing the emissivity of the observed atmosphere with that of an ideal cloud-free atmosphere with the same properties. Clouds generally increase the emittance of the atmosphere, as they act as near-blackbodies in the thermal infrared. The emissivity of the atmosphere can be directly derived from air temperature $T_A$​ and the incoming long-wave radiation $\lwdn$ using the Stefan-Boltzmann law:
 \begin{equation}
 	\epsilon_{A} = \frac{\lwdn}{\sigma T_A} \qquad (-)
@@ -334,12 +337,7 @@ One issue with this formulation is that it does not account for the effect of gr
 \begin{equation}\label{eq:eacfull}
 	\epsilon_{AC} = \epsilon_{AD} + k \beta
 \end{equation}
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=17cm]{appemitt_scatter_def.pdf}
-	\mycaption{Apparent clear sky emissivity model}{The right-most bimodal scatter (blue) shows all summer days from 2014 to 2025 at D17, with emittances computed from CNR4 records; the model is fitted to points satisfying $\epsilon_{A} \leq 0.8$ (lower subset, \ie the Empirical clear sky set). The cross scatter represents emittances from days identified as clear sky using D17's camera (\ie the Observed clear sky set). The statistics for these models reveal that the variability in $\epsilon_{A}$ is moderately dependent on $\beta$, with a high significance level. The left-most scatter (green) shows emittances derived from ERA5 records in the megadunes field at EAIIST stations. <ICI aussi je vais changer dans le plot p < 0.001>}
-	\label{fig:appemit}
-\end{figure}
+
 \begin{table}[h]
 	\centering
 	\begin{tabular}{lSSSS}
@@ -445,14 +443,20 @@ where $r$ was initially tested at 0.3 and progressively increased to 0.4 in subs
 	
 	\part{Results}
 	
-		\section{Time series from Multiband and S-3 OLCI}
-\begin{figure}[ht]
+\section{SSA time series from Multiband and SICE 1.6}
+	\begin{figure}[]
 	\centering
-	\subfloat[\label{fig:tsex}]{\includegraphics[width=17cm]{timeseries_example_df.pdf}}\\
-	\subfloat[\label{fig:scatter}]{\includegraphics[width=17cm]{stations_mb_sice}}	
-	\mycaption{\emph{In situ} and satellite retrieved SSAs}{\textbf{(a)} Timeseries of SSA (top row) estimated from Multiband and from SICE 1.6 at D17 near Cap Prud'homme, EAIIST01 and EAIIST02 in the megadune (left to right) for selected austral summers (other years in Appendix); \textbf{(b)} comparison between SICE 1.6 and Multiband (bottom row) for the three Cap Prud'Homme stations and two megadunes stations. All statistics are computed exclusively on non-outliers and are significant at $p < 0.01$}
+	\includegraphics[width=17cm]{timeseries_example_df.pdf}
+	\mycaption{Time series of SSA}{Time series of SSA estimated from Multiband (colors) and from SICE 1.6 (black) at EAIIST01 (orange), EAIIST02 (purple) in the megadune and D17 near Cap Prud'homme (blue) for selected austral summers (other years in Appendix).}
+	\label{fig:tsex}
 \end{figure}
 
+\begin{figure}[]
+	\centering
+	\includegraphics[width=17cm]{stations_mb_sice}
+	\mycaption{\emph{In situ} and satellite retrieved SSAs} {SICE 1.6 SSA as function of Multiband SSA for the three Cap Prud'Homme stations and two megadunes stations. All statistics are computed exclusively on non-outliers and are significant at $p < 0.01$. Outliers are plotted as light grey dots.}
+	\label{fig:scatter}
+\end{figure}
 Time series of snow SSA were successfully obtained for all five stations from both Multiband records and S-3/OLCI data. A representative example summer for both locations is shown in Figure~\ref{fig:tsex}. All years are reported in Appendix~\ref{a:timeseries}. Comparisons of the full series for all stations are shown in Figure \ref{fig:scatter}. Points are respectively colored or gray depending whether they are under or exceeding three times the bias between the two methods---in the second case, they are defined as outliers.
 
 At Cap Prud'homme, Multiband-retrieved series are generally continuous, with few interruptions, indicating proper instrument functioning. These records show similar SSA values and dynamics across the three Cap Prud'homme stations (Appendix), reflecting consistent surface environmental conditions. The median summer SSA for the three stations is \qty{15.38}{\ssaunit}. SSA values are typically below \qty{20}{\ssaunit} over the mid-austral summer (December 1 to January 31), with the three stations' outlier-free median SSA equal to \qty{11.80}{\ssaunit}. In early and late summer, SSA is often above \qty{30.18}{\ssaunit} (75\% percentile), with an October, November and February median of \qty{17.87}{\ssaunit}. At this location, SSA does not exhibit any particular increasing or decreasing trend at the seasonal time scale, remaining fairly constant across the summer. Abrupt peaks are often registered, with SSA reaching values typical of fresh fallen snow (\ie more than \qty{40}{\ssaunit}) from one day to the next---this is the typical signature of snow precipitation. \\
@@ -481,9 +485,9 @@ SICE 1.6 results for the megadunes are far more continuous than at Cap Prud'homm
 The bias between \emph{in situ} and satellite time series, at EAIIST02 particularly, initially led us to consider a potential instrumental issue in Multiband. We first examined the cross-calibration curves used for the correction at both stations, for each specific wavelength. For EAIIST02, the calibration experiment returned an average $R_\mathrm{CC} = \num{1.055(0.004)}$, confirming consistency throughout the experiment and across all wavelengths. However, the same analysis for EAIIST01 revealed a much lower cross-calibration ratio, particularly at shorter wavelengths. For example, at \qty{500}{\nano\meter} (Figure~\ref{fig:eaiist01cc}), the computed $R_\mathrm{CC}$ is \num{0.660(0.003)} across the calibration phase. Such a value indicates a large difference between both channels, which is unexpected and is likely a consequence of a poor locking connection between the optical fibers and the other components, as well as potential wear of one of the two cosine collectors. While the calibration is designed to compensate for such issue, this is not satisfactory.
 \begin{figure}
 	\centering
-	\subfloat[\label{fig:albedoeaiist01}]{\includegraphics[width=6cm]{albedo_check_eaiist02.pdf}}\quad
-	\subfloat[\label{fig:albedo500ts}]{\includegraphics[width=10cm]{albedo500_timeseries.pdf}}
-	\mycaption{Multiband's albedo non-convergence in the visible}{\textbf{(a)} Albedo spectra acquired during a mid-summer day with EAIIST02 albedometer. The dashed red line indicates the expected convergence value of the spectrum at \qty{500}{\nano\meter} (0.98). \textbf{(b)} Interannual evolution of daily average and maximum spectral albedo at \qty{500}{\nano\meter} at both EAIIST stations, during summer days with constant and diffuse light conditions only.}
+	\subfloat[\label{fig:albedoeaiist01}]{\includegraphics[width=7cm]{albedo_check_eaiist02.pdf}}\quad
+	\subfloat[\label{fig:albedo500ts}]{\includegraphics[width=9cm]{albedo500_timeseries.pdf}}
+	\mycaption{Multiband's albedo diagnostic}{\textbf{(a)} Albedo spectra acquired during a mid-summer day with EAIIST02 albedometer. The dashed red line indicates the expected convergence value of the spectrum at \qty{500}{\nano\meter} (0.98). \textbf{(b)} Interannual evolution of daily average (diamonds) and maximum spectral albedo (dots) at \qty{500}{\nano\meter} at both EAIIST stations, during summer days with constant and diffuse light conditions only.}
 	\label{fig:albedo500}
 \end{figure}
 Concerning the inclinometers, for both EAIIST01 and EAIIST02, exception made for some electrical noise at the beginning of each season, the signal yields stable angles fluctuating within a range of $\pm \ang{2.5}$. However, the inclinometers failed from 2025 onward, which is a known problem at low temperatures (Fig \ref{fig:inclino}). This measure is therefore not exploitable after that date, and no conclusion can be drawn about the potential tilting of the albedometers' heads.
@@ -524,7 +528,7 @@ Furthermore, analyzing the signal recorded during the cross-calibration experime
 For instance, at EAIIST02, the unrealistically high spectral albedo at \qty{500}{\nano\meter} ($\sim 1.2$) suggests a relative decrease in the response intensity of the upward-oriented cosine collector. This likely caused a systematic increase in the reflected-to-incident ratio (Eq.~\eqref{eq:alb1}). Supporting this hypothesis, previous studies (e.g., \cite{Liu2022EffectsOU}) have shown that Teflon, as an engineering plastic, undergoes significant molecular changes when exposed to prolonged UV radiation, altering its optical properties. The continuous exposure to solar radiation of the upward cosine collector can then be considered a cause of its degradation. Additionally, we cannot exclude the possibility that other components of the system contributed to the miscalibration. For instance, optical fibers can experience signal losses due to aging, stress, or bending---the latter likely occurring during field deployment \parencite{bunge3BasicPrinciples2017}.
 	
 	\section{Geophysical interpretation of the time series}
-\begin{figure}[ht]
+\begin{figure}[t]
 \centering
 \subfloat[\label{fig:disceaiist}]{\includegraphics[width=9cm]{disc_eaiist}}\quad
 \subfloat[\label{fig:discd17}]{\includegraphics[width=7.3cm]{disc_d17}}
