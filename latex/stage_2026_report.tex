@@ -151,6 +151,12 @@ Les surfaces recouvertes en permanence de neige jouent un rôle majeur dans l'am
 \normalfont
 	\setpartcolor{part1color}
 	\part{Introduction}
+\begin{figure}
+	\centering
+	\subfloat[\label{fig:context}]{\includegraphics[width=7cm]{context.pdf}}\quad
+	\subfloat[\label{fig:mb}]{\includegraphics[width=9cm]{multiband.png}}
+	\mycaption{Multiband stations}{\textbf{(a)} Localization of Multiband stations. Megadunes field in the upper frame; Cap Prud'Homme in right frame. \textbf{(b)} Multiband instrument installed ad D17 station; the head with the two cosine collectors is on the right end of the metal gantry. Photo from IGE archives.}
+\end{figure}
 \color{Black}
 	Snow is one of the major component of the cryosphere. Its global distribution on both ocean and land areas strongly depends on seasonality, latitude, and elevation. It occurs in three forms, mainly: permanent snow on ice sheets and glaciers, snow on sea ice, and seasonal snow cover. The latter is estimated to account for 1.3\% (summer) to 30.6\% (winter) of the Northern Hemisphere land surface area \parencite{Vaughan2013}, with the 1967-2026 mean snow cover extent (SCE hereafter) in winter being around \qty{39.79e6}{\kilo\meter\squared} \parencite{rutgers_snowlab}. Sea ice is often covered by snow during the winter season; its peak extent occurs in March in the Northern Hemisphere (\qty{15.03e6}{\kilo\meter\squared}) and in September in the Southern Hemisphere (\qty{18.61e6}{\kilo\meter\squared}) \parencite{warrenSnowDepthArctic1999, fettererSeaIceIndex2025}. Finally, perennial snow mean extent over the 2000--2022 period is estimated at \qty{16.47e6}{\kilo\meter\squared} from NASA's Moderate Resolution Imaging Spectroradiometer (MODIS), including glaciers, ice caps, Greenland and Antarctica ice sheets \parencite{johnstonGlobalSnowSeasonality2024}.\\
 	These several tens of millions of snow-covered squared kilometres play a major role in freshwater resources availability, ecosystems equilibrium and, particularly, climate variability amplification. In fact, snow represents one of the strongest reflective materials on Earth's surface. \emph{Albedo} quantifies the fraction of incident solar radiation reflected by a surface. For fresh snow, broadband albedo (\ie integrated over the visible-to-infrared range) is close to 1, as its highest reflectivity occurs in the visible range, where solar radiation intensity peaks \parencite{kokhanovskyScatteringOpticsSnow2004}. The radiative forcing of Northern Hemisphere land snow cover---its cooling effect on Earth's energy budget---averages approximately \qty{2}{\watt\per\meter\squared} (1979--2008), peaking at \qty{4.5}{\watt\per\meter\squared} in May \parencite{flannerRadiativeForcingAlbedo2011}. Without this forcing, Earth's surface temperature would be approximately \qty{0.54}{\kelvin} higher than the current planetary mean. This estimate assumes that Earth radiates as a blackbody with no feedback effects, making it a lower-bound estimate. In fact, real climate feedbacks (due to water vapour, lapse rate, clouds) amplify the true temperature response \parencite{croninHowWellWe2023}.
@@ -178,9 +184,11 @@ Les surfaces recouvertes en permanence de neige jouent un rôle majeur dans l'am
 		\item \textbf{Processing of Sentinel-3 data}: downloading the frames and applying the SICE 1.6 algorithm, as described by \cite{kokhanovskyRetrievalSnowProperties2019};
 		\item \textbf{Comparison of the time series}: performing corrections to address possible gaps between the two datasets and interpreting the retrieved albedo dynamics geophysically.
 	\end{enumerate}
-	
-For this, I've adapted an existing algorithm to process in-situ measurments to the megadune site for the fist time. This involved many changes and detailed verification of the signals. I've then selected, downloaded automatically (1Tb) processed OLCI satellite data using the existing algorithm SICE, and I've compared them to the in-situ data.
-The core of my work was data analysis of the insit data, in a context of complex instrumentation.
+
+\section{Contributions an use of artificial intelligence}
+G. Picard and L. Arnaud built the Multiband albedometer and deployed it. V. Favier installed AWS weather stations. S. Arioli developed the algorithm for specific Multiband processing. I (Pietro Perrone) updated and optimized this algorithm, and adapted it to the megadunes case study. I also wrote the pipeline for Solalb data processing and employed functions from SICE 1.6 algorithm to select and download (1 Tb) and process S-3/OLCI data for satellite SSA retrieval. I also developed a pipeline to diagnose both \emph{in situ} and satellite SSA retrievals, to finally interpret the results.
+
+AI (\url{https://chat.mistral.ai/chat}) was primarily used for debugging, with all code modifications explicitly indicated. It was also utilized for language checks and bibliographic searches (Google Scholar Labs).
 	
 	\setpartcolor{part2color}
 	\part{Material and methods}
