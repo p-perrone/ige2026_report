@@ -63,6 +63,8 @@
       <file>american.lbx</file>
       <file>american-apa.lbx</file>
       <file>english-apa.lbx</file>
+      <file>french.lbx</file>
+      <file>french-apa.lbx</file>
     </requires>
   </internal>
   <external package="biblatex" priority="5" active="1">
