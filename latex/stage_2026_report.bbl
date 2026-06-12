@@ -1864,36 +1864,6 @@
       \verb https://doi.org/10.1029/2000GL011743
       \endverb
     \endentry
-    \entry{NSIDC_cryosphere}{misc}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=d15e38671e7e1b3247464d169aaecd90}{%
-           family={{National Snow and Ice Data Center}},
-           familyi={N\bibinitperiod}}}%
-      }
-      \strng{namehash}{d15e38671e7e1b3247464d169aaecd90}
-      \strng{fullhash}{d15e38671e7e1b3247464d169aaecd90}
-      \strng{fullhashraw}{d15e38671e7e1b3247464d169aaecd90}
-      \strng{bibnamehash}{d15e38671e7e1b3247464d169aaecd90}
-      \strng{authorbibnamehash}{d15e38671e7e1b3247464d169aaecd90}
-      \strng{authornamehash}{d15e38671e7e1b3247464d169aaecd90}
-      \strng{authorfullhash}{d15e38671e7e1b3247464d169aaecd90}
-      \strng{authorfullhashraw}{d15e38671e7e1b3247464d169aaecd90}
-      \field{sortinit}{N}
-      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{What Is the Cryosphere?}
-      \field{year}{2024}
-      \verb{urlraw}
-      \verb https://nsidc.org/learn/what-cryosphere
-      \endverb
-      \verb{url}
-      \verb https://nsidc.org/learn/what-cryosphere
-      \endverb
-    \endentry
     \entry{nicodemusDirectionalReflectanceEmissivity1965}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=3a154e664279be011c1b33b5c4626e60}{%
@@ -2094,6 +2064,80 @@
       \verb{url}
       \verb https://tc.copernicus.org/articles/14/1497/2020/
       \endverb
+    \endentry
+    \entry{poulsenEvaluationComparisonMachine2020}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=c740c825920c661be8159ae5f6f4a6fd}{%
+           family={Poulsen},
+           familyi={P\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3ff48cce85b0db6f7992de78307e91b1}{%
+           family={Egede},
+           familyi={E\bibinitperiod},
+           given={U.},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0a178a4dea04724b257e41b1efff16f4}{%
+           family={Robbins},
+           familyi={R\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bf2b97d8022b46e066a3e16043eb3593}{%
+           family={Sandeford},
+           familyi={S\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1bfd639bc15c928bf083e41b937a4bc5}{%
+           family={Tazi},
+           familyi={T\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4384032fd4cd9930b51f4647a8b4edb4}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e474afcd4d66b0c928799787fe0dd722}
+      \strng{fullhash}{5d5fc39de23c03a2329ff58bca89ff74}
+      \strng{fullhashraw}{5d5fc39de23c03a2329ff58bca89ff74}
+      \strng{bibnamehash}{5d5fc39de23c03a2329ff58bca89ff74}
+      \strng{authorbibnamehash}{5d5fc39de23c03a2329ff58bca89ff74}
+      \strng{authornamehash}{e474afcd4d66b0c928799787fe0dd722}
+      \strng{authorfullhash}{5d5fc39de23c03a2329ff58bca89ff74}
+      \strng{authorfullhashraw}{5d5fc39de23c03a2329ff58bca89ff74}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A Feed Forward Neural Net (NN) approach to distinguish between clouds and the surface has been applied to the Sea and Land Surface Temperature Radiometer in polar regions. The masking algorithm covers the Arctic, Antarctic and regions typically classified as the cryosphere such as northern hemisphere permafrost. The mask has been trained using collocations with the CALIOP active lidar, which in narrow strips provide more accurate detection of cloud, and was subsequently evaluated as a function of cloud type and surface type. The mask was compared with the existing operational Bayesian and Empirical cloud masks by eye and also statistically using CALIOP data. It was found to perform exceptionally well in the polar regions. The Kuiper skill score improved from 0.28, for the operational Bayesian and 0.17 for the Empirical masks to 0.77 for the NN. The NN algorithm also has a much more homogeneous performance over all surface types. The key improvement came from better identification of clear scenes; for the NN mask, the same performance in terms of contamination of cloudy pixels in the sample of identified clear pixels can be achieved while retaining 40\% of the clear pixels compared with 10\% for the operational cloud identification. The algorithm performed with almost the same skill over sea and land. The best performance was achieved for opaque clouds while transparent and broken clouds showed slightly reduced accuracy.}
+      \field{issn}{0034-4257}
+      \field{journaltitle}{Remote Sensing of Environment}
+      \field{month}{10}
+      \field{title}{Evaluation and Comparison of a Machine Learning Cloud Identification Algorithm for the {{SLSTR}} in Polar Regions}
+      \field{volume}{248}
+      \field{year}{2020}
+      \field{pages}{111999}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.rse.2020.111999
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0034425720303692
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0034425720303692
+      \endverb
+      \keyw{Cloud mask,Neural net,Poles,Sentinel-3,SLSTR}
     \endentry
     \entry{ricchiazziSBDARTResearchTeaching1998}{article}{}{}
       \name{author}{4}{}{%
@@ -4838,36 +4882,6 @@
       \verb https://doi.org/10.1029/2000GL011743
       \endverb
     \endentry
-    \entry{NSIDC_cryosphere}{misc}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=d15e38671e7e1b3247464d169aaecd90}{%
-           family={{National Snow and Ice Data Center}},
-           familyi={N\bibinitperiod}}}%
-      }
-      \strng{namehash}{d15e38671e7e1b3247464d169aaecd90}
-      \strng{fullhash}{d15e38671e7e1b3247464d169aaecd90}
-      \strng{fullhashraw}{d15e38671e7e1b3247464d169aaecd90}
-      \strng{bibnamehash}{d15e38671e7e1b3247464d169aaecd90}
-      \strng{authorbibnamehash}{d15e38671e7e1b3247464d169aaecd90}
-      \strng{authornamehash}{d15e38671e7e1b3247464d169aaecd90}
-      \strng{authorfullhash}{d15e38671e7e1b3247464d169aaecd90}
-      \strng{authorfullhashraw}{d15e38671e7e1b3247464d169aaecd90}
-      \field{sortinit}{N}
-      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{What Is the Cryosphere?}
-      \field{year}{2024}
-      \verb{urlraw}
-      \verb https://nsidc.org/learn/what-cryosphere
-      \endverb
-      \verb{url}
-      \verb https://nsidc.org/learn/what-cryosphere
-      \endverb
-    \endentry
     \entry{nicodemusDirectionalReflectanceEmissivity1965}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=3a154e664279be011c1b33b5c4626e60}{%
@@ -5068,6 +5082,80 @@
       \verb{url}
       \verb https://tc.copernicus.org/articles/10/1297/2016/
       \endverb
+    \endentry
+    \entry{poulsenEvaluationComparisonMachine2020}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=c740c825920c661be8159ae5f6f4a6fd}{%
+           family={Poulsen},
+           familyi={P\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3ff48cce85b0db6f7992de78307e91b1}{%
+           family={Egede},
+           familyi={E\bibinitperiod},
+           given={U.},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0a178a4dea04724b257e41b1efff16f4}{%
+           family={Robbins},
+           familyi={R\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bf2b97d8022b46e066a3e16043eb3593}{%
+           family={Sandeford},
+           familyi={S\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1bfd639bc15c928bf083e41b937a4bc5}{%
+           family={Tazi},
+           familyi={T\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4384032fd4cd9930b51f4647a8b4edb4}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e474afcd4d66b0c928799787fe0dd722}
+      \strng{fullhash}{5d5fc39de23c03a2329ff58bca89ff74}
+      \strng{fullhashraw}{5d5fc39de23c03a2329ff58bca89ff74}
+      \strng{bibnamehash}{5d5fc39de23c03a2329ff58bca89ff74}
+      \strng{authorbibnamehash}{5d5fc39de23c03a2329ff58bca89ff74}
+      \strng{authornamehash}{e474afcd4d66b0c928799787fe0dd722}
+      \strng{authorfullhash}{5d5fc39de23c03a2329ff58bca89ff74}
+      \strng{authorfullhashraw}{5d5fc39de23c03a2329ff58bca89ff74}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A Feed Forward Neural Net (NN) approach to distinguish between clouds and the surface has been applied to the Sea and Land Surface Temperature Radiometer in polar regions. The masking algorithm covers the Arctic, Antarctic and regions typically classified as the cryosphere such as northern hemisphere permafrost. The mask has been trained using collocations with the CALIOP active lidar, which in narrow strips provide more accurate detection of cloud, and was subsequently evaluated as a function of cloud type and surface type. The mask was compared with the existing operational Bayesian and Empirical cloud masks by eye and also statistically using CALIOP data. It was found to perform exceptionally well in the polar regions. The Kuiper skill score improved from 0.28, for the operational Bayesian and 0.17 for the Empirical masks to 0.77 for the NN. The NN algorithm also has a much more homogeneous performance over all surface types. The key improvement came from better identification of clear scenes; for the NN mask, the same performance in terms of contamination of cloudy pixels in the sample of identified clear pixels can be achieved while retaining 40\% of the clear pixels compared with 10\% for the operational cloud identification. The algorithm performed with almost the same skill over sea and land. The best performance was achieved for opaque clouds while transparent and broken clouds showed slightly reduced accuracy.}
+      \field{issn}{0034-4257}
+      \field{journaltitle}{Remote Sensing of Environment}
+      \field{month}{10}
+      \field{title}{Evaluation and Comparison of a Machine Learning Cloud Identification Algorithm for the {{SLSTR}} in Polar Regions}
+      \field{volume}{248}
+      \field{year}{2020}
+      \field{pages}{111999}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.rse.2020.111999
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0034425720303692
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0034425720303692
+      \endverb
+      \keyw{Cloud mask,Neural net,Poles,Sentinel-3,SLSTR}
     \endentry
     \entry{ricchiazziSBDARTResearchTeaching1998}{article}{}{}
       \name{author}{4}{}{%
@@ -5966,8 +6054,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{find a ref for this}
-  \missing{picardDevelopmentCalibrationAutomatic2016}
 \endrefsection
 \endinput
 

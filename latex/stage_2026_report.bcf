@@ -3142,16 +3142,17 @@
     <bcf:citekey order="60" intorder="1">arioliDynamicsSnowGrain2023</bcf:citekey>
     <bcf:citekey order="61" intorder="1">picardSpectralAlbedoMeasurements2020</bcf:citekey>
     <bcf:citekey order="62" intorder="1">kokhanovskyRetrievalSnowProperties2019</bcf:citekey>
-    <bcf:citekey order="63" intorder="1">kokhanovskyScatteringOpticsSnow2004</bcf:citekey>
-    <bcf:citekey order="64" intorder="1">picardSpectralAlbedoMeasurements2020</bcf:citekey>
-    <bcf:citekey order="65" intorder="1">Liu2022EffectsOU</bcf:citekey>
-    <bcf:citekey order="66" intorder="1">bunge3BasicPrinciples2017</bcf:citekey>
-    <bcf:citekey order="67" intorder="1">fahnestockSnowMegaduneFields2000</bcf:citekey>
-    <bcf:citekey order="68" intorder="1">arioliDynamicsSnowGrain2023</bcf:citekey>
-    <bcf:citekey order="69" intorder="1">vandecruxDeterminationSnowOptical2022</bcf:citekey>
-    <bcf:citekey order="70" intorder="1">domineThreeExamplesWhere2009</bcf:citekey>
-    <bcf:citekey order="71" intorder="1">colbeckOverviewSeasonalSnow1982</bcf:citekey>
-    <bcf:citekey order="72" intorder="1">arioliDynamicsSnowGrain2023</bcf:citekey>
+    <bcf:citekey order="63" intorder="1">poulsenEvaluationComparisonMachine2020</bcf:citekey>
+    <bcf:citekey order="64" intorder="1">kokhanovskyScatteringOpticsSnow2004</bcf:citekey>
+    <bcf:citekey order="65" intorder="1">picardSpectralAlbedoMeasurements2020</bcf:citekey>
+    <bcf:citekey order="66" intorder="1">Liu2022EffectsOU</bcf:citekey>
+    <bcf:citekey order="67" intorder="1">bunge3BasicPrinciples2017</bcf:citekey>
+    <bcf:citekey order="68" intorder="1">fahnestockSnowMegaduneFields2000</bcf:citekey>
+    <bcf:citekey order="69" intorder="1">arioliDynamicsSnowGrain2023</bcf:citekey>
+    <bcf:citekey order="70" intorder="1">vandecruxDeterminationSnowOptical2022</bcf:citekey>
+    <bcf:citekey order="71" intorder="1">domineThreeExamplesWhere2009</bcf:citekey>
+    <bcf:citekey order="72" intorder="1">colbeckOverviewSeasonalSnow1982</bcf:citekey>
+    <bcf:citekey order="73" intorder="1">arioliDynamicsSnowGrain2023</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

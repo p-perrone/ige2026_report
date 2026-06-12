@@ -7,6 +7,7 @@
 \renewcommand{\baselinestretch}{1.5} 
 \usepackage{indentfirst}
 \usepackage{svg}
+\usepackage{afterpage}
 % ------ font ----------
 \usepackage{sansmathfonts}
 \usepackage{fontspec}
@@ -65,17 +66,20 @@ urlcolor=BlueViolet]{hyperref}
 \usepackage{pythonhighlight}
 \usepackage{verbatim}
 \usepackage{fancyhdr}
-	\usepackage{etoolbox}
-	\makeatletter
-	\appto\@part{%
-	\markboth{\thepart.~\partname} %
-	}
-	\makeatother
-	
-	\pagestyle{fancy}
-	\fancyhf{}
-	\fancyhead[L]{\leftmark}
-	\fancyfoot[C]{\thepage}
+\usepackage{etoolbox}
+
+\makeatletter
+\let\oldpart\part
+\renewcommand{\part}[1]{%
+	\oldpart{#1}%
+	\markboth{\Roman{part}\quad #1}{}%
+}
+\makeatother
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\leftmark}
+\fancyfoot[C]{\thepage}
 \usepackage{titlesec}
 \usepackage{etoolbox}
 \definecolor{part1color}{RGB}{31, 78, 121}    % Dark Blue (Intro)
@@ -114,7 +118,7 @@ urlcolor=BlueViolet]{hyperref}
 	{0.4em}
 	{\vspace{-0.8em}}
 	[\vspace{-0.8em}]
-}
+	}
 % --- shortcuts commands ---
 \newcommand{\ie}{\emph{i.e.}, }
 \newcommand{\eg}{\emph{e.g.}, }
@@ -132,48 +136,114 @@ urlcolor=BlueViolet]{hyperref}
 % ////////////////////////////////////
 
 \begin{document}
-	\setlength{\abovedisplayskip}{5pt}
-	\setlength{\belowdisplayskip}{5pt}
-	
-	\title{Internship report}
-	\renewcommand{\baselinestretch}{1}\normalsize
-	\tableofcontents
-	\renewcommand{\baselinestretch}{1.5}\normalsize
+	\begin{titlepage}
+		\centering
+		
+		% Logos
+		\begin{minipage}{0.45\textwidth}
+			\includegraphics[height=2.5cm]{logo_uga.png}
+		\end{minipage}
+		\hfill
+		\begin{minipage}{0.45\textwidth}
+			\raggedleft
+			\includegraphics[height=3cm]{logo_ige.png}
+		\end{minipage}
+		
+		\vspace{2cm}
+		
+		{\fontfamily{lmss}\fontseries{sbc}\selectfont
+			{\huge Observation of snow in Antarctica using satellite and \emph{in situ} measurements}\\[0.5cm]
+			{\large January 5 -- June 30 2026}\\[1cm]
+		}
+		
+		{\large \bfseries Pietro PERRONE}\\[0.3cm]
+		{\large Master 2 of Earth and Planetary Sciences, Environment\\
+		Climate System: Atmosphere, Hydrosphere, Cryosphere program\\University Grenoble Alpes, France}\\[1cm]
+		\begin{center}
+			\begin{minipage}{0.45\textwidth}
+				\centering
+				{\large \textit{Supervisor}:\\
+					Ghislain PICARD\\
+					\url{ghislain.picard@univ-grenoble-alpes.fr}}
+			\end{minipage}
+			\quad
+			\begin{minipage}{0.45\textwidth}
+				\centering
+				{\large \textit{Reviewer}:\\
+					Marie DUMONT\\
+					\url{marie.dumont@meteo.fr}}
+			\end{minipage}
+		\end{center}
+		\vspace{1cm}
+		
+		\includegraphics[width=0.6\textwidth]{figure}\\[2cm]
+		
+	\end{titlepage}
+\newpage
+\section*{\fontfamily{lmss}\fontseries{sbc}\selectfont Acknowledgments}
+It is very difficult for me to recall how many people contributed to make these two years of Master absolutely the best I could imagine, but still, I'll give it a try.
+
+In the frame of my internship at IGE, I first thank Ghislain Picard for the constant support that provided in the last six months, at the same time advising and leaving a bit of freedom to take decisions. The mark he leaves on my scientific career is invaluable. Thanks to Laurent Arnaud as well, for the huge amount of time he spent helping me with the instrumental part of the work. I also thank Vincent Favier and all the members of IGE's snow research team from C2H that supported me during these month, and Marie Dumont for her willingness to review this report.
+
+Thanks to all my Grenoble friends I spent amazing moments with this year an a half in Grenoble: Coline, Malo, Claire-Mathilde, Dasha, Lilian, Vianney, Yeva, Jérémy, Laura, Corentin, Alexiane, Alix, Pietro, and the "Norwegian risotto" crew: Feffe, Paco, Carlos, Hasse, Nicole, Yon, Giova, Aneta (and I'm surely forgetting about somebody, forgive me...). 
+
+Thanks Andre for all time spent together climbing around Grenoble.
+
+A huge, huge thanks to ma' and pa'. Nothing of this would have been even remotely possible without all your sacrifices and support. Definitely worth it, though.
+Thanks to my super sisters Marti and Luci, and all the family that brought me all the way here.
+
+Thanks to my long-time friends that also made this years at university incredible and helped me in the big decision: Loris, Nicco, Matti, Lucien, Jabbo, Gianlu.
+
+Thanks Giada. I'm really doing something that I love in my life now, and it's largely thanks to you.
+\newpage
+\includepdf{../Attestation-Non-Plagiat.pdf}
+\setlength{\abovedisplayskip}{5pt}
+\setlength{\belowdisplayskip}{5pt}
+
+\renewcommand{\baselinestretch}{1}\normalsize
+\tableofcontents
+\setcounter{page}{1}
+\renewcommand{\baselinestretch}{1.5}\normalsize
+\newpage
 
 \selectlanguage{english}
-\section*{Abstract}
-Permanently snow-covered surfaces play a major role in amplifying climate variability due to their high albedo---their ability to reflect a large fraction of incoming solar radiation. In a rapidly warming climate, monitoring and understanding how surface processes influence snow radiative properties and their spatiotemporal evolution is critical. This work focuses on the evolution of snow grain size in Antarctica, particularly in a megadunes field on the Eastern Antarctic Plateau, a remote and poorly understood region. We compare and exploit albedo measurements from both \emph{in situ} automated albedometers and the Sentinel-3 Ocean and Land Color Instrument (OLCI). Albedo can be directly used to compute snow grain size via the asymptotic radiative transfer theory \parencite{kokhanovskyScatteringOpticsSnow2004}. We obtained continuous, multi-year time series from five stations, enabling a deeper understanding of the impact of geophysical processes (precipitation, metamorphism, wind drift) on snow grain size, especially in the megadunes zone. We also compared \emph{in situ} measurements with satellite-retrieved albedo at station locations to validate the latter for potential continent-wide, daily-scale monitoring of snow grain size. Results show moderate to good agreement at three stations (average $r = 0.66$, $p < 0.01$) but systematic differences at one megadunes station ($r = 0.39$, $p < 0.01$). Consequently, we developed a diagnostic pipeline for processing both \emph{in situ} and satellite data, revealing likely instrumental drift in the albedometers and potential sub-optimal retrieval of snow grain size from satellite observations.
+\thispagestyle{plain}
+\vspace{-1cm}
+\textbf{\large\fontfamily{lmss}\fontseries{sbc}\selectfont Abstract\quad}
+Snow-covered surfaces play a distinct role in amplifying climate variability due to their high albedo---their ability to reflect a large fraction of incoming solar radiation. In a rapidly warming climate, monitoring and understanding how surface processes influence snow radiative properties and their spatiotemporal evolution is critical. This work aims at documenting the evolution of snow grain size in Antarctica, particularly in a megadunes field on the Eastern Antarctic Plateau, a remote and poorly understood region. We exploit measurements from both \emph{in situ} automated albedometers and the Sentinel-3 Ocean and Land Color Instrument (OLCI) over the 2017--2025 period. Albedo can be directly used to compute snow grain size---expressed in terms of the grains surface area per unit mass, \unit{\ssaunit}---via the asymptotic radiative transfer theory \parencite{kokhanovskyScatteringOpticsSnow2004}. We obtained continuous time series from five stations, enabling a deeper understanding of the impact of precipitation, metamorphism, and wind drift on snow grain size, especially in the megadunes zone. We also compared \emph{in situ} measurements with satellite-retrieved albedo at station locations to validate the latter for potential continent-wide, daily-scale monitoring of snow grain size. Results show moderate to good agreement at three stations but systematic differences at one megadunes station, with a root mean squared error of \qty{16.3}{\ssaunit}---larger than the summer minimum retrieved from the satellite (\qty{13.1}{\ssaunit}). Consequently, we developed a diagnostic pipeline for processing both \emph{in situ} and satellite data, revealing likely instrumental drift in the albedometers and potential sub-optimal retrieval of snow grain size from satellite observations.
+
 \color{Gray1}
-\section*{Resumé}
 \selectlanguage{french}
-Les surfaces recouvertes en permanence de neige jouent un rôle majeur dans l'amplification de la variabilité climatique grâce à leur albédo élevé, c'est-à-dire leur capacité à réfléchir une grande partie du rayonnement solaire incident. Dans un contexte de réchauffement climatique rapide, la surveillance et la compréhension de l'influence des processus de surface sur les propriétés radiatives de la neige et de leur évolution spatiotemporelle sont essentielles. Ce travail se concentre sur l'évolution de la taille des grains de neige en Antarctique, en particulier dans un champ de mégadunes sur le plateau antarctique oriental, une région reculée et mal comprise. Nous comparons et exploitons des mesures d'albédo provenant à la fois d'albédomètres automatisés \emph{in situ} et de l'instrument satellite Sentinel-3 Ocean and Land Color Instrument (OLCI). L'albédo peut en effet être directement utilisé pour calculer la taille des grains de neige via la théorie asymptotique du transfert radiatif \parencite{kokhanovskyScatteringOpticsSnow2004}. Nous avons obtenu des séries temporelles continues sur plusieurs années à partir de cinq stations, permettant une meilleure compréhension de l'impact des processus géophysiques (précipitations, métamorphisme, transport éolien) sur la taille des grains de neige, en particulier dans la zone des mégadunes. Nous avons également comparé les mesures \emph{in situ} avec les albédos récupérés par satellite aux emplacements des stations afin de valider ces derniers pour un suivi potentiel à l'échelle continentale et quotidienne de la taille des grains de neige. Les résultats montrent un accord modéré à bon pour trois stations (corrélation moyenne $r = 0.66$, $p < 0.01$), mais des différences systématiques pour une station des mégadunes ($r = 0.39$, $p < 0.01$). Par conséquent, nous avons développé une chaîne de traitement diagnostique pour les données \emph{in situ} et satellites, révélant une probable dérive instrumentale des albédomètres et un éventuel sous-optimisation de la récupération de la taille des grains de neige à partir des observations satellites.
-	\newpage
+\itshape
+\textbf{\large\fontfamily{lmss}\fontseries{sbc}\selectfont \color{Gray1}\itshape{Résumé}\quad} Les surfaces enneigées jouent un rôle distinct dans l'amplification de la variabilité climatique grâce à leur albédo élevé---leur capacité à réfléchir une grande partie du rayonnement solaire incident. Dans un climat en réchauffement rapide, la compréhension de l'influence des processus de surface sur les propriétés radiatives de la neige et de leur évolution spatiotemporelle sont essentielles. Ce travail documente l'évolution de la taille des grains de neige en Antarctique, notamment sur un champ de mégadunes sur le plateau antarctique oriental, une région reculée et peu comprise. Nous exploitons des mesures provenant à la fois d'albédomètres automatisés \emph{in situ} et du satellite Sentinel-3 Ocean and Land Color Instrument (OLCI) sur la période 2017--2025. L'albédo peut être utilisé pour calculer la taille des grains de neige---exprimée comme la surface des grains par unité de masse (\unit{\ssaunit})---via la théorie asymptotique du transfert radiatif \parencite{kokhanovskyScatteringOpticsSnow2004}. Nous avons obtenu des séries temporelles continues à partir de cinq stations, permettant de mieux comprendre l'impact des précipitations, du métamorphisme et du transport éolien sur la taille des grains de neige, notamment dans la zone des mégadunes. Nous avons également comparé les mesures \emph{in situ} avec les estimations par satellite aux emplacements des stations afin de valider ces derniers pour un suivi potentiel à l'échelle continentale et quotidienne. Les résultats montrent un accord modéré à bon pour trois stations, mais des différences systématiques pour une station des mégadunes, avec une erreur quadratique moyenne de \qty{16.3}{\ssaunit}---plus grande que le minimum estival récupéré depuis le satellite (\qty{13.1}{\ssaunit}). Par conséquent, nous avons développé une chaîne de traitement diagnostique pour les données \emph{in situ} et satellites, révélant une probable dérive instrumentale des albédomètres et une estimation sous-optimale de la taille des grains de neige à partir des observations satellites.
 \normalfont
-	\setpartcolor{part1color}
-	\part{Introduction}
-\begin{figure}
-	\centering
-	\subfloat[\label{fig:context}]{\includegraphics[width=7cm]{context.pdf}}\quad
-	\subfloat[\label{fig:mb}]{\includegraphics[width=9cm]{multiband.png}}
-	\mycaption{Multiband stations}{\textbf{(a)} Localization of Multiband stations. Megadunes field in the upper frame; Cap Prud'Homme in right frame. \textbf{(b)} Multiband instrument installed ad D17 station; the head with the two cosine collectors is on the right end of the metal gantry. Photo from IGE archives.}
-\end{figure}
+\setpartcolor{part1color}
+\selectlanguage{english}
+\newpage
+\part{Introduction}
+\markboth{I\quad Introduction}{}
 \color{Black}
 	Snow is one of the major component of the cryosphere. Its global distribution on both ocean and land areas strongly depends on seasonality, latitude, and elevation. It occurs in three forms, mainly: permanent snow on ice sheets and glaciers, snow on sea ice, and seasonal snow cover. The latter is estimated to account for 1.3\% (summer) to 30.6\% (winter) of the Northern Hemisphere land surface area \parencite{Vaughan2013}, with the 1967-2026 mean snow cover extent (SCE hereafter) in winter being around \qty{39.79e6}{\kilo\meter\squared} \parencite{rutgers_snowlab}. Sea ice is often covered by snow during the winter season; its peak extent occurs in March in the Northern Hemisphere (\qty{15.03e6}{\kilo\meter\squared}) and in September in the Southern Hemisphere (\qty{18.61e6}{\kilo\meter\squared}) \parencite{warrenSnowDepthArctic1999, fettererSeaIceIndex2025}. Finally, perennial snow mean extent over the 2000--2022 period is estimated at \qty{16.47e6}{\kilo\meter\squared} from NASA's Moderate Resolution Imaging Spectroradiometer (MODIS), including glaciers, ice caps, Greenland and Antarctica ice sheets \parencite{johnstonGlobalSnowSeasonality2024}.\\
 	These several tens of millions of snow-covered squared kilometres play a major role in freshwater resources availability, ecosystems equilibrium and, particularly, climate variability amplification. In fact, snow represents one of the strongest reflective materials on Earth's surface. \emph{Albedo} quantifies the fraction of incident solar radiation reflected by a surface. For fresh snow, broadband albedo (\ie integrated over the visible-to-infrared range) is close to 1, as its highest reflectivity occurs in the visible range, where solar radiation intensity peaks \parencite{kokhanovskyScatteringOpticsSnow2004}. The radiative forcing of Northern Hemisphere land snow cover---its cooling effect on Earth's energy budget---averages approximately \qty{2}{\watt\per\meter\squared} (1979--2008), peaking at \qty{4.5}{\watt\per\meter\squared} in May \parencite{flannerRadiativeForcingAlbedo2011}. Without this forcing, Earth's surface temperature would be approximately \qty{0.54}{\kelvin} higher than the current planetary mean. This estimate assumes that Earth radiates as a blackbody with no feedback effects, making it a lower-bound estimate. In fact, real climate feedbacks (due to water vapour, lapse rate, clouds) amplify the true temperature response \parencite{croninHowWellWe2023}.
 	
 	As the whole cryosphere in general, snow distribution on Earth is undergoing dramatic changes because of the current anthropogenic perturbation of the climate system and warming of the atmosphere. At the global scale, SCE is featuring a negative trend since the 1980s, with a statistically significant reduction in the mean area of 5\% after 1988---compared to the 1967--1988 period and in the Northern Hemisphere only---and an earlier melt onset in the spring season \parencite{robinsonSeasonalVariabilityNorthern2000, dyeVariabilityTrendsAnnual2002}. Less snow cover in both space and time, driven by rising temperatures, reduces terrestrial albedo and increases the absorption of incoming solar radiation at the surface, which in turn amplifies warming \parencite{cubaschProjectionsFutureClimate2001, hollandPolarAmplificationClimate2003}. This mechanism is known as the positive snow--albedo feedback: it is estimated to be responsible of a reduction in Northern Hemisphere land snow cover radiative cooling forcing of $\sim\qty{0.22}{\watt\per\meter\squared}$ from 1979 to 2007, which nearly equals the contribution of Arctic sea ice decline \parencite{flannerRadiativeForcingAlbedo2011}. The magnitude of such feedback is further amplified when light-absorbing particles, such as dust, black carbon and microbial growth, deposit on the surface of snowpack \parencite{skilesLightAbsorbingParticles2018}. 
 	
-	It is clear, that developing a proper understanding of how snow interacts with solar radiation is crucial for a better understanding of the evolution of the climate system. Snow optical properties, particularly albedo, are directly related to grain type and size, and are strongly wavelength-dependent \parencite{kokhanovskyScatteringOpticsSnow2004, bohrenTheoryOpticalProperties1974}. Quantifying these properties involves radiative transfer calculations extended to the uppermost part of the snowpack, which in most models is assumed to be composed of individual grains of a given size and shape. Many studies have adopted equivalent spheres, assuming they can properly represent any other shape at a given optical diameter \parencite{bohrenTheoryOpticalProperties1974, warrenSnowDepthArctic1999}. However, recent studies have demonstrated that this approach is unsatisfactory for accurately accounting for specific scattering and reflectance properties of the snowpack \parencite{kokhanovskyScatteringOpticsSnow2004, liboisExperimentalDeterminationAbsorption2014, dumontHighaccuracyMeasurementsSnow2010}. For this reason, when addressing grain size, a more general, shape-independent quantity is preferable to the optical diameter: the \emph{specific surface area} (SSA), defined as the total surface area of snow grains per unit mass---expressed in \unit{\meter\squared\per\kilo\gram} \parencite{internationalunionofpureandappliedchemistryiupacSpecificSurfaceArea}. This quantity, used hereafter to address snow grain size, largely influences snow reflectance for wavelengths in the Near-Infrared (NIR) range, between \qty{750}{\nano\meter} and \qty{1400}{\nano\meter} particularly \parencite{warrenModelSpectralAlbedo1980}. For example, a factor-6 decrease in SSA (\eg from 60 to \qty{10}{\ssaunit}) can approximately reduce albedo by ~15\% at \qty{1000}{\nm}. In general, albedo decreases monotonically with SSA and can be modeled as an exponential function of $\ssa^{-1/2}$ \parencite{kokhanovskyScatteringOpticsSnow2004}.
+	It is clear, that developing a proper understanding of how snow interacts with solar radiation is crucial for a better understanding of the evolution of the climate system. Snow optical properties, particularly albedo, are directly related to grain type and size, and are strongly wavelength-dependent \parencite{kokhanovskyScatteringOpticsSnow2004, bohrenTheoryOpticalProperties1974}. Quantifying these properties involves radiative transfer calculations extended to the uppermost part of the snowpack, which in most models is assumed to be composed of individual grains of a given size and shape. Many studies have adopted equivalent spheres, assuming they can properly represent any other shape at a given optical diameter \parencite{bohrenTheoryOpticalProperties1974, warrenSnowDepthArctic1999}. However, recent studies have demonstrated that this approach is unsatisfactory for accurately accounting for specific scattering and reflectance properties of the snowpack \parencite{kokhanovskyScatteringOpticsSnow2004, liboisExperimentalDeterminationAbsorption2014, dumontHighaccuracyMeasurementsSnow2010}. For this reason, when addressing grain size, a more general, shape-independent quantity is preferable to the optical diameter: the \emph{specific surface area} (SSA), defined as the total surface area of snow grains per unit mass---expressed in \unit{\meter\squared\per\kilo\gram} \parencite{internationalunionofpureandappliedchemistryiupacSpecificSurfaceArea}. This quantity, used hereafter to address snow grain size, largely influences snow reflectance for wavelengths in the near-infrared (NIR) range, between \qty{750}{\nano\meter} and \qty{1400}{\nano\meter} particularly \parencite{warrenModelSpectralAlbedo1980}. For example, a factor-6 decrease in SSA (\eg from 60 to \qty{10}{\ssaunit}) can approximately reduce albedo by ~15\% at \qty{1000}{\nm}. In general, albedo decreases monotonically with SSA and can be modeled as an exponential function of $\ssa^{-1/2}$ \parencite{kokhanovskyScatteringOpticsSnow2004}.
 	
 	Snow grain size dynamics are therefore a key indicator of how snowpack optical properties evolve over time and space, making their tracking essential. Changes in grain size are primarily driven by processes such as metamorphism, wind drift, and precipitation.\\
-	When transformations in size and shape occur below the melting point ($T = \qty{0}{\celsius}$), the metamorphism is dry: the grain size grows at a rate defined by the respective increase in temperature and temperature gradient \parencite{colbeckOverviewSeasonalSnow1982}. Instead, wet metamorphism occur if snow is at the melting point, the liquid water content directly driving the growth, which is significantly faster than in the the dry case \parencite{wakahamaMetamorphismWetSnow1968}. Anyway, independently of the type of metamorphism, the change in size is positive and irreversible, exception made for few specific cases when the opposite occurs (melt-freeze crust turning into depth hoar, fragmentation of snow crystals by wind drift, and sieving of blowing snow by a snow layer, \cite{domineThreeExamplesWhere2009}).\\	
-	Transport by the wind occurs when its velocity is able to break snow cohesion and lift grains. This is more likely for fresh-fallen snow than for old, metamorphosed snow \parencite{lenaertsMeltwaterProducedWind2017}. This process, called wind drift, varies with wind speed: saltation occurs under weak winds, (from 4--\qty{6}{\meter\per\second}) with snow skipping a few centimeters above the surface, while stronger winds create snow plumes, lifting grains up to hundreds of meters---the so-called blowing snow \parencite{adokSnowDrift1977, WMO2024BlowingSnow}.
+	When transformations in size and shape occur below the melting point ($T = \qty{0}{\celsius}$), the metamorphism is dry: the grain size grows at a rate defined by the respective increase in temperature and temperature gradient \parencite{colbeckOverviewSeasonalSnow1982}. Instead, wet metamorphism takes place if snow is at the melting point, the liquid water content directly driving the growth, which is significantly faster than in the the dry case \parencite{wakahamaMetamorphismWetSnow1968}. Anyway, independently of the type of metamorphism, the change in size is positive and irreversible, exception made for few specific cases when the opposite occurs (melt-freeze crust turning into depth hoar, fragmentation of snow crystals by wind drift, and sieving of blowing snow by a snow layer, \cite{domineThreeExamplesWhere2009}).\\	
+	Transport by the wind occurs when its velocity is able to break snow cohesion and lift grains. This is more likely for fresh-fallen snow than for old, metamorphosed snow \parencite{lenaertsMeltwaterProducedWind2017}. This process, called wind drift, varies with wind speed: saltation occurs under weak winds, (4--\qty{6}{\meter\per\second}) with snow skipping a few centimeters above the surface, while stronger winds create snow plumes, lifting grains up to hundreds of meters---the so-called blowing snow \parencite{adokSnowDrift1977, WMO2024BlowingSnow}.
 	Wind drift has two opposing effects on grain size. Erosion of the snowpack’s upper layers exposes older, coarser, and less reflective layers \parencite{lenaertsMeltwaterProducedWind2017}. Conversely, wind fractures grains through collisions, so newly formed deposits typically consist of finer grains \parencite{domineThreeExamplesWhere2009}.\\
 	Snow fall is generally responsible of depositing fresh and more fine-grained snow at surface, potentially covering already metamorphosed and coarser layers, thus increasing SSA and albedo \parencite{domineThreeExamplesWhere2009}.
-	
+\begin{figure}[t]
+	\centering
+	\subfloat[\label{fig:context}]{\includegraphics[width=7cm]{context.pdf}}\quad
+	\subfloat[\label{fig:mb}]{\includegraphics[width=9cm]{multiband.jpg}}
+	\mycaption{Multiband stations}{\textbf{(a)} Localization of Multiband stations. Megadunes field in the upper frame; Cap Prud'homme in right frame. Basemap: hillshade from MODIS DTM. \textbf{(b)} Multiband instrument installed ad D17 station; the head with the two cosine collectors is on the right end of the metal gantry. Photo from IGE archives.}
+\end{figure}	
 	This study is focused on the temporal evolution of snow and its albedo over the whole Antarctica, where all the processes of above act and interplay in a complex manner, over a wide range of climatic and geographical contexts. The Antarctic Ice Sheet (AIS), expanding for \qty{14e6}{\kilo\meter\squared} over 98\% of the continent, is almost completely snow-covered year-round. As a polar region, it plays a massive role in positive climate feedbacks. At the same time, compared to the Arctic, Antarctica presents unique challenges for the exploration of surface radiative properties.\\
 	Being such a harsh and inaccessible place, it has  allowed \emph{in situ} investigations limited to regional scales and relatively short time coverage only. This has led the scientific community to rely on satellite data, which inherits higher uncertainties and reduced spatio-temporal resolution, from missions such as AVHRR, MODIS, and CLARA-A2.1-SAL \parencite{callejaSnowAlbedoSeasonality2019, sunChangesAntarcticsSummer2023a}.\\
-	Moreover, many of the AIS surface processes are not yet properly understood, particularly toward the center of the ice sheet. One of these is the mechanism involved in the formation of snow megadunes. These are antidune-like sedimentary forms, whose fields cover a large fraction of the central part of the AIS (\qty{500e5}{\kilo\meter\squared}) \parencite{frezzottiSnowMegadunesAntarctica2002}. They have relatively small amplitudes (1--\qty{8}{\meter}), compared to their wavelength (2--\qty{4}{\kilo\meter}), and crest lengths of 10 to \qty{100}{\kilo\meter} \parencite{fahnestockSnowMegaduneFields2000}---these characteristics prevented their direct observation until the beginning of satellite exploration over the continent. Their formation are thought to result from a complex interplay between geomorphological and meteorological conditions that causes a cryosphere-atmosphere feedback mechanism: katabatic winds, blowing toward the outer boundaries of the AIS from the center, affect local topography by deposition-erosion processes [REF]. Topography, in turn, modifies the katabatic wind field; megadunes develop perpendicularly to the main direction of such winds \parencite{traversaMegadunesAntarcticaMigration2023}. Still, the way snow grain size evolves on these structures remains an unexplored topic.\\
+	Moreover, many of the AIS surface processes are not yet properly understood, particularly toward the center of the ice sheet. One of these is the mechanism involved in the formation of snow megadunes. These are antidune-like sedimentary forms, whose fields cover a large fraction of the central part of the AIS (\qty{500e5}{\kilo\meter\squared}, Fig. \ref{fig:context}) \parencite{frezzottiSnowMegadunesAntarctica2002}. They have relatively small amplitudes (1--\qty{8}{\meter}), compared to their wavelength (2--\qty{4}{\kilo\meter}), and crest lengths of 10 to \qty{100}{\kilo\meter} \parencite{fahnestockSnowMegaduneFields2000}---these characteristics prevented their direct observation until the beginning of satellite exploration over the continent. Their formation are thought to result from a complex interplay between geomorphological and meteorological conditions that causes a cryosphere-atmosphere feedback mechanism: katabatic winds, blowing toward the outer boundaries of the AIS from the center, affect local topography by deposition-erosion processes [REF]. Topography, in turn, modifies the katabatic wind field; megadunes develop perpendicularly to the main direction of such winds \parencite{traversaMegadunesAntarcticaMigration2023}. Still, the way snow grain size evolves on these structures remains an unexplored topic.\\
 	With this work, we aim to improve the understanding of surface albedo evolution in Antarctica by combining \emph{in situ} measurements with satellite observations in the megadune area. Using data from automated albedometers installed at several locations on the AIS, we aims to produce high accuracy quality-controlled time series of locally measured specific surface area (SSA) and assess them against satellite-retrieved grain size. Measurement stations were deployed in two primary locations: on the coast near the French station Dumont d'Urville, and in a megadune field in the Eastern Antarctic Plateau.
 	
 	The overarching goals of this analysis are: (i) to validate a satellite product, ESA's Sentinel-3 Ocean and Land Color Instrument, enabling long-term and continent-wide studies of snow albedo at a relatively fine resolution ($\sim\qty{300}{\meter}$), compared to other missions (e.g., MODIS); (ii) to deepen the understanding of processes driving temporal albedo changes at the local scale, particularly on megadunes, using an unprecedented 6-year continuous \emph{in situ} record of snow albedo.
@@ -184,39 +254,37 @@ Les surfaces recouvertes en permanence de neige jouent un rôle majeur dans l'am
 		\item \textbf{Processing of Sentinel-3 data}: downloading the frames and applying the SICE 1.6 algorithm, as described by \cite{kokhanovskyRetrievalSnowProperties2019};
 		\item \textbf{Comparison of the time series}: performing corrections to address possible gaps between the two datasets and interpreting the retrieved albedo dynamics geophysically.
 	\end{enumerate}
-
-\section{Contributions an use of artificial intelligence}
+\begin{figure}[t]	
+	\subfloat[\label{tab:geo}]{%
+		{\small
+			\raisebox{2cm}{%
+				\begin{tabular}{lSS}
+					\toprule
+					Station & {Lon (°E)} & {Lat (°S)} \\
+					\midrule
+					EAIIST01 & 121.682 & 80.564 \\
+					EAIIST02 & 121.632 & 80.575 \\
+					D17      & 139.716 & 66.720 \\
+					D10      & 139.810 & 66.700 \\
+					D5       & 139.884 & 66.699 \\
+					\bottomrule
+				\end{tabular}%
+			}%
+		}
+	}\hfill
+	\subfloat[\label{fig:temp_avail}]{%
+		\includegraphics[width=11.5cm]{st_temp_av}%
+	}
+	\mycaption{Stations overview}{\textbf{(a)} Exact position of each measurement station in WGS 84 coordinates; \textbf{(b)} temporal data availability of each measurement station.}
+	\label{fig:stations}
+\end{figure}
+\section*{Contributions an use of artificial intelligence}
 G. Picard and L. Arnaud built the Multiband albedometer and deployed it. V. Favier installed AWS weather stations. S. Arioli developed the algorithm for specific Multiband processing. I (Pietro Perrone) updated and optimized this algorithm, and adapted it to the megadunes case study. I also wrote the pipeline for Solalb data processing and employed functions from SICE 1.6 algorithm to select and download (1 Tb) and process S-3/OLCI data for satellite SSA retrieval. I also developed a pipeline to diagnose both \emph{in situ} and satellite SSA retrievals, to finally interpret the results.
 
 AI (\url{https://chat.mistral.ai/chat}) was primarily used for debugging, with all code modifications explicitly indicated. It was also utilized for language checks and bibliographic searches (Google Scholar Labs).
 	
 	\setpartcolor{part2color}
 	\part{Material and methods}
-	\begin{figure}[t]	
-		\subfloat[\label{tab:geo}]{%
-			{\small
-				\raisebox{2cm}{%
-					\begin{tabular}{lSS}
-						\toprule
-						Station & {Lon (°E)} & {Lat (°S)} \\
-						\midrule
-						EAIIST01 & 121.682 & 80.564 \\
-						EAIIST02 & 121.632 & 80.575 \\
-						D17      & 139.716 & 66.720 \\
-						D10      & 139.810 & 66.700 \\
-						D5       & 139.884 & 66.699 \\
-						\bottomrule
-					\end{tabular}%
-				}%
-			}
-		}\hfill
-		\subfloat[\label{fig:temp_avail}]{%
-			\includegraphics[width=11.5cm]{st_temp_av}%
-		}
-		\mycaption{Stations overview}{\textbf{(a)} Exact position of each measurement station in WGS 84 coordinates; \textbf{(b)} temporal data availability of each measurement station}
-		\label{fig:stations}
-	\end{figure}
-	
 	\section{Theoretical backgrounds}
 Snow can be considered an opaque medium from a radiative perspective, with nearly zero transmissivity. Its interaction with sunlight is thus limited to absorption or reflection, described by the bidirectional reflectance distribution function (BRDF) $f_\mathrm{r}$ for opaque bodies \parencite{nicodemusDirectionalReflectanceEmissivity1965}:
 \begin{equation}
@@ -235,13 +303,13 @@ Integrating $\alpha^\mathrm{dir}$ over all incidence angles yields the \emph{dif
 
 Using \cite{kokhanovskyScatteringOpticsSnow2004}'s Asymptotic Radiative Transfer (ART) theory, snow grain size (SSA) can be retrieved from both $\alpha^\mathrm{dir}$ and $\alpha^\mathrm{dif}$. Particularly, $\alpha^\mathrm{dir}$ can be expressed in terms of $\alpha^\mathrm{dif}$ by introducing the escape function, \ie the probability that a photon, after being repeatedly scattered within the snowpack, will escape the medium in a specific direction $\theta'$ \parencite{sobolevLightScatteringPlanetary2014}:
 \begin{equation}\label{eq:escape}
-	u(\mu') = \frac{3}{7}(1 + 2\mu')
+	u(\mu') = \frac{3}{7}(1 + 2\mu').
 \end{equation}
 Hence:
 \begin{equation}
 	\alpha^\mathrm{dif}(\lambda) = \exp \left(-4 \sqrt{\frac{2 B \gamma(\lambda)}{3 \rho_\mathrm{ice} \ssa (1 -g)}}\right), \qquad \alpha^\mathrm{dir}(\lambda, \theta_0) = \alpha^\mathrm{dif}(\lambda)^{u(\mu_0)}
 \end{equation}
-where $\rho_\mathrm{ice} = \qty{917}{\kilo\gram\per\cubed\meter}$ is the ice density at \qty{0}{\celsius}, $\gamma(\lambda)$ the ice absorption coefficient, and $B = 1.6$ and $g = 0.85$ are the absorption enhancement parameter and asymmetry factor, respectively \parencite{liboisExperimentalDeterminationAbsorption2014}. These expressions assume: (i) a homogeneous snowpack, (ii) a flat, horizontal surface with a horizontal albedometer sensor, (iii) constant $g$ and $B$, together with SSA fully describing snow phase function and single-scattering albedo (iv) clean snow---realistic assumption for Antarctica, exception made for human-polluted sites \parencite{caseySpectralChemicalMeasurement2017}. Finally, SSA is obtained by fitting the total albedo model $\alpha^\mathrm{mod}(\lambda)$:
+where $\rho_\mathrm{ice} = \qty{917}{\kilo\gram\per\cubed\meter}$ is the ice density at \qty{0}{\celsius}, $\gamma(\lambda)$ the ice absorption coefficient, and $B = 1.6$ and $g = 0.85$ are the absorption enhancement parameter and asymmetry factor, respectively \parencite{liboisExperimentalDeterminationAbsorption2014}. These expressions assume: (i) a homogeneous snowpack, (ii) a flat, horizontal surface with a horizontal albedometer sensor, (iii) constant $g$ and $B$, together with SSA fully describing snow phase function and single-scattering albedo and (iv) clean snow---realistic assumption for Antarctica, exception made for human-polluted sites \parencite{caseySpectralChemicalMeasurement2017}. Finally, SSA is obtained by fitting the total albedo model $\alpha^\mathrm{mod}(\lambda)$:
 \begin{equation}
 	\alpha^\mathrm{mod}(\lambda) = A \left[ D^\mathrm{dif}(\theta_0, \lambda) \alpha^\mathrm{dif}(\lambda) + (1 - D^\mathrm{dif}(\theta_0, \lambda)) \alpha^\mathrm{dir}(\theta_0, \lambda) \right],
 \end{equation}
@@ -249,7 +317,7 @@ where $D^\mathrm{dif}(\theta_0, \lambda)$ is the diffuse-to-total light partitio
 
 	\section{Study area: an overview of the stations}
 
-We employed data from five automated stations located across the Antarctic Ice Sheet. Their precise geolocalizations are shown in Figure~\ref{fig:geo}, while the temporal availability of data for each station is presented in Figure~\ref{fig:temp_avail}. Each station is equipped with an albedometer (described in Section~\ref{ssc:mb}) and an automated weather station (AWS).
+We employed data from five automated stations located across the Antarctic Ice Sheet. Their precise geolocalizations are shown in Figure \ref{fig:context} and Table \ref{tab:geo}, while the temporal availability of data for each station is presented in Figure~\ref{fig:temp_avail}. Each station is equipped with an albedometer (described in Section \ref{ssc:mb}) and an automated weather station (AWS).
 
 Three stations are located on the coast, a few kilometers from the French station Dumont d'Urville at Cap Prud'homme. These stations were previously used in the study by \cite{arioliDynamicsSnowGrain2023}. Data from these stations are recovered manually every year during the December--January field campaign by IGE operators. Hereafter, we refer to these as the **coastal Cap Prud'homme stations**.
 
@@ -261,10 +329,10 @@ Two stations were installed in a megadune field near the South Pole in 2019 duri
 	\begin{figure}[t]
 		\centering
 		\includegraphics[width=16cm]{mbscheme.pdf}
-		\mycaption{Structure of Multiband}{On the head, custom cosine collectors (red) and the reference collector (purple). The signal is transmitted through slots 0 (incident channel) and 7 (reflected) of the wheel; at any step $n$, the wheel rotates of one slot counter-clockwise. Simultaneous acquisition on reflected and incident channels are possible at 500 (green), 800 (red), 1050 (pale red), and \qty{1300}{\nano\meter} (light brown), thanks to duplicated filters (2-9, 3-10, 4-11 and 5-12 respectively). Dual photodiodes are composed of two stacked Si (purple) and InGaAs (pink) photodiodes. Modified after \cite{arioliDynamicsSnowGrain2023}.}
+		\mycaption{Structure of Multiband}{On the head, custom cosine collectors (red) and the reference collector (purple). The signal is transmitted through slots 0 (incident channel) and 7 (reflected) of the wheel through the optical fibers; at any step $n$, the wheel rotates of one slot counter-clockwise. Simultaneous acquisition on reflected and incident channels are possible at 500 (green), 800 (red), 1050 (pale red), and \qty{1300}{\nano\meter} (light brown), thanks to duplicated filters (2-9, 3-10, 4-11 and 5-12 respectively). Dual photodiodes are composed of two stacked Si (purple) and InGaAs (pink) photodiodes. Modified after \cite{arioliDynamicsSnowGrain2023}.}
 		\label{fig:mbscheme}
 	\end{figure}
-	The main instrument used in this study is the Multiband albedometer, developed at Grenoble’s Institute for Geosciences of the Environment (IGE) and fully described in \cite{arioliDynamicsSnowGrain2023}. It is a robust automated optical radiometer capable of acquiring solar radiation across a discrete set of wavelength bands, from the visible to the short-wave infrared, which are essential for retrieving snow surface albedo.
+	The main instrument used in this study is the Multiband albedometer, developed at Grenoble’s Institute for Geosciences of the Environment (IGE) and fully described in \cite{arioliDynamicsSnowGrain2023} (Fig. \ref{fig:mb}). It is a robust automated optical radiometer capable of acquiring solar radiation across a discrete set of wavelength bands, from the visible to the short-wave infrared, which are essential for retrieving snow surface albedo.
 	Similar to previously developed albedometers (e.g., Autosolexs, Solalb; see \cite{picardDevelopmentCalibrationAutomatic2016a}), the Multiband consists of a set of metal gantries. One perfectly leveled pole projects the instrument head horizontally at $\sim\qty{3}{\meter}$ from the installation point and at a height of $\sim\qty{2}{\meter}$ above the snow surface, typically oriented north- or southward to minimize shadowing from other components. The head features two custom cosine-shaped light collectors, one pointing upward and the other downward, to measure incident and reflected irradiance, respectively. These collectors, meticulously designed by \cite{picardDevelopmentCalibrationAutomatic2016a}, incorporate a bumped Teflon surface to maximize performance at any solar zenith angle (SZA), including grazing angles, which are critical for accurate radiation measurements in polar regions.
 	
 	The light is transmitted to the instrument’s recording unit via two Ocean Optics QP800-VIS-NIR optical fibers, each $\qty{6}{\meter}$ long with a $\qty{800}{\micro\meter}$ core diameter. Unlike earlier albedometers, where optical fibers directly sent the signal to a spectrometer for high-resolution spectral recording, the Multiband employs a more energy-efficient approach. The broadband radiation transmitted by the fibers passes through a set of polarizing filters mounted on a $\sim\qty{20}{\centi\meter}$ wheel with 12 slots. These filters are Edmund Optics’ TECHSPEC® hard-coated optical density (OD) 4.0, $\qty{25}{\nano\meter}$ bandpass filters, specific for wavelengths of 500, 600, 800, 925, 1050, 1300, and \qty{1550}{\nano\meter}. During a full measurement cycle (lasting $\qty{30}{\second}$), the wheel rotates to acquire spectral measurements for each selected wavelength from both incident and reflected signals. These signals are transmitted to dual-band Silicon (Si) / Indium-Arsenide-Gallium (InGaAs) photodiodes, the latter sensible to signals at longer wavelengths. (DSD2, Thorlabs). Measurements on the two channels are simultaneous, and the wheel includes duplicate filters to ensure synchronous recordings at the most relevant wavelengths, as well as one capped slot to measure the dark current (\ie the background thermal noise). To ensure simultaneous acquisition of the most relevant wavelengths for albedo retrieval on both channels, four of the remaining free slots are filled with duplicate filters for 500, 800, 1050, and \qty{1300}{\nano\meter} (Fig. \ref{fig:mbscheme}).
@@ -273,7 +341,7 @@ Two stations were installed in a megadune field near the South Pole in 2019 duri
 	The entire system’s electronics are powered by a solar panel. The Multiband has demonstrated its durability by acquiring continuous measurements without interruption at each of the stations where it was installed over 7 years.
 	
 	\subsection{\emph{In situ}: the Solalb albedometer}
-	Solalb is a portable albedometer. Its functioning is different from Multiband. Its head consists of a single light collector that is manually flipped upward and downward during the measurement to acquire incident and reflected radiation respectively. The signal is transmitted to a 350-\qty{1100}{\nano\meter} spectrometer with a \qty{3}{\nano\meter} sensibility. For every measurement, ten upward and ten downward spectra at \qty{3}{\nano\meter} resolution are acquired, their average is finally taken and their standard deviation is used to exclude measurements performed under unstable light conditions.  We use one-time Solalb measurements taken at a few locations here to complement the timeseries from Multiband. These measurements were acquired during 2019 EAIIST campaign, at different locations in the Eastern AIS, and during 2022 ICORDA campaign, in the same fixed location over 20 days.
+	Solalb is a portable albedometer. Its functioning is different from Multiband. Its head consists of a single light collector that is manually flipped upward and downward during the measurement to acquire incident and reflected radiation respectively. The signal is transmitted to a 350--\qty{1100}{\nano\meter} spectrometer with a \qty{3}{\nano\meter} sensibility. For every measurement, ten upward and ten downward spectra at \qty{3}{\nano\meter} resolution are acquired, their average is finally taken and their standard deviation is used to exclude measurements performed under unstable light conditions.  We use one-time Solalb measurements taken at a few locations here to complement the timeseries from Multiband. These measurements were acquired during 2019 EAIIST campaign, at different locations in the Eastern AIS, and during 2022 ICORDA campaign, in the same fixed location over 20 days.
 	
 	\subsection{\emph{In situ}: automatic weather stations (AWS)}
 Each AWS is equipped with (i) sensors for temperature, wind speed and relative humidity at 2 and \qty{4}{\meter} height; (ii) a CNR4 four-flux radiometer (Campbell Scientific) measuring shortwave (300--\qty{2800}{\nano\meter}) and long wave (5000--\qty{50000}{\nano\meter}) radiation in four components (upward/downward shortwave and longwave); (iii) SR50 Ultrasonic Snow Depth Sensor, providing snow height measurements with a resolution of \qty{1}{\milli\meter} and an accuracy of $\pm\qty{1}{\centi\meter}$ (Campbell Scientific). All AWS data are synchronized with the Multiband albedometer at the same time step, ensuring temporal consistency across instruments.
@@ -293,7 +361,7 @@ Ocean and Land Colour Instrument (OLCI) is installed on ESA's Sentinel-3, which 
 \end{figure}
 	
 			\subsubsection{Overview of the existing algorithm}
-The pipeline for processing Multiband data is summarized in Figure~\ref{fig:mbwf} and builds on the work of \cite{arioliDynamicsSnowGrain2023}. It executes functions from a custom Python library specifically developed for this purpose (the \texttt{generic\_algorithm}), along with utilities from the open-source module \texttt{snowoptics} (\href{https://github.com/ghislainp/snowoptics}{GitHub}), a library for retrieving snow optical properties based on the Asymptotic Radiative Transfer theory (ART, \cite{kokhanovskyScatteringOpticsSnow2004}). This processing had already been applied to measurements acquired by all three Cap Prud'Homme stations (D5, D10, D17) until 2022 in \cite{arioliDynamicsSnowGrain2023}'s work.
+The pipeline for processing Multiband data is summarized in Figure~\ref{fig:mbwf} and builds on the work of \cite{arioliDynamicsSnowGrain2023}. It executes functions from a custom Python library specifically developed for this purpose (the \texttt{generic\_algorithm}), along with utilities from the open-source module \texttt{snowoptics} (\href{https://github.com/ghislainp/snowoptics}{GitHub}), a library for retrieving snow optical properties based on the Asymptotic Radiative Transfer theory (ART, \cite{kokhanovskyScatteringOpticsSnow2004}). This processing had already been applied to measurements acquired by all three Cap Prud'homme stations (D5, D10, D17) until 2022 in \cite{arioliDynamicsSnowGrain2023}'s work.
 	
 \begin{enumerate}[align=right,itemindent=2em,labelsep=4pt,labelwidth=1em,leftmargin=0pt,nosep]
 	\item \textbf{Raw data filtering} |
@@ -311,7 +379,7 @@ The pipeline for processing Multiband data is summarized in Figure~\ref{fig:mbwf
 		i^{\mathrm{inc}}(\lambda, t) \leftarrow i^{\mathrm{inc}}(\lambda, t) R_\mathrm{CC}(\lambda), \qquad R_\mathrm{CC}(\lambda) = \frac{i_{\mathrm{cal}}^{\mathrm{ref}}(\lambda)}{i_{\mathrm{cal}}^{\mathrm{inc}}(\lambda)}
 	\end{equation}
 	\item \textbf{Cosine response correction} |
-	Each light collector behaves uniquely at different solar angles under perfectly direct light conditions, with its response always diverging by a given amount ($\sim$1--6\%) from an ideal cosine curve. For this reason, before deployment in the field, every collector's response was calibrated in the lab by illuminating it with a direct light beam at different angles. This experimental response is used by the algorithm to normalize every measurement. Since this correction step only involves the direct component of the incident radiation---not its diffuse part or the fully diffused reflected light---the direct-to-diffuse light ratio must be quantified for every measurement. This ratio depends on: (i) atmospheric characteristics at the specific geographical location (longitude, latitude, altitude); (ii) solar elevation, \ie the SZA; and (iii) meteorology at the time of the measurement, particularly cloud cover. To account for the first two factors, a time-independent, direct-to-diffuse partitioning is simulated using the Santa Barbara DISORT Atmospheric Radiative Transfer (SBDART) model \parencite{ricchiazziSBDARTResearchTeaching1998}. Cloud cover is quantified using the 30-minute resolution recordings of the AWS located near the albedometers, with the methodology proposed by \cite{martyClearskyIndexSeparate2000}. These two steps will be detailed later.
+	Each light collector behaves uniquely at different solar angles under perfectly direct light conditions, with its response always diverging by a given amount ($\sim$1--6\%) from an ideal cosine curve. For this reason, before deployment in the field, every collector's response was calibrated in the lab by illuminating it with a direct light beam at different angles. This experimental response is used by the algorithm to normalize every measurement. Since this correction step only involves the direct component of the incident radiation---not its diffuse part nor the fully diffused reflected light---the direct-to-diffuse light ratio must be quantified for every measurement. This ratio depends on: (i) atmospheric characteristics at the specific geographical location (longitude, latitude, altitude); (ii) solar elevation, \ie the SZA; and (iii) meteorology at the time of the measurement, particularly cloud cover. To account for the first two factors, a time-independent, direct-to-diffuse partitioning is simulated using the Santa Barbara DISORT Atmospheric Radiative Transfer (SBDART) model \parencite{ricchiazziSBDARTResearchTeaching1998}. Cloud cover is quantified using the 30-minute resolution recordings of the AWS located near the albedometers, with the methodology proposed by \cite{martyClearskyIndexSeparate2000}. These two steps will be detailed later.
 	\item \textbf{Albedo calculation} |
 	The ratio between the dark- and cosine-corrected incident and reflected records yields a first estimation of spectral albedo at time $t$, $\alpha(\lambda, t)$:
 	\begin{equation}\label{eq:alb1}
@@ -325,10 +393,10 @@ The pipeline for processing Multiband data is summarized in Figure~\ref{fig:mbwf
 \end{enumerate}
 	
 			\subsubsection{New implementations}
-In the present work, we extend the pipeline to the latest 2026 records and adapt it to the two stations installed on a megadune during the 2019 EAIIST campaign, which had never been processed yet. Additionally, we focus on characterizing the atmosphere at the two main locations and perform several diagnostics to investigate potential instrumental issues.
+In the present work, we extend the pipeline to the latest 2025 records and adapt it to the two stations installed on a megadune during the 2019 EAIIST campaign, which had never been processed yet. Additionally, we focus on characterizing the atmosphere at the two main locations and perform several diagnostics to investigate potential instrumental issues.
 	
 				\paragraph{Direct-to-diffuse light ratio}
-Simulations of direct/diffuse partitioning with SBDART consist of computing SZA-specific spectral irradiance curves, both of global and diffuse fraction, and taking their ratio. We performed these calculations for the megadunes area using the following model parameters: \texttt{pristine} atmosphere (likely no pollution in the centre of the AIS), \texttt{sub-arctic winter} atmosphere type (the closest option available), \qty{3000}{\meter} a.s.l. elevation, temperature $T = \qty{-35.8}{\celsius}$, relative humidity $\mathrm{RH} = 0.70$, with the last two parameters being the daily average in the megadunes area over the 2019--2026 summers, retrieved from the CNR4 records. SBDART simulations return total and direct ($I_\mathrm{tot}(\lambda)$ and $I_\mathrm{dir}(\lambda)$) irradiance spectra for wavelengths between \qty{0.3}{\micro\meter} and \qty{4}{\micro\meter} at a \qty{0.2}{\micro\meter} resolution. From this, a diffuse-to-total ratio can be easily retrieved; the direct-to-diffuse is then calculated as follows:
+Simulations of direct/diffuse partitioning with SBDART consist of computing SZA-specific spectral irradiance curves, both of global and diffuse fraction, and taking their ratio. We performed these calculations for the megadunes area using the following model parameters: \texttt{pristine} atmosphere (likely no pollution in the centre of the AIS), \texttt{sub-arctic winter} atmosphere type (the closest option available), \qty{3000}{\meter} a.s.l. elevation, temperature $T = \qty{-35.8}{\celsius}$, relative humidity $\mathrm{RH} = 0.70$, with the last two parameters being the daily average in the megadunes area over the 2019--2025 summers, retrieved from the CNR4 records. SBDART simulations return total and direct ($I_\mathrm{tot}(\lambda)$ and $I_\mathrm{dir}(\lambda)$) irradiance spectra for wavelengths between \qty{0.3}{\micro\meter} and \qty{4}{\micro\meter} at a \qty{0.2}{\micro\meter} resolution. From this, a diffuse-to-total ratio can be easily retrieved; the direct-to-diffuse is then calculated as follows:
 \begin{equation}\label{eq:dirdifftot}
 	\frac{I_\mathrm{dir}(\lambda)}{I_\mathrm{dif}(\lambda)} = \left(\frac{I_\mathrm{dif}(\lambda)}{I_\mathrm{tot}(\lambda)}\right)^{-1} -1
 \end{equation} 
@@ -338,10 +406,10 @@ These ratios are also used in the processing chain during slope correction and S
 \begin{figure}
 	\centering
 	\includegraphics[width=17cm]{appemitt_scatter_def.pdf}
-	\mycaption{Apparent clear sky emissivity model}{Summer days emissivities from 2014 to 2025 at D17, from CNR4 records (right-most dots scatterplot, blue);  the model is fitted to points satisfying $\epsilon_{A} \leq 0.8$ (lower subset, \ie the Empirical clear sky set); emissivities from days identified as clear sky using D17's camera (\ie the Observed clear sky set, crosses scatterplot, dark blue); emittances derived from ERA5 records in the megadunes field at EAIIST stations (left-most dot scatter, green).}
+	\mycaption{Apparent clear-sky emissivity model}{Summer emissivities from 2014 to 2025 at D17, from CNR4 records (rightmost dot scatter, blue); the model is fitted to points satisfying $\epsilon_{A} \leq 0.8$ (lower subset, \ie the Empirical clear-sky set); emissivities from days identified as clear-sky from D17's camera imagery (\ie the Observed clear-sky set, crosses, dark blue); emissivities derived from ERA5 recorded at the EAIIST stations in the megadunes field (leftmost dot scatter, green).}
 	\label{fig:appemit}
 \end{figure}
-We employed \cite{martyClearskyIndexSeparate2000}'s technique to discriminate between overcast and clear-sky conditions using the \emph{Clear Sky Index} (CSI), which involves comparing the emissivity of the observed atmosphere with that of an ideal cloud-free atmosphere with the same properties. Clouds generally increase the emittance of the atmosphere, as they act as near-blackbodies in the thermal infrared. The emissivity of the atmosphere can be directly derived from air temperature $T_A$​ and the incoming long-wave radiation $\lwdn$ using the Stefan-Boltzmann law:
+We employed \cite{martyClearskyIndexSeparate2000}'s technique to discriminate between overcast and clear-sky conditions using the \emph{Clear Sky Index} (CSI), which involves comparing the emissivity (or emittance) of the observed atmosphere with that of an ideal cloud-free atmosphere with the same properties. Clouds generally increase the emittance of the atmosphere, as they act as near-blackbodies in the thermal infrared. The emissivity of the atmosphere can be directly derived from air temperature $T_A$​ and the incoming longwave radiation $\lwdn$ using the Stefan-Boltzmann law:
 \begin{equation}
 	\epsilon_{A} = \frac{\lwdn}{\sigma T_A} \qquad (-)
 \end{equation}
@@ -369,10 +437,10 @@ One issue with this formulation is that it does not account for the effect of gr
 		EAIIST full summer set fit      & 0.59              & 6.23e-2                        & 0     & {-} \\
 		\bottomrule
 	\end{tabular}
-	\mycaption{Coefficients for clear sky emittance model $\epsilon_{AC}$}{For D17, the standard deviations of the two modelled coefficients are also reported. For EAIIST, the model is constant---the given standard deviation on the intercept is computed from all the points $\epsilon_{A} \leq 0.8$.}
+	\mycaption{Coefficients for clear sky emittance model $\epsilon_{AC}^{\mathrm{mod}}$}{For D17, the standard deviations of the two modelled coefficients are also reported. For EAIIST, the model is constant---the given standard deviation on the intercept is computed from all the points $\epsilon_{A} \leq 0.8$.}
 	\label{tab:kad}
 \end{table}
-The only required inputs are records of air temperature, incoming long-wave radiation, and relative humidity (or dew point temperature). The model is fitted to obtain the two unknowns ($\epsilon_{AD},\, k$) and derive a reliable expression for $\epsilon_{AC}$ as a function of the location's geography and prevailing meteorological conditions. This is achieved through an iteratively reweighted least squares regression over five iterations: at each step, the model is fitted on the current cluster, residuals are computed, and the 25\% of points with the largest residuals are discarded---outliers are thus progressively eliminated, and each subsequent iteration operates on a cleaner subset. This derivation was first carried out for Cap Prud'homme using data from the CNR4 installed at D17, which is also equipped with a camera framing the surrounding environment, allowing a reliable visual identification of clear-sky days. In Figure \ref{fig:appemit}, the apparent emittance of these observed cloud-free days is plotted as function of the water vapour pressure-to-temperature ratio; fitting Equation~\eqref{eq:eacfull} to these data yields the coefficients summarised in Table~\ref{tab:kad}. Plotting additionally the apparent emittance of all days from the summers 2014--2025 at D17 reveals a bi-modal distribution: the uppermost concentrated branch represents overcast days, with measured emittances approaching 1, while the lower branch is largely composed of clear-sky days, characterised by lower emittances at slightly drier conditions (\ie lower $\beta$). Separating the two clusters with a hard threshold set at $\epsilon_A = 0.8$, yields a second, more empirical set of clear-sky cases; fitting the same model to this subset returns coefficients comparable to those obtained from the manually identified clear-sky days. This second parameter set was ultimately selected for the $\epsilon_{AC}$ model at Cap Prud'homme, because of its smaller uncertainties. The statistics for these models reveal that the variability in $\epsilon_{A}$ is moderately dependent on $\beta$, with a high significance level.
+The only required inputs are records of air temperature, incoming longwave radiation, and relative humidity (or dew point temperature). The model is fitted to obtain the two unknowns ($\epsilon_{AD},\, k$) and derive a reliable expression for $\epsilon_{AC}$ as a function of the location's geography and prevailing meteorological conditions. This is achieved through an iteratively reweighted least squares regression over five iterations: at each step, the model is fitted on the current cluster, residuals are computed, and the 25\% of points with the largest residuals are discarded---outliers are thus progressively eliminated, and each subsequent iteration operates on a cleaner subset. This derivation was first carried out for Cap Prud'homme using data from the CNR4 installed at D17, which is also equipped with a camera framing the surrounding environment, allowing a reliable visual identification of clear-sky days. In Figure \ref{fig:appemit}, the apparent emittance of these observed cloud-free days is plotted as function of the water vapour pressure-to-temperature ratio; fitting Equation~\eqref{eq:eacfull} to these data yields the coefficients summarised in Table~\ref{tab:kad}. Plotting additionally the apparent emittance of all days from the summers 2014--2025 at D17 reveals a bi-modal distribution: the uppermost concentrated branch represents overcast days, with measured emittances approaching 1, while the lower branch is largely composed of clear-sky days, characterised by lower emittances at slightly drier conditions (\ie lower $\beta$). Separating the two clusters with a hard threshold set at $\epsilon_A = 0.8$, yields a second, more empirical set of clear-sky cases; fitting the same model to this subset returns coefficients comparable to those obtained from the manually identified clear-sky days. This second parameter set was ultimately selected for the $\epsilon_{AC}$ model at Cap Prud'homme, because of its smaller uncertainties. The statistics for these models reveal that the variability in $\epsilon_{A}$ is moderately dependent on $\beta$, with a high significance level.
 
 For the EAIIST stations, CNR4 data were unavailable; the expression for the clear-sky apparent emittance was therefore derived from \href{https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview}{ERA5} reanalysis single-level fields, using $\lwdn$, \qty{2}{\metre} air temperature, and dew point temperature at hourly resolution. First, ERA5 performance was assessed against the D17 CNR4 record (Fig. \ref{fig:era5cnr4}) to validate the approach. Applying the same analysis as for Cap Prud'homme to the summers of 2019--2026 yields a distribution of daily emittances concentrated in much lower ranges (around 0.6) and at considerably drier conditions---much weaker water vapour pressure---reflecting the extreme aridity of the megadunes region. In this case, however, the model fails to reproduce the variability of apparent emittance, yielding $r^2 < 0.1$ (statistically highly significant, $p < 0.001$), and is therefore not applicable as is. Hence, For the EAIIST sites, we decided to treat the clear-sky emittance as a constant, taken as the median of all observed values satisfying $\epsilon_{A} \leq 0.8$, with no dependence on the water vapour pressure-to-temperature ratio.
 
@@ -393,7 +461,7 @@ fully diffuse across all wavelengths.
 \begin{figure}
 	\centering
 	\includegraphics[width=14cm]{era5_vs_cnr4.pdf}
-	\mycaption{ERA5 and CNR4 measurements at D17}{ERA5 temperatures (left) and long wave incident irradiances (right) plotted against CNR4 respective records.}
+	\mycaption{ERA5 and CNR4 measurements at D17}{ERA5 temperatures (left) and longwave incident irradiances (right) plotted against CNR4 respective records.}
 	\label{fig:era5cnr4}
 \end{figure}
 
@@ -430,11 +498,11 @@ OLCI bands 17 ($\lambda_1 = \qty{865}{\nano\meter}$) and 21 ($\lambda_2 = \qty{1
 	\item \textbf{Reflectance and filtering of pixels unsuitable for retrieval} |
 Top of atmosphere reflectances ($R_\mathrm{TOA}$) for both bands are directly available after a first preprocessing selection step, that discards low values of reflectance $R_\mathrm{TOA} < 0.1$ and high SZAs ($\sza > \ang{75}$). 
 \item \textbf{Definition of viewing geometry} |
-The function \texttt{sice\_lib.view\_geometry()} takes as inputs the filtered OLCI scene and outputs the angles necessary for the retrieval, particularly the satellite's Viewing Azimuthal Angle (VAA), cosines and sines of SZA and VZA (Viewing Zenithal Angle). It also computes the escape function for both SZA and VZA directions.
+The function \texttt{sice\_lib.view\_geometry()} takes as inputs the filtered OLCI scene and outputs the angles necessary for the retrieval, particularly the satellite's Viewing Azimuthal Angle (VAA), cosines and sines of SZA ($\theta_0$) and VZA ($\theta'$, Viewing Zenithal Angle). It also computes the escape function for both SZA and VZA directions.
 	\item \textbf{Atmospheric correction} |
-TOA reflectances are corrected for ozone absorption and for the observed aerosol optical thickness. Both the corrections depend on the previously defined viewing/relative angles and elevation. This step outputs a bottom of atmosphere reflectance $R_\mathrm{BOA}$, $R$ here-hence.
+TOA reflectances are corrected for ozone absorption and for the observed aerosol optical thickness. Both the corrections depend on the previously defined viewing/relative angles and elevation. This step outputs a bottom of atmosphere reflectance $R_\mathrm{BOA}$, $R$ here-hence. A cloud mask is also applied following \cite{poulsenEvaluationComparisonMachine2020}.
 \item \textbf{Retrieval of snow SSA} |
-This is the main processing step executed via the \texttt{sice\_lib.snow\_properties()} function and it is based on one of most relevant results of the ART theory: snow reflectance in the visible and NIR is function of spectral bulk ice absorption coefficient $a(\lambda)$ (\unit{\mol\per\meter}), the reflectance of a non-absorbing snow $R_0$ and the absorption length $l_\mathrm{abs}$ (\unit{\meter}) only:
+This is the main processing step executed via the \texttt{snow\_properties()} function from \texttt{sice\_lib} and it is based on one of most relevant results of the ART theory: snow reflectance in the visible and NIR is function of spectral bulk ice absorption coefficient $a(\lambda)$ (\unit{\mol\per\meter}), the reflectance of a non-absorbing snow $R_0$ and the absorption length $l_\mathrm{abs}$ (\unit{\meter}) only:
 \begin{equation}
 	R(\lambda) = R_0 \exp(-f \sqrt{a(\lambda) l_\mathrm{abs}})
 \end{equation}
@@ -444,7 +512,7 @@ $R_0$ and $l$ can be computed from measurements at the two selected wavelengths 
 \end{equation}
 and
 \begin{equation}\label{eq:labs}
-	l_\mathrm{abs} = \frac{1}{a_2 f^2} \ln(\frac{R_1}{R_2}), \qquad f = \frac{u(\sza) u(\mathrm{VZA})}{R_0}
+	l_\mathrm{abs} = \frac{1}{a_2 f^2} \ln(\frac{R_1}{R_2}), \qquad f = \frac{u(\mu_0) u(\mu')}{R_0}
 \end{equation}
 with $f$ being the angular function \parencite{kokhanovskyScatteringOpticsSnow2004}. From absorption length expressed in mm, the effective optical diameter can be easily retrieved, and at its turn SSA can finally be estimated:
 \begin{equation}
@@ -463,36 +531,36 @@ To address this, we performed different processing tests. The first, serving as 
 where $r$ was initially tested at 0.3 and progressively increased to 0.4 in subsequent simulations. By adding this factor, we artificially reduce the dependence of SSA estimates on solar angles, allowing us to evaluate the effectiveness of the algorithm.
 
 	\setpartcolor{part3color}
-	
+\newpage
 	\part{Results}
 	
 \section{Time series from Multiband and SICE 1.6}
 \begin{figure}[t]
 	\centering
 	\includegraphics[width=17cm]{timeseries_example_df}
-	\mycaption{SSA time series from Multiband and SICE 1.6}{SSA estimated from Multiband (colors) and from SICE 1.6 (black) at EAIIST01 (orange), EAIIST02 (purple) in the megadunes and at D17 near Cap Prud'Homme (blue) for selected austral summers (other years in Appendix).}
+	\mycaption{SSA time series from Multiband and SICE 1.6}{SSA estimated from Multiband (colors) and from SICE 1.6 (black) at EAIIST01 (orange), EAIIST02 (purple) in the megadunes and at D17 near Cap Prud'homme (blue) for selected austral summers (other years in Appendix).}
 	\label{fig:tsex}
 \end{figure}
 \begin{figure}[t]
 	\centering
 	\includegraphics[width=17cm]{stations_mb_sice.pdf}
-	\mycaption{Correlation between Multiband and SICE 1.6}{SICE 1.6's SSAs plotted as function of Multiband SSAs for the two megadunes stations and the three Cap Prud'Homme stations, for all the available Multiband data. All statistics are computed exclusively on non-outliers and are significant at $p < 0.01$.}
+	\mycaption{Correlation between Multiband and SICE 1.6}{SICE 1.6's SSAs plotted as function of Multiband SSAs for the two megadunes stations and the three Cap Prud'homme stations, for all the available Multiband data. All statistics are computed exclusively on non-outliers and are significant at $p < 0.01$.}
 	\label{fig:scatter}
 \end{figure}
 
-Time series of snow SSA were successfully obtained for all five stations from both Multiband records and SICE 1.6 results. A representative summer for both locations is shown in Figure~\ref{fig:tsex} and all years are reported in Appendix~\ref{a:timeseries}. The comparison between Multiband and SICE 1.6 for all years  is shown for each station in Figure \ref{fig:scatter}. Points are respectively colored and gray depending whether they are under or exceeding three times the bias between the two methods---in the second case, they are defined as outliers.
+Time series of snow SSA were successfully obtained for all five stations from both Multiband records and SICE 1.6 results. Three representative summers for both locations are shown in Figure~\ref{fig:tsex} and all years are reported in Appendix~\ref{as:fullts}. The comparison between Multiband and SICE 1.6 for all years  is shown for each station in Figure \ref{fig:scatter}. Points are respectively colored and gray depending whether they are under or exceeding three times the bias between the two methods---in the second case, they are defined as outliers.
 
 In the megadunes, Multiband-measured SSA time series have been uninterrupted since 2019. SSA values are generally higher than \qty{20}{\ssaunit}, with a median of \qty{25.6}{\ssaunit}, reflecting the absence of wet metamorphism. The signals from the two stations typically diverge in mid-summer:
 \begin{itemize}[align=right, itemindent=1em, leftmargin=6pt,  labelsep=4pt,labelwidth=1em,nosep]
-	\item At EAIIST01, the SSA signal stabilizes from late November around \qty{20}{\ssaunit}, with a December--January median of \qty{21.44}{\ssaunit}; this pattern repeats consistently every year.
-	\item At EAIIST02, two distinct dynamics are observed. In the first case (summers of 2020, 2021, and 2024), SSA co-evolves with the erosion area, maintaining higher values (median over the three years: \qty{25.19}{\ssaunit}). In the second case (summers of 2022, 2023, and 2025), SSA rapidly increases in November, fluctuates around much higher values in December (median of the three years: \qty{51.35}{\ssaunit}), then decreases in January, tapering to values similar to those of EAIIST01 by February.
+	\item At EAIIST01, the SSA signal stabilizes from late November around \qty{20}{\ssaunit}, with a December--January median of \qty{21.4}{\ssaunit}; this pattern repeats consistently every year.
+	\item At EAIIST02, two distinct dynamics are observed. In the first case (summers of 2020, 2021, and 2024), SSA co-evolves with the erosion area, maintaining higher values (median over the three years: \qty{25.2}{\ssaunit}). In the second case (summers of 2022, 2023, and 2025), SSA rapidly increases in November, fluctuates around much higher values in December (median of the three years: \qty{51.4}{\ssaunit}), then decreases in January, tapering to values similar to those of EAIIST01 by February.
 \end{itemize}
 
-The SICE 1.6 time series for the megadunes show very few interrumptions. For this region, SICE 1.6's missing values represent only 11.97\% and 12.24\% of Multiband data for EAIIST01 and EAIIST02, respectively. At EAIIST01 (erosion side of the dune), the difference between Multiband and satellite SSAs is much lower than at the coastal stations. However, despite a moderate linear correlation ($r = 0.64$), Multiband systematically registers higher SSAs during the 2021--2022 season, with a gap \qty{10.00}{\ssaunit} from SICE 1.6 results---for all the other years the offset is below \qty{2}{\ssaunit}. This discrepancy has more interannual variability at EAIIST02 (accumulation side of the dune, Fig. \ref{fig:scatter}), where the correlation between both datasets is therefore poorer ($r = 0.39$). In particular, SICE 1.6 at EAIIST02 yields SSAs much closer to those of the erosion area, \ie remaining constant around \qty{20}{\ssaunit} throughout the summer. To understand and address these differences, we proceed with the diagnostics described in the Methods section.
+The SICE 1.6 time series for the megadunes show very few interrumptions. For this region, SICE 1.6's missing values represent only 11.97\% and 12.24\% of Multiband data for EAIIST01 and EAIIST02, respectively. At EAIIST01 (erosion side of the dune), the difference between Multiband and satellite SSAs is much lower than at the coastal stations. However, despite a moderate linear correlation ($r = 0.64$), Multiband systematically registers higher SSAs during the 2021--2022 season, with a gap \qty{10.0}{\ssaunit} from SICE 1.6 results---for all the other years the offset is below \qty{2}{\ssaunit}. This discrepancy has more interannual variability at EAIIST02 (accumulation side of the dune, Fig. \ref{fig:scatter}), where the correlation between both datasets is therefore poorer ($r = 0.39$, RMSE$=\qty{16.3}{\ssaunit}$). In particular, SICE 1.6 at EAIIST02 yields SSAs much closer to those of the erosion area, \ie remaining constant around \qty{20}{\ssaunit} throughout the summer. To understand and address these differences, we proceed with the diagnostics described in the Methods section.
 
-At D17, Multiband-retrieved series are also continuous, with few interruptions though. These records show similar SSA values and dynamics across the three Cap Prud'homme stations (Appendix REF), reflecting consistent surface environmental conditions. The median summer SSA for the three stations is \qty{15.38}{\ssaunit}, \ie grain size is typically $\sim 1.5$ times larger than in the megadunes. SSA values are typically below \qty{20}{\ssaunit} over the mid-austral summer (December 1 to January 31), with the three stations' outlier-free median SSA equal to \qty{11.80}{\ssaunit}. In early and late summer, SSA is often above \qty{30.18}{\ssaunit} (75\% percentile), with an October, November and February median of \qty{17.87}{\ssaunit}. At this location, SSA does not exhibit any particular increasing or decreasing trend at the seasonal time scale. Abrupt peaks are often registered, with SSA reaching >\qty{40}{\ssaunit}, values typical of fresh fallen snow from one day to the next---this is the typical signature of snow precipitation.\\
+At D17, Multiband-retrieved series are also continuous, with few interruptions though. These records show similar SSA values and dynamics across the three Cap Prud'homme stations (Appendix \ref{as:fullts}), reflecting consistent surface environmental conditions. The median summer SSA for the three stations is \qty{15.4}{\ssaunit}, \ie grain size is typically $\sim 1.5$ times larger than in the megadunes. SSA values are typically below \qty{20}{\ssaunit} over the mid-austral summer (December 1 to January 31), with the three stations' outlier-free median SSA equal to \qty{11.8}{\ssaunit}. In early and late summer, SSA is often above \qty{30.2}{\ssaunit} (75\% percentile), with an October, November and February median of \qty{17.9}{\ssaunit}. At this location, SSA does not exhibit any particular increasing or decreasing trend at the seasonal time scale. Abrupt peaks are often registered, with SSA reaching >\qty{40}{\ssaunit}, values typical of fresh fallen snow from one day to the next---this is the typical signature of snow precipitation, as we will discuss later.\\
 SICE 1.6-retrieved SSA for this location are sparser, with missing values typically co-occurring when Multiband signal peaks abruptly, as precipitation is often accompanied by overcast conditions that prevent surface visibility. For D5, D10, and D17, SICE 1.6 yields NaNs for 69.37\%, 74.26\%, and 74.37\% of Multiband data, respectively.
-The satellite time series agree fairly well with Multiband data on average (biases below \qty{5}{\ssaunit}). SICE 1.6 yields a slightly lower mid-summer median of \qty{8.11}{\ssaunit}. At the beginning of each summer season, however, satellite SSAs are systematically lower than Multiband measurements, particularly in October, with an average bias of \qty{13.42}{\ssaunit} and maximum differences reaching \qty{25.1}{\ssaunit}. Overall, \emph{in situ} and satellite observations are moderately consistent across all years and Cap Prud'homme stations, with a correlation coefficient of $r=0.71$ at D17.
+The satellite time series agree fairly well with Multiband data on average (biases below \qty{5}{\ssaunit}). SICE 1.6 yields a slightly lower mid-summer median of \qty{8.1}{\ssaunit}. At the beginning of each summer season, however, satellite SSAs are systematically lower than Multiband measurements, particularly in October, with an average bias of \qty{13.4}{\ssaunit} and maximum differences reaching \qty{25.1}{\ssaunit}. Overall, \emph{in situ} and satellite observations are moderately consistent across all years and Cap Prud'homme stations, with a correlation coefficient of $r=0.71$ at D17.
 
 \section{Diagnostic of the results for EAIIST stations}
 \subsection{Multiband issues}
@@ -524,7 +592,7 @@ When examining the sub-daily variability in albedo spectra, we noticed that in m
 		IST01; \textbf{(b)} SICE 1.6 processing with different SZA flattening parameters (REF = 0, Pr30 = 0.30, Pr40 =0.40). The time series in the figure are from EAIIST01 location (2022--2023).}
 	\label{fig:subdailysice}
 \end{figure}
-For some seasons, particularly at EAIIST02 (\eg 2022-2023, Fig. \ref{fig:tsex} on the right), SICE and Multiband yield completely different grain size dynamics. To investigate, we inspected S-3/OLCI data and SICE 1.6 processing. Following the same approach as with Multiband, we analyzed sub-daily albedo variations from both EAIIST stations, focusing on clear-sky days and excluding hours with $\mathrm{CSI} \geq 1.0$ to explore the effect of SZA on the SICE 1.6 algorithm. The analysis, performed on random clusters of consecutive days, revealed strong and non-realistic sub-daily variability, with average deviations of \qty{4.18}{\ssaunit} for EAIIST01 and \qty{3.57}{\ssaunit} for EAIIST02. This variability is day-dependent and can manifest as either a gradual increase in SSA throughout the day or non-directional random fluctuations (Figure \ref{fig:sice_subdaily}), making it difficult to draw precise conclusions.
+For some seasons, particularly at EAIIST02 (\eg 2022-2023, Fig. \ref{fig:tsex} on the right), SICE and Multiband yield completely different grain size dynamics. To investigate, we inspected S-3/OLCI data and SICE 1.6 processing. Following the same approach as with Multiband, we analyzed sub-daily albedo variations from both EAIIST stations, focusing on clear-sky days and excluding hours with $\mathrm{CSI} \geq 1.0$ to explore the effect of SZA on the SICE 1.6 algorithm. The analysis, performed on random clusters of consecutive days, revealed strong and non-realistic sub-daily variability, with average deviations of \qty{4.2}{\ssaunit} for EAIIST01 and \qty{3.6}{\ssaunit} for EAIIST02. This variability is day-dependent and can manifest as either a gradual increase in SSA throughout the day or non-directional random fluctuations (Figure \ref{fig:sice_subdaily}), making it difficult to draw precise conclusions.
 
 Since a monotonic increase in SSA is often observed but not physically expected---especially on cloud- and precipitation-free days \parencite{picardSpectralAlbedoMeasurements2020}---we applied the SZA flattening factor to reduce its influence, as described in Section \ref{sssc:sicediagn}. This produced two new SSA series obtained with factors $r = 0.3$ (Pr30) and $r = 0.4$ (Pr40). A comparison with the reference processing is shown in Figure \ref{fig:siceflat}. While this adjustment increased SSA values by $\sim$5--\qty{10}{\ssaunit}, it was insufficient to fully account for the discrepancy between \emph{in situ} and satellite time series.
 
@@ -537,7 +605,7 @@ Since a monotonic increase in SSA is often observed but not physically expected-
 \end{figure}
 In order to introduce a third element of comparison, we assessed SICE 1.6's SSA with SSA estimated with Solalb during the EAIIST and ICORDA campaigns. The results are shown in Figure~\ref{fig:solalb}.
 
-On the  EAIIST traverse, Solalb measurements show a medium-to-strong correlation with SICE 1.6, with $r=0.68$ and a small bias of \qty{1.31}{\ssaunit}. This suggests no obvious bug in the SICE 1.6 retrieval algorithm. For ICORDA, the correlation is very strong ($r = 0.85$), but SICE 1.6's SSA values exhibit a strong negative bias ($\mathrm{Bias} = \qty{-11.45}{\ssaunit}$) with respect to Solalb, similar to the behavior observed with Multiband, where SICE 1.6 underestimates SSA compared to \emph{in situ} instruments. However, this last set of measurements is less reliable due to its limited size, only 5 valid points with clear sky conditions.
+On the  EAIIST traverse, Solalb measurements show a medium-to-strong correlation with SICE 1.6, with $r=0.68$ and a small bias of \qty{1.3}{\ssaunit}. This suggests no obvious bug in the SICE 1.6 retrieval algorithm. For ICORDA, the correlation is very strong ($r = 0.85$), but SICE 1.6's SSA values exhibit a strong negative bias ($\mathrm{Bias} = \qty{-11.5}{\ssaunit}$) with respect to Solalb, similar to the behavior observed with Multiband, where SICE 1.6 underestimates SSA compared to \emph{in situ} instruments. However, this last set of measurements is less reliable due to its limited size, only 5 valid points with clear sky conditions.
 	
 \setpartcolor{part4color}
 \part{Discussion}
@@ -554,7 +622,7 @@ For instance, at EAIIST02, the unrealistically high spectral albedo at \qty{500}
 \centering
 \subfloat[\label{fig:disceaiist}]{\includegraphics[width=9cm]{disc_eaiist}}\quad
 \subfloat[\label{fig:discd17}]{\includegraphics[width=7.3cm]{disc_d17}}
-\mycaption{Multiband's SSA and meteorological records}{\textbf{(a)} Times series of two representative seasons in the megadunes: Multiband SSA (EAIIST01-orange and EAIIST02-purple, upper plot), CNR4's snow height (SH, dark blue, lower plot) and ERA5 snow fall (SF, light blue, lower plot); \textbf{b} representative season at D17: Multiband's SSA (blue, upper plot), snow height and snow fall (central plot) and CNR4's \qty{2}{\meter} air temperature ($T_A$, red, lower plot).}
+\mycaption{Multiband's SSA and meteorological records}{\textbf{(a)} Times series of two representative seasons in the megadunes: Multiband SSA (EAIIST01-orange and EAIIST02-purple, upper plot), CNR4's snow height (SH, dark blue, lower plot) and ERA5 snow fall, expressed in mm of water equivalent (SF, light blue, lower plot); \textbf{(b)} representative season at D17: Multiband's SSA (blue, upper plot), snow height and snow fall (central plot) and CNR4's \qty{2}{\meter} air temperature ($T_A$, red, lower plot).}
 \label{fig:disc}
 \end{figure}
 Despite the imperfection of the estimates and the technical issues, some interesting interpretations about the signal recorded from both the \emph{in situ} equipment and the satellite can be drawn. 
@@ -571,5 +639,37 @@ For these reasons, future studies should address the technical issues identified
 	 
 \renewcommand{\baselinestretch}{1.25}\normalsize
 \printbibliography[heading=bibintoc]
-	
+\newpage
+\appendix
+\section{Appendix}\label{as:fullts}
+\begin{figure}[H]
+	\centering
+	\centering
+	\subfloat[EAIIST01]{\includegraphics[width=17cm]{MB_vs_SICE16_SSA_eaiist01.pdf}} \\
+	\subfloat[EAIIST02]{\includegraphics[width=17cm]{MB_vs_SICE16_SSA_eaiist02.pdf}}\\
+	\label{fig:MB_vs_SICE16_SSA_page1}
+\end{figure}
+
+% Force a page break and add the remaining figures on the next page
+\afterpage{
+	\begin{figure}[h]
+		\subfloat[D5]{\includegraphics[width=17cm]{MB_vs_SICE16_SSA_D5.pdf}} \\
+		\subfloat[D10]{\includegraphics[width=17cm]{MB_vs_SICE16_SSA_D10.pdf}} 
+		\caption{Comparison of Multiband (MB) and SICE 1.6 retrieved snow grain size (SSA) for EAIIST01 and EAIIST02 stations.}
+		\label{fig:MB_vs_SICE16_SSA_page2}
+	\end{figure}
+}
+
+\afterpage{
+	\begin{figure}[h]
+		\subfloat[D17]{\includegraphics[width=17cm]{MB_vs_SICE16_SSA_D17.pdf}}
+		\label{fig:MB_vs_SICE16_SSA_page3}
+	\end{figure}
+}
+\afterpage{
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=17cm]{ssa_olci1.pdf}
+	\caption{Example map of snow grain size (SSA) retrieved from SICE 1.6 processing of Sentinel-3/OLCI images. On the right side of the map, wave-like structures correspond to the megadunes field, where lower SSA values are observed in the erosion zones.}
+\end{figure}}
 \end{document}	

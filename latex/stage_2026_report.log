@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.5.26)  12 JUN 2026 00:40
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.5.26)  12 JUN 2026 17:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -516,7 +516,12 @@ File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 (/usr/local/share/miktex-texmf/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
 tex
 File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-))
+)) (/usr/local/share/miktex-texmf/tex/latex/tools/afterpage.sty
+Package: afterpage 2023/07/04 v1.08 After-Page Package (DPC)
+\AP@output=\toks29
+\AP@partial=\box55
+\AP@footins=\box56
+)
 (/home/perronep/.miktex/texmfs/install/tex/latex/sansmathfonts/sansmathfonts.st
 y
 Package: sansmathfonts 2026/02/10
@@ -614,7 +619,7 @@ Package: amstext 2024/11/17 v2.01 AMS text
 
 (/usr/local/share/miktex-texmf/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks29
+\@emptytoks=\toks30
 \ex@=\dimen177
 ))
 (/usr/local/share/miktex-texmf/tex/latex/amsmath/amsbsy.sty
@@ -635,8 +640,8 @@ LaTeX Info: Redefining \colon on input line 409.
 LaTeX Info: Redefining \ldots on input line 495.
 LaTeX Info: Redefining \dots on input line 498.
 LaTeX Info: Redefining \cdots on input line 619.
-\Mathstrutbox@=\box55
-\strutbox@=\box56
+\Mathstrutbox@=\box57
+\strutbox@=\box58
 LaTeX Info: Redefining \big on input line 721.
 LaTeX Info: Redefining \Big on input line 722.
 LaTeX Info: Redefining \bigg on input line 723.
@@ -654,21 +659,21 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \dotsspace@=\muskip17
 \c@parentequation=\count316
 \dspbrk@lvl=\count317
-\tag@help=\toks30
+\tag@help=\toks31
 \row@=\count318
 \column@=\count319
 \maxfields@=\count320
-\andhelp@=\toks31
+\andhelp@=\toks32
 \eqnshift@=\dimen180
 \alignsep@=\dimen181
 \tagshift@=\dimen182
 \tagwidth@=\dimen183
 \totwidth@=\dimen184
 \lineht@=\dimen185
-\@envbody=\toks32
+\@envbody=\toks33
 \multlinegap=\skip52
 \multlinetaggap=\skip53
-\mathdisplay@stack=\toks33
+\mathdisplay@stack=\toks34
 LaTeX Info: Redefining \[ on input line 2950.
 LaTeX Info: Redefining \] on input line 2951.
 ))
@@ -720,11 +725,11 @@ Package: derivative 2024/02/08 v1.4 Nice and easy derivatives and differentials
 )
 (/home/perronep/.miktex/texmfs/install/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
-\enitkv@toks@=\toks34
+\enitkv@toks@=\toks35
 \labelindent=\skip57
 \enit@outerparindent=\dimen186
-\enit@toks=\toks35
-\enit@inbox=\box57
+\enit@toks=\toks36
+\enit@inbox=\box59
 \enit@count@id=\count335
 \enitdp@description=\count336
 )
@@ -751,32 +756,32 @@ Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count349
 ))
-\l__siunitx_table_tmp_box=\box58
+\l__siunitx_table_tmp_box=\box60
 \l__siunitx_table_tmp_dim=\dimen187
 \l__siunitx_table_column_width_dim=\dimen188
-\l__siunitx_table_integer_box=\box59
-\l__siunitx_table_decimal_box=\box60
-\l__siunitx_table_uncert_box=\box61
-\l__siunitx_table_before_box=\box62
-\l__siunitx_table_after_box=\box63
+\l__siunitx_table_integer_box=\box61
+\l__siunitx_table_decimal_box=\box62
+\l__siunitx_table_uncert_box=\box63
+\l__siunitx_table_before_box=\box64
+\l__siunitx_table_after_box=\box65
 \l__siunitx_table_before_dim=\dimen189
 \l__siunitx_table_carry_dim=\dimen190
 \l__siunitx_unit_tmp_int=\count350
 \l__siunitx_unit_position_int=\count351
 \l__siunitx_unit_total_int=\count352
 \l__siunitx_sexagesimal_tmp_dim=\dimen191
-\l__siunitx_sexagesimal_marker_box=\box64
-\l__siunitx_sexagesimal_unit_box=\box65
+\l__siunitx_sexagesimal_marker_box=\box66
+\l__siunitx_sexagesimal_unit_box=\box67
 
 (/usr/local/share/miktex-texmf/tex/latex/tools/array.sty
 Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \col@sep=\dimen192
-\ar@mcellbox=\box66
+\ar@mcellbox=\box68
 \extrarowheight=\dimen193
-\NC@list=\toks36
+\NC@list=\toks37
 \extratabsurround=\skip58
 \backup@length=\skip59
-\ar@cellbox=\box67
+\ar@cellbox=\box69
 ))
 
 Package siunitx Info: Option "detect-all" has been deprecated in this release.
@@ -849,10 +854,10 @@ line 238.
 (/home/perronep/.miktex/texmfs/install/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count362
-\float@exts=\toks37
-\float@box=\box68
-\@float@everytoks=\toks38
-\@floatcapt=\box69
+\float@exts=\toks38
+\float@box=\box70
+\@float@everytoks=\toks39
+\@floatcapt=\box71
 )
 (/usr/local/share/miktex-texmf/tex/latex/graphics/dvipsnam.def
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
@@ -873,10 +878,10 @@ Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
 (/usr/local/share/miktex-texmf/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen259
 \pgfmath@count=\count363
-\pgfmath@box=\box70
-\pgfmath@toks=\toks39
-\pgfmath@stack@operand=\toks40
-\pgfmath@stack@operation=\toks41
+\pgfmath@box=\box72
+\pgfmath@toks=\toks40
+\pgfmath@stack@operand=\toks41
+\pgfmath@stack@operation=\toks42
 )
 (/usr/local/share/miktex-texmf/tex/generic/pgf/math/pgfmathfunctions.code.tex)
 (/usr/local/share/miktex-texmf/tex/generic/pgf/math/pgfmathfunctions.basic.code
@@ -933,9 +938,9 @@ File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 (/usr/local/share/miktex-texmf/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
 x
 File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfpic=\box71
-\pgf@hbox=\box72
-\pgf@layerbox@main=\box73
+\pgfpic=\box73
+\pgf@hbox=\box74
+\pgf@layerbox@main=\box75
 \pgf@picture@serial@count=\count365
 )
 (/usr/local/share/miktex-texmf/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
@@ -978,7 +983,7 @@ File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 (/usr/local/share/miktex-texmf/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
 tex
 File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfexternal@startupbox=\box74
+\pgfexternal@startupbox=\box76
 )
 (/usr/local/share/miktex-texmf/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
 x
@@ -997,7 +1002,7 @@ File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )))
 (/usr/local/share/miktex-texmf/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfnodeparttextbox=\box75
+\pgfnodeparttextbox=\box77
 ) (/usr/local/share/miktex-texmf/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
@@ -1019,8 +1024,8 @@ Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
 Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
 \pgffor@iter=\dimen286
 \pgffor@skip=\dimen287
-\pgffor@stack=\toks42
-\pgffor@toks=\toks43
+\pgffor@stack=\toks43
+\pgffor@toks=\toks44
 ))
 (/usr/local/share/miktex-texmf/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
@@ -1039,10 +1044,10 @@ File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \tikz@lastmovetoy=\dimen294
 \tikzleveldistance=\dimen295
 \tikzsiblingdistance=\dimen296
-\tikz@figbox=\box76
-\tikz@figbox@bg=\box77
-\tikz@tempbox=\box78
-\tikz@tempbox@bg=\box79
+\tikz@figbox=\box78
+\tikz@figbox@bg=\box79
+\tikz@tempbox=\box80
+\tikz@tempbox@bg=\box81
 \tikztreelevel=\count369
 \tikznumberofchildren=\count370
 \tikznumberofcurrentchild=\count371
@@ -1062,26 +1067,26 @@ File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )))
 (/usr/local/share/miktex-texmf/tex/latex/tools/verbatim.sty
 Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks44
-\verbatim@line=\toks45
+\every@verbatim=\toks45
+\verbatim@line=\toks46
 \verbatim@in@stream=\read4
 )
 (/usr/local/share/miktex-texmf/tex/latex/environ/environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
 )
-\tcb@titlebox=\box80
-\tcb@upperbox=\box81
-\tcb@lowerbox=\box82
-\tcb@phantombox=\box83
+\tcb@titlebox=\box82
+\tcb@upperbox=\box83
+\tcb@lowerbox=\box84
+\tcb@phantombox=\box85
 \c@tcbbreakpart=\count377
 \c@tcblayer=\count378
 \c@tcolorbox@number=\count379
-\l__tcobox_tmpa_box=\box84
+\l__tcobox_tmpa_box=\box86
 \l__tcobox_tmpa_dim=\dimen297
-\tcb@temp=\box85
-\tcb@temp=\box86
 \tcb@temp=\box87
 \tcb@temp=\box88
+\tcb@temp=\box89
+\tcb@temp=\box90
 
 (/usr/local/share/miktex-texmf/tex/latex/tcolorbox/tcbraster.code.tex
 Library (tcolorbox): 'tcbraster.code.tex' version '6.9.0'
@@ -1099,7 +1104,7 @@ Package: tikzfill.image 2026/04/23 v1.2.0 Image filling library for TikZ
 File: tikzlibraryfill.image.code.tex 2026/04/23 v1.2.0 Image filling library
 \l__tikzfill_tmpa_dim=\dimen298
 \l__tikzfill_tmpb_dim=\dimen299
-\l__tikzfill_img_box=\box89
+\l__tikzfill_img_box=\box91
 ))
 (/usr/local/share/miktex-texmf/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
 Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.9.0'
@@ -1110,9 +1115,9 @@ Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
 Package pdfcol Info: Interface disabled because of missing PDF mode of pdfTeX.
 )
 Package pdfcol Info: pdfTeX's color stacks are not available.
-\tcb@testbox=\box90
-\tcb@totalupperbox=\box91
-\tcb@totallowerbox=\box92
+\tcb@testbox=\box92
+\tcb@totalupperbox=\box93
+\tcb@totallowerbox=\box94
 )
 (/usr/local/share/miktex-texmf/tex/latex/tcolorbox/tcbhooks.code.tex
 Library (tcolorbox): 'tcbhooks.code.tex' version '6.9.0'
@@ -1130,8 +1135,8 @@ Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.9.0'
 Library (tcolorbox): 'tcblistings.code.tex' version '6.9.0'
 (/usr/local/share/miktex-texmf/tex/latex/listings/listings.sty
 \lst@mode=\count385
-\lst@gtempboxa=\box93
-\lst@token=\toks46
+\lst@gtempboxa=\box95
+\lst@token=\toks47
 \lst@length=\count386
 \lst@currlwidth=\dimen303
 \lst@column=\count387
@@ -1149,7 +1154,7 @@ File: lstpatch.sty 2025/11/14 1.11b (Carsten Heinz)
 File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
 \c@lstnumber=\count391
 \lst@skipnumbers=\count392
-\lst@framebox=\box94
+\lst@framebox=\box96
 )
 (/usr/local/share/miktex-texmf/tex/latex/listings/listings.cfg
 File: listings.cfg 2025/11/14 1.11b listings configuration
@@ -1275,7 +1280,7 @@ Package hyperref Info: PDF/A mode OFF on input line 6121.
 Package hyperref Info: Driver (autodetected): hxetex.
 (/usr/local/share/miktex-texmf/tex/latex/hyperref/hxetex.def
 File: hxetex.def 2026-04-24 v7.01q Hyperref driver for XeTeX
-\pdfm@box=\box95
+\pdfm@box=\box97
 \c@Hy@AnnotLevel=\count403
 \HyField@AnnotCount=\count404
 \Fld@listcount=\count405
@@ -1301,8 +1306,8 @@ Package: pdfcomment 2018/11/01 pdfcomment.sty v2.4a - Josef Kleber (C) 2008-201
 \c@pc@count@ii=\count408
 \c@pc@count@iii=\count409
 \c@pc@count@iv=\count410
-\pc@mathannot@box=\box96
-\pc@nullbox=\box97
+\pc@mathannot@box=\box98
+\pc@nullbox=\box99
 \pc@dima=\skip66
 \pc@dimb=\skip67
 \pc@Sposx=\skip68
@@ -1436,13 +1441,13 @@ Package: eso-pic 2025/12/10 v3.0d eso-pic (RN)
 File: ppxetex.def 2026/03/30 v0.6h Pdfpages driver for XeTeX (AM)
 )
 \pdfpages@includegraphics@status=\count423
-\AM@pagebox=\box98
-\AM@global@opts=\toks47
+\AM@pagebox=\box100
+\AM@global@opts=\toks48
 \AM@pagecnt=\count424
-\AM@toc@title=\toks48
-\AM@lof@heading=\toks49
+\AM@toc@title=\toks49
+\AM@lof@heading=\toks50
 \c@AM@survey=\count425
-\AM@templatesizebox=\box99
+\AM@templatesizebox=\box101
 )
 (/home/perronep/.miktex/texmfs/install/tex/latex/pythonhighlight/pythonhighligh
 t.sty
@@ -1465,16 +1470,16 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@widthL=\skip92
 \f@nch@widthC=\skip93
 \f@nch@widthR=\skip94
-\@temptokenb=\toks50
+\@temptokenb=\toks51
 )
 (/home/perronep/.miktex/texmfs/install/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2025/01/04 v2.17 Sectioning titles
-\ttl@box=\box100
+\ttl@box=\box102
 \beforetitleunit=\skip95
 \aftertitleunit=\skip96
 \ttl@plus=\dimen333
 \ttl@minus=\dimen334
-\ttl@toksa=\toks51
+\ttl@toksa=\toks52
 \titlewidth=\dimen335
 \titlewidthlast=\dimen336
 \titlewidthfirst=\dimen337
@@ -1754,54 +1759,54 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (stage_2026_report.aux
 (/usr/local/share/miktex-texmf/tex/generic/babel/locale/fr/babel-french.tex)
 Package babel Info: Importing data for french
-(babel)             from babel-fr.ini. Reported on input line 18.
+(babel)             from babel-fr.ini. Reported on input line 20.
 )
 \openout1 = `stage_2026_report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmssm/m/it on input line 134.
+LaTeX Font Info:    Checking defaults for OML/cmssm/m/it on input line 138.
 LaTeX Font Info:    Trying to load font information for OML+cmssm on input line
- 134.
+ 138.
 
 (/home/perronep/.miktex/texmfs/install/tex/latex/sansmathfonts/omlcmssm.fd
 File: omlcmssm.fd 2024/10/15
 )
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for OMS/cmsssy/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for OMS/cmsssy/m/n on input line 138.
 LaTeX Font Info:    Trying to load font information for OMS+cmsssy on input lin
-e 134.
+e 138.
 
 (/home/perronep/.miktex/texmfs/install/tex/latex/sansmathfonts/omscmsssy.fd
 File: omscmsssy.fd 2024/10/15
 )
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for OMX/cmssex/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for OMX/cmssex/m/n on input line 138.
 LaTeX Font Info:    Trying to load font information for OMX+cmssex on input lin
-e 134.
+e 138.
 
 (/home/perronep/.miktex/texmfs/install/tex/latex/sansmathfonts/omxcmssex.fd
 File: omxcmssex.fd 2024/10/15
 )
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for U/cmss/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for U/cmss/m/n on input line 138.
 LaTeX Font Info:    Trying to load font information for U+cmss on input line 13
-4.
+8.
 
 (/usr/local/share/miktex-texmf/tex/latex/base/ucmss.fd
 File: ucmss.fd 2024/11/19 v2.5n Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
 
 Package fontspec Info: 
 (fontspec)             Adjusting the maths setup (use [no-math] to avoid
@@ -1809,64 +1814,64 @@ Package fontspec Info:
 
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 134.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 134.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 134.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 134.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 134.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 134.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 134.
-LaTeX Font Info:    Redeclaring math accent \check on input line 134.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 134.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 134.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 134.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 134.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 134.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 134.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 134.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 134.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 134.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 134.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 134.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 134.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 134.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 134.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 134.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 134.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 138.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 138.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 138.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 138.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 138.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 138.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 138.
+LaTeX Font Info:    Redeclaring math accent \check on input line 138.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 138.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 138.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 138.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 138.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 138.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 138.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 138.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 138.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 138.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 138.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 138.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 138.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 138.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 138.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 138.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 138.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 134.
+(Font)              `operators' in the math version `normal' on input line 138.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmsmf/m/n --> TU/LatinModernSans(0)/m/n on input li
-ne 134.
+ne 138.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 134.
+(Font)              `operators' in the math version `bold' on input line 138.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmsmf/bx/n --> TU/LatinModernSans(0)/m/n on input l
-ine 134.
+ine 138.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/LatinModernSans(0)/m/n --> TU/LatinModernSans(0)/m/n
- on input line 134.
+ on input line 138.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmsmf/m/it --> TU/LatinModernSans(0)/m/it on input 
-line 134.
+line 138.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmsmf/bx/n --> TU/LatinModernSans(0)/b/n on input l
-ine 134.
+ine 138.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmsmf/m/n --> TU/lmss/m/n on input line 134.
+(Font)                  OT1/cmsmf/m/n --> TU/lmss/m/n on input line 138.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/FiraMono(0)/m/n on input line 134.
+(Font)                  OT1/cmtt/m/n --> TU/FiraMono(0)/m/n on input line 138.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/LatinModernSans(0)/m/n --> TU/LatinModernSans(0)/b/n
- on input line 134.
+ on input line 138.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmsmf/bx/it --> TU/LatinModernSans(0)/b/it on input
- line 134.
+ line 138.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmsmf/m/n --> TU/lmss/b/n on input line 134.
+(Font)                  OT1/cmsmf/m/n --> TU/lmss/b/n on input line 138.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/FiraMono(0)/b/n on input line 134.
+(Font)                  OT1/cmtt/m/n --> TU/FiraMono(0)/b/n on input line 138.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1902,16 +1907,16 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 134.
+LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 138.
 LaTeX Font Info:    Overwriting symbol font `AMSa' in version `normal'
-(Font)                  U/msa/m/n --> U/ssmsa/m/n on input line 134.
+(Font)                  U/msa/m/n --> U/ssmsa/m/n on input line 138.
 LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
-(Font)                  U/msa/m/n --> U/ssmsa/m/n on input line 134.
-LaTeX Font Info:    Redeclaring symbol font `AMSb' on input line 134.
+(Font)                  U/msa/m/n --> U/ssmsa/m/n on input line 138.
+LaTeX Font Info:    Redeclaring symbol font `AMSb' on input line 138.
 LaTeX Font Info:    Overwriting symbol font `AMSb' in version `normal'
-(Font)                  U/msb/m/n --> U/ssmsb/m/n on input line 134.
+(Font)                  U/msb/m/n --> U/ssmsb/m/n on input line 138.
 LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
-(Font)                  U/msb/m/n --> U/ssmsb/m/n on input line 134.
+(Font)                  U/msb/m/n --> U/ssmsb/m/n on input line 138.
 
 Package siunitx Warning: Detected the "physics" package:
 (siunitx)                omitting definition of \qty.
@@ -1930,10 +1935,10 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 134.
+or `english'. on input line 138.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: Option `font=sansmath' requires the `sansmath' package on
- input line 134.
+ input line 138.
 
 (/home/perronep/.miktex/texmfs/install/tex/latex/sansmath/sansmath.sty
 Package: sansmath 2007/02/28  ver 1.1 Donald Arseneau
@@ -1961,13 +1966,13 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count565
-Package hyperref Info: Link coloring ON on input line 134.
+Package hyperref Info: Link coloring ON on input line 138.
 
 (stage_2026_report.out) (stage_2026_report.out)
 \@outlinefile=\write6
 \openout6 = `stage_2026_report.out'.
 
-Package soulpos Info: Loading soulutf8 on input line 134.
+Package soulpos Info: Loading soulutf8 on input line 138.
 
 (/home/perronep/.miktex/texmfs/install/tex/generic/soul/soulutf8.sty
 Package: soulutf8 2026-03-06 v3.2 Permit use of UTF-8 characters in soul (HO)
@@ -1982,12 +1987,12 @@ Package: soul 2026-03-06 v3.2 Permit use of UTF-8 characters in soul (HO)
 
 (/home/perronep/.miktex/texmfs/install/tex/generic/soul/soul-ori.sty
 Package: soul-ori 2026-03-06 v3.2 letterspacing/underlining (mf)
-\SOUL@word=\toks52
-\SOUL@lasttoken=\toks53
-\SOUL@syllable=\toks54
-\SOUL@cmds=\toks55
-\SOUL@buffer=\toks56
-\SOUL@token=\toks57
+\SOUL@word=\toks53
+\SOUL@lasttoken=\toks54
+\SOUL@syllable=\toks55
+\SOUL@cmds=\toks56
+\SOUL@buffer=\toks57
+\SOUL@token=\toks58
 \SOUL@syllgoal=\dimen338
 \SOUL@syllwidth=\dimen339
 \SOUL@charkern=\dimen340
@@ -2069,37 +2074,61 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'stage_2026_report.bbl' found.
 
-(stage_2026_report.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                find a ref for this
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                picardDevelopmentCalibrationAutomatic2016
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
-Package biblatex Info: Reference section=0 on input line 134.
-Package biblatex Info: Reference segment=0 on input line 134.
- (stage_2026_report.toc
+(stage_2026_report.bbl)
+Package biblatex Info: Reference section=0 on input line 138.
+Package biblatex Info: Reference segment=0 on input line 138.
+File: ../figures/logo_uga.png Graphic file (type bmp)
+<../figures/logo_uga.png>
 LaTeX Font Info:    Trying to load font information for U+ssmsa on input line 1
-0.
+45.
 
 (/home/perronep/.miktex/texmfs/install/tex/latex/sansmathfonts/ussmsa.fd
 File: ussmsa.fd 2024/10/15
 )
 LaTeX Font Info:    Trying to load font information for U+ssmsb on input line 1
-0.
+45.
 
 (/home/perronep/.miktex/texmfs/install/tex/latex/sansmathfonts/ussmsb.fd
 File: ussmsb.fd 2024/10/15
-))
+)
+File: ../figures/logo_ige.png Graphic file (type bmp)
+<../figures/logo_ige.png>
+LaTeX Font Info:    Font shape `TU/lmss/sbc/it' in size <20.74> not available
+(Font)              Font shape `TU/lmss/sbc/sl' tried instead on input line 155
+.
+File: ../figures/figure.jpg Graphic file (type bmp)
+<../figures/figure.jpg>
+
+[1
+
+\openout4 = `stage_2026_report.upa'.
+
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[1]
+Package marginnote Info: Using workaround for absolute page number on input lin
+e 198.
+File: ../Attestation-Non-Plagiat.pdf Graphic file (type pdf)
+<use ../Attestation-Non-Plagiat.pdf>
+File: ../Attestation-Non-Plagiat.pdf Graphic file (type pdf)
+<use ../Attestation-Non-Plagiat.pdf, page 1>
+File: ../Attestation-Non-Plagiat.pdf Graphic file (type pdf)
+<use ../Attestation-Non-Plagiat.pdf, page 1>
+File: ../Attestation-Non-Plagiat.pdf Graphic file (type pdf)
+<use ../Attestation-Non-Plagiat.pdf, page 1>
+File: ../Attestation-Non-Plagiat.pdf Graphic file (type pdf)
+<use ../Attestation-Non-Plagiat.pdf, page 1>
+File: ../Attestation-Non-Plagiat.pdf Graphic file (type pdf)
+<use ../Attestation-Non-Plagiat.pdf, page 1>
+ [2
+
+] (stage_2026_report.toc)
 \tf@toc=\write7
 \openout7 = `stage_2026_report.toc'.
 
@@ -2111,22 +2140,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[1
-
-\openout4 = `stage_2026_report.upa'.
-
-]
-
-LaTeX Font Warning: Font shape `TU/LatinModernSans(0)/m/sc' undefined
-(Font)              using `TU/LatinModernSans(0)/m/n' instead on input line 149
+[1]
+LaTeX Font Info:    Font shape `TU/lmss/sbc/it' in size <12> not available
+(Font)              Font shape `TU/lmss/sbc/sl' tried instead on input line 218
 .
 
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+LaTeX Font Warning: Font shape `TU/LatinModernSans(0)/m/scit' undefined
+(Font)              using `TU/LatinModernSans(0)/m/sc' instead on input line 21
+8.
+
+
+LaTeX Font Warning: Font shape `TU/LatinModernSans(0)/m/sc' undefined
+(Font)              using `TU/LatinModernSans(0)/m/n' instead on input line 218
+.
+
+
+LaTeX Font Warning: Font shape `TU/LatinModernSans(0)/m/scit' undefined
+(Font)              using `TU/LatinModernSans(0)/m/sc' instead on input line 21
+8.
 
 [2]
 
@@ -2139,8 +2171,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [3]
 File: ../figures/context.pdf Graphic file (type pdf)
 <use ../figures/context.pdf>
-File: ../figures/multiband.png Graphic file (type bmp)
-<../figures/multiband.png>
+File: ../figures/multiband.jpg Graphic file (type bmp)
+<../figures/multiband.jpg>
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2158,6 +2190,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [5]
+File: ../figures/st_temp_av.pdf Graphic file (type pdf)
+<use ../figures/st_temp_av.pdf>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2166,9 +2201,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [6]
-File: ../figures/st_temp_av.pdf Graphic file (type pdf)
-<use ../figures/st_temp_av.pdf>
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2185,9 +2217,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [8]
-
-LaTeX Warning: Reference `fig:geo' on page 9 undefined on input line 252.
-
+File: ../figures/mbscheme.pdf Graphic file (type pdf)
+<use ../figures/mbscheme.pdf>
+LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
+332.
+ (/usr/local/share/miktex-texmf/tex/latex/lm/ot1lmss.fd
+File: ot1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2196,20 +2232,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [9]
-LaTeX Font Info:    Font shape `TU/lmss/sbc/it' in size <12> not available
-(Font)              Font shape `TU/lmss/sbc/sl' tried instead on input line 260
-.
-File: ../figures/mbscheme.pdf Graphic file (type pdf)
-<use ../figures/mbscheme.pdf>
-LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
-264.
- (/usr/local/share/miktex-texmf/tex/latex/lm/ot1lmss.fd
-File: ot1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-
-LaTeX Font Warning: Font shape `TU/lmss/m/sc' in size <10> not available
-(Font)              Font shape `TU/lmr/m/sc' tried instead on input line 264.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2218,6 +2240,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [10]
+File: ../figures/mbwf.pdf Graphic file (type pdf)
+<use ../figures/mbwf.pdf>
+
+
+LaTeX Font Warning: Font shape `TU/LatinModernSans(0)/sbc/sl' undefined
+(Font)              using `TU/LatinModernSans(0)/m/n' instead on input line 363
+.
+
+LaTeX Font Info:    Font shape `TU/FiraMono(0)/m/n' will be
+(Font)              scaled to size 9.30756pt on input line 364.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2226,16 +2258,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [11]
-File: ../figures/mbwf.pdf Graphic file (type pdf)
-<use ../figures/mbwf.pdf>
-
-
-LaTeX Font Warning: Font shape `TU/LatinModernSans(0)/sbc/sl' undefined
-(Font)              using `TU/LatinModernSans(0)/m/n' instead on input line 295
-.
-
-LaTeX Font Info:    Font shape `TU/FiraMono(0)/m/n' will be
-(Font)              scaled to size 9.30756pt on input line 296.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2245,6 +2267,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [12]
 
+LaTeX Font Warning: Font shape `TU/lmss/sc/sl' undefined
+(Font)              using `TU/lmss/m/n' instead on input line 398.
+
+File: ../figures/appemitt_scatter_def.pdf Graphic file (type pdf)
+<use ../figures/appemitt_scatter_def.pdf>
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 409.
+Missing character: There is no ​ in font Latin Modern Sans 10 Regular/OT:script
+=latn;language=dflt;mapping=tex-text;!
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.59999pt}.
@@ -2252,16 +2284,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [13]
-
-LaTeX Font Warning: Font shape `TU/lmss/sc/sl' undefined
-(Font)              using `TU/lmss/m/n' instead on input line 330.
-
-File: ../figures/appemitt_scatter_def.pdf Graphic file (type pdf)
-<use ../figures/appemitt_scatter_def.pdf>
-LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 341.
-Missing character: There is no ​ in font Latin Modern Sans 10 Regular/OT:script
-=latn;language=dflt;mapping=tex-text;!
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2278,14 +2300,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [15]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[16]
 File: ../figures/era5_vs_cnr4.pdf Graphic file (type pdf)
 <use ../figures/era5_vs_cnr4.pdf>
 
@@ -2296,7 +2310,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
+[16]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
 [17]
+File: ../figures/sicewf.pdf Graphic file (type pdf)
+<use ../figures/sicewf.pdf>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2305,14 +2330,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [18]
-File: ../figures/sicewf.pdf Graphic file (type pdf)
-<use ../figures/sicewf.pdf>
-
-Overfull \hbox (26.0339pt too wide) in paragraph at lines 436--438
-[]\TU/LatinModernSans(0)/b/n/10.95 Retrieval of snow SSA \TU/LatinModernSans(0)
-/sbc/sl/10.95 | This is the main processing step executed via the []
- []
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2325,10 +2342,6 @@ File: ../figures/timeseries_example_df.pdf Graphic file (type pdf)
 <use ../figures/timeseries_example_df.pdf>
 File: ../figures/stations_mb_sice.pdf Graphic file (type pdf)
 <use ../figures/stations_mb_sice.pdf>
-
-
-LaTeX Warning: Reference `a:timeseries' on page 20 undefined on input line 483.
-
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2346,14 +2359,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [21]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[22]
 File: ../figures/eaiist01_cc_500.pdf Graphic file (type pdf)
 <use ../figures/eaiist01_cc_500.pdf>
 File: ../figures/inclino_eaiist02.pdf Graphic file (type pdf)
@@ -2370,7 +2375,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[23]
+[22]
 File: ../figures/sice_ssa_dailyvariability_eaiist01_24.pdf Graphic file (type p
 df)
 <use ../figures/sice_ssa_dailyvariability_eaiist01_24.pdf>
@@ -2384,7 +2389,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[24]
+[23]
 File: ../figures/sicesolalb.pdf Graphic file (type pdf)
 <use ../figures/sicesolalb.pdf>
 
@@ -2395,7 +2400,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[25]
+[24]
 File: ../figures/disc_eaiist.pdf Graphic file (type pdf)
 <use ../figures/disc_eaiist.pdf>
 File: ../figures/disc_d17.pdf Graphic file (type pdf)
@@ -2408,7 +2413,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
+[25]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
 [26]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 641.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2417,10 +2434,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [27]
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 573.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2445,6 +2458,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [30]
+File: ../figures/MB_vs_SICE16_SSA_eaiist01.pdf Graphic file (type pdf)
+<use ../figures/MB_vs_SICE16_SSA_eaiist01.pdf>
+File: ../figures/MB_vs_SICE16_SSA_eaiist02.pdf Graphic file (type pdf)
+<use ../figures/MB_vs_SICE16_SSA_eaiist02.pdf>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2452,7 +2470,44 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[31] (stage_2026_report.aux
+[31]
+File: ../figures/MB_vs_SICE16_SSA_D5.pdf Graphic file (type pdf)
+<use ../figures/MB_vs_SICE16_SSA_D5.pdf>
+File: ../figures/MB_vs_SICE16_SSA_D10.pdf Graphic file (type pdf)
+<use ../figures/MB_vs_SICE16_SSA_D10.pdf>
+File: ../figures/MB_vs_SICE16_SSA_D17.pdf Graphic file (type pdf)
+<use ../figures/MB_vs_SICE16_SSA_D17.pdf>
+
+Underfull \hbox (badness 10000) in paragraph at lines 675--675
+[][][]
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ../figures/ssa_olci1.pdf Graphic file (type pdf)
+<use ../figures/ssa_olci1.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[32
+
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[33] (stage_2026_report.aux
 * soulpos - computing points - it may take a few seconds *
 \openout4 = `stage_2026_report.upb'.
 
@@ -2466,27 +2521,19 @@ L3 programming layer <2026-03-20>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `stage_2026_report.out' has not changed.
-(rerunfilecheck)             Checksum: 4836AE12C75E4B00293EA89C57883C4D;5720.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                stage_2026_report
-(biblatex)                and rerun LaTeX afterwards.
-
+(rerunfilecheck)             Checksum: 7B895DE7C2F5D9514D5329FAB469C1FA;5504.
 Package logreq Info: Writing requests to 'stage_2026_report.run.xml'.
 \openout1 = `stage_2026_report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 56183 strings out of 402807
- 1257895 string characters out of 5448229
- 2327864 words of memory out of 5000000
- 84302 multiletter control sequences out of 15000+600000
- 663475 words of font info for 139 fonts, out of 8000000 for 9000
+ 56369 strings out of 402807
+ 1263469 string characters out of 5448229
+ 2326678 words of memory out of 5000000
+ 84468 multiletter control sequences out of 15000+600000
+ 665068 words of font info for 150 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 94i,14n,133p,3007b,6070s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,17n,133p,3007b,6108s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on stage_2026_report.pdf (31 pages).
+Output written on stage_2026_report.pdf (36 pages).
