@@ -1,0 +1,24 @@
+PLANNING SOUTENANCE 23 JUIN
+14 minutes:
+2' intro
+	30"  snow cover and climate
+	30"  albedo and grain size --- definition of SSA
+	30"  Antarctica: study sites
+	30"  outline and goals
+2' material and instruments
+	45"  Multiband
+	15"  Solalb
+	30"  S-3
+	15"  AWS
+3' methods
+	90"  Multiband processing (old + dirfdiff + csi + diagn)
+	60"  SICE 1.6 + diagn
+	30"  Solalb
+6' results
+	60"  time series: description
+	30"  problematics
+	90"  MB diagn
+	60"  SICE diagn and comparison with Solalb
+	90"  Geophysics
+1' conclusions
+
