@@ -2,12 +2,13 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="76.698013mm"
+   width="76.697998mm"
    height="92.324226mm"
-   viewBox="0 0 76.698013 92.324226"
+   viewBox="0 0 76.697998 92.324226"
    version="1.1"
    id="svg5"
    xml:space="preserve"
+   sodipodi:docname="flattening.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -24,11 +25,11 @@
      inkscape:document-units="mm"
      showgrid="false"
      showguides="true"><sodipodi:guide
-       position="18.74779,85.611672"
+       position="18.74778,85.611672"
        orientation="1,0"
        id="guide4104"
        inkscape:locked="false" /><sodipodi:guide
-       position="25.37845,85.611672"
+       position="25.37844,85.611672"
        orientation="0,-1"
        id="guide4106"
        inkscape:locked="false" /></sodipodi:namedview><defs
@@ -268,7 +269,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-118.89809,-28.153268)"><g
+     transform="translate(-118.8981,-28.153267)"><g
        id="figure_1"
        transform="matrix(0.35277778,0,0,0.35277778,64.295893,125.9709)"><g
          id="patch_1"><path
@@ -1620,7 +1621,7 @@
            id="g3493"
            style="opacity:0.268482"><g
              id="line2d_23-5"
-             style="opacity:0.286606"><path
+             style="opacity:0.375071"><path
                d="m 65.609858,137.09175 36.497712,-23.91663 25.52991,2.01758 42.21223,-27.776773 26.86024,-41.326609"
                clip-path="url(#pa08057d8fa)"
                style="fill:none;stroke:#35193e;stroke-width:0.9;stroke-linecap:square"
@@ -1654,7 +1655,7 @@
                  style="fill:#35193e;stroke:#35193e"
                  id="use1452" /></g></g><g
              id="line2d_24-2"
-             style="opacity:0.286606"><path
+             style="opacity:0.375071"><path
                d="m 49.117766,135.2431 33.890419,-5.85594 24.429935,-30.698397 41.39819,5.123407 26.97204,-11.616562"
                clip-path="url(#pa08057d8fa)"
                style="fill:none;stroke:#701f57;stroke-width:0.9;stroke-linecap:square"
@@ -1688,7 +1689,7 @@
                  style="fill:#701f57;stroke:#701f57"
                  id="use1470" /></g></g><g
              id="line2d_25-5"
-             style="opacity:0.286606"><path
+             style="opacity:0.375071"><path
                d="m 64.787116,124.07428 23.035325,10.0538 40.086039,-37.024618 26.7474,2.901418 42.33754,-47.056371"
                clip-path="url(#pa08057d8fa)"
                style="fill:none;stroke:#ad1759;stroke-width:0.9;stroke-linecap:square"
@@ -1722,7 +1723,7 @@
                  style="fill:#ad1759;stroke:#ad1759"
                  id="use1488" /></g></g><g
              id="line2d_26-4"
-             style="opacity:0.286606"><path
+             style="opacity:0.375071"><path
                d="m 47.654336,138.95136 21.350757,-5.41075 38.287197,-21.43445 26.20293,-4.48826 42.47467,-7.20152 26.50094,-24.220301"
                clip-path="url(#pa08057d8fa)"
                style="fill:none;stroke:#e13342;stroke-width:0.9;stroke-linecap:square"
@@ -1761,7 +1762,7 @@
                  style="fill:#e13342;stroke:#e13342"
                  id="use1508" /></g></g><g
              id="line2d_27-7"
-             style="opacity:0.286606"><path
+             style="opacity:0.375071"><path
                d="M 51.160595,136.05056 87.206944,131.9679 112.54532,113.38011 154.64134,100.98566 181.5291,83.056944"
                clip-path="url(#pa08057d8fa)"
                style="fill:none;stroke:#f37651;stroke-width:0.9;stroke-linecap:square"
@@ -1795,7 +1796,7 @@
                  style="fill:#f37651;stroke:#f37651"
                  id="use1526" /></g></g><g
              id="line2d_28-4"
-             style="opacity:0.286606"><path
+             style="opacity:0.375071"><path
                d="M 67.847205,143.09598 92.023797,141.29422 133.21202,101.55973 160.159,94.079237"
                clip-path="url(#pa08057d8fa)"
                style="fill:none;stroke:#f6b48f;stroke-width:0.9;stroke-linecap:square"
